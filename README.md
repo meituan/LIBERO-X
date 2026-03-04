@@ -8,7 +8,7 @@ Guodong Wang*, Chenkai Zhang*, Qingjie Liu, Jinjin Zhang, Jiancheng Cai, Junjie 
   <sup>*</sup>Equal Contribution <sup>†</sup>Corresponding Author <sup>‡</sup>Project Leader
 </small>
 
-[[Website]](https://meituan.github.io/libero-x/) [[Paper]](https://arxiv.org/pdf/2602.06556) [[Hugging Face]](https://huggingface.co/datasets/meituan/libero-x)
+[[Website]](https://meituan.github.io/LIBERO-X/) [[Paper]](https://arxiv.org/pdf/2602.06556) [[Hugging Face]](https://huggingface.co/datasets/meituan/LIBERO-X)
 ______________________________________________________________________
 ![pull_figure](images/intro.png)
 </div>
