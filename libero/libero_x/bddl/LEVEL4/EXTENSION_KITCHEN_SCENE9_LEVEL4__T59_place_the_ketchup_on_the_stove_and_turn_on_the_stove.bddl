@@ -1,0 +1,127 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the ketchup on the stove and turn on the stove)
+    (:regions
+      (akita_black_bowl_1_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.26 0.14 -0.14 0.26)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (ketchup_1_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.26 -0.06 -0.14 0.06)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (bowl_drainer_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.04 0.19 0.04 0.27)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (flat_stove_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.08 -0.16999999999999998 0.12000000000000001 -0.13)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.21200000000000002 -0.036000000000000004 0.242 -0.006000000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (bbq_sauce_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.258 0.366 0.28800000000000003 0.396)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (alphabet_soup_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.365 0.096 0.395 0.126)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cook_region
+          (:target flat_stove_1)
+      )
+      (left_region
+          (:target bowl_drainer_1)
+      )
+      (right_region
+          (:target bowl_drainer_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    flat_stove_1 - flat_stove
+    bowl_drainer_1 - bowl_drainer
+  )
+
+  (:objects
+    akita_black_bowl_1 - akita_black_bowl
+    ketchup_1 - ketchup
+    plate_1 - plate
+    white_yellow_mug_1 - white_yellow_mug
+    bbq_sauce_1 - bbq_sauce
+    alphabet_soup_1 - alphabet_soup
+  )
+
+  (:obj_of_interest
+    ketchup_1
+    flat_stove_1
+  )
+
+  (:init
+    (On akita_black_bowl_1 kitchen_table_akita_black_bowl_1_init_region)
+    (On ketchup_1 kitchen_table_ketchup_1_init_region)
+    (On flat_stove_1 kitchen_table_flat_stove_init_region)
+    (On bowl_drainer_1 kitchen_table_bowl_drainer_init_region)
+    (On white_yellow_mug_1 kitchen_table_white_yellow_mug_init_region)
+    (On bbq_sauce_1 kitchen_table_bbq_sauce_init_region)
+    (On alphabet_soup_1 kitchen_table_alphabet_soup_init_region)
+  )
+
+  (:goal
+    (And (On ketchup_1 flat_stove_1_cook_region) (Turnon flat_stove_1))
+  )
+
+)

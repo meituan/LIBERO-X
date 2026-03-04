@@ -1,0 +1,116 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the light yellow book into the right desk caddy's back compartment)
+    (:regions
+      (yellow_book_interference_light_yellow_A_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.16299999999999998 0.177 -0.077 0.263)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (yellow_book_interference_light_yellow_B_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.011 0.169 0.051000000000000004 0.231)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (desk_caddy_right_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.20500000000000002 -0.295 -0.115 -0.20500000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.088 0.022 -0.012000000000000004 0.098)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (yellow_book_init_region
+          (:target study_table)
+          (:ranges (
+              (0.10900000000000001 -0.131 0.171 -0.069)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (porcelain_mug_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.406 0.245 -0.376 0.275)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (right_contain_region
+          (:target desk_caddy_right_1)
+      )
+      (left_contain_region
+          (:target desk_caddy_right_1)
+      )
+      (back_contain_region
+          (:target desk_caddy_right_1)
+      )
+      (front_contain_region
+          (:target desk_caddy_right_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    yellow_book_interference_light_yellow_1 yellow_book_interference_light_yellow_2 - yellow_book_interference_light_yellow
+    yellow_book_1 - yellow_book
+    white_yellow_mug_1 - white_yellow_mug
+    red_coffee_mug_1 - red_coffee_mug
+    desk_caddy_right_1 - desk_caddy_right
+    porcelain_mug_1 - porcelain_mug
+  )
+
+  (:obj_of_interest
+    yellow_book_interference_light_yellow_1
+    desk_caddy_right_1
+  )
+
+  (:init
+    (On desk_caddy_right_1 study_table_desk_caddy_right_init_region)
+    (On yellow_book_interference_light_yellow_1 study_table_yellow_book_interference_light_yellow_A_init_region)
+    (On yellow_book_interference_light_yellow_2 study_table_yellow_book_interference_light_yellow_B_init_region)
+    (On yellow_book_1 study_table_yellow_book_init_region)
+    (On white_yellow_mug_1 study_table_white_yellow_mug_init_region)
+    (On porcelain_mug_1 study_table_porcelain_mug_init_region)
+  )
+
+  (:goal
+    (And (ExactIn yellow_book_interference_light_yellow_1 desk_caddy_right_1_back_contain_region))
+  )
+
+)

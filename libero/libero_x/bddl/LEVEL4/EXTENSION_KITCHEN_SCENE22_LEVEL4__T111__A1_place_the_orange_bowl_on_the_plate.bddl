@@ -1,0 +1,124 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the orange bowl on the plate)
+    (:regions
+      (orange_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.26 -0.41 -0.14 -0.29)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (basket_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.13 -0.16999999999999998 0.16999999999999998 -0.13)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (flat_stove_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.355 -0.155 -0.245 -0.045000000000000005)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.11499999999999999 0.015 0.185 0.085)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.045 0.20500000000000002 0.045 0.295)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_purple_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.243 0.101 -0.21300000000000002 0.131)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (cook_region
+          (:target flat_stove_1)
+      )
+      (contain_region
+          (:target basket_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+    flat_stove_1 - flat_stove
+  )
+
+  (:objects
+    chefmate_8_frypan_1 - chefmate_8_frypan
+    basket_1 - basket
+    plate_1 - plate
+    orange_bowl_1 - orange_bowl
+    akita_green_bowl_1 - akita_green_bowl
+    akita_purple_bowl_1 - akita_purple_bowl
+  )
+
+  (:obj_of_interest
+    orange_bowl_1
+    plate_1
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 kitchen_table_wooden_two_layer_shelf_init_region)
+    (On flat_stove_1 kitchen_table_flat_stove_init_region)
+    (On chefmate_8_frypan_1 flat_stove_1_cook_region)
+    (On basket_1 kitchen_table_basket_init_region)
+    (On orange_bowl_1 kitchen_table_orange_bowl_init_region)
+    (On akita_green_bowl_1 wooden_two_layer_shelf_1_top_region)
+    (On plate_1 kitchen_table_plate_init_region)
+    (Turnon flat_stove_1)
+    (On akita_purple_bowl_1 kitchen_table_akita_purple_bowl_init_region)
+  )
+
+  (:goal
+    (And (On orange_bowl_1 plate_1))
+  )
+
+)

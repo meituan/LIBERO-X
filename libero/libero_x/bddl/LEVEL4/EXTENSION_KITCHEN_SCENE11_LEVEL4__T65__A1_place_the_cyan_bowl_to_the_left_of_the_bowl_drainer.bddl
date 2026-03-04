@@ -1,0 +1,127 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the cyan bowl to the left of the bowl drainer)
+    (:regions
+      (akita_black_bowl_1_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.31 0.18 -0.19 0.3)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cyan_bowl_1_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.23 0.020000000000000004 -0.11000000000000001 0.14)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (bowl_drainer_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.14 -0.27 -0.060000000000000005 -0.19)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (flat_stove_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.068 0.118 0.132 0.182)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_yellow_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.22499999999999998 -0.15699999999999997 0.255 -0.127)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (butter_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.016 -0.016 0.013999999999999999 0.013999999999999999)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (orange_juice_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.12100000000000001 -0.22299999999999998 0.15100000000000002 -0.193)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cook_region
+          (:target flat_stove_1)
+      )
+      (left_region
+          (:target bowl_drainer_1)
+      )
+      (right_region
+          (:target bowl_drainer_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    flat_stove_1 - flat_stove
+    bowl_drainer_1 - bowl_drainer
+  )
+
+  (:objects
+    akita_black_bowl_1 - akita_black_bowl
+    cyan_bowl_1 - cyan_bowl
+    plate_1 - plate
+    akita_yellow_bowl_1 - akita_yellow_bowl
+    butter_1 - butter
+    orange_juice_1 - orange_juice
+  )
+
+  (:obj_of_interest
+    cyan_bowl_1
+    bowl_drainer_1
+  )
+
+  (:init
+    (On akita_black_bowl_1 kitchen_table_akita_black_bowl_1_init_region)
+    (On cyan_bowl_1 kitchen_table_cyan_bowl_1_init_region)
+    (On flat_stove_1 kitchen_table_flat_stove_init_region)
+    (On bowl_drainer_1 kitchen_table_bowl_drainer_init_region)
+    (On akita_yellow_bowl_1 kitchen_table_akita_yellow_bowl_init_region)
+    (On butter_1 kitchen_table_butter_init_region)
+    (On orange_juice_1 kitchen_table_orange_juice_init_region)
+  )
+
+  (:goal
+    (And (In cyan_bowl_1 bowl_drainer_1_left_region))
+  )
+
+)

@@ -1,0 +1,88 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the bowl in the top drawer and close the top drawer)
+    (:regions
+      (microwave_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.046 -0.246 0.046 -0.15400000000000003)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (white_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.14100000000000001 0.259 -0.059000000000000004 0.34099999999999997)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (chocolate_pudding_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.21999999999999997 -0.40700000000000003 0.25 -0.377)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target microwave_1)
+      )
+      (heating_region
+          (:target microwave_1)
+      )
+      (top_side
+          (:target white_cabinet_1)
+      )
+      (top_region
+          (:target white_cabinet_1)
+      )
+      (middle_region
+          (:target white_cabinet_1)
+      )
+      (bottom_region
+          (:target white_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    microwave_1 - microwave
+    white_cabinet_1 - white_cabinet
+  )
+
+  (:objects
+    small_akita_black_bowl_1 - small_akita_black_bowl
+    chocolate_pudding_1 - chocolate_pudding
+  )
+
+  (:obj_of_interest
+    white_cabinet_1
+    small_akita_black_bowl_1
+  )
+
+  (:init
+    (On small_akita_black_bowl_1 microwave_1_top_side)
+    (On microwave_1 kitchen_table_microwave_init_region)
+    (Open microwave_1)
+    (Open white_cabinet_1_top_region)
+    (Open white_cabinet_1_middle_region)
+    (On white_cabinet_1 kitchen_table_white_cabinet_init_region)
+    (On chocolate_pudding_1 kitchen_table_chocolate_pudding_init_region)
+  )
+
+  (:goal
+    (And (In small_akita_black_bowl_1 white_cabinet_1_top_region) (Close white_cabinet_1_top_region))
+  )
+
+)

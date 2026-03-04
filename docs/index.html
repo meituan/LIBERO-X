@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LIBERO-X</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <link rel="stylesheet" href="static/css/index.css" />
+  <link rel="stylesheet" href="static/css/bulma.min.css" />
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css" />
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-2 publication-title is-bold">LIBERO-X</h1>
+        <h2 class="subtitle is-3 publication-subtitle", style="margin-bottom: 20px;">
+            Robustness Litmus for Vision-Language-Action Models
+        </h2>
+        
+        <div class="is-size-5 publication-authors">
+          <span class="author-block">Guodong Wang<sup style="color:#FF69B4">†</sup>,</span>
+          <span class="author-block">Chenkai Zhang<sup style="color:#FF69B4">†</sup>,</span>
+          <span class="author-block">Qingjie Liu</span>,
+          <span class="author-block">Jinjin Zhang</span>,
+          <span class="author-block">Jiancheng Cai</span>,
+          <span class="author-block">Junjie Liu<sup style="color:#1E90FF">*</sup></span>,
+          <span class="author-block">Xinmin Liu<sup style="color:#6A5ACD">&spades;</sup></span><br>
+
+          <span class="eql-cntrb"><small><sup style="color:#FF69B4">†</sup>Equal Contribution.</small></span>
+          <span class="eql-cntrb"><small><sup style="color:#6A5ACD">&spades;</sup>Project Leader.</small></span>
+          <span class="eql-cntrb"><small><sup style="color:#1E90FF">*</sup>Corresponding Author.</small></span>
+          <br>
+          <span class="author-block"><small><i class="fas fa-envelope"></i> wangguodong20@meituan.com</small></span>,
+          <span class="author-block"><small><i class="fas fa-envelope"></i> zhangchenkai@buaa.edu.cn</small></span>
+        </div>
+
+        <!-- Links/buttons -->
+        <div class="buttons is-centered mt-4">
+          <a href="https://www.arxiv.org/pdf/2602.06556" class="button is-dark is-rounded">
+            <span class="icon"><i class="fas fa-file-pdf"></i></span>
+            <span>PDF</span>
+          </a>
+          <a href="https://www.arxiv.org/abs/2602.06556" class="button is-dark is-rounded">
+            <span class="icon"><i class="ai ai-arxiv"></i></span>
+            <span>arXiv</span>
+          </a>
+          <a href="https://github.com/meituan/LIBERO-X" target="_blank" class="button is-dark is-rounded">
+            <span class="icon"><i class="fab fa-github"></i></span>
+            <span>Code</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container" style="margin-bottom: 2vh;">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Overview</h2>
+          <div class="content has-text-justified">
+              Reliable benchmarking is critical for advancing Vision-Language-Action (VLA) models, as it reveals their generalization, robustness, and alignment of perception with language-driven manipulation tasks. However, existing benchmarks often provide limited or misleading assessments due to insufficient evaluation protocols that inadequately capture real-world distribution shifts. This work systematically rethinks VLA benchmarking from both evaluation and data perspectives, introducing LIBERO-X, a benchmark featuring: 1) A hierarchical evaluation protocol with progressive difficulty levels targeting three core capabilities: spatial generalization, object recognition, and task instruction understanding. This design enables fine-grained analysis of performance degradation under increasing environmental and task complexity; 2) A high-diversity training dataset collected via human teleoperation, where each scene supports multiple fine-grained manipulation objectives to bridge the train-evaluation distribution gap. Experiments with representative VLA models reveal significant performance drops under cumulative perturbations, exposing persistent limitations in scene comprehension and instruction grounding. By integrating hierarchical evaluation with diverse training data, LIBERO-X offers a more reliable foundation for assessing and advancing VLA development.
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+      <div class="container">
+        <div class="content has-text-centered">
+          <div class="content has-text-centered">
+            <img src="static/images/libero-x/intro.png" alt="Overview of Method" style="max-width: 85%;"/>
+            <p class="caption"
+                style="text-align: center; margin-top: 20px; width: 85%; margin-left: auto; margin-right: auto;">
+                <strong>Comparison with related simulation benchmarks.</strong> (a): LIBERO couples scenes with
+                homogeneous trajectories, limiting diversity and making tests mirror training. (b): Extensions reuse
+                original trajectories with independent perturbations, missing complex distribution shifts. (c):
+                LIBERO-X uses multi-task scenes with diverse trajectories and a multi-level evaluation that reveals
+                performance drops as difficulty increases.
+            </p>
+            <div class="content has-text-justified" style="margin-top: 20px; width: 85%; margin-left: auto; margin-right: auto;">
+              <p><strong>The main contributions of this work are three-fold.</strong> </p>
+              <ul>
+                <li>We propose LIBERO-X, a comprehensive benchmark for manipulation that introduces
+                a progressively challenging evaluation framework with multi-label annotations and jointly perturbs spatial
+                layouts, object properties, and instruction semantics to systematically characterize model performance under
+                multi-dimensional distribution shifts.</li>
+                <li>We construct a high-diversity training dataset comprising 2,520 demonstrations, 600 tasks, and 100
+                scenes collected via human teleoperation, substantially increasing scene diversity and task granularity.</li>
+                <li>Extensive experiments on fine-tuned representative VLA models reveal notable performance degradation
+                as task and scene complexity increase, highlighting critical limitations in scene comprehension and
+                instruction grounding and offering empirical insights for future model design.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+  </section>
+
+<section class="hero is-light is-small">
+    <div class="hero-body has-text-centered">
+    <h1 class="title is-1 mathvista_other">
+      <span class="mathvista_other" style="vertical-align: middle">Benchmark</span>
+    </h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <!-- Data Statistics -->
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-10">
+          <div class="content has-text-centered">
+            <h2 class="title is-3">Statistics</h2>
+              <!-- 图片容器 -->
+              <div class="content has-text-centered">
+                <img src="static/images/libero-x/benchmark.png"
+                     alt="Overview of LIBERO-X"
+                     style="max-width: 85%; height: auto; object-fit: contain;" />
+              </div>
+
+              <!-- 图题说明 -->
+              <p class="caption"
+                 style="text-align: center; margin-top: 20px; width: 85%; margin-left: auto; margin-right: auto;">
+                <strong>Overview of LIBERO-X.</strong> LIBERO-X provides a high-diversity training dataset constructed
+                through human teleoperation, along with multi-level and multi-label evaluation data.
+              </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Data Comparison -->
+    <div class="container" style="margin-top: 25px;">
+      <div class="columns is-centered">
+        <div class="container">
+          <div class="content has-text-centered">
+            <h2 class="title is-3">Dataset Comparison</h2>
+              <div class="content has-text-centered">
+                <!-- Image container: flex layout for side-by-side alignment -->
+                <div style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
+                  <div style="flex: 1; min-width: 300px;">
+                    <img src="static/images/libero-x/comparison.png" alt="comparison" style="max-width: 75%; height: auto;" />
+                  </div>
+                </div>
+                <!-- Caption -->
+                <p style="text-align: center; margin-top: 20px; width: 85%; margin-left: auto; margin-right: auto;">
+                  <strong>Comparison with other simulation benchmarks.</strong> Training Data: Availability of training set. Testing Data: Availability of independent testing set. Multi-level Evaluation: Adoption
+                  of multi-level framework. L1: Local Spatial Perturbation, L2: Extended Spatial Perturbation, L3: Scene
+                  Topology Reconstruction, L4: Visual Attribute Variation, and L5: Semantic-Equivalent Reformulation.
+                  Multi-label Evaluation: Task label across multiple dimensions. IT: Interaction Type. SC: Subtask
+                  Count. SR: Spatial Relation. OA: Object Attribute.
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Examples -->
+    <div class="container" style="margin-top: 40px;">
+      <div class="columns is-centered">
+        <div class="column is-10">
+          <div class="content has-text-centered">
+            <!-- Carousel -->
+            <h2 class="title is-3">Examples from LIBERO-X Training Set</h2>
+            <div class="train-grid">
+              <div class="train-item">
+                <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/train_cases/001_put_the_yellow_bowl_in_the_bottom_drawer_of_the_white_cabinet.mp4"></video>
+                <p class="caption" style="text-align: center; margin-top: 10px;">Put the yellow bowl in the bottom drawer of the white cabinet.</p>
+              </div>
+              <div class="train-item">
+                <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/train_cases/002_close_the_bottom_drawer_of_the_white_cabinet_and_put_the_red_bowl_on_the_plate.mp4"></video>
+                <p class="caption" style="text-align: center; margin-top: 10px;">Close the bottom drawer of the white cabinet and put the red bowl on the plate.</p>
+              </div>
+              <div class="train-item">
+                <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/train_cases/003_close_the_bottom_drawer_of_the_white_cabinet_and_put_the_yellow_bowl_on_the_plate.mp4"></video>
+                <p class="caption" style="text-align: center; margin-top: 10px;">Close the bottom drawer of the white cabinet and put the yellow bowl on the plate.</p>
+              </div>
+              <div class="train-item">
+                <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/train_cases/004_close_the_bottom_drawer_of_the_white_cabinet.mp4"></video>
+                <p class="caption" style="text-align: center; margin-top: 10px;">Close the bottom drawer of the white cabinet.</p>
+              </div>
+              <div class="train-item">
+                <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/train_cases/005_put_the_green_bowl_in_the_bottom_drawer_of_the_white_cabinet_and_close_the_drawer.mp4"></video>
+                <p class="caption" style="text-align: center; margin-top: 10px;">Put the green bowl in the bottom drawer of the white cabinet and close the drawer.</p>
+              </div>
+              <div class="train-item">
+                <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/train_cases/006_put_the_green_bowl_in_the_bottom_drawer_of_the_white_cabinet.mp4"></video>
+                <p class="caption" style="text-align: center; margin-top: 10px;">Put the green bowl in the bottom drawer of the white cabinet.</p>
+              </div>
+              <div class="train-item">
+                <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/train_cases/007_put_the_red_bowl_in_the_bottom_drawer_of_the_white_cabinet_and_close_the_drawer.mp4"></video>
+                <p class="caption" style="text-align: center; margin-top: 10px;">Put the red bowl in the bottom drawer of the white cabinet and close the drawer.</p>
+              </div>
+              <div class="train-item">
+                <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/train_cases/008_put_the_red_bowl_in_the_bottom_drawer_of_the_white_cabinet.mp4"></video>
+                <p class="caption" style="text-align: center; margin-top: 10px;">Put the red bowl in the bottom drawer of the white cabinet.</p>
+              </div>
+              <div class="train-item">
+                <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/train_cases/009_put_the_yellow_bowl_in_the_bottom_drawer_of_the_white_cabinet_and_close_the_drawer.mp4"></video>
+                <p class="caption" style="text-align: center; margin-top: 10px;">Put the yellow bowl in the bottom drawer of the white cabinet and close the drawer.</p>
+              </div>
+              <div class="train-item">
+                <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/train_cases/010_close_the_bottom_drawer_of_the_white_cabinet_and_put_the_green_bowl_on_the_plate.mp4"></video>
+                <p class="caption" style="text-align: center; margin-top: 10px;">Close the bottom drawer of the white cabinet and put the green bowl on the plate.</p>
+              </div>
+            </div>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="hero is-light is-small">
+    <div class="hero-body has-text-centered">
+    <h1 class="title is-1 mathvista_other">
+      <span class="mathvista_other" style="vertical-align: middle">Evaluation</span>
+    </h1>
+    </div>
+  </section>
+  <section class="section">
+    <!-- Examples -->
+    <div class="container" style="margin-top: 20px;">
+      <div class="columns is-centered">
+        <div class="column is-10">
+          <div class="content has-text-centered">
+            <div class="content has-text-centered" style="display: flex; gap: 20px; justify-content: center; align-items: stretch; flex-wrap: wrap;">
+              <div class="image-item" style="flex: 1; min-width: 300px; display: flex; flex-direction: column; align-items: center;">
+                <img src="static/images/libero-x/main_result.png" alt="Multi-level evaluation accuracy" style="max-width: 100%; height: auto; object-fit: contain;" />
+                <p style="text-align: center; margin-top: 12px; width: 90%; margin-left: auto; margin-right: auto;">
+                  <strong>Accuracy under Multi-level Evaluation.</strong>
+                </p>
+                <img src="static/images/libero-x/level4.png" alt="Level 4 accuracy" style="max-width: 100%; height: auto; object-fit: contain; margin-top: 12px;" />
+                <p style="text-align: center; margin-top: 12px; width: 90%; margin-left: auto; margin-right: auto;">
+                  <strong>Level 4 Accuracy - Overall, Unseen Objects (UO), and Confounding Objects (CO).</strong>
+                </p>
+              </div>
+              <div class="image-item" style="flex: 1; min-width: 300px; display: flex; flex-direction: column; align-items: center;">
+                <img src="static/images/libero-x/main_result_2.png" alt="Multi-level evaluation success rate decline" style="max-width: 100%; height: auto; object-fit: contain;" />
+                <p style="text-align: center; margin-top: 12px; width: 90%; margin-left: auto; margin-right: auto;">
+                  <strong>Success Rate Decline across Multi-level Evaluation.</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 图片容器 -->
+          <div class="content has-text-centered"
+               style="display: flex; flex-direction: column; gap: 28px; justify-content: center; align-items: center;">
+            <div class="image-item" style="width: 100%;">
+              <img src="static/images/libero-x/multi_label.png"
+                   alt="Multi-label evaluation"
+                   style="max-width: 85%; height: auto; object-fit: contain;" />
+              <p style="text-align: center; margin-top: 14px; width: 85%; margin-left: auto; margin-right: auto;">
+                <strong>Multi-label evaluation across five levels.</strong> Success rates contract from Level 1 to 5 as
+                complexity rises, yet relative strengths remain consistent: difficult dimensions are broadly shared
+                across models and performance patterns stay aligned across levels.
+              </p>
+            </div>
+            <div class="image-item" style="width: 100%;">
+              <img src="static/images/libero-x/time_limit.png"
+                   alt="Task horizon length"
+                   style="max-width: 85%; height: auto; object-fit: contain;" />
+              <p style="text-align: center; margin-top: 14px; width: 85%; margin-left: auto; margin-right: auto;">
+                <strong>Time-limit sensitivity.</strong> We scale limits relative to the human-average duration
+                (e.g., 0.8x to 1.5x). Tight limits (0.8x) sharply hurt performance, while relaxing them yields large gains
+                up to around 1.1x. Benefits saturate beyond ~1.3x, indicating remaining failures stem from core
+                capability issues rather than time scarcity.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  
+  <section class="hero is-light is-small">
+    <div class="hero-body has-text-centered">
+    <h1 class="title is-1 mathvista_other">
+      <span class="mathvista_other" style="vertical-align: middle">Case Study</span>
+    </h1>
+    </div>
+  </section>
+
+              <section class="section">
+    <!-- Examples -->
+    <div class="container" style="margin-top: 20px;">
+      <div class="columns is-centered">
+        <div class="column is-10">
+          <div class="content has-text-centered">
+            <div class="task-block">
+              <div class="task-header">LEVEL 1</div>
+              <div class="carousel-wrapper">
+                <button class="nav-btn prev-btn" onclick="scrollTrack(this, -1)"><i class="fas fa-chevron-left"></i></button>
+                <button class="nav-btn next-btn" onclick="scrollTrack(this, 1)"><i class="fas fa-chevron-right"></i></button>
+                <div class="carousel-track" style="display:flex; flex-wrap:nowrap; overflow-x:auto; scroll-snap-type:x mandatory; gap:20px; padding:0 20px;">
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 1</div>
+                    <div class="episode-desc">Place the black bowl to the left of the bowl drainer.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_1/openvla_oft_libero_x_rollout_SCENE9_281_place_the_black_bowl_to_the_right_of_the_bowl_drainer_ep002_success.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_1/pi0_libero_x_rollout_SCENE9_281_place_the_black_bowl_to_the_right_of_the_bowl_drainer_ep001_success.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_1/xvla_libero_x_rollout_SCENE9_281_place_the_black_bowl_to_the_right_of_the_bowl_drainer_ep001_success.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_1/gr00t_libero_x_rollout_SCENE9_281_place_the_black_bowl_to_the_right_of_the_bowl_drainer_ep001_success.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_1/pi05_libero_x_rollout_SCENE9_281_place_the_black_bowl_to_the_right_of_the_bowl_drainer_ep001_success.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 2</div>
+                    <div class="episode-desc">Place the white yellow mug on top of the shelf.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_2/openvla_oft_libero_x_rollout_SCENE49_554_place_the_white_yellow_mug_on_top_of_the_shelf_ep001_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_2/pi0_libero_x_rollout_SCENE49_554_place_the_white_yellow_mug_on_top_of_the_shelf_ep001_success.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_2/xvla_libero_x_rollout_SCENE49_554_place_the_white_yellow_mug_on_top_of_the_shelf_ep001_success.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_2/gr00t_libero_x_rollout_SCENE49_554_place_the_white_yellow_mug_on_top_of_the_shelf_ep001_success.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_2/pi05_libero_x_rollout_SCENE49_554_place_the_white_yellow_mug_on_top_of_the_shelf_ep001_success.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 3</div>
+                    <div class="episode-desc">Place the red mug into the desk caddy's left compartment.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_3/openvla_oft_libero_x_rollout_SCENE1_349_place_the_red_mug_into_the_left_desk_caddy_s_left_compartment_ep002_success.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_3/pi0_libero_x_rollout_SCENE1_349_place_the_red_mug_into_the_left_desk_caddy_s_left_compartment_ep004_success.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_3/xvla_libero_x_rollout_SCENE1_349_place_the_red_mug_into_the_left_desk_caddy_s_left_compartment_ep004_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_3/gr00t_libero_x_rollout_SCENE1_349_place_the_red_mug_into_the_left_desk_caddy_s_left_compartment_ep001_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_3/pi05_libero_x_rollout_SCENE1_349_place_the_red_mug_into_the_left_desk_caddy_s_left_compartment_ep001_success.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 4</div>
+                    <div class="episode-desc">Open the middle drawer of the wooden cabinet.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_4/openvla_oft_libero_x_rollout_SCENE1_042_open_the_middle_drawer_of_the_wooden_cabinet_ep001_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_4/pi0_libero_x_rollout_SCENE1_042_open_the_middle_drawer_of_the_wooden_cabinet_ep001_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_4/xvla_libero_x_rollout_SCENE1_042_open_the_middle_drawer_of_the_wooden_cabinet_ep001_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_4/gr00t_libero_x_rollout_SCENE1_042_open_the_middle_drawer_of_the_wooden_cabinet_ep001_success.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_1/task_4/pi05_libero_x_rollout_SCENE1_042_open_the_middle_drawer_of_the_wooden_cabinet_ep001_success.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="task-block">
+              <div class="task-header">LEVEL 2</div>
+              <div class="carousel-wrapper">
+                <button class="nav-btn prev-btn" onclick="scrollTrack(this, -1)"><i class="fas fa-chevron-left"></i></button>
+                <button class="nav-btn next-btn" onclick="scrollTrack(this, 1)"><i class="fas fa-chevron-right"></i></button>
+                <div class="carousel-track" style="display:flex; flex-wrap:nowrap; overflow-x:auto; scroll-snap-type:x mandatory; gap:20px; padding:0 20px;">
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 1</div>
+                    <div class="episode-desc">Place the red bowl on top of the wooden cabinet.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_1/openvla_oft_rollout_SCENE1_047_place_the_red_bowl_on_top_of_the_wooden_cabinet_ep002_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_1/pi0_libero_x_rollout_SCENE1_047_place_the_red_bowl_on_top_of_the_wooden_cabinet_ep003_success.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_1/xvla_libero_x_rollout_SCENE1_047_place_the_red_bowl_on_top_of_the_wooden_cabinet_ep001_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_1/gr00t_libero_x_rollout_SCENE1_047_place_the_red_bowl_on_top_of_the_wooden_cabinet_ep001_success.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_1/pi05_libero_x_rollout_SCENE1_047_place_the_red_bowl_on_top_of_the_wooden_cabinet_ep001_success.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 2</div>
+                    <div class="episode-desc">Place the orange book into the desk caddy's right compartment.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_2/openvla_oft_rollout_SCENE8_590_place_the_orange_book_into_the_left_desk_caddy_s_right_compartment_ep003_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_2/pi0_libero_x_rollout_SCENE8_590_place_the_orange_book_into_the_left_desk_caddy_s_right_compartment_ep003_success.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_2/xvla_libero_x_rollout_SCENE8_590_place_the_orange_book_into_the_left_desk_caddy_s_right_compartment_ep001_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_2/gr00t_libero_x_rollout_SCENE8_590_place_the_orange_book_into_the_left_desk_caddy_s_right_compartment_ep001_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_2/pi05_libero_x_rollout_SCENE8_590_place_the_orange_book_into_the_left_desk_caddy_s_right_compartment_ep001_success.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 3</div>
+                    <div class="episode-desc">Place the black bowl on the plate.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_3/openvla_oft_rollout_SCENE23_063_place_the_black_bowl_on_the_plate_ep009_success.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_3/pi0_libero_x_rollout_SCENE23_063_place_the_black_bowl_on_the_plate_ep001_success.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_3/xvla_libero_x_rollout_SCENE23_063_place_the_black_bowl_on_the_plate_ep001_success.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_3/gr00t_libero_x_rollout_SCENE23_063_place_the_black_bowl_on_the_plate_ep001_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_3/pi05_libero_x_rollout_SCENE23_063_place_the_black_bowl_on_the_plate_ep001_success.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 5</div>
+                    <div class="episode-desc">Place the orange book flat on top of the shelf.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_5/openvla_oft_rollout_SCENE45_519_place_the_orange_book_flat_on_top_of_the_shelf_ep010_success.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_5/pi0_libero_x_rollout_SCENE45_519_place_the_orange_book_flat_on_top_of_the_shelf_ep001_success.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_5/xvla_libero_x_rollout_SCENE45_519_place_the_orange_book_flat_on_top_of_the_shelf_ep001_success.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_5/gr00t_libero_x_rollout_SCENE45_519_place_the_orange_book_flat_on_top_of_the_shelf_ep001_success.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_2/task_5/pi05_libero_x_rollout_SCENE45_519_place_the_orange_book_flat_on_top_of_the_shelf_ep001_success.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="task-block">
+              <div class="task-header">LEVEL 3</div>
+              <div class="carousel-wrapper">
+                <button class="nav-btn prev-btn" onclick="scrollTrack(this, -1)"><i class="fas fa-chevron-left"></i></button>
+                <button class="nav-btn next-btn" onclick="scrollTrack(this, 1)"><i class="fas fa-chevron-right"></i></button>
+                <div class="carousel-track" style="display:flex; flex-wrap:nowrap; overflow-x:auto; scroll-snap-type:x mandatory; gap:20px; padding:0 20px;">
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 1</div>
+                    <div class="episode-desc">Place the black bowl to the right of the bowl drainer.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_1/openvla_oft_rollout_SCENE9_279_place_the_black_bowl_to_the_left_of_the_bowl_drainer_ep001_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_1/pi0_libero_x_rollout_SCENE9_279_place_the_black_bowl_to_the_left_of_the_bowl_drainer_ep002_success.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_1/xvla_libero_x_rollout_SCENE9_279_place_the_black_bowl_to_the_left_of_the_bowl_drainer_ep002_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_1/gr00t_rollout_SCENE9_279_place_the_black_bowl_to_the_left_of_the_bowl_drainer_ep001_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_1/pi05_libero_x_rollout_SCENE9_279_place_the_black_bowl_to_the_left_of_the_bowl_drainer_ep001_success.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 2</div>
+                    <div class="episode-desc">Place the yellow book into the desk caddy's front compartment.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_2/openvla_oft_rollout_SCENE6_576_place_the_yellow_book_into_the_left_desk_caddy_s_front_compartment_ep002_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_2/pi0_libero_x_rollout_SCENE6_576_place_the_yellow_book_into_the_left_desk_caddy_s_front_compartment_ep001_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_2/xvla_libero_x_rollout_SCENE6_576_place_the_yellow_book_into_the_left_desk_caddy_s_front_compartment_ep001_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_2/gr00t_rollout_SCENE6_576_place_the_yellow_book_into_the_left_desk_caddy_s_front_compartment_ep001_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_2/pi05_libero_x_rollout_SCENE6_576_place_the_yellow_book_into_the_left_desk_caddy_s_front_compartment_ep001_success.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 3</div>
+                    <div class="episode-desc">Pick up the bowl on the table and place it to the right of the bowl drainer.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_3/openvla_oft_rollout_SCENE8_275_pick_up_the_bowl_on_the_table_and_place_it_to_the_left_of_the_bowl_drainer_ep001_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_3/pi0_libero_x_rollout_SCENE8_275_pick_up_the_bowl_on_the_table_and_place_it_to_the_left_of_the_bowl_drainer_ep001_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_3/xvla_libero_x_rollout_SCENE8_275_pick_up_the_bowl_on_the_table_and_place_it_to_the_left_of_the_bowl_drainer_ep001_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_3/gr00t_rollout_SCENE8_275_pick_up_the_bowl_on_the_table_and_place_it_to_the_left_of_the_bowl_drainer_ep001_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_3/pi05_libero_x_rollout_SCENE8_275_pick_up_the_bowl_on_the_table_and_place_it_to_the_left_of_the_bowl_drainer_ep001_failure.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 4</div>
+                    <div class="episode-desc">Place the red bowl on the plate and close the bottom drawer of the white cabinet.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_4/openvla_oft_rollout_SCENE6_265_place_the_red_bowl_on_the_plate_and_close_the_bottom_drawer_of_the_white_cabinet_ep004_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_4/pi0_libero_x_rollout_SCENE6_265_place_the_red_bowl_on_the_plate_and_close_the_bottom_drawer_of_the_white_cabinet_ep001_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_4/xvla_libero_x_rollout_SCENE6_265_place_the_red_bowl_on_the_plate_and_close_the_bottom_drawer_of_the_white_cabinet_ep001_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_4/gr00t_rollout_SCENE6_265_place_the_red_bowl_on_the_plate_and_close_the_bottom_drawer_of_the_white_cabinet_ep003_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_4/pi05_libero_x_rollout_SCENE6_265_place_the_red_bowl_on_the_plate_and_close_the_bottom_drawer_of_the_white_cabinet_ep001_failure.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 5</div>
+                    <div class="episode-desc">Place the striped book upright on top of the shelf and place the red book upright on top of the shelf.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_5/openvla_oft_rollout_SCENE46_531_place_the_striped_book_upright_on_top_of_the_shelf_and_place_the_red_book_upright_on_top_of_the_shelf_ep001_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_5/pi0_libero_x_rollout_SCENE46_531_place_the_striped_book_upright_on_top_of_the_shelf_and_place_the_red_book_upright_on_top_of_the_shelf_ep001_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_5/xvla_libero_x_rollout_SCENE46_531_place_the_striped_book_upright_on_top_of_the_shelf_and_place_the_red_book_upright_on_top_of_the_shelf_ep001_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_5/gr00t_rollout_SCENE46_531_place_the_striped_book_upright_on_top_of_the_shelf_and_place_the_red_book_upright_on_top_of_the_shelf_ep002_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_3/task_5/pi05_libero_x_rollout_SCENE46_531_place_the_striped_book_upright_on_top_of_the_shelf_and_place_the_red_book_upright_on_top_of_the_shelf_ep001_failure.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="task-block">
+              <div class="task-header">LEVEL 4</div>
+              <div class="carousel-wrapper">
+                <button class="nav-btn prev-btn" onclick="scrollTrack(this, -1)"><i class="fas fa-chevron-left"></i></button>
+                <button class="nav-btn next-btn" onclick="scrollTrack(this, 1)"><i class="fas fa-chevron-right"></i></button>
+                <div class="carousel-track" style="display:flex; flex-wrap:nowrap; overflow-x:auto; scroll-snap-type:x mandatory; gap:20px; padding:0 20px;">
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 1</div>
+                    <div class="episode-desc">Place the ketchup on the stove and turn on the stove.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_1/openvla_oft_rollout_SCENE9_353_place_the_ketchup_on_the_stove_and_turn_on_the_stove_ep001_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_1/pi0_libero_x_rollout_SCENE9_353_place_the_ketchup_on_the_stove_and_turn_on_the_stove_ep001_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_1/xvla_rollout_SCENE9_353_place_the_ketchup_on_the_stove_and_turn_on_the_stove_ep001_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_1/gr00t_rollout_SCENE9_353_place_the_ketchup_on_the_stove_and_turn_on_the_stove_ep001_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_1/pi05_libero_x_rollout_SCENE9_353_place_the_ketchup_on_the_stove_and_turn_on_the_stove_ep001_failure.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 2</div>
+                    <div class="episode-desc">Place the small light green bowl on the plate.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_2/openvla_oft_rollout_SCENE1_047_place_the_small_light_green_bowl_on_the_plate_ep002_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_2/pi0_libero_x_rollout_SCENE1_047_place_the_small_light_green_bowl_on_the_plate_ep001_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_2/xvla_rollout_SCENE1_047_place_the_small_light_green_bowl_on_the_plate_ep003_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_2/gr00t_rollout_SCENE1_047_place_the_small_light_green_bowl_on_the_plate_ep004_success.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_2/pi05_libero_x_rollout_SCENE1_047_place_the_small_light_green_bowl_on_the_plate_ep001_success.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 3</div>
+                    <div class="episode-desc">Place the teal bowl to the right of the bowl drainer.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_3/openvla_oft_rollout_SCENE7_335_place_the_teal_bowl_to_the_left_of_the_bowl_drainer_ep002_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_3/pi0_libero_x_rollout_SCENE7_335_place_the_teal_bowl_to_the_left_of_the_bowl_drainer_ep001_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_3/xvla_rollout_SCENE7_335_place_the_teal_bowl_to_the_left_of_the_bowl_drainer_ep002_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_3/gr00t_rollout_SCENE7_335_place_the_teal_bowl_to_the_left_of_the_bowl_drainer_ep001_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_3/pi05_libero_x_rollout_SCENE7_335_place_the_teal_bowl_to_the_left_of_the_bowl_drainer_ep001_failure.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 4</div>
+                    <div class="episode-desc">Place the white speckle book into the desk caddy's left compartment.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_4/openvla_oft_rollout_SCENE7_802_place_the_white_speckle_book_into_the_left_desk_caddy_s_left_compartment_ep002_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_4/pi0_libero_x_rollout_SCENE7_802_place_the_white_speckle_book_into_the_left_desk_caddy_s_left_compartment_ep001_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_4/xvla_rollout_SCENE7_802_place_the_white_speckle_book_into_the_left_desk_caddy_s_left_compartment_ep004_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_4/gr00t_rollout_SCENE7_802_place_the_white_speckle_book_into_the_left_desk_caddy_s_left_compartment_ep001_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_4/pi05_libero_x_rollout_SCENE7_802_place_the_white_speckle_book_into_the_left_desk_caddy_s_left_compartment_ep001_failure.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 5</div>
+                    <div class="episode-desc">Place the pink bowl on the plate.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_5/openvla_oft_rollout_SCENE1_046_place_the_pink_bowl_on_the_plate_ep002_success.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_5/pi0_libero_x_rollout_SCENE1_046_place_the_pink_bowl_on_the_plate_ep002_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_5/xvla_rollout_SCENE1_046_place_the_pink_bowl_on_the_plate_ep008_success.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_5/gr00t_rollout_SCENE1_046_place_the_pink_bowl_on_the_plate_ep001_success.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_5/pi05_libero_x_rollout_SCENE1_046_place_the_pink_bowl_on_the_plate_ep001_success.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 6</div>
+                    <div class="episode-desc">Place the macaroni and cheese to the right of the bowl drainer.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_6/openvla_oft_rollout_SCENE10_001_place_the_macaroni_and_cheese_to_the_right_of_the_bowl_drainer_ep001_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_6/pi0_libero_x_rollout_SCENE10_001_place_the_macaroni_and_cheese_to_the_right_of_the_bowl_drainer_ep001_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_6/xvla_rollout_SCENE10_001_place_the_macaroni_and_cheese_to_the_right_of_the_bowl_drainer_ep001_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_6/gr00t_rollout_SCENE10_001_place_the_macaroni_and_cheese_to_the_right_of_the_bowl_drainer_ep001_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_6/pi05_libero_x_rollout_SCENE10_001_place_the_macaroni_and_cheese_to_the_right_of_the_bowl_drainer_ep001_failure.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 7</div>
+                    <div class="episode-desc">Place the tomato sauce on the plate.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_7/openvla_oft_rollout_SCENE43_259_place_the_tomato_sauce_on_the_plate_ep001_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_7/pi0_libero_x_rollout_SCENE43_259_place_the_tomato_sauce_on_the_plate_ep001_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_7/xvla_rollout_SCENE43_259_place_the_tomato_sauce_on_the_plate_ep001_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_7/gr00t_rollout_SCENE43_259_place_the_tomato_sauce_on_the_plate_ep001_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_4/task_7/pi05_libero_x_rollout_SCENE43_259_place_the_tomato_sauce_on_the_plate_ep001_success.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="task-block">
+              <div class="task-header">LEVEL 5</div>
+              <div class="carousel-wrapper">
+                <button class="nav-btn prev-btn" onclick="scrollTrack(this, -1)"><i class="fas fa-chevron-left"></i></button>
+                <button class="nav-btn next-btn" onclick="scrollTrack(this, 1)"><i class="fas fa-chevron-right"></i></button>
+                <div class="carousel-track" style="display:flex; flex-wrap:nowrap; overflow-x:auto; scroll-snap-type:x mandatory; gap:20px; padding:0 20px;">
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 1</div>
+                    <div class="episode-desc">Set the big pale red soup bowl within the bottom pull out compartment of the white kitchen cabinet.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_1/openvla_oft_rollout_SCENE5_314_set_the_big_pale_red_soup_bowl_within_the_bottom_pull_out_compartment_of_the_white_kitchen_cabinet_ep002_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_1/pi0_rollout_SCENE5_314_set_the_big_pale_red_soup_bowl_within_the_bottom_pull_out_compartment_of_the_white_kitchen_cabinet_ep002_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_1/xvla_rollout_SCENE5_314_set_the_big_pale_red_soup_bowl_within_the_bottom_pull_out_compartment_of_the_white_kitchen_cabinet_ep002_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_1/gr00t_rollout_SCENE5_314_set_the_big_pale_red_soup_bowl_within_the_bottom_pull_out_compartment_of_the_white_kitchen_cabinet_ep002_success.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_1/pi05_rollout_SCENE5_314_set_the_big_pale_red_soup_bowl_within_the_bottom_pull_out_compartment_of_the_white_kitchen_cabinet_ep002_failure.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 2</div>
+                    <div class="episode-desc">Bbq sauce into caddy right.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_2/openvla_oft_rollout_SCENE11_365_bbq_sauce_into_right_caddy_right_ep003_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_2/pi0_rollout_SCENE11_365_bbq_sauce_into_right_caddy_right_ep003_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_2/xvla_rollout_SCENE11_365_bbq_sauce_into_right_caddy_right_ep003_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_2/gr00t_rollout_SCENE11_365_bbq_sauce_into_right_caddy_right_ep003_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_2/pi05_rollout_SCENE11_365_bbq_sauce_into_right_caddy_right_ep003_failure.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 3</div>
+                    <div class="episode-desc">Into the desk caddy's left compartment. place the left cyan grid book and into the desk caddy's right compartment. place the teal wavy book.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_3/openvla_oft_rollout_SCENE18_434_into_the_right_desk_caddy_s_left_compartment__place_the_left_cyan_grid_book_and_into_the_right_desk_caddy_s_right_compartment__place_the_teal_wavy_book_ep005_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_3/pi0_rollout_SCENE18_434_into_the_right_desk_caddy_s_left_compartment__place_the_left_cyan_grid_book_and_into_the_right_desk_caddy_s_right_compartment__place_the_teal_wavy_book_ep005_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_3/xvla_rollout_SCENE18_434_into_the_right_desk_caddy_s_left_compartment__place_the_left_cyan_grid_book_and_into_the_right_desk_caddy_s_right_compartment__place_the_teal_wavy_book_ep005_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_3/gr00t_rollout_SCENE18_434_into_the_right_desk_caddy_s_left_compartment__place_the_left_cyan_grid_book_and_into_the_right_desk_caddy_s_right_compartment__place_the_teal_wavy_book_ep005_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_3/pi05_rollout_SCENE18_434_into_the_right_desk_caddy_s_left_compartment__place_the_left_cyan_grid_book_and_into_the_right_desk_caddy_s_right_compartment__place_the_teal_wavy_book_ep005_failure.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 4</div>
+                    <div class="episode-desc">The cream cheese should be placed in the smallest bowl.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_4/openvla_oft_rollout_SCENE33_196_the_cream_cheese_should_be_placed_in_the_smallest_bowl_ep007_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_4/pi0_rollout_SCENE33_196_the_cream_cheese_should_be_placed_in_the_smallest_bowl_ep007_failure.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_4/xvla_rollout_SCENE33_196_the_cream_cheese_should_be_placed_in_the_smallest_bowl_ep008_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_4/gr00t_rollout_SCENE33_196_the_cream_cheese_should_be_placed_in_the_smallest_bowl_ep007_failure.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_4/pi05_rollout_SCENE33_196_the_cream_cheese_should_be_placed_in_the_smallest_bowl_ep007_success.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="episode-card">
+                    <div class="episode-label-tag">Task 5</div>
+                    <div class="episode-desc">For this instruction, please place the pink wavy book flat on top of the shelf. You do not need to interact with any other item. This is a straightforward step.</div>
+                    <div class="video-group five" style="display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:10px;">
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_5/openvla_oft_rollout_SCENE42_671_For_this_instruction__please_place_the_pink_wavy_book_flat_on_top_of_the_shelf__You_do_not_need_to_interact_with_any_other_item__This_is_a_straightforward_step__ep009_failure.mp4"></video>
+                        <div class="method-label">OpenVLA-OFT</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_5/pi0_rollout_SCENE42_671_For_this_instruction__please_place_the_pink_wavy_book_flat_on_top_of_the_shelf__You_do_not_need_to_interact_with_any_other_item__This_is_a_straightforward_step__ep009_success.mp4"></video>
+                        <div class="method-label">π0</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-failure"><i class="fas fa-times"></i> Failure</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_5/xvla_rollout_SCENE42_671_For_this_instruction__please_place_the_pink_wavy_book_flat_on_top_of_the_shelf__You_do_not_need_to_interact_with_any_other_item__This_is_a_straightforward_step__ep009_failure.mp4"></video>
+                        <div class="method-label">X-VLA</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_5/gr00t_rollout_SCENE42_671_For_this_instruction__please_place_the_pink_wavy_book_flat_on_top_of_the_shelf__You_do_not_need_to_interact_with_any_other_item__This_is_a_straightforward_step__ep009_success.mp4"></video>
+                        <div class="method-label">GR00T1.5</div>
+                      </div>
+                      <div class="video-col">
+                        <div class="status-pill status-success"><i class="fas fa-check"></i> Success</div>
+                        <video autoplay loop muted playsinline controls preload="metadata" src="static/images/libero-x/test_cases/label_5/task_5/pi05_rollout_SCENE42_671_For_this_instruction__please_place_the_pink_wavy_book_flat_on_top_of_the_shelf__You_do_not_need_to_interact_with_any_other_item__This_is_a_straightforward_step__ep009_success.mp4"></video>
+                        <div class="method-label">π0.5</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- BibTex -->
+  <section class="section">
+    <div class="container is-max-desktop content">
+      <h2 class="title is-4">BibTeX</h2>
+      <div class="bibtex-container">
+        <button class="copy-btn" onclick="copyBibtex(this)">
+          <span class="btn-text">Copy</span>
+        </button>
+        <pre><code id="bibtex-content">@article{wang2026libero,
+  title={LIBERO-X: Robustness Litmus for Vision-Language-Action Models},
+  author={Wang, Guodong and Zhang, Chenkai and Liu, Qingjie and Zhang, Jinjin and Cai, Jiancheng and Liu, Junjie and Liu, Xinmin},
+  journal={arXiv preprint arXiv:2602.06556},
+  year={2026}
+}
+</code></pre>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

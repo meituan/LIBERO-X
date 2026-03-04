@@ -1,0 +1,103 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the red mug in the basket)
+    (:regions
+      (basket_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.132 -0.28200000000000003 -0.068 -0.218)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (moka_pot_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.22299999999999998 -0.073 -0.077 0.073)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_coffee_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.02800000000000001 -0.22199999999999998 0.172 -0.078)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (short_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.103 0.053000000000000005 0.197 0.14700000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.263 0.137 -0.137 0.263)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (middle_region
+          (:target short_cabinet_1)
+      )
+      (top_region
+          (:target short_cabinet_1)
+      )
+      (bottom_region
+          (:target short_cabinet_1)
+      )
+      (contain_region
+          (:target basket_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    short_cabinet_1 - short_cabinet
+  )
+
+  (:objects
+    moka_pot_1 - moka_pot
+    white_yellow_mug_1 - white_yellow_mug
+    red_coffee_mug_1 - red_coffee_mug
+    basket_1 - basket
+  )
+
+  (:obj_of_interest
+    red_coffee_mug_1
+    basket_1
+  )
+
+  (:init
+    (On moka_pot_1 kitchen_table_moka_pot_init_region)
+    (On white_yellow_mug_1 kitchen_table_white_yellow_mug_init_region)
+    (On red_coffee_mug_1 kitchen_table_red_coffee_mug_init_region)
+    (On short_cabinet_1 kitchen_table_short_cabinet_init_region)
+    (On basket_1 kitchen_table_basket_init_region)
+  )
+
+  (:goal
+    (And (In red_coffee_mug_1 basket_1_contain_region))
+  )
+
+)

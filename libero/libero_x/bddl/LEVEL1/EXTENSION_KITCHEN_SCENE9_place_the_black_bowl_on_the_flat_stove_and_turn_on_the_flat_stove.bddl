@@ -1,0 +1,88 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the black bowl on the flat stove and turn on the flat stove)
+    (:regions
+      (flat_stove_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.01 0.19 0.01 0.21000000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (bowl_drainer_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.09000000000000001 -0.16 0.11 -0.13999999999999999)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_black_bowl_1_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.225 -0.025 -0.17500000000000002 0.025)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_green_bowl_1_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.225 0.17500000000000002 -0.17500000000000002 0.225)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cook_region
+          (:target flat_stove_1)
+      )
+      (left_region
+          (:target bowl_drainer_1)
+      )
+      (right_region
+          (:target bowl_drainer_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    flat_stove_1 - flat_stove
+    bowl_drainer_1 - bowl_drainer
+  )
+
+  (:objects
+    akita_black_bowl_1 - akita_black_bowl
+    akita_green_bowl_1 - akita_green_bowl
+    plate_1 - plate
+  )
+
+  (:obj_of_interest
+    akita_black_bowl_1
+    flat_stove_1
+  )
+
+  (:init
+    (On akita_black_bowl_1 kitchen_table_akita_black_bowl_1_init_region)
+    (On akita_green_bowl_1 kitchen_table_akita_green_bowl_1_init_region)
+    (On flat_stove_1 kitchen_table_flat_stove_init_region)
+    (On bowl_drainer_1 kitchen_table_bowl_drainer_init_region)
+  )
+
+  (:goal
+    (And (On akita_black_bowl_1 flat_stove_1_cook_region) (Turnon flat_stove_1))
+  )
+
+)

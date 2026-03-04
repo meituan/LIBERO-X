@@ -1,0 +1,130 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the right cream cheese into the back desk caddy's left compartment and place the bbq sauce into the back desk caddy's left compartment and place the popcorn into the back desk caddy's right compartment)
+    (:regions
+      (black_book_init_region
+          (:target study_table)
+          (:ranges (
+              (0.12 -0.1 0.24 0.019999999999999997)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (desk_caddy_back_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.345 -0.045 -0.255 0.045)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (bbq_sauce_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.054 -0.003999999999999997 0.054 0.10400000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (popcorn_init_region
+          (:target study_table)
+          (:ranges (
+              (0.052000000000000005 -0.228 0.108 -0.17200000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (cream_cheese_A_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.068 0.152 -0.012 0.208)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cream_cheese_B_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.174 -0.254 -0.066 -0.14600000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_green_bowl_init_region
+          (:target study_table)
+          (:ranges (
+              (0.376 -0.14700000000000002 0.406 -0.117)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (right_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (left_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (back_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (front_contain_region
+          (:target desk_caddy_back_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    desk_caddy_back_1 - desk_caddy_back
+    popcorn_1 - popcorn
+    cream_cheese_1 cream_cheese_2 - cream_cheese
+    black_book_1 - black_book
+    bbq_sauce_1 - bbq_sauce
+    akita_green_bowl_1 - akita_green_bowl
+  )
+
+  (:obj_of_interest
+    cream_cheese_2
+    bbq_sauce_1
+    popcorn_1
+    desk_caddy_back_1
+  )
+
+  (:init
+    (On desk_caddy_back_1 study_table_desk_caddy_back_init_region)
+    (On cream_cheese_1 study_table_cream_cheese_A_init_region)
+    (On cream_cheese_2 study_table_cream_cheese_B_init_region)
+    (On black_book_1 study_table_black_book_init_region)
+    (On bbq_sauce_1 study_table_bbq_sauce_init_region)
+    (On popcorn_1 study_table_popcorn_init_region)
+    (On akita_green_bowl_1 study_table_akita_green_bowl_init_region)
+  )
+
+  (:goal
+    (And (In cream_cheese_2 desk_caddy_back_1_left_contain_region) (In bbq_sauce_1 desk_caddy_back_1_left_contain_region) (In popcorn_1 desk_caddy_back_1_right_contain_region))
+  )
+
+)

@@ -1,0 +1,125 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the right teal wavy book in the top region of the shelf)
+    (:regions
+      (green_book_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.247 0.043 -0.09300000000000001 0.197)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_book_init_region
+          (:target study_table)
+          (:ranges (
+              (0.1 0.010000000000000002 0.18000000000000002 0.09)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.05 0.03 0.009999999999999998 0.09)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.235 -0.305 -0.125 -0.195)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (teal_wavy_book_A_init_region
+          (:target study_table)
+          (:ranges (
+              (0.13899999999999998 -0.221 0.221 -0.13899999999999998)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (teal_wavy_book_B_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.05 0.17 0.009999999999999998 0.23)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target study_table)
+          (:ranges (
+              (0.29000000000000004 -0.14500000000000002 0.352 -0.083)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+    white_yellow_mug_1 - white_yellow_mug
+    teal_wavy_book_1 teal_wavy_book_2 - teal_wavy_book
+    green_book_1 - green_book
+    red_book_1 - red_book
+    plate_1 - plate
+  )
+
+  (:obj_of_interest
+    teal_wavy_book_1
+    wooden_two_layer_shelf_1
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 study_table_wooden_two_layer_shelf_init_region)
+    (On teal_wavy_book_1 study_table_teal_wavy_book_A_init_region)
+    (On teal_wavy_book_2 study_table_teal_wavy_book_B_init_region)
+    (On green_book_1 study_table_green_book_init_region)
+    (On red_book_1 study_table_red_book_init_region)
+    (On white_yellow_mug_1 study_table_white_yellow_mug_init_region)
+    (On plate_1 study_table_plate_init_region)
+  )
+
+  (:goal
+    (And (In teal_wavy_book_1 wooden_two_layer_shelf_1_top_region))
+  )
+
+)

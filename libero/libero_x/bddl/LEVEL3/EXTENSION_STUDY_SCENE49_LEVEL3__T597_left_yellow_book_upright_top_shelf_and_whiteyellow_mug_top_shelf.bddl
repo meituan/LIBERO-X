@@ -1,0 +1,152 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the left yellow book upright on top of the shelf and place the white-yellow mug on top of the shelf)
+    (:regions
+      (green_book_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.097 0.12300000000000001 0.056999999999999995 0.277)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_book_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.06 0.019999999999999997 0.02 0.1)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target study_table)
+          (:ranges (
+              (0.11000000000000001 0.020000000000000004 0.17 0.08)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.238 -0.308 -0.122 -0.192)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (yellow_book_B_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.21100000000000002 0.07899999999999999 -0.129 0.161)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (yellow_book_A_init_region
+          (:target study_table)
+          (:ranges (
+              (0.15 -0.21 0.21 -0.15)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_coffee_mug_init_region
+          (:target study_table)
+          (:ranges (
+              (0.072 -0.309 0.102 -0.27899999999999997)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (orange_juice_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.21200000000000002 0.34299999999999997 -0.182 0.373)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_purple_bowl_init_region
+          (:target study_table)
+          (:ranges (
+              (0.202 0.306 0.23199999999999998 0.336)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+    white_yellow_mug_1 - white_yellow_mug
+    yellow_book_1 yellow_book_2 - yellow_book
+    green_book_1 - green_book
+    red_book_1 - red_book
+    red_coffee_mug_1 - red_coffee_mug
+    orange_juice_1 - orange_juice
+    akita_purple_bowl_1 - akita_purple_bowl
+  )
+
+  (:obj_of_interest
+    yellow_book_2
+    white_yellow_mug_1
+    wooden_two_layer_shelf_1
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 study_table_wooden_two_layer_shelf_init_region)
+    (On yellow_book_1 study_table_yellow_book_A_init_region)
+    (On yellow_book_2 study_table_yellow_book_B_init_region)
+    (On green_book_1 study_table_green_book_init_region)
+    (On red_book_1 study_table_red_book_init_region)
+    (On white_yellow_mug_1 study_table_white_yellow_mug_init_region)
+    (On red_coffee_mug_1 study_table_red_coffee_mug_init_region)
+    (On orange_juice_1 study_table_orange_juice_init_region)
+    (On akita_purple_bowl_1 study_table_akita_purple_bowl_init_region)
+  )
+
+  (:goal
+    (And (UprightOn yellow_book_2 wooden_two_layer_shelf_1_top_side) (On white_yellow_mug_1 wooden_two_layer_shelf_1_top_side))
+  )
+
+)

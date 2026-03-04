@@ -1,0 +1,99 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language open the microwave)
+    (:regions
+      (microwave_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.072 0.128 0.072 0.272)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.185 -0.23500000000000001 -0.11499999999999999 -0.165)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_coffee_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.073 -0.22699999999999998 0.22699999999999998 -0.073)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (salad_dressing_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.07100000000000001 -0.096 -0.041 -0.066)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (bbq_sauce_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.35400000000000004 0.15400000000000003 -0.324 0.184)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target microwave_1)
+      )
+      (heating_region
+          (:target microwave_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    microwave_1 - microwave
+  )
+
+  (:objects
+    white_yellow_mug_1 - white_yellow_mug
+    red_coffee_mug_1 - red_coffee_mug
+    plate_1 - plate
+    salad_dressing_1 - salad_dressing
+    bbq_sauce_1 - bbq_sauce
+  )
+
+  (:obj_of_interest
+    microwave_1
+  )
+
+  (:init
+    (On white_yellow_mug_1 microwave_1_top_side)
+    (On red_coffee_mug_1 kitchen_table_red_coffee_mug_init_region)
+    (On microwave_1 kitchen_table_microwave_init_region)
+    (Close microwave_1)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On salad_dressing_1 kitchen_table_salad_dressing_init_region)
+    (On bbq_sauce_1 kitchen_table_bbq_sauce_init_region)
+  )
+
+  (:goal
+    (And (Open microwave_1))
+  )
+
+)

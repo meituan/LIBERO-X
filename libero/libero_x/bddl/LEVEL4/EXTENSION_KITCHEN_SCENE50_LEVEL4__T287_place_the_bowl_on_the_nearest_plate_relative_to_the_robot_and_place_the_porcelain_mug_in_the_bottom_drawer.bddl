@@ -1,0 +1,107 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the bowl on the nearest plate relative to the robot and place the porcelain mug in the bottom drawer)
+    (:regions
+      (plate_farthest_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.33499999999999996 -0.23500000000000001 -0.265 -0.165)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (plate_middle_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.131 -0.231 -0.069 -0.169)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (plate_nearest_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.066 -0.234 0.134 -0.166)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (wooden_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.054 0.14600000000000002 0.054 0.254)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (tomato_sauce_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.132 0.23199999999999998 -0.10200000000000001 0.262)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_cabinet_1)
+      )
+      (top_region
+          (:target wooden_cabinet_1)
+      )
+      (middle_region
+          (:target wooden_cabinet_1)
+      )
+      (bottom_region
+          (:target wooden_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_cabinet_1 - wooden_cabinet
+  )
+
+  (:objects
+    porcelain_mug_1 - porcelain_mug
+    small_akita_black_bowl_1 - small_akita_black_bowl
+    plate_1 plate_2 plate_3 - plate
+    tomato_sauce_1 - tomato_sauce
+  )
+
+  (:obj_of_interest
+    small_akita_black_bowl_1
+    plate_3
+    porcelain_mug_1
+  )
+
+  (:init
+    (Open wooden_cabinet_1_bottom_region)
+    (In small_akita_black_bowl_1 wooden_cabinet_1_bottom_region)
+    (On wooden_cabinet_1 kitchen_table_wooden_cabinet_init_region)
+    (On plate_1 kitchen_table_plate_nearest_init_region)
+    (On plate_2 kitchen_table_plate_middle_init_region)
+    (On plate_3 kitchen_table_plate_farthest_init_region)
+    (On porcelain_mug_1 plate_2)
+    (On tomato_sauce_1 kitchen_table_tomato_sauce_init_region)
+  )
+
+  (:goal
+    (And (On small_akita_black_bowl_1 plate_3) (In porcelain_mug_1 wooden_cabinet_1_bottom_region))
+  )
+
+)

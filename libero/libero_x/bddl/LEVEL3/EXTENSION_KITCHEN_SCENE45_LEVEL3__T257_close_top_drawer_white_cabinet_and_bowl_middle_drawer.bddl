@@ -1,0 +1,88 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language close the top drawer of the white cabinet and place the bowl in the middle drawer)
+    (:regions
+      (microwave_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.058 -0.258 0.058 -0.14200000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (white_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.14500000000000002 0.255 -0.05500000000000001 0.345)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cream_cheese_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.199 0.239 0.22899999999999998 0.269)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target microwave_1)
+      )
+      (heating_region
+          (:target microwave_1)
+      )
+      (top_side
+          (:target white_cabinet_1)
+      )
+      (top_region
+          (:target white_cabinet_1)
+      )
+      (middle_region
+          (:target white_cabinet_1)
+      )
+      (bottom_region
+          (:target white_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    microwave_1 - microwave
+    white_cabinet_1 - white_cabinet
+  )
+
+  (:objects
+    small_akita_black_bowl_1 - small_akita_black_bowl
+    cream_cheese_1 - cream_cheese
+  )
+
+  (:obj_of_interest
+    white_cabinet_1
+    small_akita_black_bowl_1
+  )
+
+  (:init
+    (On small_akita_black_bowl_1 microwave_1_top_side)
+    (On microwave_1 kitchen_table_microwave_init_region)
+    (Open microwave_1)
+    (Open white_cabinet_1_top_region)
+    (Open white_cabinet_1_middle_region)
+    (On white_cabinet_1 kitchen_table_white_cabinet_init_region)
+    (On cream_cheese_1 kitchen_table_cream_cheese_init_region)
+  )
+
+  (:goal
+    (And (Close white_cabinet_1_top_region) (In small_akita_black_bowl_1 white_cabinet_1_middle_region))
+  )
+
+)

@@ -1,0 +1,87 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language open the microwave and place the alphabet soup in it)
+    (:regions
+      (microwave_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.079 0.12100000000000001 0.079 0.279)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.11199999999999999 -0.188 0.188 -0.11199999999999999)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (alphabet_soup_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.22599999999999998 -0.276 -0.074 -0.12400000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (macaroni_and_cheese_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.23199999999999998 0.005000000000000001 -0.202 0.035)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target microwave_1)
+      )
+      (heating_region
+          (:target microwave_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    microwave_1 - microwave
+  )
+
+  (:objects
+    white_yellow_mug_1 - white_yellow_mug
+    alphabet_soup_1 - alphabet_soup
+    plate_1 - plate
+    macaroni_and_cheese_1 - macaroni_and_cheese
+  )
+
+  (:obj_of_interest
+    microwave_1
+    alphabet_soup_1
+  )
+
+  (:init
+    (On white_yellow_mug_1 microwave_1_top_side)
+    (On alphabet_soup_1 kitchen_table_alphabet_soup_init_region)
+    (On microwave_1 kitchen_table_microwave_init_region)
+    (Close microwave_1)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On macaroni_and_cheese_1 kitchen_table_macaroni_and_cheese_init_region)
+  )
+
+  (:goal
+    (And (Open microwave_1) (In alphabet_soup_1 microwave_1_heating_region))
+  )
+
+)

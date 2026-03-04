@@ -1,0 +1,119 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the orange juice on top of the shelf)
+    (:regions
+      (flat_stove_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.34099999999999997 0.059000000000000004 -0.259 0.14100000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (moka_pot_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.035 -0.015 0.165 0.115)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.078 -0.328 0.078 -0.172)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (akita_blue_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.325 -0.139 -0.295 -0.109)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.285 0.115 0.315 0.14500000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_coffee_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.285 -0.125 0.315 -0.095)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (cook_region
+          (:target flat_stove_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+    flat_stove_1 - flat_stove
+  )
+
+  (:objects
+    orange_juice_1 - orange_juice
+    moka_pot_1 - moka_pot
+    akita_blue_bowl_1 - akita_blue_bowl
+    white_yellow_mug_1 - white_yellow_mug
+    red_coffee_mug_1 - red_coffee_mug
+  )
+
+  (:obj_of_interest
+    orange_juice_1
+    wooden_two_layer_shelf_1
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 kitchen_table_wooden_two_layer_shelf_init_region)
+    (On orange_juice_1 wooden_two_layer_shelf_1_bottom_region)
+    (On flat_stove_1 kitchen_table_flat_stove_init_region)
+    (On moka_pot_1 kitchen_table_moka_pot_init_region)
+    (Turnon flat_stove_1)
+    (On akita_blue_bowl_1 kitchen_table_akita_blue_bowl_init_region)
+    (On white_yellow_mug_1 kitchen_table_white_yellow_mug_init_region)
+    (On red_coffee_mug_1 kitchen_table_red_coffee_mug_init_region)
+  )
+
+  (:goal
+    (And (On orange_juice_1 wooden_two_layer_shelf_1_top_side))
+  )
+
+)

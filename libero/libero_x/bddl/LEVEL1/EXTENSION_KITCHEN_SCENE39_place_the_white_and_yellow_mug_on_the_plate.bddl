@@ -1,0 +1,108 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the white and yellow mug on the plate)
+    (:regions
+      (flat_stove_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.31 -0.26 -0.29 -0.24)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.13999999999999999 0.19 0.16 0.21000000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.16 0.24 -0.13999999999999999 0.26)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (porcelain_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.16 0.04 -0.13999999999999999 0.060000000000000005)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_coffee_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.13999999999999999 -0.26 0.16 -0.24)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (moka_pot_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.125 0.025 0.175 0.07500000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cook_region
+          (:target flat_stove_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    flat_stove_1 - flat_stove
+  )
+
+  (:objects
+    moka_pot_1 - moka_pot
+    plate_1 - plate
+    white_yellow_mug_1 - white_yellow_mug
+    red_coffee_mug_1 - red_coffee_mug
+    porcelain_mug_1 - porcelain_mug
+  )
+
+  (:obj_of_interest
+    white_yellow_mug_1
+    plate_1
+  )
+
+  (:init
+    (On moka_pot_1 kitchen_table_moka_pot_init_region)
+    (On white_yellow_mug_1 kitchen_table_white_yellow_mug_init_region)
+    (On red_coffee_mug_1 kitchen_table_red_coffee_mug_init_region)
+    (On porcelain_mug_1 kitchen_table_porcelain_mug_init_region)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On flat_stove_1 kitchen_table_flat_stove_init_region)
+    (Turnon flat_stove_1)
+  )
+
+  (:goal
+    (And (On white_yellow_mug_1 plate_1))
+  )
+
+)

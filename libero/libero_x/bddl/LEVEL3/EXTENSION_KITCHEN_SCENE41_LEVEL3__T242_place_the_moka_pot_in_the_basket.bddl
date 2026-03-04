@@ -1,0 +1,129 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the moka pot in the basket)
+    (:regions
+      (basket_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.118 0.068 0.182 0.132)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (moka_pot_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.02700000000000001 -0.22299999999999998 0.173 -0.077)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_coffee_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.22199999999999998 -0.072 -0.078 0.072)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (short_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.14700000000000002 -0.297 -0.053000000000000005 -0.203)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.263 0.137 -0.137 0.263)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (yellow_book_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.383 0.293 0.41300000000000003 0.323)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (chocolate_pudding_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.22499999999999998 -0.383 -0.195 -0.353)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (middle_region
+          (:target short_cabinet_1)
+      )
+      (top_region
+          (:target short_cabinet_1)
+      )
+      (bottom_region
+          (:target short_cabinet_1)
+      )
+      (contain_region
+          (:target basket_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    short_cabinet_1 - short_cabinet
+  )
+
+  (:objects
+    moka_pot_1 - moka_pot
+    white_yellow_mug_1 - white_yellow_mug
+    red_coffee_mug_1 - red_coffee_mug
+    basket_1 - basket
+    yellow_book_1 - yellow_book
+    chocolate_pudding_1 - chocolate_pudding
+  )
+
+  (:obj_of_interest
+    moka_pot_1
+    basket_1
+  )
+
+  (:init
+    (On moka_pot_1 kitchen_table_moka_pot_init_region)
+    (On white_yellow_mug_1 kitchen_table_white_yellow_mug_init_region)
+    (On red_coffee_mug_1 kitchen_table_red_coffee_mug_init_region)
+    (On short_cabinet_1 kitchen_table_short_cabinet_init_region)
+    (On basket_1 kitchen_table_basket_init_region)
+    (On yellow_book_1 kitchen_table_yellow_book_init_region)
+    (On chocolate_pudding_1 kitchen_table_chocolate_pudding_init_region)
+  )
+
+  (:goal
+    (And (In moka_pot_1 basket_1_contain_region))
+  )
+
+)

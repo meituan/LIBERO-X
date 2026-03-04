@@ -1,0 +1,143 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the left navy speckle book into the left desk caddy's right compartment and place the right navy speckle book into the left desk caddy's right compartment and place the yellow green striped book into the left desk caddy's left compartment)
+    (:regions
+      (desk_caddy_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.22499999999999998 0.20500000000000002 -0.135 0.295)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (green_book_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.247 -0.197 -0.09300000000000001 -0.043)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (yellow_green_striped_book_init_region
+          (:target study_table)
+          (:ranges (
+              (0.1 -0.09 0.18000000000000002 -0.010000000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.05 -0.23 0.009999999999999998 -0.17)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (navy_speckle_book_A_init_region
+          (:target study_table)
+          (:ranges (
+              (0.13899999999999998 0.13899999999999998 0.221 0.221)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (navy_speckle_book_B_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.05 -0.09 0.009999999999999998 -0.03)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (butter_init_region
+          (:target study_table)
+          (:ranges (
+              (0.308 0.361 0.338 0.391)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_black_bowl_init_region
+          (:target study_table)
+          (:ranges (
+              (0.108 -0.262 0.138 -0.23199999999999998)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (right_contain_region
+          (:target desk_caddy_1)
+      )
+      (left_contain_region
+          (:target desk_caddy_1)
+      )
+      (back_contain_region
+          (:target desk_caddy_1)
+      )
+      (front_contain_region
+          (:target desk_caddy_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    desk_caddy_1 - desk_caddy
+    white_yellow_mug_1 - white_yellow_mug
+    navy_speckle_book_1 navy_speckle_book_2 - navy_speckle_book
+    green_book_1 - green_book
+    yellow_green_striped_book_1 - yellow_green_striped_book
+    butter_1 - butter
+    akita_black_bowl_1 - akita_black_bowl
+  )
+
+  (:obj_of_interest
+    navy_speckle_book_1
+    navy_speckle_book_2
+    yellow_green_striped_book_1
+    desk_caddy_1
+  )
+
+  (:init
+    (On desk_caddy_1 study_table_desk_caddy_init_region)
+    (On navy_speckle_book_1 study_table_navy_speckle_book_A_init_region)
+    (On navy_speckle_book_2 study_table_navy_speckle_book_B_init_region)
+    (On green_book_1 study_table_green_book_init_region)
+    (On yellow_green_striped_book_1 study_table_yellow_green_striped_book_init_region)
+    (On white_yellow_mug_1 study_table_white_yellow_mug_init_region)
+    (On butter_1 study_table_butter_init_region)
+    (On akita_black_bowl_1 study_table_akita_black_bowl_init_region)
+  )
+
+  (:goal
+    (And (ExactIn navy_speckle_book_1 desk_caddy_1_right_contain_region) (ExactIn navy_speckle_book_2 desk_caddy_1_right_contain_region) (ExactIn yellow_green_striped_book_1 desk_caddy_1_left_contain_region))
+  )
+
+)

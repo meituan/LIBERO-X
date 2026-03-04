@@ -1,0 +1,95 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the bbq sauce from the drawer onto the top layer of the wine rack)
+    (:regions
+      (white_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.18 0.21999999999999997 -0.020000000000000004 0.38)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (bbq_sauce_2_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.020000000000000004 -0.03 0.18 0.13)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (wine_rack_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.075 -0.275 0.075 -0.125)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (macaroni_and_cheese_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.398 -0.308 -0.368 -0.27799999999999997)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_region
+          (:target wine_rack_1)
+      )
+      (top_side
+          (:target white_cabinet_1)
+      )
+      (top_region
+          (:target white_cabinet_1)
+      )
+      (middle_region
+          (:target white_cabinet_1)
+      )
+      (bottom_region
+          (:target white_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wine_rack_1 - wine_rack
+    white_cabinet_1 - white_cabinet
+  )
+
+  (:objects
+    bbq_sauce_1 bbq_sauce_2 - bbq_sauce
+    macaroni_and_cheese_1 - macaroni_and_cheese
+  )
+
+  (:obj_of_interest
+    white_cabinet_1
+    bbq_sauce_1
+  )
+
+  (:init
+    (On wine_rack_1 kitchen_table_wine_rack_init_region)
+    (In bbq_sauce_1 white_cabinet_1_top_region)
+    (On bbq_sauce_2 kitchen_table_bbq_sauce_2_init_region)
+    (Open white_cabinet_1_top_region)
+    (On white_cabinet_1 kitchen_table_white_cabinet_init_region)
+    (On macaroni_and_cheese_1 kitchen_table_macaroni_and_cheese_init_region)
+  )
+
+  (:goal
+    (And (On bbq_sauce_1 wine_rack_1_top_region))
+  )
+
+)

@@ -1,0 +1,826 @@
+{"task_desc": "lay down the pink soup bowl over the serving plate", "variant": "A1", "task_id": "001"}
+{"task_desc": "lay down the little pale green round bowl on top the serving plate", "variant": "A2", "task_id": "001"}
+{"task_desc": "set the aqua round bowl onto the flat plate", "variant": "A1", "task_id": "002"}
+{"task_desc": "position the little deep yellow soup bowl on top the serving plate", "variant": "A2", "task_id": "002"}
+{"task_desc": "lay down the orange round bowl on top the flat plate", "variant": "A1", "task_id": "003"}
+{"task_desc": "position the big pale red soup bowl on top the serving plate", "variant": "A2", "task_id": "003"}
+{"task_desc": "position the pink soup bowl over the surface of the wooden storage cabinet", "variant": "A1", "task_id": "004"}
+{"task_desc": "lay down the big pale red round bowl over the top of the wooden kitchen cabinet", "variant": "A2", "task_id": "004"}
+{"task_desc": "position the pink soup bowl onto the top of the wooden kitchen cabinet", "variant": "A1", "task_id": "005"}
+{"task_desc": "lay down the little pale green soup bowl over the top of the wooden cupboard", "variant": "A2", "task_id": "005"}
+{"task_desc": "position the blue-green soup bowl over the surface of the wooden cupboard", "variant": "A1", "task_id": "006"}
+{"task_desc": "position the little deep yellow soup bowl on top the top of the wooden kitchen cabinet", "variant": "A2", "task_id": "006"}
+{"task_desc": "pull open the top sliding drawer of the wooden storage cabinet", "variant": "", "task_id": "007"}
+{"task_desc": "pull open the middle pull-out drawer of the wooden storage cabinet", "variant": "", "task_id": "008"}
+{"task_desc": "uncover the top pull-out drawer of the wooden cupboard", "variant": "", "task_id": "009"}
+{"task_desc": "lay down the pink soup bowl on top the dinner plate", "variant": "A1", "task_id": "010"}
+{"task_desc": "set the little pale green round bowl on top the dinner plate", "variant": "A2", "task_id": "010"}
+{"task_desc": "position the teal green soup bowl on top the flat plate", "variant": "A1", "task_id": "011"}
+{"task_desc": "position the little deep yellow round bowl onto the serving plate", "variant": "A2", "task_id": "011"}
+{"task_desc": "position the orange soup bowl over the flat plate", "variant": "A1", "task_id": "012"}
+{"task_desc": "set the big pale red round bowl onto the dinner plate", "variant": "A2", "task_id": "012"}
+{"task_desc": "set the aqua round bowl over the serving plate", "variant": "A1", "task_id": "013"}
+{"task_desc": "place the little pale green soup bowl on top the flat plate", "variant": "A2", "task_id": "013"}
+{"task_desc": "place the teal green soup bowl over the dinner plate", "variant": "A1", "task_id": "014"}
+{"task_desc": "position the little deep yellow soup bowl onto the dinner plate", "variant": "A2", "task_id": "014"}
+{"task_desc": "set the teal green round bowl onto the flat plate", "variant": "A1", "task_id": "015"}
+{"task_desc": "position the big pale red soup bowl onto the flat plate", "variant": "A2", "task_id": "015"}
+{"task_desc": "uncover the middle pull-out drawer of the wooden cupboard", "variant": "", "task_id": "016"}
+{"task_desc": "pull open the top sliding drawer of the wooden storage cabinet", "variant": "", "task_id": "017"}
+{"task_desc": "lay down the aqua soup bowl on top the top of the wooden kitchen cabinet", "variant": "A1", "task_id": "018"}
+{"task_desc": "position the big pale red soup bowl over the surface of the wooden storage cabinet", "variant": "A2", "task_id": "018"}
+{"task_desc": "set the orange soup bowl over the top of the wooden cupboard", "variant": "A1", "task_id": "019"}
+{"task_desc": "lay down the little pale green soup bowl over the top of the wooden kitchen cabinet", "variant": "A2", "task_id": "019"}
+{"task_desc": "position the pink round bowl over the surface of the wooden kitchen cabinet", "variant": "A1", "task_id": "020"}
+{"task_desc": "position the little deep yellow soup bowl over the surface of the wooden cupboard", "variant": "A2", "task_id": "020"}
+{"task_desc": "uncover the middle pull-out drawer of the white kitchen cabinet", "variant": "", "task_id": "021"}
+{"task_desc": "pull out the top pull-out drawer of the white cupboard", "variant": "", "task_id": "022"}
+{"task_desc": "position the orange round bowl on top the flat plate", "variant": "A1", "task_id": "023"}
+{"task_desc": "set the little pale green round bowl on top the serving plate", "variant": "A2", "task_id": "023"}
+{"task_desc": "position the pink soup bowl onto the dinner plate", "variant": "A1", "task_id": "024"}
+{"task_desc": "set the little deep yellow round bowl onto the serving plate", "variant": "A2", "task_id": "024"}
+{"task_desc": "lay down the turquoise soup bowl onto the flat plate", "variant": "A1", "task_id": "025"}
+{"task_desc": "lay down the big pale red soup bowl on top the flat plate", "variant": "A2", "task_id": "025"}
+{"task_desc": "shut the bottom pull-out compartment of the white storage cabinet", "variant": "", "task_id": "026"}
+{"task_desc": "position the orange round bowl within the bottom sliding drawer of the white cupboard", "variant": "A1", "task_id": "027"}
+{"task_desc": "lay down the little pale green soup bowl in the interior of the bottom pull-out drawer of the white storage cabinet", "variant": "A2", "task_id": "027"}
+{"task_desc": "place the orange soup bowl in the interior of the bottom sliding drawer of the white storage cabinet", "variant": "A1", "task_id": "028"}
+{"task_desc": "set the big pale red soup bowl within the bottom pull-out compartment of the white kitchen cabinet", "variant": "A2", "task_id": "028"}
+{"task_desc": "set the orange soup bowl within the bottom pull-out compartment of the white storage cabinet", "variant": "A1", "task_id": "029"}
+{"task_desc": "place the little deep yellow round bowl within the bottom pull-out drawer of the white kitchen cabinet", "variant": "A2", "task_id": "029"}
+{"task_desc": "position the bbq sauce inside the bottom pull-out compartment of the white cupboard and shut the pull-out compartment", "variant": "", "task_id": "030"}
+{"task_desc": "set the cookies in the interior of the bottom pull-out drawer of the white storage cabinet and shut the pull-out drawer ", "variant": "", "task_id": "031"}
+{"task_desc": "position the cream pack cheese block in the interior of the bottom pull-out compartment of the white storage cabinet and shut the pull-out compartment", "variant": "", "task_id": "032"}
+{"task_desc": "push closed the bottom pull-out compartment of the white kitchen cabinet and lay down the popcorn over the flat plate", "variant": "", "task_id": "033"}
+{"task_desc": "push closed the bottom pull-out drawer of the white kitchen cabinet and set the alphabet-patterned soup over the flat plate", "variant": "", "task_id": "034"}
+{"task_desc": "seal the bottom pull-out drawer of the white cupboard and position the alphabet-patterned soup over the serving plate", "variant": "", "task_id": "035"}
+{"task_desc": "position the teal green soup bowl onto the serving plate", "variant": "A1", "task_id": "036"}
+{"task_desc": "position the little pale green soup bowl over the serving plate", "variant": "A2", "task_id": "036"}
+{"task_desc": "place the orange soup bowl over the serving plate", "variant": "A1", "task_id": "037"}
+{"task_desc": "position the big pale red round bowl over the serving plate", "variant": "A2", "task_id": "037"}
+{"task_desc": "lay down the pink round bowl over the dinner plate", "variant": "A1", "task_id": "038"}
+{"task_desc": "lay down the little deep yellow round bowl onto the dinner plate", "variant": "A2", "task_id": "038"}
+{"task_desc": "set the orange juice on top the flat plate and close up the bottom sliding drawer of the white storage cabinet", "variant": "", "task_id": "039"}
+{"task_desc": "lay down the teal green soup bowl onto the flat plate", "variant": "A1", "task_id": "040"}
+{"task_desc": "set the little pale green soup bowl onto the serving plate", "variant": "A2", "task_id": "040"}
+{"task_desc": "lay down the blue-green round bowl over the flat plate", "variant": "A1", "task_id": "041"}
+{"task_desc": "lay down the little deep yellow soup bowl over the serving plate", "variant": "A2", "task_id": "041"}
+{"task_desc": "set the turquoise round bowl to the left of the round bowl kitchen shelf", "variant": "A1", "task_id": "042"}
+{"task_desc": "place the teal green soup bowl to the left of the soup bowl dish storage rack", "variant": "A1", "task_id": "043"}
+{"task_desc": "lay down the orange soup bowl to the right of the soup bowl drying storage rack", "variant": "A1", "task_id": "044"}
+{"task_desc": "set the aqua soup bowl to the right of the soup bowl kitchen shelf", "variant": "A1", "task_id": "045"}
+{"task_desc": "collect the soup bowl on top the flat plate and position it to the right of the soup bowl drying shelf", "variant": "", "task_id": "046"}
+{"task_desc": "collect the round bowl on top the flat plate and lay down it to the left of the round bowl dish storage rack", "variant": "", "task_id": "047"}
+{"task_desc": "take up the soup bowl onto the work surface and lay down it to the right of the soup bowl drying shelf", "variant": "", "task_id": "048"}
+{"task_desc": "take up the soup bowl over the counter and position it to the left of the soup bowl kitchen shelf", "variant": "", "task_id": "049"}
+{"task_desc": "collect the round bowl onto the flat plate and position it onto the top of the white kitchen cabinet", "variant": "", "task_id": "050"}
+{"task_desc": "grab the soup bowl over the desk and set it over the top of the white cupboard", "variant": "", "task_id": "051"}
+{"task_desc": "lay down the turquoise soup bowl to the left of the soup bowl dish shelf", "variant": "A1", "task_id": "052"}
+{"task_desc": "lay down the orange round bowl to the left of the round bowl kitchen storage rack", "variant": "A1", "task_id": "053"}
+{"task_desc": "set the aqua round bowl to the right of the round bowl kitchen shelf", "variant": "A1", "task_id": "054"}
+{"task_desc": "lay down the turquoise soup bowl to the right of the soup bowl drying storage rack", "variant": "A1", "task_id": "055"}
+{"task_desc": "position the aqua soup bowl on top the cooking surface", "variant": "A1", "task_id": "056"}
+{"task_desc": "position the little pale green round bowl over the stovetop", "variant": "A2", "task_id": "056"}
+{"task_desc": "lay down the orange round bowl onto the stovetop", "variant": "A1", "task_id": "057"}
+{"task_desc": "set the big light grey soup bowl onto the stovetop", "variant": "A2", "task_id": "057"}
+{"task_desc": "power onto the flat stovetop", "variant": "", "task_id": "058"}
+{"task_desc": "set the ketchup over the cooking surface and power over the cooking surface", "variant": "", "task_id": "059"}
+{"task_desc": "lay down the bbq sauce over the cooking surface and power over the cooking surface", "variant": "", "task_id": "060"}
+{"task_desc": "set the milk to the left of the round bowl drying shelf", "variant": "", "task_id": "061"}
+{"task_desc": "set the macaroni and cheese piece to the right of the soup bowl dish storage rack", "variant": "", "task_id": "062"}
+{"task_desc": "position the teal green round bowl to the right of the round bowl kitchen storage rack and position the pink round bowl to the left of the round bowl kitchen storage rack", "variant": "A1", "task_id": "063"}
+{"task_desc": "position the pink soup bowl to the right of the soup bowl dish storage rack and position the blue-green soup bowl to the left of the soup bowl dish storage rack", "variant": "A1", "task_id": "064"}
+{"task_desc": "lay down the turquoise soup bowl to the left of the soup bowl dish shelf", "variant": "A1", "task_id": "065"}
+{"task_desc": "lay down the pink round bowl to the left of the round bowl dish storage rack", "variant": "A1", "task_id": "066"}
+{"task_desc": "lay down the pink soup bowl to the right of the soup bowl dish storage rack", "variant": "A1", "task_id": "067"}
+{"task_desc": "place the pink round bowl to the right of the round bowl dish storage rack", "variant": "A1", "task_id": "068"}
+{"task_desc": "set the pink soup bowl on top the cooktop", "variant": "A1", "task_id": "069"}
+{"task_desc": "position the little pale green round bowl on top the cooktop", "variant": "A2", "task_id": "069"}
+{"task_desc": "lay down the aqua round bowl onto the cooktop", "variant": "A1", "task_id": "070"}
+{"task_desc": "lay down the big light grey round bowl over the cooking surface", "variant": "A2", "task_id": "070"}
+{"task_desc": "power onto the flat heating surface", "variant": "", "task_id": "071"}
+{"task_desc": "position the popcorn over the cooking surface and power over the cooking surface", "variant": "", "task_id": "072"}
+{"task_desc": "position the butter onto the cooktop and switch onto the cooktop", "variant": "", "task_id": "073"}
+{"task_desc": "set the orange round bowl over the surface of the bookshelf layer", "variant": "A1", "task_id": "074"}
+{"task_desc": "position the little pale green soup bowl onto the top of the storage shelf", "variant": "A2", "task_id": "074"}
+{"task_desc": "set the orange soup bowl on top the top of the storage shelf", "variant": "A1", "task_id": "075"}
+{"task_desc": "position the little deep yellow soup bowl over the surface of the storage shelf", "variant": "A2", "task_id": "075"}
+{"task_desc": "set the turquoise round bowl to the right of the round bowl dish shelf", "variant": "A1", "task_id": "076"}
+{"task_desc": "position the teal green soup bowl to the left of the soup bowl drying shelf", "variant": "A1", "task_id": "077"}
+{"task_desc": "power over the flat stovetop", "variant": "", "task_id": "078"}
+{"task_desc": "position the chocolate pudding on top the stovetop", "variant": "", "task_id": "079"}
+{"task_desc": "set the butter over the surface of the storage shelf", "variant": "", "task_id": "080"}
+{"task_desc": "set the popcorn over the top layer of the storage rack", "variant": "", "task_id": "081"}
+{"task_desc": "set the popcorn over the bottom layer of the shelf", "variant": "", "task_id": "082"}
+{"task_desc": "switch onto the flat heating surface", "variant": "", "task_id": "083"}
+{"task_desc": "set the orange juice over the stovetop", "variant": "", "task_id": "084"}
+{"task_desc": "place the milk over the cooktop and power over the cooktop", "variant": "", "task_id": "085"}
+{"task_desc": "lay down the cream bottle cheese item on top the top of the storage rack", "variant": "", "task_id": "086"}
+{"task_desc": "set the ketchup over the top layer of the storage shelf", "variant": "", "task_id": "087"}
+{"task_desc": "position the butter over the top layer of the storage shelf", "variant": "", "task_id": "088"}
+{"task_desc": "set the cream pack cheese piece over the stovetop", "variant": "", "task_id": "089"}
+{"task_desc": "lay down the milk onto the stovetop and activate the stovetop", "variant": "", "task_id": "090"}
+{"task_desc": "position the macaroni and cheese item over the surface of the bookshelf layer", "variant": "", "task_id": "091"}
+{"task_desc": "position the cream bottle cheese piece onto the stovetop", "variant": "", "task_id": "092"}
+{"task_desc": "place the ketchup on top the stovetop and switch on top the stovetop", "variant": "", "task_id": "093"}
+{"task_desc": "lay down the orange juice onto the top of the bookshelf layer", "variant": "", "task_id": "094"}
+{"task_desc": "lay down the orange juice onto the stovetop", "variant": "", "task_id": "095"}
+{"task_desc": "set the chocolate pudding on top the stovetop and push closed the stovetop", "variant": "", "task_id": "096"}
+{"task_desc": "set the round bowl on top the serving plate", "variant": "", "task_id": "097"}
+{"task_desc": "lay down the alphabet-patterned soup over the cooktop", "variant": "", "task_id": "098"}
+{"task_desc": "lay down the cookies on top the cooking surface", "variant": "", "task_id": "099"}
+{"task_desc": "lay down the soup bowl over the dinner plate", "variant": "", "task_id": "100"}
+{"task_desc": "position the butter on top the top layer of the storage shelf", "variant": "", "task_id": "101"}
+{"task_desc": "set the popcorn over the top layer of the bookshelf layer and set the chocolate pudding over the cooking surface", "variant": "", "task_id": "102"}
+{"task_desc": "set the round bowl on top the flat plate", "variant": "", "task_id": "103"}
+{"task_desc": "power on top the stovetop", "variant": "", "task_id": "104"}
+{"task_desc": "place the soup bowl over the top of the bookshelf layer", "variant": "", "task_id": "105"}
+{"task_desc": "lay down the orange round bowl over the flat plate", "variant": "A1", "task_id": "106"}
+{"task_desc": "position the little pale green soup bowl on top the serving plate", "variant": "A2", "task_id": "106"}
+{"task_desc": "position the pink soup bowl over the dinner plate", "variant": "A1", "task_id": "107"}
+{"task_desc": "lay down the big pale red soup bowl over the dinner plate", "variant": "A2", "task_id": "107"}
+{"task_desc": "set the pink soup bowl in the interior of the basket container", "variant": "A1", "task_id": "108"}
+{"task_desc": "lay down the little pale green round bowl within the basket container", "variant": "A2", "task_id": "108"}
+{"task_desc": "set the aqua soup bowl in the interior of the basket container", "variant": "A1", "task_id": "109"}
+{"task_desc": "lay down the big pale red soup bowl in the interior of the basket container", "variant": "A2", "task_id": "109"}
+{"task_desc": "position the orange round bowl on top the serving plate", "variant": "A1", "task_id": "110"}
+{"task_desc": "set the little pale green round bowl over the serving plate", "variant": "A2", "task_id": "110"}
+{"task_desc": "set the orange round bowl on top the serving plate", "variant": "A1", "task_id": "111"}
+{"task_desc": "lay down the big pale grey round bowl onto the dinner plate", "variant": "A2", "task_id": "111"}
+{"task_desc": "lay down the pink soup bowl inside the storage basket", "variant": "A1", "task_id": "112"}
+{"task_desc": "position the little pale green round bowl in the interior of the bin", "variant": "A2", "task_id": "112"}
+{"task_desc": "set the blue-green soup bowl inside the bin", "variant": "A1", "task_id": "113"}
+{"task_desc": "position the big pale grey round bowl within the basket container", "variant": "A2", "task_id": "113"}
+{"task_desc": "lay down the pink round bowl on top the dinner plate", "variant": "A1", "task_id": "114"}
+{"task_desc": "position the little pale green soup bowl over the dinner plate", "variant": "A2", "task_id": "114"}
+{"task_desc": "position the pink round bowl over the serving plate", "variant": "A1", "task_id": "115"}
+{"task_desc": "set the big pale grey soup bowl over the serving plate", "variant": "A2", "task_id": "115"}
+{"task_desc": "position the teal green soup bowl onto the dinner plate", "variant": "A1", "task_id": "116"}
+{"task_desc": "set the big deep blue soup bowl on top the flat plate", "variant": "A2", "task_id": "116"}
+{"task_desc": "position the orange round bowl within the wooden flat tray", "variant": "A1", "task_id": "117"}
+{"task_desc": "lay down the little pale green round bowl in the interior of the wooden flat tray", "variant": "A2", "task_id": "117"}
+{"task_desc": "lay down the aqua round bowl inside the wooden flat tray", "variant": "A1", "task_id": "118"}
+{"task_desc": "place the big light grey round bowl inside the wooden serving tray", "variant": "A2", "task_id": "118"}
+{"task_desc": "lay down the orange soup bowl in the interior of the wooden flat tray", "variant": "A1", "task_id": "119"}
+{"task_desc": "lay down the big deep blue soup bowl in the interior of the wooden flat tray", "variant": "A2", "task_id": "119"}
+{"task_desc": "position the blue-green round bowl and the orange round bowl within the wooden flat tray", "variant": "A1", "task_id": "120"}
+{"task_desc": "place the teal green round bowl and the orange round bowl inside the wooden serving tray", "variant": "A1", "task_id": "121"}
+{"task_desc": "position the orange round bowl and the teal green round bowl in the interior of the wooden serving tray", "variant": "A1", "task_id": "122"}
+{"task_desc": "position the pink round bowl onto the flat plate that is within the center of the counter", "variant": "A1", "task_id": "123"}
+{"task_desc": "position the little pale green soup bowl onto the serving plate that is inside the center of the desk", "variant": "A2", "task_id": "123"}
+{"task_desc": "lay down the turquoise soup bowl onto the flat plate that is within the center of the counter", "variant": "A1", "task_id": "124"}
+{"task_desc": "lay down the big pale grey soup bowl onto the dinner plate that is inside the center of the desk", "variant": "A2", "task_id": "124"}
+{"task_desc": "set the turquoise soup bowl onto the dinner plate that is within the center of the counter", "variant": "A1", "task_id": "125"}
+{"task_desc": "position the big navy blue soup bowl onto the serving plate that is within the center of the desk", "variant": "A2", "task_id": "125"}
+{"task_desc": "position the aqua round bowl onto the serving plate that is next to the blue round bowl", "variant": "A1", "task_id": "126"}
+{"task_desc": "position the little pale green round bowl onto the flat plate that is next to the blue round bowl", "variant": "A2", "task_id": "126"}
+{"task_desc": "position the orange soup bowl onto the serving plate that is next to the blue soup bowl", "variant": "A1", "task_id": "127"}
+{"task_desc": "set the big light grey soup bowl onto the dinner plate that is next to the blue soup bowl", "variant": "A2", "task_id": "127"}
+{"task_desc": "position the orange soup bowl onto the flat plate that is next to the orange soup bowl", "variant": "A1", "task_id": "128"}
+{"task_desc": "position the big dark blue soup bowl onto the serving plate that is next to the big dark blue soup bowl", "variant": "A2", "task_id": "128"}
+{"task_desc": "set the pink soup bowl onto the flat plate that is in the interior of the work surface center and set the turquoise soup bowl onto the flat plate that is next to the blue soup bowl", "variant": "A1", "task_id": "129"}
+{"task_desc": "set the turquoise round bowl onto the flat plate that is inside the desk center and set the orange round bowl onto the flat plate that is next to the blue round bowl", "variant": "A1", "task_id": "130"}
+{"task_desc": "position the pink round bowl onto the serving plate that is in the interior of the work surface center", "variant": "A1", "task_id": "131"}
+{"task_desc": "set the big off-white round bowl onto the flat plate that is within the desk center", "variant": "A2", "task_id": "131"}
+{"task_desc": "set the blue-green soup bowl on top the off-center dinner plate", "variant": "A1", "task_id": "132"}
+{"task_desc": "set the big off-white round bowl onto the off-center dinner plate", "variant": "A2", "task_id": "132"}
+{"task_desc": "arrange within a stack the aqua soup bowl over the green soup bowl", "variant": "A1", "task_id": "133"}
+{"task_desc": "arrange inside a stack the teal green round bowl on top the blue round bowl", "variant": "A1", "task_id": "134"}
+{"task_desc": "position the orange soup bowl onto the off-center serving plate and position the turquoise soup bowl onto the top of the wooden bookshelf layer", "variant": "A1", "task_id": "135"}
+{"task_desc": "lay down the pink soup bowl over the off-center serving plate and lay down the turquoise soup bowl over the top of the wooden storage shelf", "variant": "A1", "task_id": "136"}
+{"task_desc": "set the orange round bowl on top the flat plate", "variant": "A1", "task_id": "137"}
+{"task_desc": "set the big off-white round bowl onto the serving plate", "variant": "A2", "task_id": "137"}
+{"task_desc": "set the orange round bowl on top the dinner plate", "variant": "A1", "task_id": "138"}
+{"task_desc": "position the little pale green soup bowl over the flat plate", "variant": "A2", "task_id": "138"}
+{"task_desc": "set the white soup bowl over the serving plate and set the pink soup bowl over the surface of the microwave unit", "variant": "A1", "task_id": "139"}
+{"task_desc": "place the aqua round bowl over the flat plate next to the green round bowl", "variant": "A1", "task_id": "140"}
+{"task_desc": "place the big off-white soup bowl onto the dinner plate next to the green soup bowl", "variant": "A2", "task_id": "140"}
+{"task_desc": "position the orange soup bowl over the dinner plate next to the green soup bowl", "variant": "A1", "task_id": "141"}
+{"task_desc": "set the big dark blue soup bowl over the serving plate next to the green soup bowl", "variant": "A2", "task_id": "141"}
+{"task_desc": "position the blue-green round bowl over the dinner plate next to the blue-green round bowl", "variant": "A1", "task_id": "142"}
+{"task_desc": "lay down the little pale green round bowl onto the flat plate next to the little pale green round bowl", "variant": "A2", "task_id": "142"}
+{"task_desc": "arrange within a stack the pink soup bowl over the blue soup bowl", "variant": "A1", "task_id": "143"}
+{"task_desc": "stack up the teal green soup bowl on top the green soup bowl", "variant": "A1", "task_id": "144"}
+{"task_desc": "set the teal green soup bowl onto the serving plate that is onto the left side of the desk", "variant": "A1", "task_id": "145"}
+{"task_desc": "place the big off-white soup bowl onto the flat plate that is over the left side of the work surface", "variant": "A2", "task_id": "145"}
+{"task_desc": "place the turquoise soup bowl onto the flat plate that is over the left side of the work surface", "variant": "A1", "task_id": "146"}
+{"task_desc": "lay down the little pale green round bowl onto the dinner plate that is onto the left side of the work surface", "variant": "A2", "task_id": "146"}
+{"task_desc": "position the orange soup bowl onto the flat plate that is over the left side of the counter", "variant": "A1", "task_id": "147"}
+{"task_desc": "position the big deep blue round bowl onto the serving plate that is over the left side of the work surface", "variant": "A2", "task_id": "147"}
+{"task_desc": "place the turquoise round bowl onto the serving plate that is over the surface of the storage cabinet", "variant": "A1", "task_id": "148"}
+{"task_desc": "lay down the big deep blue round bowl onto the serving plate that is over the surface of the storage cabinet", "variant": "A2", "task_id": "148"}
+{"task_desc": "position the pink soup bowl onto the serving plate that is over the surface of the cupboard", "variant": "A1", "task_id": "149"}
+{"task_desc": "position the little pale green soup bowl onto the serving plate that is onto the top of the kitchen cabinet", "variant": "A2", "task_id": "149"}
+{"task_desc": "position the pink soup bowl onto the dinner plate that is over the surface of the cupboard", "variant": "A1", "task_id": "150"}
+{"task_desc": "position the big off-white soup bowl onto the flat plate that is over the surface of the kitchen cabinet", "variant": "A2", "task_id": "150"}
+{"task_desc": "position the turquoise round bowl onto the flat plate that is over the left side of the counter", "variant": "A1", "task_id": "151"}
+{"task_desc": "lay down the big navy blue round bowl onto the dinner plate that is onto the left side of the desk", "variant": "A2", "task_id": "151"}
+{"task_desc": "position the orange round bowl onto the flat plate that is on top the left side of the desk", "variant": "A1", "task_id": "152"}
+{"task_desc": "set the little pale green round bowl onto the serving plate that is onto the left side of the work surface", "variant": "A2", "task_id": "152"}
+{"task_desc": "set the teal green soup bowl onto the flat plate that is on top the left side of the desk", "variant": "A1", "task_id": "153"}
+{"task_desc": "lay down the big off-white round bowl onto the serving plate that is onto the left side of the counter", "variant": "A2", "task_id": "153"}
+{"task_desc": "layer the turquoise round bowl on top the blue round bowl", "variant": "A1", "task_id": "154"}
+{"task_desc": "arrange within a stack the pink round bowl onto the green round bowl", "variant": "A1", "task_id": "155"}
+{"task_desc": "lay down the orange soup bowl to the left of the soup bowl kitchen shelf", "variant": "A1", "task_id": "156"}
+{"task_desc": "set the turquoise round bowl to the left of the round bowl kitchen storage rack", "variant": "A1", "task_id": "157"}
+{"task_desc": "lay down the aqua round bowl to the left of the round bowl dish shelf", "variant": "A1", "task_id": "158"}
+{"task_desc": "set the pink round bowl to the right of the round bowl kitchen shelf", "variant": "A1", "task_id": "159"}
+{"task_desc": "lay down the teal green soup bowl to the right of the soup bowl kitchen shelf", "variant": "A1", "task_id": "160"}
+{"task_desc": "set the turquoise round bowl to the right of the round bowl drying shelf", "variant": "A1", "task_id": "161"}
+{"task_desc": "stack up the blue-green soup bowl onto the black soup bowl", "variant": "A1", "task_id": "162"}
+{"task_desc": "stack up the blue-green soup bowl over the black soup bowl", "variant": "A1", "task_id": "163"}
+{"task_desc": "lay down the blue-green round bowl to the left of the round bowl kitchen storage rack and lay down the orange round bowl to the right of the round bowl kitchen storage rack", "variant": "A1", "task_id": "164"}
+{"task_desc": "position the teal green soup bowl to the left of the soup bowl drying storage rack and position the pink soup bowl to the right of the soup bowl drying storage rack", "variant": "A1", "task_id": "165"}
+{"task_desc": "lay down the turquoise round bowl to the right of the round bowl drying shelf and lay down the pink round bowl to the left of the round bowl drying shelf", "variant": "A1", "task_id": "166"}
+{"task_desc": "lay down the aqua soup bowl to the right of the soup bowl drying storage rack and lay down the blue-green soup bowl to the left of the soup bowl drying storage rack", "variant": "A1", "task_id": "167"}
+{"task_desc": "position the butter onto the stovetop", "variant": "", "task_id": "168"}
+{"task_desc": "lay down the tomato sauce on top the top layer of the wooden bookshelf layer", "variant": "", "task_id": "169"}
+{"task_desc": "position the popcorn onto the top of the wooden storage rack", "variant": "", "task_id": "170"}
+{"task_desc": "lay down the ceramic cup onto the top of the wooden storage shelf", "variant": "", "task_id": "171"}
+{"task_desc": "lay down the baking cup onto the bottom layer of the wooden bookshelf layer", "variant": "", "task_id": "172"}
+{"task_desc": "lay down the baking cup onto the cooking surface", "variant": "", "task_id": "173"}
+{"task_desc": "activate the cooktop", "variant": "", "task_id": "174"}
+{"task_desc": "set the medium-sized soup bowl within the interior the right section of the soup bowl drying shelf", "variant": "", "task_id": "175"}
+{"task_desc": "set the smallest round bowl within the interior the right partition of the round bowl kitchen shelf", "variant": "", "task_id": "176"}
+{"task_desc": "set the largest soup bowl within the right partition of the soup bowl dish storage rack", "variant": "", "task_id": "177"}
+{"task_desc": "position the medium-sized round bowl inside the interior the left section of the round bowl kitchen storage rack", "variant": "", "task_id": "178"}
+{"task_desc": "position the smallest soup bowl inside the left section of the soup bowl kitchen shelf", "variant": "", "task_id": "179"}
+{"task_desc": "set the largest soup bowl within the left slot of the soup bowl kitchen storage rack", "variant": "", "task_id": "180"}
+{"task_desc": "position the medium-sized soup bowl over the flat heating surface", "variant": "", "task_id": "181"}
+{"task_desc": "position the smallest soup bowl onto the flat heating surface", "variant": "", "task_id": "182"}
+{"task_desc": "position the largest round bowl on top the flat cooktop", "variant": "", "task_id": "183"}
+{"task_desc": "position the largest round bowl in the interior of the left side of the drying storage rack and the medium round bowl in the interior of the right side", "variant": "", "task_id": "184"}
+{"task_desc": "set the smallest soup bowl inside the left side of the dish storage rack and the medium soup bowl inside the right side", "variant": "", "task_id": "185"}
+{"task_desc": "shut off the flat heating surface", "variant": "", "task_id": "186"}
+{"task_desc": "power off the flat cooktop and set the largest soup bowl over it", "variant": "", "task_id": "187"}
+{"task_desc": "switch off the flat heating surface and position the smallest round bowl onto it", "variant": "", "task_id": "188"}
+{"task_desc": "set the largest soup bowl within the left side of the kitchen storage rack and the medium soup bowl within the right side", "variant": "", "task_id": "189"}
+{"task_desc": "lay down the smallest round bowl in the interior of the left side of the dish storage rack and the medium round bowl in the interior of the right side", "variant": "", "task_id": "190"}
+{"task_desc": "power off the stovetop and lay down the largest soup bowl within the left side of the kitchen shelf and the medium soup bowl within the right side", "variant": "", "task_id": "191"}
+{"task_desc": "power off the cooktop and lay down the smallest soup bowl inside the left side of the dish storage rack and the medium soup bowl inside the right side", "variant": "", "task_id": "192"}
+{"task_desc": "position the largest soup bowl within the left side of the dish shelf", "variant": "", "task_id": "193"}
+{"task_desc": "lay down the smallest round bowl within the left side of the kitchen storage rack", "variant": "", "task_id": "194"}
+{"task_desc": "place the middle-sized round bowl in the interior of the left side of the dish storage rack", "variant": "", "task_id": "195"}
+{"task_desc": "position the cream container cheese item inside the smallest round bowl", "variant": "", "task_id": "196"}
+{"task_desc": "lay down the bbq sauce inside the middle-sized soup bowl", "variant": "", "task_id": "197"}
+{"task_desc": "position the cream container cheese item within the largest soup bowl", "variant": "", "task_id": "198"}
+{"task_desc": "layer the smallest soup bowl on top the largest soup bowl", "variant": "", "task_id": "199"}
+{"task_desc": "arrange inside a stack the middle-sized soup bowl onto the largest soup bowl", "variant": "", "task_id": "200"}
+{"task_desc": "stack up the smallest soup bowl on top the middle-sized soup bowl", "variant": "", "task_id": "201"}
+{"task_desc": "layer the middle-sized soup bowl over the largest soup bowl and layer the smallest soup bowl over the middle-sized soup bowl", "variant": "", "task_id": "202"}
+{"task_desc": "lay down the butter inside the green soup bowl", "variant": "", "task_id": "203"}
+{"task_desc": "position the blue-green soup bowl within the left side of the dish shelf", "variant": "A1", "task_id": "204"}
+{"task_desc": "set the pink round bowl within the right side of the dish storage rack", "variant": "A1", "task_id": "205"}
+{"task_desc": "arrange within a stack the green soup bowl on top the largest soup bowl", "variant": "", "task_id": "206"}
+{"task_desc": "stack up the pink soup bowl on top the middle-sized black soup bowl", "variant": "A1", "task_id": "207"}
+{"task_desc": "stack up middle-sized black round bowl on top the green round bowl", "variant": "", "task_id": "208"}
+{"task_desc": "stack up the smallest soup bowl onto the middle-sized black soup bowl", "variant": "", "task_id": "209"}
+{"task_desc": "stack up the smallest round bowl on top the green round bowl", "variant": "", "task_id": "210"}
+{"task_desc": "set the cream container cheese piece inside the smallest soup bowl", "variant": "", "task_id": "211"}
+{"task_desc": "lay down the bbq sauce within the middle-sized soup bowl", "variant": "", "task_id": "212"}
+{"task_desc": "position the cream pack cheese block inside the largest soup bowl", "variant": "", "task_id": "213"}
+{"task_desc": "set the smallest soup bowl inside the left side of the drying storage rack and set the largest soup bowl inside the right side", "variant": "", "task_id": "214"}
+{"task_desc": "position the largest round bowl within the left side of the drying shelf and position the smallest round bowl within the right side", "variant": "", "task_id": "215"}
+{"task_desc": "stack up the smallest round bowl over the largest round bowl", "variant": "", "task_id": "216"}
+{"task_desc": "stack up the middle-sized round bowl onto the largest round bowl", "variant": "", "task_id": "217"}
+{"task_desc": "arrange within a stack the smallest round bowl on top the middle-sized round bowl", "variant": "", "task_id": "218"}
+{"task_desc": "uncover the top sliding drawer of the wooden cupboard", "variant": "", "task_id": "219"}
+{"task_desc": "open up the middle sliding drawer of the wooden kitchen cabinet", "variant": "", "task_id": "220"}
+{"task_desc": "deactivate the flat heating surface", "variant": "", "task_id": "221"}
+{"task_desc": "set the cup on top the serving plate", "variant": "", "task_id": "222"}
+{"task_desc": "position chocolate pudding on top the stovetop", "variant": "", "task_id": "223"}
+{"task_desc": "lay down salad dressing onto the cooktop and switch off the cooktop", "variant": "", "task_id": "224"}
+{"task_desc": "lay down the coffee cup over the flat plate", "variant": "", "task_id": "225"}
+{"task_desc": "lay down the frying cooking pan onto the top layer of the storage shelf", "variant": "", "task_id": "226"}
+{"task_desc": "set the frying cooking pan onto the top layer of the bookshelf layer and set the bbq sauce onto the stovetop", "variant": "", "task_id": "227"}
+{"task_desc": "position the alphabet-patterned soup onto the serving plate", "variant": "", "task_id": "228"}
+{"task_desc": "lay down the alphabet-patterned soup on top the flat plate", "variant": "", "task_id": "229"}
+{"task_desc": "set the frying cooking pan over the top layer of the storage rack", "variant": "", "task_id": "230"}
+{"task_desc": "lay down the frying skillet on top the top layer of the bookshelf layer and deactivate the cooking surface", "variant": "", "task_id": "231"}
+{"task_desc": "lay down the chocolate pudding over the serving plate", "variant": "", "task_id": "232"}
+{"task_desc": "set the chocolate pudding onto the serving plate", "variant": "", "task_id": "233"}
+{"task_desc": "set the orange juice on top the dinner plate", "variant": "", "task_id": "234"}
+{"task_desc": "position the popcorn onto the cooktop", "variant": "", "task_id": "235"}
+{"task_desc": "lay down the salad dressing within the basket container", "variant": "", "task_id": "236"}
+{"task_desc": "lay down the macaroni and cheese item in the interior of the bin", "variant": "", "task_id": "237"}
+{"task_desc": "set the ketchup onto the cooktop", "variant": "", "task_id": "238"}
+{"task_desc": "set the tomato sauce onto the cooktop and shut off the cooktop", "variant": "", "task_id": "239"}
+{"task_desc": "position the alphabet-patterned soup in the interior of the basket container", "variant": "", "task_id": "240"}
+{"task_desc": "position the salad dressing in the interior of the storage basket", "variant": "", "task_id": "241"}
+{"task_desc": "lay down the cookies within the basket container", "variant": "", "task_id": "242"}
+{"task_desc": "position the ketchup in the interior of the bin", "variant": "", "task_id": "243"}
+{"task_desc": "set the macaroni and cheese block within the storage basket", "variant": "", "task_id": "244"}
+{"task_desc": "position the tomato sauce over the dinner plate", "variant": "", "task_id": "245"}
+{"task_desc": "lay down the cream pack cheese block over the serving plate", "variant": "", "task_id": "246"}
+{"task_desc": "pull out the kitchen microwave", "variant": "", "task_id": "247"}
+{"task_desc": "open up the microwave oven and set the alphabet-patterned soup in the interior of it", "variant": "", "task_id": "248"}
+{"task_desc": "pull open the microwave unit and place the cream pack cheese item within it", "variant": "", "task_id": "249"}
+{"task_desc": "pull open the microwave unit", "variant": "", "task_id": "250"}
+{"task_desc": "open up the kitchen microwave and place the chocolate pudding inside it", "variant": "", "task_id": "251"}
+{"task_desc": "open up the kitchen microwave and position alphabet-patterned soup in the interior of it", "variant": "", "task_id": "252"}
+{"task_desc": "seal the top sliding drawer of the white storage cabinet", "variant": "", "task_id": "253"}
+{"task_desc": "close up the top and middle sliding drawer of the white kitchen cabinet", "variant": "", "task_id": "254"}
+{"task_desc": "place the soup bowl in the interior of the top pull-out drawer", "variant": "", "task_id": "255"}
+{"task_desc": "lay down the round bowl in the interior of the top pull-out drawer and close up the top pull-out drawer", "variant": "", "task_id": "256"}
+{"task_desc": "shut the top sliding drawer of the white kitchen cabinet and position the soup bowl within the middle sliding drawer", "variant": "", "task_id": "257"}
+{"task_desc": "shut the top and middle pull-out compartment of the white storage cabinet and shut the microwave oven", "variant": "", "task_id": "258"}
+{"task_desc": "lay down the cream container cheese piece from the counter within the top sliding drawer", "variant": "", "task_id": "259"}
+{"task_desc": "lay down the tomato sauce from the desk onto the top layer of the wine storage rack", "variant": "", "task_id": "260"}
+{"task_desc": "lay down the bbq sauce from the pull-out compartment onto the top layer of the wine storage rack", "variant": "", "task_id": "261"}
+{"task_desc": "lay down the cookies from the pull-out compartment onto the top layer of the wine storage rack and push closed the pull-out compartment", "variant": "", "task_id": "262"}
+{"task_desc": "set the alphabet-patterned soup onto the top layer of the wine storage rack", "variant": "", "task_id": "263"}
+{"task_desc": "set the round bowl over the surface of the kitchen cabinet", "variant": "", "task_id": "264"}
+{"task_desc": "lay down the milk within the bottom pull-out drawer", "variant": "", "task_id": "265"}
+{"task_desc": "pull out the top pull-out compartment", "variant": "", "task_id": "266"}
+{"task_desc": "shut the bottom pull-out compartment", "variant": "", "task_id": "267"}
+{"task_desc": "push closed the bottom sliding drawer and pull open the middle sliding drawer", "variant": "", "task_id": "268"}
+{"task_desc": "position the soup bowl onto the middle serving plate relative to the robot", "variant": "", "task_id": "269"}
+{"task_desc": "set the soup bowl on top the nearest flat plate relative to the robot", "variant": "", "task_id": "270"}
+{"task_desc": "set the soup bowl onto the nearest flat plate relative to the robot", "variant": "", "task_id": "271"}
+{"task_desc": "lay down the bbq sauce that is in the interior of the sliding drawer onto the top of the cupboard", "variant": "", "task_id": "272"}
+{"task_desc": "lay down the bbq sauce that is within the pull-out drawer onto the top of the kitchen cabinet and seal the pull-out drawer", "variant": "", "task_id": "273"}
+{"task_desc": "set the milk that is over the dinner plate onto the top of the cupboard", "variant": "", "task_id": "274"}
+{"task_desc": "position the chocolate pudding that is inside the sliding drawer onto the middle dinner plate relative to the robot", "variant": "", "task_id": "275"}
+{"task_desc": "position the tomato sauce that is within the sliding drawer onto the nearest flat plate relative to the robot", "variant": "", "task_id": "276"}
+{"task_desc": "position the butter that is on top the dinner plate onto the middle dinner plate relative to the robot", "variant": "", "task_id": "277"}
+{"task_desc": "lay down the milk that is on top the dinner plate onto the nearest dinner plate relative to the robot", "variant": "", "task_id": "278"}
+{"task_desc": "position the popcorn that is onto the serving plate onto the middle serving plate relative to the robot", "variant": "", "task_id": "279"}
+{"task_desc": "set the cookies that is onto the serving plate onto the nearest serving plate relative to the robot", "variant": "", "task_id": "280"}
+{"task_desc": "position the popcorn over the surface of the kitchen cabinet", "variant": "", "task_id": "281"}
+{"task_desc": "pull out the top sliding drawer", "variant": "", "task_id": "282"}
+{"task_desc": "set the round bowl over the middle dinner plate relative to the robot", "variant": "", "task_id": "283"}
+{"task_desc": "lay down the round bowl on top the nearest dinner plate relative to the robot", "variant": "", "task_id": "284"}
+{"task_desc": "position the round bowl over the surface of the storage cabinet", "variant": "", "task_id": "285"}
+{"task_desc": "position the round bowl over the middle dinner plate relative to the robot and position the porcelain coffee cup inside the bottom sliding drawer", "variant": "", "task_id": "286"}
+{"task_desc": "position the soup bowl onto the nearest dinner plate relative to the robot and position the porcelain coffee cup within the bottom pull-out drawer", "variant": "", "task_id": "287"}
+{"task_desc": "lay down the turquoise grid-patterned reading book inside the left desktop organizer's back slot", "variant": "A1", "task_id": "288"}
+{"task_desc": "position the pale yellow volume inside the left desktop caddy's back partition", "variant": "A2", "task_id": "288"}
+{"task_desc": "lay down the white speckled textbook inside the left desktop organizer's front section", "variant": "A1", "task_id": "289"}
+{"task_desc": "set the dark grey textbook inside the left desktop caddy's front slot", "variant": "A2", "task_id": "289"}
+{"task_desc": "set the cookies inside the left desktop caddy's left partition", "variant": "", "task_id": "290"}
+{"task_desc": "place the teal green wavy-patterned textbook inside the left desktop caddy's left partition", "variant": "A1", "task_id": "291"}
+{"task_desc": "set the pale yellow reading book within the left desktop organizer's left partition", "variant": "A2", "task_id": "291"}
+{"task_desc": "set the navy blue speckle-patterned volume within the left desk organizer's left slot", "variant": "A1", "task_id": "292"}
+{"task_desc": "lay down the pale yellow volume inside the left desktop caddy's left section", "variant": "A2", "task_id": "292"}
+{"task_desc": "position the orange juice in the interior of the left desktop organizer's right slot", "variant": "", "task_id": "293"}
+{"task_desc": "position the brown grid-patterned reading book inside the left desktop organizer's right section", "variant": "A1", "task_id": "294"}
+{"task_desc": "position the dark grey textbook inside the left desktop organizer's right slot", "variant": "A2", "task_id": "294"}
+{"task_desc": "set the aqua grid-patterned volume inside the left desk organizer's right partition", "variant": "A1", "task_id": "295"}
+{"task_desc": "lay down the pale yellow volume within the left desktop organizer's right partition", "variant": "A2", "task_id": "295"}
+{"task_desc": "lay down the left yellow green striped-patterned textbook in the interior of the left desktop organizer's back slot", "variant": "A1", "task_id": "296"}
+{"task_desc": "position the left dark grey reading book inside the left desk organizer's back section", "variant": "A2", "task_id": "296"}
+{"task_desc": "lay down the right white speckled textbook within the left desktop caddy's front partition", "variant": "A1", "task_id": "297"}
+{"task_desc": "lay down the violet textbook within the left desk organizer's right section", "variant": "A1", "task_id": "298"}
+{"task_desc": "position the pale yellow textbook inside the left desk organizer's right section", "variant": "A2", "task_id": "298"}
+{"task_desc": "position the left violet reading book inside the left desk organizer's left slot", "variant": "A1", "task_id": "299"}
+{"task_desc": "place the left dark grey reading book inside the left desktop organizer's left section", "variant": "A2", "task_id": "299"}
+{"task_desc": "position the yellow green stripy volume within the left desktop caddy's back slot", "variant": "A1", "task_id": "300"}
+{"task_desc": "set the pale green textbook inside the left desktop organizer's back section", "variant": "A2", "task_id": "300"}
+{"task_desc": "set the white speckle-patterned reading book inside the left desk organizer's back slot", "variant": "A1", "task_id": "301"}
+{"task_desc": "lay down the pale yellow reading book in the interior of the left desktop organizer's back slot", "variant": "A2", "task_id": "301"}
+{"task_desc": "set the butter within the left desktop caddy's right partition", "variant": "", "task_id": "302"}
+{"task_desc": "set the turquoise grid-patterned volume inside the left desk organizer's left section", "variant": "A1", "task_id": "303"}
+{"task_desc": "set the dark grey reading book inside the left desk organizer's left slot", "variant": "A2", "task_id": "303"}
+{"task_desc": "position the violet textbook within the left desk organizer's left partition", "variant": "A1", "task_id": "304"}
+{"task_desc": "set the pale red reading book inside the left desktop organizer's left section", "variant": "A2", "task_id": "304"}
+{"task_desc": "lay down the violet reading book inside the left desktop organizer's right section", "variant": "A1", "task_id": "305"}
+{"task_desc": "set the deep orange volume inside the left desk organizer's right section", "variant": "A2", "task_id": "305"}
+{"task_desc": "set the popcorn inside the left desktop caddy's left section", "variant": "", "task_id": "306"}
+{"task_desc": "lay down the white speckled volume within the left desk organizer's front partition", "variant": "A1", "task_id": "307"}
+{"task_desc": "set the dark striped-patterned volume within the left desktop organizer's front partition", "variant": "A2", "task_id": "307"}
+{"task_desc": "position the violet reading book inside the left desk organizer's front partition", "variant": "A1", "task_id": "308"}
+{"task_desc": "lay down the pale yellow volume within the left desktop organizer's front slot", "variant": "A2", "task_id": "308"}
+{"task_desc": "place the navy blue speckle-patterned volume within the left desktop caddy's left partition", "variant": "A1", "task_id": "309"}
+{"task_desc": "set the dark striped-patterned textbook inside the left desktop organizer's left partition", "variant": "A2", "task_id": "309"}
+{"task_desc": "lay down the bbq sauce inside the left desktop organizer's left slot", "variant": "", "task_id": "310"}
+{"task_desc": "lay down the brown grid-patterned volume within the left desktop caddy's front slot", "variant": "A1", "task_id": "311"}
+{"task_desc": "lay down the pale red textbook inside the left desktop caddy's front partition", "variant": "A2", "task_id": "311"}
+{"task_desc": "position the yellow green striped-patterned reading book inside the left desktop caddy's left partition", "variant": "A1", "task_id": "312"}
+{"task_desc": "set the pale green volume inside the left desktop caddy's left slot", "variant": "A2", "task_id": "312"}
+{"task_desc": "lay down the dark blue speckled textbook within the left desktop caddy's back partition", "variant": "A1", "task_id": "313"}
+{"task_desc": "position the pale yellow reading book within the left desktop caddy's back section", "variant": "A2", "task_id": "313"}
+{"task_desc": "position the white speckled reading book within the left desktop organizer's left slot", "variant": "A1", "task_id": "314"}
+{"task_desc": "position the dark striped-patterned textbook within the left desk organizer's left slot", "variant": "A2", "task_id": "314"}
+{"task_desc": "position the brown grid-patterned volume within the left desktop caddy's back slot", "variant": "A1", "task_id": "315"}
+{"task_desc": "set the deep orange volume inside the left desk organizer's back partition", "variant": "A2", "task_id": "315"}
+{"task_desc": "set the left violet reading book within the left desk organizer's back partition", "variant": "A1", "task_id": "316"}
+{"task_desc": "lay down the right violet reading book in the interior of the left desktop organizer's front slot", "variant": "A1", "task_id": "317"}
+{"task_desc": "set the right pale red reading book inside the left desktop caddy's front partition", "variant": "A2", "task_id": "317"}
+{"task_desc": "set the yellow green stripy textbook inside the left desktop organizer's back section", "variant": "A1", "task_id": "318"}
+{"task_desc": "position the dark stripy textbook within the left desktop caddy's back slot", "variant": "A2", "task_id": "318"}
+{"task_desc": "set the teal green wavy-patterned volume in the interior of the left desktop caddy's right partition", "variant": "A1", "task_id": "319"}
+{"task_desc": "position the deep orange volume inside the left desktop organizer's right slot", "variant": "A2", "task_id": "319"}
+{"task_desc": "lay down the right brown grid-patterned reading book within the left desktop organizer's front section", "variant": "A1", "task_id": "320"}
+{"task_desc": "set the violet textbook within the left desk organizer's back section", "variant": "A1", "task_id": "321"}
+{"task_desc": "place the pale green textbook within the left desk organizer's back slot", "variant": "A2", "task_id": "321"}
+{"task_desc": "position the left violet reading book inside the left desktop caddy's front partition", "variant": "A1", "task_id": "322"}
+{"task_desc": "position the left pale yellow textbook inside the left desktop organizer's front section", "variant": "A2", "task_id": "322"}
+{"task_desc": "position the yellow green striped-patterned textbook within the left desk organizer's front partition", "variant": "A1", "task_id": "323"}
+{"task_desc": "lay down the pale red volume inside the left desktop organizer's front section", "variant": "A2", "task_id": "323"}
+{"task_desc": "set the left pink wavy-patterned textbook within the left desk organizer's right partition", "variant": "A1", "task_id": "324"}
+{"task_desc": "position the right yellow green stripy volume inside the left desk organizer's front slot", "variant": "A1", "task_id": "325"}
+{"task_desc": "lay down the right dark striped-patterned reading book inside the left desk organizer's front section", "variant": "A2", "task_id": "325"}
+{"task_desc": "position the brown grid-patterned textbook inside the left desktop caddy's left section", "variant": "A1", "task_id": "326"}
+{"task_desc": "position the dark grey volume inside the left desk organizer's left partition", "variant": "A2", "task_id": "326"}
+{"task_desc": "set the popcorn within the left desk organizer's right section", "variant": "", "task_id": "327"}
+{"task_desc": "set the teal green wavy-patterned reading book inside the right desktop organizer's back section", "variant": "A1", "task_id": "328"}
+{"task_desc": "set the dark grey reading book within the right desk organizer's back partition", "variant": "A2", "task_id": "328"}
+{"task_desc": "lay down the bbq sauce inside the right desk organizer's right partition", "variant": "", "task_id": "329"}
+{"task_desc": "lay down the blue-green wavy-patterned textbook within the right desk organizer's right section", "variant": "A1", "task_id": "330"}
+{"task_desc": "place the pale yellow volume within the right desk organizer's right slot", "variant": "A2", "task_id": "330"}
+{"task_desc": "lay down the white speckled reading book inside the right desktop organizer's right slot", "variant": "A1", "task_id": "331"}
+{"task_desc": "lay down the dark grey volume inside the right desktop caddy's right section", "variant": "A2", "task_id": "331"}
+{"task_desc": "set the tomato sauce inside the right desk organizer's right partition", "variant": "", "task_id": "332"}
+{"task_desc": "lay down the blue-green wavy-patterned reading book in the interior of the right desk organizer's right partition", "variant": "A1", "task_id": "333"}
+{"task_desc": "set the pale yellow reading book inside the right desktop organizer's right slot", "variant": "A2", "task_id": "333"}
+{"task_desc": "position the brown grid-patterned volume within the right desktop caddy's right section", "variant": "A1", "task_id": "334"}
+{"task_desc": "lay down the dark grey textbook inside the right desktop caddy's right slot", "variant": "A2", "task_id": "334"}
+{"task_desc": "position the cream pack cheese block inside the right desk organizer's left section", "variant": "", "task_id": "335"}
+{"task_desc": "lay down the white speckle-patterned textbook within the right desktop organizer's back section", "variant": "A1", "task_id": "336"}
+{"task_desc": "set the pale yellow textbook inside the right desktop organizer's back partition", "variant": "A2", "task_id": "336"}
+{"task_desc": "set the left pink wavy-patterned reading book within the right desktop organizer's right section", "variant": "A1", "task_id": "337"}
+{"task_desc": "position the right dark blue speckle-patterned textbook inside the right desktop organizer's front partition", "variant": "A1", "task_id": "338"}
+{"task_desc": "set the right dark grey reading book inside the right desktop organizer's front section", "variant": "A2", "task_id": "338"}
+{"task_desc": "set the brown grid-patterned textbook within the right desk organizer's right slot", "variant": "A1", "task_id": "339"}
+{"task_desc": "set the pale yellow textbook within the right desk organizer's right slot", "variant": "A2", "task_id": "339"}
+{"task_desc": "set the teal green wavy-patterned reading book within the right desktop caddy's front partition", "variant": "A1", "task_id": "340"}
+{"task_desc": "lay down the dark grey textbook within the right desk organizer's front section", "variant": "A2", "task_id": "340"}
+{"task_desc": "set the white speckle-patterned volume within the right desktop organizer's back slot", "variant": "A1", "task_id": "341"}
+{"task_desc": "position the pale yellow reading book inside the right desktop organizer's back partition", "variant": "A2", "task_id": "341"}
+{"task_desc": "set the tomato sauce inside the right desktop caddy's right slot", "variant": "", "task_id": "342"}
+{"task_desc": "set the dark blue speckle-patterned reading book within the right desk organizer's right slot", "variant": "A1", "task_id": "343"}
+{"task_desc": "lay down the pale green volume within the right desk organizer's right slot", "variant": "A2", "task_id": "343"}
+{"task_desc": "set the popcorn within the right desktop organizer's left partition", "variant": "", "task_id": "344"}
+{"task_desc": "position the teal green wavy-patterned textbook inside the right desktop caddy's back slot", "variant": "A1", "task_id": "345"}
+{"task_desc": "position the deep orange textbook inside the right desktop organizer's back section", "variant": "A2", "task_id": "345"}
+{"task_desc": "position the pink wavy-patterned textbook within the right desktop caddy's front partition", "variant": "A1", "task_id": "346"}
+{"task_desc": "lay down the pale red textbook within the right desk organizer's front slot", "variant": "A2", "task_id": "346"}
+{"task_desc": "lay down the yellow green stripy reading book in the interior of the right desktop organizer's left section", "variant": "A1", "task_id": "347"}
+{"task_desc": "set the dark stripy textbook within the right desktop organizer's left slot", "variant": "A2", "task_id": "347"}
+{"task_desc": "lay down the yellow green stripy textbook inside the right desktop organizer's right section", "variant": "A1", "task_id": "348"}
+{"task_desc": "place the pale red volume inside the right desktop organizer's right slot", "variant": "A2", "task_id": "348"}
+{"task_desc": "lay down the violet textbook in the interior of the right desktop caddy's front slot", "variant": "A1", "task_id": "349"}
+{"task_desc": "set the dark striped-patterned volume within the right desk organizer's front slot", "variant": "A2", "task_id": "349"}
+{"task_desc": "set the white speckle-patterned reading book within the right desk organizer's front slot", "variant": "A1", "task_id": "350"}
+{"task_desc": "set the pale yellow textbook within the right desktop caddy's front section", "variant": "A2", "task_id": "350"}
+{"task_desc": "set the cookies within the right desk organizer's right partition", "variant": "", "task_id": "351"}
+{"task_desc": "position the dark blue speckle-patterned volume inside the right desk organizer's back slot", "variant": "A1", "task_id": "352"}
+{"task_desc": "place the pale yellow volume within the right desk organizer's back partition", "variant": "A2", "task_id": "352"}
+{"task_desc": "set the pink wavy-patterned volume within the right desktop caddy's back partition", "variant": "A1", "task_id": "353"}
+{"task_desc": "set the dark grey volume inside the right desktop organizer's back slot", "variant": "A2", "task_id": "353"}
+{"task_desc": "position the blue-green wavy-patterned textbook inside the right desk organizer's back section", "variant": "A1", "task_id": "354"}
+{"task_desc": "lay down the deep orange textbook inside the right desktop caddy's back slot", "variant": "A2", "task_id": "354"}
+{"task_desc": "lay down the white speckle-patterned volume in the interior of the right desktop caddy's front partition", "variant": "A1", "task_id": "355"}
+{"task_desc": "set the pale green volume within the right desk organizer's front slot", "variant": "A2", "task_id": "355"}
+{"task_desc": "position the pink wavy-patterned reading book within the right desktop organizer's left partition", "variant": "A1", "task_id": "356"}
+{"task_desc": "lay down the deep orange reading book inside the right desktop organizer's left section", "variant": "A2", "task_id": "356"}
+{"task_desc": "position the left violet reading book inside the right desktop organizer's front section", "variant": "A1", "task_id": "357"}
+{"task_desc": "position the left pale red volume within the right desktop caddy's front partition", "variant": "A2", "task_id": "357"}
+{"task_desc": "lay down the pink wavy-patterned textbook inside the right desktop organizer's back slot", "variant": "A1", "task_id": "358"}
+{"task_desc": "position the dark stripy reading book inside the right desk organizer's back partition", "variant": "A2", "task_id": "358"}
+{"task_desc": "position the right brown grid-patterned textbook inside the right desk organizer's back section", "variant": "A1", "task_id": "359"}
+{"task_desc": "lay down the yellow green stripy reading book within the right desk organizer's front section", "variant": "A1", "task_id": "360"}
+{"task_desc": "set the pale red textbook within the right desktop organizer's front section", "variant": "A2", "task_id": "360"}
+{"task_desc": "position the right pink wavy-patterned volume within the right desktop organizer's back section", "variant": "A1", "task_id": "361"}
+{"task_desc": "set the right pale yellow textbook within the right desktop caddy's back partition", "variant": "A2", "task_id": "361"}
+{"task_desc": "position the aqua grid-patterned textbook inside the right desktop organizer's right section", "variant": "A1", "task_id": "362"}
+{"task_desc": "position the pale green volume within the right desktop caddy's right section", "variant": "A2", "task_id": "362"}
+{"task_desc": "position the left teal green wavy-patterned reading book inside the right desktop organizer's front slot", "variant": "A1", "task_id": "363"}
+{"task_desc": "set the violet textbook in the interior of the right desk organizer's left partition", "variant": "A1", "task_id": "364"}
+{"task_desc": "lay down the dark grey reading book inside the right desktop organizer's left slot", "variant": "A2", "task_id": "364"}
+{"task_desc": "position the left pink wavy-patterned reading book within the right desktop organizer's front slot", "variant": "A1", "task_id": "365"}
+{"task_desc": "set the left dark striped-patterned textbook inside the right desktop organizer's front slot", "variant": "A2", "task_id": "365"}
+{"task_desc": "set the tomato sauce inside the right desktop organizer's right section", "variant": "", "task_id": "366"}
+{"task_desc": "set the white speckled volume in the interior of the right desktop caddy's front section", "variant": "A1", "task_id": "367"}
+{"task_desc": "position the deep orange textbook within the right desktop caddy's front slot", "variant": "A2", "task_id": "367"}
+{"task_desc": "set the navy blue speckle-patterned textbook within the back desktop caddy's right section", "variant": "A1", "task_id": "368"}
+{"task_desc": "position the dark grey textbook within the back desktop organizer's right partition", "variant": "A2", "task_id": "368"}
+{"task_desc": "place the violet volume within the back desk organizer's front section", "variant": "A1", "task_id": "369"}
+{"task_desc": "place the pale yellow volume within the back desktop organizer's front partition", "variant": "A2", "task_id": "369"}
+{"task_desc": "position the orange juice in the interior of the back desk organizer's right slot", "variant": "", "task_id": "370"}
+{"task_desc": "set the teal green wavy-patterned textbook within the back desktop organizer's front section", "variant": "A1", "task_id": "371"}
+{"task_desc": "set the dark grey textbook within the back desk organizer's front slot", "variant": "A2", "task_id": "371"}
+{"task_desc": "position the ketchup inside the back desk organizer's left section", "variant": "", "task_id": "372"}
+{"task_desc": "set the navy blue speckle-patterned textbook in the interior of the back desktop organizer's front slot", "variant": "A1", "task_id": "373"}
+{"task_desc": "position the dark grey reading book in the interior of the back desktop caddy's front partition", "variant": "A2", "task_id": "373"}
+{"task_desc": "set the pink wavy-patterned textbook inside the back desk organizer's front slot", "variant": "A1", "task_id": "374"}
+{"task_desc": "set the pale yellow textbook within the back desktop organizer's front section", "variant": "A2", "task_id": "374"}
+{"task_desc": "lay down the ketchup inside the back desk organizer's right partition", "variant": "", "task_id": "375"}
+{"task_desc": "position the left navy blue speckled volume within the back desktop caddy's left partition", "variant": "A1", "task_id": "376"}
+{"task_desc": "position the left dark grey volume within the back desktop caddy's left section", "variant": "A2", "task_id": "376"}
+{"task_desc": "place the white speckle-patterned textbook in the interior of the back desktop organizer's right section", "variant": "A1", "task_id": "377"}
+{"task_desc": "lay down the pale yellow textbook within the back desk organizer's right partition", "variant": "A2", "task_id": "377"}
+{"task_desc": "set the right yellow green stripy volume within the back desktop organizer's right partition", "variant": "A1", "task_id": "378"}
+{"task_desc": "position the chocolate pudding inside the back desktop caddy's left section", "variant": "", "task_id": "379"}
+{"task_desc": "position the salad dressing inside the back desk organizer's left partition", "variant": "", "task_id": "380"}
+{"task_desc": "set the violet reading book within the back desktop organizer's right partition", "variant": "A1", "task_id": "381"}
+{"task_desc": "lay down the dark grey reading book inside the back desktop organizer's right partition", "variant": "A2", "task_id": "381"}
+{"task_desc": "set the aqua grid-patterned reading book inside the back desktop caddy's front slot", "variant": "A1", "task_id": "382"}
+{"task_desc": "lay down the pale green reading book within the back desktop organizer's front slot", "variant": "A2", "task_id": "382"}
+{"task_desc": "set the teal green wavy-patterned reading book within the back desk organizer's right slot", "variant": "A1", "task_id": "383"}
+{"task_desc": "set the pale yellow volume within the back desktop organizer's right slot", "variant": "A2", "task_id": "383"}
+{"task_desc": "set the white speckled reading book inside the back desktop caddy's left slot", "variant": "A1", "task_id": "384"}
+{"task_desc": "lay down the deep orange textbook within the back desktop organizer's left partition", "variant": "A2", "task_id": "384"}
+{"task_desc": "set the white speckle-patterned textbook inside the back desktop caddy's left partition", "variant": "A1", "task_id": "385"}
+{"task_desc": "set the pale red volume inside the back desktop organizer's left partition", "variant": "A2", "task_id": "385"}
+{"task_desc": "set the ketchup inside the back desktop organizer's right partition", "variant": "", "task_id": "386"}
+{"task_desc": "lay down the blue-green wavy-patterned textbook within the back desktop caddy's right slot", "variant": "A1", "task_id": "387"}
+{"task_desc": "lay down the dark striped-patterned volume within the back desktop organizer's right partition", "variant": "A2", "task_id": "387"}
+{"task_desc": "set the cookies within the back desktop organizer's right section", "variant": "", "task_id": "388"}
+{"task_desc": "position the dark blue speckle-patterned reading book in the interior of the back desk organizer's left slot", "variant": "A1", "task_id": "389"}
+{"task_desc": "position the dark striped-patterned reading book within the back desk organizer's left slot", "variant": "A2", "task_id": "389"}
+{"task_desc": "set the turquoise grid-patterned reading book in the interior of the back desktop caddy's front slot", "variant": "A1", "task_id": "390"}
+{"task_desc": "place the pale red textbook within the back desktop caddy's front partition", "variant": "A2", "task_id": "390"}
+{"task_desc": "set the violet textbook within the back desktop organizer's left partition", "variant": "A1", "task_id": "391"}
+{"task_desc": "set the pale yellow textbook within the back desktop organizer's left slot", "variant": "A2", "task_id": "391"}
+{"task_desc": "set the aqua grid-patterned textbook in the interior of the back desktop organizer's back section", "variant": "A1", "task_id": "392"}
+{"task_desc": "position the deep orange reading book inside the back desk organizer's back slot", "variant": "A2", "task_id": "392"}
+{"task_desc": "position the teal green wavy-patterned textbook within the back desktop organizer's front slot", "variant": "A1", "task_id": "393"}
+{"task_desc": "place the dark stripy reading book within the back desktop organizer's front slot", "variant": "A2", "task_id": "393"}
+{"task_desc": "lay down the white speckle-patterned volume in the interior of the back desktop caddy's front section", "variant": "A1", "task_id": "394"}
+{"task_desc": "lay down the dark grey volume within the back desktop organizer's front slot", "variant": "A2", "task_id": "394"}
+{"task_desc": "set the navy blue speckled volume within the back desk organizer's left slot", "variant": "A1", "task_id": "395"}
+{"task_desc": "position the pale yellow textbook within the back desk organizer's left section", "variant": "A2", "task_id": "395"}
+{"task_desc": "lay down the right teal green wavy-patterned textbook inside the back desktop caddy's right partition", "variant": "A1", "task_id": "396"}
+{"task_desc": "lay down the right pale red volume inside the back desktop caddy's right section", "variant": "A2", "task_id": "396"}
+{"task_desc": "set the pink wavy-patterned reading book in the interior of the back desktop organizer's left section", "variant": "A1", "task_id": "397"}
+{"task_desc": "set the deep orange textbook inside the back desktop organizer's left slot", "variant": "A2", "task_id": "397"}
+{"task_desc": "lay down the brown grid-patterned reading book within the back desktop caddy's right slot", "variant": "A1", "task_id": "398"}
+{"task_desc": "set the dark striped-patterned volume inside the back desktop organizer's right section", "variant": "A2", "task_id": "398"}
+{"task_desc": "set the left yellow green striped-patterned textbook within the back desktop organizer's back section", "variant": "A1", "task_id": "399"}
+{"task_desc": "set the right white speckle-patterned volume inside the back desk organizer's back section", "variant": "A1", "task_id": "400"}
+{"task_desc": "lay down the left turquoise grid-patterned textbook in the interior of the back desktop organizer's back section", "variant": "A1", "task_id": "401"}
+{"task_desc": "position the left pale yellow textbook in the interior of the back desk organizer's back slot", "variant": "A2", "task_id": "401"}
+{"task_desc": "lay down the turquoise grid-patterned volume inside the back desk organizer's right section", "variant": "A1", "task_id": "402"}
+{"task_desc": "set the pale red volume within the back desktop caddy's right partition", "variant": "A2", "task_id": "402"}
+{"task_desc": "position the teal green wavy-patterned textbook within the back desktop caddy's right slot", "variant": "A1", "task_id": "403"}
+{"task_desc": "set the pale green textbook inside the back desktop organizer's right section", "variant": "A2", "task_id": "403"}
+{"task_desc": "set the yellow green stripy reading book inside the back desktop organizer's back slot", "variant": "A1", "task_id": "404"}
+{"task_desc": "position the left deep orange textbook inside the back desk organizer's back section", "variant": "A2", "task_id": "404"}
+{"task_desc": "place the dark blue speckled volume within the back desktop caddy's right section", "variant": "A1", "task_id": "405"}
+{"task_desc": "lay down the dark grey reading book in the interior of the back desktop organizer's right slot", "variant": "A2", "task_id": "405"}
+{"task_desc": "set the left brown grid-patterned reading book within the back desktop caddy's left slot", "variant": "A1", "task_id": "406"}
+{"task_desc": "position the left dark stripy volume inside the back desktop caddy's left section", "variant": "A2", "task_id": "406"}
+{"task_desc": "position the butter inside the back desktop caddy's right slot", "variant": "", "task_id": "407"}
+{"task_desc": "position the brown grid-patterned textbook within the back desk organizer's right slot", "variant": "A1", "task_id": "408"}
+{"task_desc": "place the pale yellow volume within the back desktop caddy's right section", "variant": "A2", "task_id": "408"}
+{"task_desc": "place the white speckle-patterned textbook within the back desk organizer's right partition", "variant": "A1", "task_id": "409"}
+{"task_desc": "set the dark grey reading book within the back desktop organizer's right slot", "variant": "A2", "task_id": "409"}
+{"task_desc": "lay down the milk inside the left desk organizer's right slot", "variant": "", "task_id": "410"}
+{"task_desc": "lay down the brown grid-patterned reading book within the left desk organizer's left partition", "variant": "A1", "task_id": "411"}
+{"task_desc": "lay down the pale yellow volume inside the left desk organizer's left slot", "variant": "A2", "task_id": "411"}
+{"task_desc": "lay down the salad dressing within the back desktop caddy's right slot", "variant": "", "task_id": "412"}
+{"task_desc": "set the white speckle-patterned reading book inside the back desktop organizer's right partition", "variant": "A1", "task_id": "413"}
+{"task_desc": "set the dark grey reading book inside the back desktop organizer's right slot", "variant": "A2", "task_id": "413"}
+{"task_desc": "position the yellow green striped-patterned textbook inside the left desktop caddy's back section", "variant": "A1", "task_id": "414"}
+{"task_desc": "lay down the pale red reading book inside the left desk organizer's back slot", "variant": "A2", "task_id": "414"}
+{"task_desc": "position the navy blue speckle-patterned volume within the back desktop caddy's right slot", "variant": "A1", "task_id": "415"}
+{"task_desc": "set the pale yellow textbook in the interior of the back desktop organizer's right section", "variant": "A2", "task_id": "415"}
+{"task_desc": "lay down the left yellow green stripy textbook inside the left desktop caddy's left partition", "variant": "A1", "task_id": "416"}
+{"task_desc": "set the left dark grey volume within the left desktop caddy's left section", "variant": "A2", "task_id": "416"}
+{"task_desc": "lay down the violet textbook within the left desk organizer's back section", "variant": "A1", "task_id": "417"}
+{"task_desc": "position the pale yellow textbook within the left desktop caddy's back slot", "variant": "A2", "task_id": "417"}
+{"task_desc": "set the milk within the back desk organizer's right partition", "variant": "", "task_id": "418"}
+{"task_desc": "position the right yellow green striped-patterned volume inside the back desktop caddy's back section", "variant": "A1", "task_id": "419"}
+{"task_desc": "lay down the white speckle-patterned reading book within the back desktop caddy's back section", "variant": "A1", "task_id": "420"}
+{"task_desc": "lay down the pale green volume within the back desktop caddy's back section", "variant": "A2", "task_id": "420"}
+{"task_desc": "position the pink wavy-patterned volume within the left desktop caddy's right partition", "variant": "A1", "task_id": "421"}
+{"task_desc": "lay down the dark grey textbook within the left desktop organizer's right section", "variant": "A2", "task_id": "421"}
+{"task_desc": "lay down the navy blue speckle-patterned textbook within the left desktop caddy's right partition", "variant": "A1", "task_id": "422"}
+{"task_desc": "lay down the pale yellow volume inside the left desktop caddy's right section", "variant": "A2", "task_id": "422"}
+{"task_desc": "set the alphabet-patterned soup inside the back desk organizer's left partition", "variant": "", "task_id": "423"}
+{"task_desc": "set the dark blue speckle-patterned volume inside the left desktop organizer's right slot", "variant": "A1", "task_id": "424"}
+{"task_desc": "set the pale red volume within the left desktop organizer's right slot", "variant": "A2", "task_id": "424"}
+{"task_desc": "lay down the turquoise grid-patterned textbook within the left desktop organizer's left slot", "variant": "A1", "task_id": "425"}
+{"task_desc": "set the deep orange textbook inside the left desktop caddy's left section", "variant": "A2", "task_id": "425"}
+{"task_desc": "position the macaroni and cheese block within the left desk organizer's right partition", "variant": "", "task_id": "426"}
+{"task_desc": "position the violet textbook within the left desktop caddy's back section", "variant": "A1", "task_id": "427"}
+{"task_desc": "position the dark stripy textbook in the interior of the left desk organizer's back section", "variant": "A2", "task_id": "427"}
+{"task_desc": "set the aqua grid-patterned volume inside the left desktop organizer's front section", "variant": "A1", "task_id": "428"}
+{"task_desc": "place the pale red textbook inside the left desk organizer's front slot", "variant": "A2", "task_id": "428"}
+{"task_desc": "set the white speckled volume within the back desk organizer's right slot", "variant": "A1", "task_id": "429"}
+{"task_desc": "set the dark stripy reading book in the interior of the back desktop organizer's right section", "variant": "A2", "task_id": "429"}
+{"task_desc": "place the brown grid-patterned reading book within the back desk organizer's back slot", "variant": "A1", "task_id": "430"}
+{"task_desc": "lay down the pale yellow volume within the back desktop caddy's back slot", "variant": "A2", "task_id": "430"}
+{"task_desc": "set the popcorn within the back desktop caddy's right partition", "variant": "", "task_id": "431"}
+{"task_desc": "lay down the navy blue speckle-patterned volume within the left desk organizer's left slot", "variant": "A1", "task_id": "432"}
+{"task_desc": "set the dark grey textbook in the interior of the left desktop organizer's left partition", "variant": "A2", "task_id": "432"}
+{"task_desc": "lay down the teal green wavy-patterned volume inside the left desktop organizer's right section", "variant": "A1", "task_id": "433"}
+{"task_desc": "position the deep orange reading book inside the left desktop organizer's right section", "variant": "A2", "task_id": "433"}
+{"task_desc": "set the aqua grid-patterned reading book in the interior of the left desk organizer's right section", "variant": "A1", "task_id": "434"}
+{"task_desc": "lay down the pale green textbook within the left desk organizer's right slot", "variant": "A2", "task_id": "434"}
+{"task_desc": "position the pink wavy-patterned volume inside the left desk organizer's back partition", "variant": "A1", "task_id": "435"}
+{"task_desc": "position the pale yellow reading book inside the left desktop caddy's back partition", "variant": "A2", "task_id": "435"}
+{"task_desc": "position the navy blue speckled reading book inside the back desktop caddy's back partition", "variant": "A1", "task_id": "436"}
+{"task_desc": "set the left deep orange textbook inside the back desktop organizer's back partition", "variant": "A2", "task_id": "436"}
+{"task_desc": "lay down the left brown grid-patterned volume within the back desktop caddy's left slot", "variant": "A1", "task_id": "437"}
+{"task_desc": "lay down the right white speckled textbook in the interior of the back desktop caddy's right partition", "variant": "A1", "task_id": "438"}
+{"task_desc": "place the right pale red textbook within the back desk organizer's right section", "variant": "A2", "task_id": "438"}
+{"task_desc": "lay down the brown grid-patterned volume in the interior of the left desktop organizer's left section", "variant": "A1", "task_id": "439"}
+{"task_desc": "position the dark striped-patterned reading book within the left desk organizer's left partition", "variant": "A2", "task_id": "439"}
+{"task_desc": "set the yellow green striped-patterned reading book within the left desk organizer's left slot", "variant": "A1", "task_id": "440"}
+{"task_desc": "place the pale green volume inside the left desktop caddy's left section", "variant": "A2", "task_id": "440"}
+{"task_desc": "set the right white speckle-patterned volume inside the left desk organizer's left partition", "variant": "A1", "task_id": "441"}
+{"task_desc": "set the left violet reading book within the left desktop organizer's front partition", "variant": "A1", "task_id": "442"}
+{"task_desc": "lay down the left pale yellow reading book within the left desktop organizer's front partition", "variant": "A2", "task_id": "442"}
+{"task_desc": "position the teal green wavy-patterned textbook inside the left desktop caddy's right section", "variant": "A1", "task_id": "443"}
+{"task_desc": "lay down the pale red volume within the left desk organizer's right section", "variant": "A2", "task_id": "443"}
+{"task_desc": "set the pink wavy-patterned textbook within the left desktop caddy's right section", "variant": "A1", "task_id": "444"}
+{"task_desc": "set the deep orange volume within the left desk organizer's right section", "variant": "A2", "task_id": "444"}
+{"task_desc": "set the right teal green wavy-patterned volume within the left desktop organizer's back section", "variant": "A1", "task_id": "445"}
+{"task_desc": "position the left violet reading book within the back desktop organizer's left section", "variant": "A1", "task_id": "446"}
+{"task_desc": "position the left dark striped-patterned reading book inside the back desktop caddy's left section", "variant": "A2", "task_id": "446"}
+{"task_desc": "lay down the violet reading book within the left desktop caddy's right section", "variant": "A1", "task_id": "447"}
+{"task_desc": "lay down the dark grey reading book inside the left desktop caddy's right slot", "variant": "A2", "task_id": "447"}
+{"task_desc": "lay down the violet volume upright over the top of the storage shelf", "variant": "A1", "task_id": "448"}
+{"task_desc": "lay down the pale yellow textbook upright on top the top of the storage shelf", "variant": "A2", "task_id": "448"}
+{"task_desc": "position the blue-green wavy-patterned reading book in the interior of the top region of the storage shelf", "variant": "A1", "task_id": "449"}
+{"task_desc": "set the dark grey reading book within the top region of the storage shelf", "variant": "A2", "task_id": "449"}
+{"task_desc": "lay down the white speckle-patterned volume flat onto the top of the shelf", "variant": "A1", "task_id": "450"}
+{"task_desc": "lay down the pale yellow textbook flat on top the top of the bookshelf layer", "variant": "A2", "task_id": "450"}
+{"task_desc": "lay down the pink wavy-patterned textbook flat on top the top of the bookshelf layer", "variant": "A1", "task_id": "451"}
+{"task_desc": "position the dark grey textbook flat on top the top of the storage shelf", "variant": "A2", "task_id": "451"}
+{"task_desc": "position the butter onto the top of the shelf", "variant": "", "task_id": "452"}
+{"task_desc": "position the orange juice onto the top of the shelf", "variant": "", "task_id": "453"}
+{"task_desc": "lay down the pink wavy-patterned reading book flat over the surface of the shelf", "variant": "A1", "task_id": "454"}
+{"task_desc": "position the pale yellow textbook flat onto the top of the storage rack", "variant": "A2", "task_id": "454"}
+{"task_desc": "position the pink wavy-patterned volume flat over the surface of the shelf", "variant": "A1", "task_id": "455"}
+{"task_desc": "position the dark grey volume flat onto the top of the storage shelf", "variant": "A2", "task_id": "455"}
+{"task_desc": "lay down the left pink wavy-patterned volume upright over the surface of the bookshelf layer", "variant": "A1", "task_id": "456"}
+{"task_desc": "lay down the yellow green striped-patterned reading book upright over the surface of the bookshelf layer", "variant": "A1", "task_id": "457"}
+{"task_desc": "set the pale yellow volume upright over the surface of the bookshelf layer", "variant": "A2", "task_id": "457"}
+{"task_desc": "set the tomato sauce over the surface of the bookshelf layer", "variant": "", "task_id": "458"}
+{"task_desc": "set the right white speckled textbook within the top region of the bookshelf layer", "variant": "A1", "task_id": "459"}
+{"task_desc": "lay down the right dark grey volume within the top region of the bookshelf layer", "variant": "A2", "task_id": "459"}
+{"task_desc": "set the left white speckle-patterned volume flat onto the top of the bookshelf layer", "variant": "A1", "task_id": "460"}
+{"task_desc": "position the aqua grid-patterned textbook flat over the surface of the shelf", "variant": "A1", "task_id": "461"}
+{"task_desc": "position the left pale yellow textbook flat over the top of the bookshelf layer", "variant": "A2", "task_id": "461"}
+{"task_desc": "set the white speckled reading book flat over the surface of the storage shelf", "variant": "A1", "task_id": "462"}
+{"task_desc": "set the dark grey textbook flat over the surface of the storage shelf", "variant": "A2", "task_id": "462"}
+{"task_desc": "position the violet volume flat onto the top of the storage shelf", "variant": "A1", "task_id": "463"}
+{"task_desc": "lay down the pale green textbook flat on top the top of the bookshelf layer", "variant": "A2", "task_id": "463"}
+{"task_desc": "set the salad dressing onto the top of the shelf", "variant": "", "task_id": "464"}
+{"task_desc": "place the navy blue speckle-patterned reading book flat onto the top of the bookshelf layer", "variant": "A1", "task_id": "465"}
+{"task_desc": "set the pale yellow textbook flat over the surface of the storage shelf", "variant": "A2", "task_id": "465"}
+{"task_desc": "set the white speckle-patterned textbook upright over the surface of the storage shelf", "variant": "A1", "task_id": "466"}
+{"task_desc": "set the dark grey volume upright over the surface of the storage shelf", "variant": "A2", "task_id": "466"}
+{"task_desc": "lay down the yellow green striped-patterned reading book upright over the surface of the bookshelf layer", "variant": "A1", "task_id": "467"}
+{"task_desc": "lay down the pale green volume upright over the surface of the storage rack", "variant": "A2", "task_id": "467"}
+{"task_desc": "place the violet textbook upright over the top of the storage rack", "variant": "A1", "task_id": "468"}
+{"task_desc": "position the deep orange volume upright on top the top of the shelf", "variant": "A2", "task_id": "468"}
+{"task_desc": "lay down the yellow green striped-patterned reading book in the interior of the top region of the bookshelf layer", "variant": "A1", "task_id": "469"}
+{"task_desc": "position the pale red volume in the interior of the top region of the bookshelf layer", "variant": "A2", "task_id": "469"}
+{"task_desc": "position the navy blue speckled textbook inside the top region of the storage rack", "variant": "A1", "task_id": "470"}
+{"task_desc": "lay down the dark stripy reading book within the top region of the bookshelf layer", "variant": "A2", "task_id": "470"}
+{"task_desc": "position the blue-green wavy-patterned reading book flat over the surface of the shelf", "variant": "A1", "task_id": "471"}
+{"task_desc": "set the deep orange reading book flat over the surface of the shelf", "variant": "A2", "task_id": "471"}
+{"task_desc": "set the yellow green stripy textbook upright onto the top of the storage rack", "variant": "A1", "task_id": "472"}
+{"task_desc": "set the pale red textbook upright on top the top of the bookshelf layer", "variant": "A2", "task_id": "472"}
+{"task_desc": "lay down the butter over the surface of the storage rack", "variant": "", "task_id": "473"}
+{"task_desc": "place the pink wavy-patterned reading book within the top region of the storage shelf", "variant": "A1", "task_id": "474"}
+{"task_desc": "lay down the pale red volume in the interior of the top region of the shelf", "variant": "A2", "task_id": "474"}
+{"task_desc": "position the turquoise grid-patterned textbook flat on top the top of the bookshelf layer", "variant": "A1", "task_id": "475"}
+{"task_desc": "position the pale yellow reading book flat over the surface of the bookshelf layer", "variant": "A2", "task_id": "475"}
+{"task_desc": "lay down the violet textbook within the top region of the storage shelf", "variant": "A1", "task_id": "476"}
+{"task_desc": "lay down the dark striped-patterned reading book inside the top region of the bookshelf layer", "variant": "A2", "task_id": "476"}
+{"task_desc": "position the yellow green striped-patterned textbook flat on top the top of the bookshelf layer", "variant": "A1", "task_id": "477"}
+{"task_desc": "lay down the pale red reading book flat onto the top of the shelf", "variant": "A2", "task_id": "477"}
+{"task_desc": "lay down the teal green wavy-patterned reading book inside the top region of the bookshelf layer", "variant": "A1", "task_id": "478"}
+{"task_desc": "set the left dark striped-patterned volume inside the top region of the bookshelf layer", "variant": "A2", "task_id": "478"}
+{"task_desc": "place the white speckled reading book flat on top the top of the storage shelf", "variant": "A1", "task_id": "479"}
+{"task_desc": "set the left deep orange textbook flat over the top of the storage shelf", "variant": "A2", "task_id": "479"}
+{"task_desc": "set the left violet textbook within the top region of the bookshelf layer", "variant": "A1", "task_id": "480"}
+{"task_desc": "set the left pale red reading book within the top region of the storage shelf", "variant": "A2", "task_id": "480"}
+{"task_desc": "set the right yellow green stripy volume upright over the surface of the bookshelf layer", "variant": "A1", "task_id": "481"}
+{"task_desc": "set the dark blue speckled textbook upright on top the top of the storage shelf", "variant": "A1", "task_id": "482"}
+{"task_desc": "lay down the dark stripy textbook upright over the surface of the storage shelf", "variant": "A2", "task_id": "482"}
+{"task_desc": "position the aqua grid-patterned volume flat over the top of the bookshelf layer", "variant": "A1", "task_id": "483"}
+{"task_desc": "lay down the left dark striped-patterned volume flat over the top of the storage shelf", "variant": "A2", "task_id": "483"}
+{"task_desc": "lay down the left turquoise grid-patterned volume in the interior of the top region of the bookshelf layer", "variant": "A1", "task_id": "484"}
+{"task_desc": "position the left pale red volume inside the top region of the bookshelf layer", "variant": "A2", "task_id": "484"}
+{"task_desc": "lay down the right pink wavy-patterned reading book flat over the surface of the shelf", "variant": "A1", "task_id": "485"}
+{"task_desc": "lay down the aqua grid-patterned textbook upright over the surface of the storage shelf", "variant": "A1", "task_id": "486"}
+{"task_desc": "lay down the deep orange volume upright over the surface of the bookshelf layer", "variant": "A2", "task_id": "486"}
+{"task_desc": "set the white speckled textbook within the top region of the bookshelf layer", "variant": "A1", "task_id": "487"}
+{"task_desc": "lay down the left dark stripy volume in the interior of the top region of the bookshelf layer", "variant": "A2", "task_id": "487"}
+{"task_desc": "lay down the left violet volume flat over the surface of the storage rack", "variant": "A1", "task_id": "488"}
+{"task_desc": "lay down the left pale red textbook flat on top the top of the storage shelf", "variant": "A2", "task_id": "488"}
+{"task_desc": "set the cream bottle cheese item inside the top region of the bookshelf layer", "variant": "", "task_id": "489"}
+{"task_desc": "position the left teal green wavy-patterned volume inside the top region of the storage shelf", "variant": "A1", "task_id": "490"}
+{"task_desc": "position the right blue-green wavy-patterned textbook within the top region of the shelf", "variant": "A1", "task_id": "491"}
+{"task_desc": "position the right pale yellow reading book in the interior of the top region of the bookshelf layer", "variant": "A2", "task_id": "491"}
+{"task_desc": "lay down the navy blue speckle-patterned reading book upright on top the top of the bookshelf layer", "variant": "A1", "task_id": "492"}
+{"task_desc": "lay down the pale red textbook upright over the surface of the storage shelf", "variant": "A2", "task_id": "492"}
+{"task_desc": "position the white speckled volume inside the top region of the bookshelf layer", "variant": "A1", "task_id": "493"}
+{"task_desc": "set the left pale green reading book within the top region of the storage rack", "variant": "A2", "task_id": "493"}
+{"task_desc": "position the milk on top the top of the bookshelf layer", "variant": "", "task_id": "494"}
+{"task_desc": "lay down the brown grid-patterned textbook flat over the top of the shelf", "variant": "A1", "task_id": "495"}
+{"task_desc": "set the right dark grey volume flat over the top of the storage shelf", "variant": "A2", "task_id": "495"}
+{"task_desc": "set the left yellow green stripy textbook flat over the surface of the shelf", "variant": "A1", "task_id": "496"}
+{"task_desc": "place the left dark stripy volume flat over the surface of the bookshelf layer", "variant": "A2", "task_id": "496"}
+{"task_desc": "set the bbq sauce inside the top region of the storage shelf", "variant": "", "task_id": "497"}
+{"task_desc": "position the right navy blue speckled volume flat over the surface of the storage shelf", "variant": "A1", "task_id": "498"}
+{"task_desc": "position the dark blue speckle-patterned reading book in the interior of the top region of the storage shelf", "variant": "A1", "task_id": "499"}
+{"task_desc": "position the right deep orange textbook inside the top region of the storage rack", "variant": "A2", "task_id": "499"}
+{"task_desc": "position the aqua grid-patterned reading book upright over the surface of the bookshelf layer", "variant": "A1", "task_id": "500"}
+{"task_desc": "lay down the dark grey reading book upright onto the top of the storage shelf", "variant": "A2", "task_id": "500"}
+{"task_desc": "lay down the milk within the left desk organizer's right section and lay down the popcorn within the left desk organizer's right section and lay down the salad dressing within the left desk organizer's left section", "variant": "", "task_id": "501"}
+{"task_desc": "lay down the popcorn in the interior of the left desktop caddy's right section and lay down the bbq sauce in the interior of the left desktop caddy's left section", "variant": "", "task_id": "502"}
+{"task_desc": "set the popcorn within the left desktop organizer's right slot and set the alphabet-patterned soup within the left desktop organizer's left slot", "variant": "", "task_id": "503"}
+{"task_desc": "set the cookies within the left desktop organizer's left section and set the alphabet-patterned soup within the left desktop organizer's right section", "variant": "", "task_id": "504"}
+{"task_desc": "lay down the ketchup within the left desk organizer's right partition and lay down the left salad dressing within the left desk organizer's left partition and lay down the right salad dressing within the left desk organizer's right partition", "variant": "", "task_id": "505"}
+{"task_desc": "lay down the bbq sauce in the interior of the left desk organizer's right section and lay down the chocolate pudding in the interior of the left desk organizer's right section", "variant": "", "task_id": "506"}
+{"task_desc": "set the blue-green wavy-patterned reading book within the left desktop organizer's front section and set the pink wavy-patterned reading book within the left desktop organizer's left section and set the violet reading book within the left desktop organizer's back section", "variant": "A1", "task_id": "507"}
+{"task_desc": "lay down the tomato sauce within the left desktop caddy's right slot and lay down the butter within the left desktop caddy's left slot", "variant": "", "task_id": "508"}
+{"task_desc": "lay down the pink wavy-patterned volume within the left desk organizer's left partition and lay down the yellow green stripy volume within the left desk organizer's right partition and lay down the navy blue speckle-patterned volume within the left desk organizer's right partition", "variant": "A1", "task_id": "509"}
+{"task_desc": "position the brown grid-patterned volume inside the left desk organizer's front slot and position the blue-green wavy-patterned volume inside the left desk organizer's left slot and position the white speckled volume inside the left desk organizer's back slot", "variant": "A1", "task_id": "510"}
+{"task_desc": "lay down the pink wavy-patterned volume inside the left desktop organizer's left partition and lay down the teal green wavy-patterned volume inside the left desktop organizer's left partition", "variant": "A1", "task_id": "511"}
+{"task_desc": "set the tomato sauce inside the left desktop caddy's right partition and set the orange juice inside the left desktop caddy's left partition", "variant": "", "task_id": "512"}
+{"task_desc": "set the brown grid-patterned volume within the left desktop caddy's left slot and set the pink wavy-patterned volume within the left desktop caddy's right slot and set the violet volume within the left desktop caddy's right slot", "variant": "A1", "task_id": "513"}
+{"task_desc": "lay down the pink wavy-patterned reading book inside the left desktop organizer's front partition and lay down the white speckled reading book inside the left desktop organizer's left partition and lay down the yellow green stripy reading book inside the left desktop organizer's back partition", "variant": "A1", "task_id": "514"}
+{"task_desc": "set the right white speckled volume inside the left desk organizer's front partition and set the turquoise grid-patterned volume inside the left desk organizer's left partition and set the pink wavy-patterned volume inside the left desk organizer's left partition", "variant": "A1", "task_id": "515"}
+{"task_desc": "lay down the left violet volume inside the left desktop organizer's back partition and lay down the aqua grid-patterned volume inside the left desktop organizer's left partition and lay down the right violet volume inside the left desktop organizer's front partition", "variant": "A1", "task_id": "516"}
+{"task_desc": "position the left navy blue speckle-patterned volume inside the left desktop organizer's right slot and position the right navy blue speckle-patterned volume inside the left desktop organizer's right slot and position the yellow green stripy volume inside the left desktop organizer's left slot", "variant": "A1", "task_id": "517"}
+{"task_desc": "position the salad dressing within the left desktop caddy's left partition and position the macaroni and cheese piece within the left desktop caddy's right partition", "variant": "", "task_id": "518"}
+{"task_desc": "lay down the salad dressing inside the left desktop organizer's right slot and lay down the left macaroni and cheese block inside the left desktop organizer's left slot", "variant": "", "task_id": "519"}
+{"task_desc": "position the left violet textbook inside the left desk organizer's right section and position the right violet textbook inside the left desk organizer's right section and position the navy blue speckle-patterned textbook inside the left desk organizer's left section", "variant": "A1", "task_id": "520"}
+{"task_desc": "set the salad dressing in the interior of the right desk organizer's right slot and set the chocolate pudding in the interior of the right desk organizer's left slot", "variant": "", "task_id": "521"}
+{"task_desc": "position the bbq sauce within the right desk organizer's right section and position the ketchup within the right desk organizer's left section", "variant": "", "task_id": "522"}
+{"task_desc": "lay down the popcorn in the interior of the right desktop caddy's right slot and lay down the cookies in the interior of the right desktop caddy's right slot and lay down the salad dressing in the interior of the right desktop caddy's left slot", "variant": "", "task_id": "523"}
+{"task_desc": "lay down the tomato sauce within the right desk organizer's right partition and lay down the popcorn within the right desk organizer's left partition", "variant": "", "task_id": "524"}
+{"task_desc": "position the brown grid-patterned volume within the right desktop caddy's front slot and position the right violet volume within the right desktop caddy's left slot and position the left violet volume within the right desktop caddy's back slot", "variant": "A1", "task_id": "525"}
+{"task_desc": "set the left tomato sauce inside the right desktop caddy's left partition and set the alphabet-patterned soup inside the right desktop caddy's right partition", "variant": "", "task_id": "526"}
+{"task_desc": "set the orange juice inside the right desktop organizer's left section and set the alphabet-patterned soup inside the right desktop organizer's right section", "variant": "", "task_id": "527"}
+{"task_desc": "set the orange juice inside the right desk organizer's left section and set the alphabet-patterned soup inside the right desk organizer's right section", "variant": "", "task_id": "528"}
+{"task_desc": "position the tomato sauce inside the right desktop caddy's left section and position the bbq sauce inside the right desktop caddy's right section", "variant": "", "task_id": "529"}
+{"task_desc": "lay down the chocolate pudding within the right desk organizer's right slot and lay down the salad dressing within the right desk organizer's right slot", "variant": "", "task_id": "530"}
+{"task_desc": "lay down the macaroni and cheese piece inside the right desktop organizer's left section and lay down the butter inside the right desktop organizer's right section", "variant": "", "task_id": "531"}
+{"task_desc": "position the salad dressing inside the right desktop caddy's left section and position the tomato sauce inside the right desktop caddy's right section", "variant": "", "task_id": "532"}
+{"task_desc": "lay down the violet volume within the right desktop caddy's front slot and lay down the teal green wavy-patterned volume within the right desktop caddy's left slot and lay down the brown grid-patterned volume within the right desktop caddy's back slot", "variant": "A1", "task_id": "533"}
+{"task_desc": "lay down the yellow green stripy reading book within the right desktop caddy's left slot and lay down the violet reading book within the right desktop caddy's right slot and lay down the dark blue speckle-patterned reading book within the right desktop caddy's right slot", "variant": "A1", "task_id": "534"}
+{"task_desc": "lay down the dark blue speckled volume within the right desktop organizer's right slot and lay down the left turquoise grid-patterned volume within the right desktop organizer's right slot", "variant": "A1", "task_id": "535"}
+{"task_desc": "set the left aqua grid-patterned reading book within the right desktop organizer's left slot and set the blue-green wavy-patterned reading book within the right desktop organizer's right slot", "variant": "A1", "task_id": "536"}
+{"task_desc": "set the navy blue speckled textbook within the right desktop organizer's front slot and set the left white speckled textbook within the right desktop organizer's right slot and set the violet textbook within the right desktop organizer's right slot", "variant": "A1", "task_id": "537"}
+{"task_desc": "set the butter in the interior of the right desk organizer's right slot and set the left alphabet-patterned soup in the interior of the right desk organizer's left slot", "variant": "", "task_id": "538"}
+{"task_desc": "lay down the right alphabet-patterned soup within the right desktop organizer's left partition and lay down the salad dressing within the right desktop organizer's left partition and lay down the macaroni and cheese item within the right desktop organizer's right partition", "variant": "", "task_id": "539"}
+{"task_desc": "position the left navy blue speckle-patterned volume within the right desktop organizer's right partition and position the right navy blue speckle-patterned volume within the right desktop organizer's right partition and position the violet volume within the right desktop organizer's left partition", "variant": "A1", "task_id": "540"}
+{"task_desc": "position the macaroni and cheese block within the back desktop organizer's right slot and position the cream pack cheese block within the back desktop organizer's left slot", "variant": "", "task_id": "541"}
+{"task_desc": "place the white speckle-patterned volume inside the back desk organizer's left section and place the yellow green striped-patterned volume inside the back desk organizer's right section", "variant": "A1", "task_id": "542"}
+{"task_desc": "position the cream bottle cheese block inside the back desk organizer's right partition and position the chocolate pudding inside the back desk organizer's left partition", "variant": "", "task_id": "543"}
+{"task_desc": "position the brown grid-patterned reading book within the back desk organizer's left section and position the navy blue speckle-patterned reading book within the back desk organizer's right section", "variant": "A1", "task_id": "544"}
+{"task_desc": "set the left brown grid-patterned textbook in the interior of the back desktop caddy's left section and set the dark blue speckle-patterned textbook in the interior of the back desktop caddy's right section and set the right brown grid-patterned textbook in the interior of the back desktop caddy's right section", "variant": "A1", "task_id": "545"}
+{"task_desc": "position the macaroni and cheese piece within the back desktop organizer's right slot and position the left tomato sauce within the back desktop organizer's left slot and position the right tomato sauce within the back desktop organizer's right slot", "variant": "", "task_id": "546"}
+{"task_desc": "place the brown grid-patterned volume within the back desk organizer's left slot and place the blue-green wavy-patterned volume within the back desk organizer's right slot and place the yellow green stripy volume within the back desk organizer's right slot", "variant": "A1", "task_id": "547"}
+{"task_desc": "position the popcorn within the back desktop organizer's right slot and position the macaroni and cheese block within the back desktop organizer's left slot", "variant": "", "task_id": "548"}
+{"task_desc": "position the tomato sauce within the back desktop organizer's right partition and position the popcorn within the back desktop organizer's left partition and position the cream container cheese item within the back desktop organizer's right partition", "variant": "", "task_id": "549"}
+{"task_desc": "lay down the bbq sauce inside the back desktop organizer's left section and lay down the chocolate pudding inside the back desktop organizer's right section", "variant": "", "task_id": "550"}
+{"task_desc": "set the cream container cheese piece in the interior of the back desktop caddy's right partition and set the chocolate pudding in the interior of the back desktop caddy's right partition", "variant": "", "task_id": "551"}
+{"task_desc": "place the tomato sauce inside the back desk organizer's right partition and place the ketchup inside the back desk organizer's left partition and place the bbq sauce inside the back desk organizer's right partition", "variant": "", "task_id": "552"}
+{"task_desc": "set the bbq sauce inside the back desk organizer's left partition and set the chocolate pudding inside the back desk organizer's right partition", "variant": "", "task_id": "553"}
+{"task_desc": "position the blue-green wavy-patterned volume within the back desktop caddy's back section and position the turquoise grid-patterned volume within the back desktop caddy's right section", "variant": "A1", "task_id": "554"}
+{"task_desc": "place the navy blue speckled reading book in the interior of the back desk organizer's left partition and place the right white speckled reading book in the interior of the back desk organizer's back partition and place the brown grid-patterned reading book in the interior of the back desk organizer's front partition", "variant": "A1", "task_id": "555"}
+{"task_desc": "lay down the violet volume inside the back desktop organizer's right partition and lay down the left white speckle-patterned volume inside the back desktop organizer's right partition", "variant": "A1", "task_id": "556"}
+{"task_desc": "position the cream pack cheese item within the back desktop organizer's left partition and position the right macaroni and cheese item within the back desktop organizer's right partition", "variant": "", "task_id": "557"}
+{"task_desc": "position the dark blue speckle-patterned reading book within the back desk organizer's front slot and position the left brown grid-patterned reading book within the back desk organizer's right slot and position the pink wavy-patterned reading book within the back desk organizer's right slot", "variant": "A1", "task_id": "558"}
+{"task_desc": "position the orange juice within the back desk organizer's left partition and position the cream pack cheese block within the back desk organizer's right partition", "variant": "", "task_id": "559"}
+{"task_desc": "position the right cream pack cheese piece within the back desktop organizer's left section and position the bbq sauce within the back desktop organizer's left section and position the popcorn within the back desktop organizer's right section", "variant": "", "task_id": "560"}
+{"task_desc": "lay down the cookies inside the back desktop organizer's right section and lay down the butter inside the back desktop organizer's left section and lay down the alphabet-patterned soup inside the back desktop organizer's right section", "variant": "", "task_id": "561"}
+{"task_desc": "position the violet textbook within the left desktop organizer's right slot and position the aqua grid-patterned textbook within the left desktop organizer's back slot", "variant": "A1", "task_id": "562"}
+{"task_desc": "position the tomato sauce within the back desk organizer's right partition and position the cookies within the left desk organizer's right partition", "variant": "", "task_id": "563"}
+{"task_desc": "place the dark blue speckled reading book within the back desk organizer's left partition and place the brown grid-patterned reading book within the back desk organizer's left partition and place the teal green wavy-patterned reading book within the left desk organizer's right partition", "variant": "A1", "task_id": "564"}
+{"task_desc": "position the cookies inside the left desk organizer's right partition and position the right macaroni and cheese block inside the back desk organizer's left partition", "variant": "", "task_id": "565"}
+{"task_desc": "lay down the violet volume inside the back desktop organizer's right slot and lay down the left turquoise grid-patterned volume inside the back desktop organizer's right slot", "variant": "A1", "task_id": "566"}
+{"task_desc": "position the macaroni and cheese item inside the left desktop organizer's left partition and position the cream container cheese item inside the left desktop organizer's left partition and position the milk inside the back desktop organizer's right partition", "variant": "", "task_id": "567"}
+{"task_desc": "lay down the turquoise grid-patterned reading book inside the left desk organizer's right partition and lay down the yellow green stripy reading book inside the back desk organizer's front partition and lay down the blue-green wavy-patterned reading book inside the back desk organizer's back partition", "variant": "A1", "task_id": "568"}
+{"task_desc": "position the alphabet-patterned soup inside the left desktop organizer's left slot and position the tomato sauce inside the left desktop organizer's left slot and position the cream bottle cheese block inside the back desktop organizer's right slot", "variant": "", "task_id": "569"}
+{"task_desc": "position the turquoise grid-patterned textbook inside the back desk organizer's left partition and position the violet textbook inside the back desk organizer's left partition and position the yellow green stripy textbook inside the left desk organizer's right partition", "variant": "A1", "task_id": "570"}
+{"task_desc": "set the salad dressing inside the left desktop caddy's left partition and set the tomato sauce inside the left desktop caddy's left partition and set the orange juice inside the back desktop caddy's right partition", "variant": "", "task_id": "571"}
+{"task_desc": "position the blue-green wavy-patterned textbook within the back desk organizer's left section and position the yellow green striped-patterned textbook within the back desk organizer's left section and position the violet textbook within the left desk organizer's right section", "variant": "A1", "task_id": "572"}
+{"task_desc": "position the brown grid-patterned textbook within the back desktop caddy's left slot and position the dark blue speckled textbook within the back desktop caddy's left slot and position the blue-green wavy-patterned textbook within the left desktop caddy's right slot", "variant": "A1", "task_id": "573"}
+{"task_desc": "set the dark blue speckle-patterned reading book in the interior of the left desk organizer's right slot and set the pink wavy-patterned reading book in the interior of the back desk organizer's front slot and set the aqua grid-patterned reading book in the interior of the back desk organizer's back slot", "variant": "A1", "task_id": "574"}
+{"task_desc": "set the left aqua grid-patterned volume within the back desktop caddy's left slot and set the right aqua grid-patterned volume within the left desktop caddy's right slot and set the pink wavy-patterned volume within the left desktop caddy's back slot", "variant": "A1", "task_id": "575"}
+{"task_desc": "position the navy blue speckle-patterned volume inside the back desk organizer's right section and position the left teal green wavy-patterned volume inside the left desk organizer's back section and position the right teal green wavy-patterned volume inside the left desk organizer's left section", "variant": "A1", "task_id": "576"}
+{"task_desc": "position the right blue-green wavy-patterned textbook inside the back desktop organizer's back section and position the violet textbook inside the left desktop organizer's back section and position the left blue-green wavy-patterned textbook inside the left desktop organizer's left section", "variant": "A1", "task_id": "577"}
+{"task_desc": "set the butter inside the back desk organizer's left slot and set the tomato sauce inside the back desk organizer's right slot", "variant": "", "task_id": "578"}
+{"task_desc": "lay down the right aqua grid-patterned volume inside the back desktop organizer's right partition and lay down the yellow green stripy volume inside the left desktop organizer's right partition and lay down the teal green wavy-patterned volume inside the left desktop organizer's left partition", "variant": "A1", "task_id": "579"}
+{"task_desc": "set the yellow green striped-patterned volume within the back desktop organizer's right partition and set the right turquoise grid-patterned volume within the back desktop organizer's left partition and set the dark blue speckled volume within the back desktop organizer's left partition", "variant": "A1", "task_id": "580"}
+{"task_desc": "position the cookies over the surface of the shelf and position the tomato sauce over the surface of the shelf", "variant": "", "task_id": "581"}
+{"task_desc": "position the ketchup over the surface of the storage shelf and position the milk in the interior of the top region of the storage shelf and position the cream bottle cheese item over the surface of the storage shelf", "variant": "", "task_id": "582"}
+{"task_desc": "lay down the butter inside the top region of the shelf and lay down the cream container cheese piece over the surface of the shelf", "variant": "", "task_id": "583"}
+{"task_desc": "set the chocolate pudding over the surface of the shelf and set the ketchup in the interior of the top region of the shelf and set the popcorn over the surface of the shelf", "variant": "", "task_id": "584"}
+{"task_desc": "lay down the right navy blue speckled textbook upright onto the top of the shelf and lay down the left navy blue speckled textbook upright onto the top of the shelf", "variant": "A1", "task_id": "585"}
+{"task_desc": "position the right orange juice over the surface of the storage shelf and position the macaroni and cheese block over the surface of the storage shelf", "variant": "", "task_id": "586"}
+{"task_desc": "set the butter onto the top of the storage shelf and set the tomato sauce onto the top of the storage shelf", "variant": "", "task_id": "587"}
+{"task_desc": "position the yellow green striped-patterned textbook upright over the surface of the shelf and position the blue-green wavy-patterned textbook flat over the surface of the shelf", "variant": "A1", "task_id": "588"}
+{"task_desc": "position the alphabet-patterned soup on top the top of the shelf and position the macaroni and cheese item on top the top of the shelf", "variant": "", "task_id": "589"}
+{"task_desc": "set the chocolate pudding onto the top of the storage shelf and set the ketchup onto the top of the storage shelf", "variant": "", "task_id": "590"}
+{"task_desc": "position the yellow green stripy textbook upright over the surface of the bookshelf layer and position the violet textbook upright over the surface of the bookshelf layer", "variant": "A1", "task_id": "591"}
+{"task_desc": "lay down the ketchup over the surface of the storage rack and lay down the butter over the surface of the storage rack", "variant": "", "task_id": "592"}
+{"task_desc": "set the white speckle-patterned textbook flat over the surface of the bookshelf layer and set the left pink wavy-patterned textbook flat over the surface of the bookshelf layer", "variant": "A1", "task_id": "593"}
+{"task_desc": "position the right turquoise grid-patterned reading book flat over the surface of the bookshelf layer and position the yellow green striped-patterned reading book flat over the surface of the bookshelf layer", "variant": "A1", "task_id": "594"}
+{"task_desc": "set the left violet reading book flat over the top of the storage rack and set the yellow green striped-patterned reading book upright over the top of the storage rack", "variant": "A1", "task_id": "595"}
+{"task_desc": "lay down the left teal green wavy-patterned textbook flat on top the top of the bookshelf layer and lay down the pink wavy-patterned textbook flat on top the top of the bookshelf layer", "variant": "A1", "task_id": "596"}
+{"task_desc": "position the left butter on top the top of the bookshelf layer and position the orange juice on top the top of the bookshelf layer", "variant": "", "task_id": "597"}
+{"task_desc": "set the right tomato sauce over the top of the storage shelf and set the cream pack cheese block over the top of the storage shelf", "variant": "", "task_id": "598"}
+{"task_desc": "lay down the right chocolate pudding over the surface of the storage shelf and lay down the milk over the surface of the storage shelf", "variant": "", "task_id": "599"}
+{"task_desc": "lay down the right yellow green striped-patterned volume upright over the surface of the storage rack and lay down the left yellow green striped-patterned volume upright over the surface of the storage rack", "variant": "A1", "task_id": "600"}

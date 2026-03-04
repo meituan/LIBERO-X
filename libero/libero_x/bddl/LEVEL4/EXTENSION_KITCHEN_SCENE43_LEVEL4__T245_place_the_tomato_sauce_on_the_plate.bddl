@@ -1,0 +1,101 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the tomato sauce on the plate)
+    (:regions
+      (microwave_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.072 0.128 0.072 0.272)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.119 -0.181 0.181 -0.119)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (tomato_sauce_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.22699999999999998 -0.277 -0.073 -0.12300000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (porcelain_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.287 -0.376 0.317 -0.346)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cookies_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.15600000000000003 -0.394 0.186 -0.364)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target microwave_1)
+      )
+      (heating_region
+          (:target microwave_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    microwave_1 - microwave
+  )
+
+  (:objects
+    white_yellow_mug_1 - white_yellow_mug
+    tomato_sauce_1 - tomato_sauce
+    plate_1 - plate
+    porcelain_mug_1 - porcelain_mug
+    cookies_1 - cookies
+    akita_yellow_bowl_1 - akita_yellow_bowl
+  )
+
+  (:obj_of_interest
+    tomato_sauce_1
+    plate_1
+  )
+
+  (:init
+    (On white_yellow_mug_1 microwave_1_top_side)
+    (On tomato_sauce_1 kitchen_table_tomato_sauce_init_region)
+    (On microwave_1 kitchen_table_microwave_init_region)
+    (Close microwave_1)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On porcelain_mug_1 kitchen_table_porcelain_mug_init_region)
+    (On cookies_1 kitchen_table_cookies_init_region)
+  )
+
+  (:goal
+    (And (On tomato_sauce_1 plate_1))
+  )
+
+)

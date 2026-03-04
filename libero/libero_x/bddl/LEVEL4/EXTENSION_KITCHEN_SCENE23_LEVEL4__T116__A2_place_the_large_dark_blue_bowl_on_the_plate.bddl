@@ -1,0 +1,119 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the large dark blue bowl on the plate)
+    (:regions
+      (akita_blue_bowl_interference_dark_blue_large_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.11 -0.009999999999999995 0.009999999999999995 0.11)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_blue_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.09 -0.009999999999999995 0.21 0.11)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.23 -0.38 -0.17 -0.31999999999999995)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (wooden_tray_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.023 -0.173 0.023 -0.127)
+            )
+          )
+          (:yaw_rotation (
+              (1.571 1.571)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.023 0.227 0.023 0.273)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cookies_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.057999999999999996 -0.303 0.088 -0.27299999999999996)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (contain_region
+          (:target wooden_tray_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+  )
+
+  (:objects
+    wooden_tray_1 - wooden_tray
+    plate_1 - plate
+    akita_blue_bowl_interference_dark_blue_large_1 - akita_blue_bowl_interference_dark_blue_large
+    akita_green_bowl_1 - akita_green_bowl
+    akita_blue_bowl_1 - akita_blue_bowl
+    cookies_1 - cookies
+  )
+
+  (:obj_of_interest
+    akita_blue_bowl_interference_dark_blue_large_1
+    plate_1
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 kitchen_table_wooden_two_layer_shelf_init_region)
+    (On wooden_tray_1 kitchen_table_wooden_tray_init_region)
+    (On akita_blue_bowl_interference_dark_blue_large_1 kitchen_table_akita_blue_bowl_interference_dark_blue_large_init_region)
+    (On akita_green_bowl_1 wooden_two_layer_shelf_1_top_region)
+    (On akita_blue_bowl_1 kitchen_table_akita_blue_bowl_init_region)
+    (On plate_1 kitchen_table_plate_init_region)
+    (Turnon flat_stove_1)
+    (On cookies_1 kitchen_table_cookies_init_region)
+  )
+
+  (:goal
+    (And (On akita_blue_bowl_interference_dark_blue_large_1 plate_1))
+  )
+
+)

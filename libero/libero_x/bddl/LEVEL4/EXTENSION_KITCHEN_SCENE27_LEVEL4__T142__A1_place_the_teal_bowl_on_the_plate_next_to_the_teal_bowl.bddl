@@ -1,0 +1,127 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the teal bowl on the plate next to the teal bowl)
+    (:regions
+      (akita_blue_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.061000000000000006 0.191 0.139 0.269)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (teal_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.060000000000000005 -0.01 -0.04 0.01)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_2_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.231 0.269 -0.169 0.33099999999999996)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.061000000000000006 0.061000000000000006 0.139 0.139)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (short_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.01 -0.16 0.01 -0.13999999999999999)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (macaroni_and_cheese_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.16499999999999998 -0.015 -0.135 0.015)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (ketchup_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.2252 -0.135 0.2552 -0.105)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (middle_region
+          (:target short_cabinet_1)
+      )
+      (top_region
+          (:target short_cabinet_1)
+      )
+      (bottom_region
+          (:target short_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    short_cabinet_1 - short_cabinet
+  )
+
+  (:objects
+    plate_1 plate_2 - plate
+    teal_bowl_1 - teal_bowl
+    akita_blue_bowl_1 - akita_blue_bowl
+    white_bowl_1 - white_bowl
+    macaroni_and_cheese_1 - macaroni_and_cheese
+    ketchup_1 - ketchup
+  )
+
+  (:obj_of_interest
+    teal_bowl_1
+    plate_2
+  )
+
+  (:init
+    (On teal_bowl_1 kitchen_table_teal_bowl_init_region)
+    (On akita_blue_bowl_1 kitchen_table_akita_blue_bowl_init_region)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On short_cabinet_1 kitchen_table_short_cabinet_init_region)
+    (On white_bowl_1 short_cabinet_1_top_region)
+    (On plate_2 kitchen_table_plate_2_init_region)
+    (On macaroni_and_cheese_1 kitchen_table_macaroni_and_cheese_init_region)
+    (On ketchup_1 kitchen_table_ketchup_init_region)
+  )
+
+  (:goal
+    (And (On teal_bowl_1 plate_2))
+  )
+
+)

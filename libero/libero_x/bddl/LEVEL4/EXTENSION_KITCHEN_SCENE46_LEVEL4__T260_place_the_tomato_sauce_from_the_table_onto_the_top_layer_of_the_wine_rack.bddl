@@ -1,0 +1,95 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the tomato sauce from the table onto the top layer of the wine rack)
+    (:regions
+      (white_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.18 0.21999999999999997 -0.020000000000000004 0.38)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (tomato_sauce_2_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.05500000000000001 0.0050000000000000044 0.14500000000000002 0.095)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (wine_rack_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.075 -0.275 0.075 -0.125)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (akita_yellow_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.247 0.265 0.277 0.29500000000000004)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_region
+          (:target wine_rack_1)
+      )
+      (top_side
+          (:target white_cabinet_1)
+      )
+      (top_region
+          (:target white_cabinet_1)
+      )
+      (middle_region
+          (:target white_cabinet_1)
+      )
+      (bottom_region
+          (:target white_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wine_rack_1 - wine_rack
+    white_cabinet_1 - white_cabinet
+  )
+
+  (:objects
+    tomato_sauce_1 tomato_sauce_2 - tomato_sauce
+    akita_yellow_bowl_1 - akita_yellow_bowl
+  )
+
+  (:obj_of_interest
+    white_cabinet_1
+    tomato_sauce_2
+  )
+
+  (:init
+    (On wine_rack_1 kitchen_table_wine_rack_init_region)
+    (In tomato_sauce_1 white_cabinet_1_top_region)
+    (On tomato_sauce_2 kitchen_table_tomato_sauce_2_init_region)
+    (Open white_cabinet_1_top_region)
+    (On white_cabinet_1 kitchen_table_white_cabinet_init_region)
+    (On akita_yellow_bowl_1 kitchen_table_akita_yellow_bowl_init_region)
+  )
+
+  (:goal
+    (And (On tomato_sauce_2 wine_rack_1_top_region))
+  )
+
+)

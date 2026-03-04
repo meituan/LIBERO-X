@@ -1,0 +1,826 @@
+{"task_desc": "For this instruction, please place the pink bowl on the plate. Everything else is just background clutter.", "variant": "A1", "task_id": "001"}
+{"task_desc": "In this scene, the goal is to place the small light green bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "001"}
+{"task_desc": "In this scene, simply place the cyan bowl on the plate. Everything else is just background clutter.", "variant": "A1", "task_id": "002"}
+{"task_desc": "In this scene, please place the small dark yellow bowl on the plate. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "002"}
+{"task_desc": "In this simple task, you should place the orange bowl on the plate. No additional actions are required.", "variant": "A1", "task_id": "003"}
+{"task_desc": "In this simple task, you should place the large light red bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "003"}
+{"task_desc": "In this scene, simply place the pink bowl on top of the wooden cabinet", "variant": "A1", "task_id": "004"}
+{"task_desc": "In this scenario, just place the large light red bowl on top of the wooden cabinet", "variant": "A2", "task_id": "004"}
+{"task_desc": "In this scene, simply place the pink bowl on top of the wooden cabinet", "variant": "A1", "task_id": "005"}
+{"task_desc": "For this instruction, please place the small light green bowl on top of the wooden cabinet", "variant": "A2", "task_id": "005"}
+{"task_desc": "In this scene, the goal is to place the teal bowl on top of the wooden cabinet. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "006"}
+{"task_desc": "In this scene, please place the small dark yellow bowl on top of the wooden cabinet. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "006"}
+{"task_desc": "In this scenario, just open the top drawer of the wooden cabinet. Other objects in the scene can be ignored.", "variant": "", "task_id": "007"}
+{"task_desc": "In this scene, your task is to open the middle drawer of the wooden cabinet", "variant": "", "task_id": "008"}
+{"task_desc": "In this scenario, just open the top drawer of the wooden cabinet. Other objects in the scene can be ignored.", "variant": "", "task_id": "009"}
+{"task_desc": "For this instruction, please place the pink bowl on the plate. Everything else is just background clutter.", "variant": "A1", "task_id": "010"}
+{"task_desc": "In this scene, the goal is to place the small light green bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "010"}
+{"task_desc": "In this simple task, you should place the teal bowl on the plate", "variant": "A1", "task_id": "011"}
+{"task_desc": "In this scene, please place the small dark yellow bowl on the plate. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "011"}
+{"task_desc": "In this simple task, you should place the orange bowl on the plate. No additional actions are required.", "variant": "A1", "task_id": "012"}
+{"task_desc": "In this simple task, you should place the large light red bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "012"}
+{"task_desc": "In this scene, simply place the cyan bowl on the plate. Everything else is just background clutter.", "variant": "A1", "task_id": "013"}
+{"task_desc": "In this scene, the goal is to place the small light green bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "013"}
+{"task_desc": "In this simple task, you should place the teal bowl on the plate", "variant": "A1", "task_id": "014"}
+{"task_desc": "In this scene, please place the small dark yellow bowl on the plate. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "014"}
+{"task_desc": "In this simple task, you should place the teal bowl on the plate", "variant": "A1", "task_id": "015"}
+{"task_desc": "In this simple task, you should place the large light red bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "015"}
+{"task_desc": "In this scene, your task is to open the middle drawer of the wooden cabinet", "variant": "", "task_id": "016"}
+{"task_desc": "In this scenario, just open the top drawer of the wooden cabinet. Other objects in the scene can be ignored.", "variant": "", "task_id": "017"}
+{"task_desc": "In this scene, your task is to place the cyan bowl on top of the wooden cabinet. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "018"}
+{"task_desc": "In this scenario, just place the large light red bowl on top of the wooden cabinet", "variant": "A2", "task_id": "018"}
+{"task_desc": "Here, you only need to place the orange bowl on top of the wooden cabinet. Everything else is just background clutter. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "019"}
+{"task_desc": "For this instruction, please place the small light green bowl on top of the wooden cabinet", "variant": "A2", "task_id": "019"}
+{"task_desc": "In this scene, simply place the pink bowl on top of the wooden cabinet", "variant": "A1", "task_id": "020"}
+{"task_desc": "In this scene, please place the small dark yellow bowl on top of the wooden cabinet. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "020"}
+{"task_desc": "In this scene, the goal is to open the middle drawer of the white cabinet. You do not need to interact with any other item.", "variant": "", "task_id": "021"}
+{"task_desc": "Here, you only need to open the top drawer of the white cabinet. Everything else is just background clutter.", "variant": "", "task_id": "022"}
+{"task_desc": "In this simple task, you should place the orange bowl on the plate. No additional actions are required.", "variant": "A1", "task_id": "023"}
+{"task_desc": "In this scene, the goal is to place the small light green bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "023"}
+{"task_desc": "For this instruction, please place the pink bowl on the plate. Everything else is just background clutter.", "variant": "A1", "task_id": "024"}
+{"task_desc": "In this scene, please place the small dark yellow bowl on the plate. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "024"}
+{"task_desc": "In this scene, simply place the cyan bowl on the plate. Everything else is just background clutter.", "variant": "A1", "task_id": "025"}
+{"task_desc": "In this simple task, you should place the large light red bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "025"}
+{"task_desc": "Here, you only need to close the bottom drawer of the white cabinet. Everything else is just background clutter.", "variant": "", "task_id": "026"}
+{"task_desc": "In this scenario, just place the orange bowl in the bottom drawer of the white cabinet. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "027"}
+{"task_desc": "In this scene, simply place the small light green bowl in the bottom drawer of the white cabinet", "variant": "A2", "task_id": "027"}
+{"task_desc": "In this scenario, just place the orange bowl in the bottom drawer of the white cabinet. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "028"}
+{"task_desc": "In this scene, your task is to place the large light red bowl in the bottom drawer of the white cabinet. Everything else is just background clutter.", "variant": "A2", "task_id": "028"}
+{"task_desc": "In this scenario, just place the orange bowl in the bottom drawer of the white cabinet. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "029"}
+{"task_desc": "Here, you only need to place the small dark yellow bowl in the bottom drawer of the white cabinet. Nothing else in the scene matters for this. Everything else is just background clutter.", "variant": "A2", "task_id": "029"}
+{"task_desc": "In this scene, your task is to place the bbq sauce in the bottom drawer of the white cabinet and close the drawer", "variant": "", "task_id": "030"}
+{"task_desc": "In this scene, simply place the cookies in the bottom drawer of the white cabinet and close the drawer. Other objects in the scene can be ignored. Nothing else in the scene matters for this.", "variant": "", "task_id": "031"}
+{"task_desc": "Here, you only need to place the cream cheese in the bottom drawer of the white cabinet and close the drawer. Nothing else in the scene matters for this. Everything else is just background clutter.", "variant": "", "task_id": "032"}
+{"task_desc": "In this scene, simply close the bottom drawer of the white cabinet and place the popcorn on the plate. You do not need to interact with any other item. Other objects in the scene can be ignored.", "variant": "", "task_id": "033"}
+{"task_desc": "In this scene, the goal is to close the bottom drawer of the white cabinet and place the alphabet soup on the plate", "variant": "", "task_id": "034"}
+{"task_desc": "In this scene, the goal is to close the bottom drawer of the white cabinet and place the alphabet soup on the plate", "variant": "", "task_id": "035"}
+{"task_desc": "In this simple task, you should place the teal bowl on the plate", "variant": "A1", "task_id": "036"}
+{"task_desc": "In this scene, the goal is to place the small light green bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "036"}
+{"task_desc": "In this simple task, you should place the orange bowl on the plate. No additional actions are required.", "variant": "A1", "task_id": "037"}
+{"task_desc": "In this simple task, you should place the large light red bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "037"}
+{"task_desc": "For this instruction, please place the pink bowl on the plate. Everything else is just background clutter.", "variant": "A1", "task_id": "038"}
+{"task_desc": "In this scene, please place the small dark yellow bowl on the plate. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "038"}
+{"task_desc": "Here, you only need to place the orange juice on the plate and close the bottom drawer of the white cabinet. This is a straightforward step.", "variant": "", "task_id": "039"}
+{"task_desc": "In this simple task, you should place the teal bowl on the plate", "variant": "A1", "task_id": "040"}
+{"task_desc": "In this scene, the goal is to place the small light green bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "040"}
+{"task_desc": "In this simple task, you should place the teal bowl on the plate", "variant": "A1", "task_id": "041"}
+{"task_desc": "In this scene, please place the small dark yellow bowl on the plate. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "041"}
+{"task_desc": "For this instruction, please place the cyan bowl to the left of the bowl drainer. No additional actions are required.", "variant": "A1", "task_id": "042"}
+{"task_desc": "In this scenario, just place the teal bowl to the left of the bowl drainer", "variant": "A1", "task_id": "043"}
+{"task_desc": "In this scene, simply place the orange bowl to the right of the bowl drainer. Everything else is just background clutter. No additional actions are required.", "variant": "A1", "task_id": "044"}
+{"task_desc": "In this scene, please place the cyan bowl to the right of the bowl drainer. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "045"}
+{"task_desc": "For this instruction, please pick up the bowl on the plate and place it to the right of the bowl drainer. Everything else is just background clutter. You do not need to interact with any other item.", "variant": "", "task_id": "046"}
+{"task_desc": "Here, you only need to pick up the bowl on the plate and place it to the left of the bowl drainer", "variant": "", "task_id": "047"}
+{"task_desc": "In this scenario, just pick up the bowl on the table and place it to the right of the bowl drainer", "variant": "", "task_id": "048"}
+{"task_desc": "In this scenario, just pick up the bowl on the table and place it to the left of the bowl drainer. Nothing else in the scene matters for this.", "variant": "", "task_id": "049"}
+{"task_desc": "In this scene, simply pick up the bowl on the plate and place it on top of the white cabinet. You do not need to interact with any other item.", "variant": "", "task_id": "050"}
+{"task_desc": "In this simple task, you should pick up the bowl on the table and place it on top of the white cabinet. Nothing else in the scene matters for this. Other objects in the scene can be ignored.", "variant": "", "task_id": "051"}
+{"task_desc": "For this instruction, please place the cyan bowl to the left of the bowl drainer. No additional actions are required.", "variant": "A1", "task_id": "052"}
+{"task_desc": "In this scene, please place the orange bowl to the left of the bowl drainer", "variant": "A1", "task_id": "053"}
+{"task_desc": "In this scene, please place the cyan bowl to the right of the bowl drainer. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "054"}
+{"task_desc": "In this scene, please place the cyan bowl to the right of the bowl drainer. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "055"}
+{"task_desc": "In this scene, simply place the cyan bowl on the stove", "variant": "A1", "task_id": "056"}
+{"task_desc": "In this scene, simply place the small light green bowl on the stove. Everything else is just background clutter.", "variant": "A2", "task_id": "056"}
+{"task_desc": "For this instruction, please place the orange bowl on the stove. This is a straightforward step. Everything else is just background clutter.", "variant": "A1", "task_id": "057"}
+{"task_desc": "In this scene, simply place the large light grey bowl on the stove. No additional actions are required. This is a straightforward step.", "variant": "A2", "task_id": "057"}
+{"task_desc": "In this scene, please turn on the flat stove. No additional actions are required.", "variant": "", "task_id": "058"}
+{"task_desc": "In this scenario, just place the ketchup on the stove and turn on the stove. This is a straightforward step.", "variant": "", "task_id": "059"}
+{"task_desc": "Here, you only need to place the bbq sauce on the stove and turn on the stove", "variant": "", "task_id": "060"}
+{"task_desc": "In this scene, your task is to place the milk to the left of the bowl drainer. Everything else is just background clutter. This is a straightforward step.", "variant": "", "task_id": "061"}
+{"task_desc": "In this scenario, just place the macaroni and cheese to the right of the bowl drainer. Other objects in the scene can be ignored.", "variant": "", "task_id": "062"}
+{"task_desc": "For this instruction, please place the teal bowl to the right of the bowl drainer and place the pink bowl to the left of the bowl drainer. Nothing else in the scene matters for this. No additional actions are required.", "variant": "A1", "task_id": "063"}
+{"task_desc": "In this scenario, just place the pink bowl to the right of the bowl drainer and place the teal bowl to the left of the bowl drainer", "variant": "A1", "task_id": "064"}
+{"task_desc": "For this instruction, please place the cyan bowl to the left of the bowl drainer. No additional actions are required.", "variant": "A1", "task_id": "065"}
+{"task_desc": "In this scene, simply place the pink bowl to the left of the bowl drainer. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "066"}
+{"task_desc": "In this scene, simply place the pink bowl to the right of the bowl drainer. Other objects in the scene can be ignored. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "067"}
+{"task_desc": "In this scene, simply place the pink bowl to the right of the bowl drainer. Other objects in the scene can be ignored. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "068"}
+{"task_desc": "Here, you only need to place the pink bowl on the stove. This is a straightforward step.", "variant": "A1", "task_id": "069"}
+{"task_desc": "In this scene, simply place the small light green bowl on the stove. Everything else is just background clutter.", "variant": "A2", "task_id": "069"}
+{"task_desc": "In this scene, simply place the cyan bowl on the stove", "variant": "A1", "task_id": "070"}
+{"task_desc": "In this scene, simply place the large light grey bowl on the stove. No additional actions are required. This is a straightforward step.", "variant": "A2", "task_id": "070"}
+{"task_desc": "In this scene, please turn on the flat stove. No additional actions are required.", "variant": "", "task_id": "071"}
+{"task_desc": "In this scene, the goal is to place the popcorn on the stove and turn on the stove. You do not need to interact with any other item. Other objects in the scene can be ignored.", "variant": "", "task_id": "072"}
+{"task_desc": "In this scene, simply place the butter on the stove and turn on the stove. You do not need to interact with any other item.", "variant": "", "task_id": "073"}
+{"task_desc": "In this scene, the goal is to place the orange bowl on top of the shelf. You do not need to interact with any other item. This is a straightforward step.", "variant": "A1", "task_id": "074"}
+{"task_desc": "For this instruction, please place the small light green bowl on top of the shelf", "variant": "A2", "task_id": "074"}
+{"task_desc": "In this scene, the goal is to place the orange bowl on top of the shelf. You do not need to interact with any other item. This is a straightforward step.", "variant": "A1", "task_id": "075"}
+{"task_desc": "In this scene, the goal is to place the small dark yellow bowl on top of the shelf. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "075"}
+{"task_desc": "In this scene, please place the cyan bowl to the right of the bowl drainer. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "076"}
+{"task_desc": "In this scenario, just place the teal bowl to the left of the bowl drainer", "variant": "A1", "task_id": "077"}
+{"task_desc": "In this scene, please turn on the flat stove. No additional actions are required.", "variant": "", "task_id": "078"}
+{"task_desc": "In this scene, simply place the chocolate pudding on the stove. Other objects in the scene can be ignored.", "variant": "", "task_id": "079"}
+{"task_desc": "In this scene, your task is to place the butter on top of the shelf. Other objects in the scene can be ignored.", "variant": "", "task_id": "080"}
+{"task_desc": "For this instruction, please place the popcorn on the top layer of the shelf. No additional actions are required.", "variant": "", "task_id": "081"}
+{"task_desc": "In this scene, the goal is to place the popcorn on the bottom layer of the shelf. Everything else is just background clutter. You do not need to interact with any other item.", "variant": "", "task_id": "082"}
+{"task_desc": "In this scene, please turn on the flat stove. No additional actions are required.", "variant": "", "task_id": "083"}
+{"task_desc": "In this scene, the goal is to place the orange juice on the stove. Everything else is just background clutter. You do not need to interact with any other item.", "variant": "", "task_id": "084"}
+{"task_desc": "In this scene, please place the milk on the stove and turn on the stove. Other objects in the scene can be ignored.", "variant": "", "task_id": "085"}
+{"task_desc": "Here, you only need to place the cream cheese on top of the shelf", "variant": "", "task_id": "086"}
+{"task_desc": "Here, you only need to place the ketchup on the top layer of the shelf. Nothing else in the scene matters for this. No additional actions are required.", "variant": "", "task_id": "087"}
+{"task_desc": "In this simple task, you should place the butter on the top layer of the shelf. Nothing else in the scene matters for this.", "variant": "", "task_id": "088"}
+{"task_desc": "In this scene, simply place the cream cheese on the stove. No additional actions are required.", "variant": "", "task_id": "089"}
+{"task_desc": "In this scene, please place the milk on the stove and turn on the stove. Other objects in the scene can be ignored.", "variant": "", "task_id": "090"}
+{"task_desc": "In this simple task, you should place the macaroni and cheese on top of the shelf. Everything else is just background clutter.", "variant": "", "task_id": "091"}
+{"task_desc": "In this scene, simply place the cream cheese on the stove. No additional actions are required.", "variant": "", "task_id": "092"}
+{"task_desc": "In this scenario, just place the ketchup on the stove and turn on the stove. This is a straightforward step.", "variant": "", "task_id": "093"}
+{"task_desc": "In this scene, your task is to place the orange juice on top of the shelf. This is a straightforward step.", "variant": "", "task_id": "094"}
+{"task_desc": "In this scene, the goal is to place the orange juice on the stove. Everything else is just background clutter. You do not need to interact with any other item.", "variant": "", "task_id": "095"}
+{"task_desc": "In this scene, simply place the chocolate pudding on the stove and close the stove. Nothing else in the scene matters for this.", "variant": "", "task_id": "096"}
+{"task_desc": "Here, you only need to place the bowl on the plate", "variant": "", "task_id": "097"}
+{"task_desc": "For this instruction, please place the alphabet soup on the stove. Nothing else in the scene matters for this.", "variant": "", "task_id": "098"}
+{"task_desc": "For this instruction, please place the cookies on the stove. Everything else is just background clutter. Nothing else in the scene matters for this.", "variant": "", "task_id": "099"}
+{"task_desc": "Here, you only need to place the bowl on the plate", "variant": "", "task_id": "100"}
+{"task_desc": "In this simple task, you should place the butter on the top layer of the shelf. Nothing else in the scene matters for this.", "variant": "", "task_id": "101"}
+{"task_desc": "Here, you only need to place the popcorn on the top layer of the shelf and place the chocolate pudding on the stove. Everything else is just background clutter.", "variant": "", "task_id": "102"}
+{"task_desc": "Here, you only need to place the bowl on the plate", "variant": "", "task_id": "103"}
+{"task_desc": "Here, you only need to turn on the stove. No additional actions are required.", "variant": "", "task_id": "104"}
+{"task_desc": "In this scene, the goal is to place the bowl on top of the shelf. You do not need to interact with any other item.", "variant": "", "task_id": "105"}
+{"task_desc": "In this simple task, you should place the orange bowl on the plate. No additional actions are required.", "variant": "A1", "task_id": "106"}
+{"task_desc": "In this scene, the goal is to place the small light green bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "106"}
+{"task_desc": "For this instruction, please place the pink bowl on the plate. Everything else is just background clutter.", "variant": "A1", "task_id": "107"}
+{"task_desc": "In this simple task, you should place the large light red bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "107"}
+{"task_desc": "In this simple task, you should place the pink bowl in the basket", "variant": "A1", "task_id": "108"}
+{"task_desc": "In this scene, you just need to place the small light green bowl in the basket", "variant": "A2", "task_id": "108"}
+{"task_desc": "For this instruction, please place the cyan bowl in the basket", "variant": "A1", "task_id": "109"}
+{"task_desc": "In this scenario, just place the large light red bowl in the basket. You do not need to interact with any other item.", "variant": "A2", "task_id": "109"}
+{"task_desc": "In this simple task, you should place the orange bowl on the plate. No additional actions are required.", "variant": "A1", "task_id": "110"}
+{"task_desc": "In this scene, the goal is to place the small light green bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "110"}
+{"task_desc": "In this simple task, you should place the orange bowl on the plate. No additional actions are required.", "variant": "A1", "task_id": "111"}
+{"task_desc": "For this instruction, please place the large light grey bowl on the plate. Everything else is just background clutter.", "variant": "A2", "task_id": "111"}
+{"task_desc": "In this simple task, you should place the pink bowl in the basket", "variant": "A1", "task_id": "112"}
+{"task_desc": "In this scene, you just need to place the small light green bowl in the basket", "variant": "A2", "task_id": "112"}
+{"task_desc": "In this scene, please place the teal bowl in the basket", "variant": "A1", "task_id": "113"}
+{"task_desc": "In this scene, you just need to place the large light grey bowl in the basket", "variant": "A2", "task_id": "113"}
+{"task_desc": "For this instruction, please place the pink bowl on the plate. Everything else is just background clutter.", "variant": "A1", "task_id": "114"}
+{"task_desc": "In this scene, the goal is to place the small light green bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "114"}
+{"task_desc": "For this instruction, please place the pink bowl on the plate. Everything else is just background clutter.", "variant": "A1", "task_id": "115"}
+{"task_desc": "For this instruction, please place the large light grey bowl on the plate. Everything else is just background clutter.", "variant": "A2", "task_id": "115"}
+{"task_desc": "In this simple task, you should place the teal bowl on the plate", "variant": "A1", "task_id": "116"}
+{"task_desc": "Here, you only need to place the large dark blue bowl on the plate. Everything else is just background clutter.", "variant": "A2", "task_id": "116"}
+{"task_desc": "In this scene, please place the orange bowl in the wooden tray. Everything else is just background clutter. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "117"}
+{"task_desc": "In this scene, your task is to place the small light green bowl in the wooden tray. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "117"}
+{"task_desc": "In this scene, your task is to place the cyan bowl in the wooden tray", "variant": "A1", "task_id": "118"}
+{"task_desc": "In this scene, please place the large light grey bowl in the wooden tray", "variant": "A2", "task_id": "118"}
+{"task_desc": "In this scene, please place the orange bowl in the wooden tray. Everything else is just background clutter. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "119"}
+{"task_desc": "Here, you only need to place the large dark blue bowl in the wooden tray. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "119"}
+{"task_desc": "Here, you only need to place the teal bowl and the orange bowl in the wooden tray. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "120"}
+{"task_desc": "Here, you only need to place the teal bowl and the orange bowl in the wooden tray. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "121"}
+{"task_desc": "In this scene, please place the orange bowl and the teal bowl in the wooden tray", "variant": "A1", "task_id": "122"}
+{"task_desc": "In this scene, simply place the pink bowl onto the plate that is in the center of the table", "variant": "A1", "task_id": "123"}
+{"task_desc": "For this instruction, please place the small light green bowl onto the plate that is in the center of the table. You do not need to interact with any other item. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "123"}
+{"task_desc": "For this instruction, please place the cyan bowl onto the plate that is in the center of the table. Nothing else in the scene matters for this. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "124"}
+{"task_desc": "For this instruction, please place the large light grey bowl onto the plate that is in the center of the table. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "124"}
+{"task_desc": "For this instruction, please place the cyan bowl onto the plate that is in the center of the table. Nothing else in the scene matters for this. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "125"}
+{"task_desc": "In this scenario, just place the large dark blue bowl onto the plate that is in the center of the table", "variant": "A2", "task_id": "125"}
+{"task_desc": "Here, you only need to place the cyan bowl onto the plate that is next to the blue bowl. This is a straightforward step. Everything else is just background clutter.", "variant": "A1", "task_id": "126"}
+{"task_desc": "For this instruction, please place the small light green bowl onto the plate that is next to the blue bowl. No additional actions are required.", "variant": "A2", "task_id": "126"}
+{"task_desc": "Here, you only need to place the orange bowl onto the plate that is next to the blue bowl. Everything else is just background clutter.", "variant": "A1", "task_id": "127"}
+{"task_desc": "In this simple task, you should place the large light grey bowl onto the plate that is next to the blue bowl. No additional actions are required.", "variant": "A2", "task_id": "127"}
+{"task_desc": "Here, you only need to place the orange bowl onto the plate that is next to the orange bowl", "variant": "A1", "task_id": "128"}
+{"task_desc": "In this scene, simply place the large dark blue bowl onto the plate that is next to the large dark blue bowl. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "128"}
+{"task_desc": "In this scene, the goal is to place the pink bowl onto the plate that is in the table center and place the cyan bowl onto the plate that is next to the blue bowl. No additional actions are required.", "variant": "A1", "task_id": "129"}
+{"task_desc": "In this scene, you just need to place the cyan bowl onto the plate that is in the table center and place the orange bowl onto the plate that is next to the blue bowl. You do not need to interact with any other item.", "variant": "A1", "task_id": "130"}
+{"task_desc": "In this scene, simply place the pink bowl onto the plate that is in the table center. You do not need to interact with any other item.", "variant": "A1", "task_id": "131"}
+{"task_desc": "For this instruction, please place the large off-white bowl onto the plate that is in the table center", "variant": "A2", "task_id": "131"}
+{"task_desc": "In this scene, the goal is to place the teal bowl on the off-center plate. No additional actions are required. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "132"}
+{"task_desc": "For this instruction, please place the large off-white bowl on the off-center plate", "variant": "A2", "task_id": "132"}
+{"task_desc": "In this scene, simply stack the cyan bowl on the green bowl", "variant": "A1", "task_id": "133"}
+{"task_desc": "In this simple task, you should stack the teal bowl on the blue bowl. You do not need to interact with any other item.", "variant": "A1", "task_id": "134"}
+{"task_desc": "In this scene, simply place the orange bowl on the off-center plate and place the cyan bowl on top of the wooden shelf", "variant": "A1", "task_id": "135"}
+{"task_desc": "Here, you only need to place the pink bowl on the off-center plate and place the cyan bowl on top of the wooden shelf", "variant": "A1", "task_id": "136"}
+{"task_desc": "In this simple task, you should place the orange bowl on the plate. No additional actions are required.", "variant": "A1", "task_id": "137"}
+{"task_desc": "In this scene, simply place the large off-white bowl on the plate. You do not need to interact with any other item.", "variant": "A2", "task_id": "137"}
+{"task_desc": "In this simple task, you should place the orange bowl on the plate. No additional actions are required.", "variant": "A1", "task_id": "138"}
+{"task_desc": "In this scene, the goal is to place the small light green bowl on the plate. No additional actions are required.", "variant": "A2", "task_id": "138"}
+{"task_desc": "In this scene, simply place the white bowl on the plate and place the pink bowl on top of the microwave. You do not need to interact with any other item.", "variant": "A1", "task_id": "139"}
+{"task_desc": "In this scene, your task is to place the cyan bowl on the plate next to the green bowl. You do not need to interact with any other item.", "variant": "A1", "task_id": "140"}
+{"task_desc": "In this scene, simply place the large off-white bowl on the plate next to the green bowl. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "140"}
+{"task_desc": "In this scene, simply place the orange bowl on the plate next to the green bowl. You do not need to interact with any other item.", "variant": "A1", "task_id": "141"}
+{"task_desc": "In this scene, simply place the large dark blue bowl on the plate next to the green bowl", "variant": "A2", "task_id": "141"}
+{"task_desc": "For this instruction, please place the teal bowl on the plate next to the teal bowl. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "142"}
+{"task_desc": "In this scene, simply place the small light green bowl on the plate next to the small light green bowl. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "142"}
+{"task_desc": "In this scene, simply stack the pink bowl on the blue bowl", "variant": "A1", "task_id": "143"}
+{"task_desc": "In this scene, the goal is to stack the teal bowl on the green bowl. You do not need to interact with any other item. This is a straightforward step.", "variant": "A1", "task_id": "144"}
+{"task_desc": "In this scene, simply place the teal bowl onto the plate that is on the left side of the table. Everything else is just background clutter.", "variant": "A1", "task_id": "145"}
+{"task_desc": "In this scene, simply place the large off-white bowl onto the plate that is on the left side of the table. This is a straightforward step. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "145"}
+{"task_desc": "In this scene, the goal is to place the cyan bowl onto the plate that is on the left side of the table. No additional actions are required. This is a straightforward step.", "variant": "A1", "task_id": "146"}
+{"task_desc": "In this scene, the goal is to place the small light green bowl onto the plate that is on the left side of the table. Everything else is just background clutter.", "variant": "A2", "task_id": "146"}
+{"task_desc": "In this scene, simply place the orange bowl onto the plate that is on the left side of the table. Everything else is just background clutter. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "147"}
+{"task_desc": "In this scene, the goal is to place the large dark blue bowl onto the plate that is on the left side of the table. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "147"}
+{"task_desc": "In this scene, please place the cyan bowl onto the plate that is on top of the cabinet. This is a straightforward step. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "148"}
+{"task_desc": "In this scene, please place the large dark blue bowl onto the plate that is on top of the cabinet. You do not need to interact with any other item.", "variant": "A2", "task_id": "148"}
+{"task_desc": "In this scene, your task is to place the pink bowl onto the plate that is on top of the cabinet", "variant": "A1", "task_id": "149"}
+{"task_desc": "In this scene, simply place the small light green bowl onto the plate that is on top of the cabinet. Everything else is just background clutter. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "149"}
+{"task_desc": "In this scene, your task is to place the pink bowl onto the plate that is on top of the cabinet", "variant": "A1", "task_id": "150"}
+{"task_desc": "In this scene, you just need to place the large off-white bowl onto the plate that is on top of the cabinet", "variant": "A2", "task_id": "150"}
+{"task_desc": "In this scene, the goal is to place the cyan bowl onto the plate that is on the left side of the table. No additional actions are required. This is a straightforward step.", "variant": "A1", "task_id": "151"}
+{"task_desc": "In this scene, the goal is to place the large dark blue bowl onto the plate that is on the left side of the table. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "151"}
+{"task_desc": "In this scene, simply place the orange bowl onto the plate that is on the left side of the table. Everything else is just background clutter. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "152"}
+{"task_desc": "In this scene, the goal is to place the small light green bowl onto the plate that is on the left side of the table. Everything else is just background clutter.", "variant": "A2", "task_id": "152"}
+{"task_desc": "In this scene, simply place the teal bowl onto the plate that is on the left side of the table. Everything else is just background clutter.", "variant": "A1", "task_id": "153"}
+{"task_desc": "In this scene, simply place the large off-white bowl onto the plate that is on the left side of the table. This is a straightforward step. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "153"}
+{"task_desc": "In this scenario, just stack the cyan bowl on the blue bowl. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "154"}
+{"task_desc": "In this scene, simply stack the pink bowl on the green bowl. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "155"}
+{"task_desc": "In this scene, please place the orange bowl to the left of the bowl drainer", "variant": "A1", "task_id": "156"}
+{"task_desc": "For this instruction, please place the cyan bowl to the left of the bowl drainer. No additional actions are required.", "variant": "A1", "task_id": "157"}
+{"task_desc": "For this instruction, please place the cyan bowl to the left of the bowl drainer. No additional actions are required.", "variant": "A1", "task_id": "158"}
+{"task_desc": "In this scene, simply place the pink bowl to the right of the bowl drainer. Other objects in the scene can be ignored. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "159"}
+{"task_desc": "In this scene, simply place the teal bowl to the right of the bowl drainer. This is a straightforward step.", "variant": "A1", "task_id": "160"}
+{"task_desc": "In this scene, please place the cyan bowl to the right of the bowl drainer. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "161"}
+{"task_desc": "In this scenario, just stack the teal bowl on the black bowl. No additional actions are required. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "162"}
+{"task_desc": "In this scenario, just stack the teal bowl on the black bowl. No additional actions are required. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "163"}
+{"task_desc": "In this scene, the goal is to place the teal bowl to the left of the bowl drainer and place the orange bowl to the right of the bowl drainer. This is a straightforward step.", "variant": "A1", "task_id": "164"}
+{"task_desc": "For this instruction, please place the teal bowl to the left of the bowl drainer and place the pink bowl to the right of the bowl drainer", "variant": "A1", "task_id": "165"}
+{"task_desc": "In this simple task, you should place the cyan bowl to the right of the bowl drainer and place the pink bowl to the left of the bowl drainer. No additional actions are required. You do not need to interact with any other item.", "variant": "A1", "task_id": "166"}
+{"task_desc": "In this scene, your task is to place the cyan bowl to the right of the bowl drainer and place the teal bowl to the left of the bowl drainer. Everything else is just background clutter.", "variant": "A1", "task_id": "167"}
+{"task_desc": "In this scene, your task is to place the butter on the stove. Nothing else in the scene matters for this.", "variant": "", "task_id": "168"}
+{"task_desc": "For this instruction, please place the tomato sauce on the top layer of the wooden shelf. Nothing else in the scene matters for this. This is a straightforward step.", "variant": "", "task_id": "169"}
+{"task_desc": "In this scene, please place the popcorn on top of the wooden shelf. Everything else is just background clutter.", "variant": "", "task_id": "170"}
+{"task_desc": "In this scene, you just need to place the ramekin on top of the wooden shelf. Nothing else in the scene matters for this.", "variant": "", "task_id": "171"}
+{"task_desc": "In this scene, the goal is to place the ramekin on the bottom layer of the wooden shelf. Other objects in the scene can be ignored.", "variant": "", "task_id": "172"}
+{"task_desc": "In this scene, simply place the ramekin on the stove. You do not need to interact with any other item.", "variant": "", "task_id": "173"}
+{"task_desc": "Here, you only need to turn on the stove. No additional actions are required.", "variant": "", "task_id": "174"}
+{"task_desc": "For this instruction, please place the medium-sized bowl inside the right compartment of the bowl drainer", "variant": "", "task_id": "175"}
+{"task_desc": "In this scene, simply place the smallest bowl inside the right compartment of the bowl drainer. Everything else is just background clutter. This is a straightforward step.", "variant": "", "task_id": "176"}
+{"task_desc": "In this scene, your task is to place the largest bowl inside the right compartment of the bowl drainer. You do not need to interact with any other item.", "variant": "", "task_id": "177"}
+{"task_desc": "In this simple task, you should place the medium-sized bowl inside the left compartment of the bowl drainer. Other objects in the scene can be ignored.", "variant": "", "task_id": "178"}
+{"task_desc": "Here, you only need to place the smallest bowl inside the left compartment of the bowl drainer. No additional actions are required. Nothing else in the scene matters for this.", "variant": "", "task_id": "179"}
+{"task_desc": "In this scene, please place the largest bowl inside the left compartment of the bowl drainer. No additional actions are required.", "variant": "", "task_id": "180"}
+{"task_desc": "In this scene, the goal is to place the medium-sized bowl on the flat stove. Other objects in the scene can be ignored.", "variant": "", "task_id": "181"}
+{"task_desc": "In this scene, simply place the smallest bowl on the flat stove", "variant": "", "task_id": "182"}
+{"task_desc": "In this scene, the goal is to place the largest bowl on the flat stove. You do not need to interact with any other item.", "variant": "", "task_id": "183"}
+{"task_desc": "In this scene, please place the largest bowl in the left side of the drainer and the medium bowl in the right side. Nothing else in the scene matters for this. No additional actions are required.", "variant": "", "task_id": "184"}
+{"task_desc": "For this instruction, please place the smallest bowl in the left side of the drainer and the medium bowl in the right side", "variant": "", "task_id": "185"}
+{"task_desc": "For this instruction, please turn off the flat stove. Everything else is just background clutter.", "variant": "", "task_id": "186"}
+{"task_desc": "In this scene, simply turn off the flat stove and place the largest bowl on it. No additional actions are required.", "variant": "", "task_id": "187"}
+{"task_desc": "In this scenario, just turn off the flat stove and place the smallest bowl on it. Other objects in the scene can be ignored. No additional actions are required.", "variant": "", "task_id": "188"}
+{"task_desc": "In this scene, please place the largest bowl in the left side of the drainer and the medium bowl in the right side. Nothing else in the scene matters for this. No additional actions are required.", "variant": "", "task_id": "189"}
+{"task_desc": "For this instruction, please place the smallest bowl in the left side of the drainer and the medium bowl in the right side", "variant": "", "task_id": "190"}
+{"task_desc": "In this scene, you just need to turn off the stove and place the largest bowl in the left side of the drainer and the medium bowl in the right side. No additional actions are required.", "variant": "", "task_id": "191"}
+{"task_desc": "In this simple task, you should turn off the stove and place the smallest bowl in the left side of the drainer and the medium bowl in the right side. Everything else is just background clutter. You do not need to interact with any other item.", "variant": "", "task_id": "192"}
+{"task_desc": "In this scene, please place the largest bowl in the left side of the drainer. Other objects in the scene can be ignored.", "variant": "", "task_id": "193"}
+{"task_desc": "In this scene, please place the smallest bowl in the left side of the drainer. This is a straightforward step.", "variant": "", "task_id": "194"}
+{"task_desc": "In this scene, the goal is to place the middle-sized bowl in the left side of the drainer. No additional actions are required.", "variant": "", "task_id": "195"}
+{"task_desc": "In this scenario, just place the cream cheese in the smallest bowl. Nothing else in the scene matters for this.", "variant": "", "task_id": "196"}
+{"task_desc": "In this scene, simply place the bbq sauce in the middle-sized bowl. Other objects in the scene can be ignored.", "variant": "", "task_id": "197"}
+{"task_desc": "In this scenario, just place the cream cheese in the largest bowl. Everything else is just background clutter.", "variant": "", "task_id": "198"}
+{"task_desc": "In this scene, please stack the smallest bowl on the largest bowl", "variant": "", "task_id": "199"}
+{"task_desc": "In this scenario, just stack the middle-sized bowl on the largest bowl", "variant": "", "task_id": "200"}
+{"task_desc": "In this scenario, just stack the smallest bowl on the middle-sized bowl. Everything else is just background clutter.", "variant": "", "task_id": "201"}
+{"task_desc": "In this scene, simply stack the middle-sized bowl on the largest bowl and stack the smallest bowl on the middle-sized bowl. This is a straightforward step.", "variant": "", "task_id": "202"}
+{"task_desc": "In this scene, please place the butter in the green bowl. Nothing else in the scene matters for this.", "variant": "", "task_id": "203"}
+{"task_desc": "In this scene, simply place the teal bowl in the left side of the drainer", "variant": "A1", "task_id": "204"}
+{"task_desc": "For this instruction, please place the pink bowl in the right side of the drainer. No additional actions are required.", "variant": "A1", "task_id": "205"}
+{"task_desc": "In this scene, the goal is to stack the green bowl on the largest bowl. You do not need to interact with any other item. Other objects in the scene can be ignored.", "variant": "", "task_id": "206"}
+{"task_desc": "For this instruction, please stack the pink bowl on the middle-sized black bowl. Other objects in the scene can be ignored. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "207"}
+{"task_desc": "In this scene, you just need to stack middle-sized black bowl on the green bowl", "variant": "", "task_id": "208"}
+{"task_desc": "In this simple task, you should stack the smallest bowl on the middle-sized black bowl. Everything else is just background clutter.", "variant": "", "task_id": "209"}
+{"task_desc": "In this scenario, just stack the smallest bowl on the green bowl. You do not need to interact with any other item.", "variant": "", "task_id": "210"}
+{"task_desc": "In this scenario, just place the cream cheese in the smallest bowl. Nothing else in the scene matters for this.", "variant": "", "task_id": "211"}
+{"task_desc": "In this scene, simply place the bbq sauce in the middle-sized bowl. Other objects in the scene can be ignored.", "variant": "", "task_id": "212"}
+{"task_desc": "In this scenario, just place the cream cheese in the largest bowl. Everything else is just background clutter.", "variant": "", "task_id": "213"}
+{"task_desc": "In this simple task, you should place the smallest bowl in the left side of the drainer and place the largest bowl in the right side. Everything else is just background clutter.", "variant": "", "task_id": "214"}
+{"task_desc": "In this scenario, just place the largest bowl in the left side of the drainer and place the smallest bowl in the right side. Nothing else in the scene matters for this.", "variant": "", "task_id": "215"}
+{"task_desc": "In this scene, please stack the smallest bowl on the largest bowl", "variant": "", "task_id": "216"}
+{"task_desc": "In this scenario, just stack the middle-sized bowl on the largest bowl", "variant": "", "task_id": "217"}
+{"task_desc": "In this scenario, just stack the smallest bowl on the middle-sized bowl. Everything else is just background clutter.", "variant": "", "task_id": "218"}
+{"task_desc": "In this scenario, just open the top drawer of the wooden cabinet. Other objects in the scene can be ignored.", "variant": "", "task_id": "219"}
+{"task_desc": "In this scene, your task is to open the middle drawer of the wooden cabinet", "variant": "", "task_id": "220"}
+{"task_desc": "For this instruction, please turn off the flat stove. Everything else is just background clutter.", "variant": "", "task_id": "221"}
+{"task_desc": "In this scene, simply place the mug on the plate. You do not need to interact with any other item.", "variant": "", "task_id": "222"}
+{"task_desc": "In this scene, you just need to place chocolate pudding on the stove. Other objects in the scene can be ignored. No additional actions are required.", "variant": "", "task_id": "223"}
+{"task_desc": "In this scene, your task is to place salad dressing on the stove and turn off the stove. This is a straightforward step.", "variant": "", "task_id": "224"}
+{"task_desc": "In this scene, simply place the mug on the plate. You do not need to interact with any other item.", "variant": "", "task_id": "225"}
+{"task_desc": "In this scene, the goal is to place the frying pan on the top layer of the shelf", "variant": "", "task_id": "226"}
+{"task_desc": "For this instruction, please place the frying pan on the top layer of the shelf and place the bbq sauce on the stove. Everything else is just background clutter. This is a straightforward step.", "variant": "", "task_id": "227"}
+{"task_desc": "For this instruction, please place the alphabet soup on the plate. This is a straightforward step.", "variant": "", "task_id": "228"}
+{"task_desc": "For this instruction, please place the alphabet soup on the plate. This is a straightforward step.", "variant": "", "task_id": "229"}
+{"task_desc": "In this scene, the goal is to place the frying pan on the top layer of the shelf", "variant": "", "task_id": "230"}
+{"task_desc": "Here, you only need to place the frying pan on the top layer of the shelf and turn off the stove. You do not need to interact with any other item.", "variant": "", "task_id": "231"}
+{"task_desc": "Here, you only need to place the chocolate pudding on the plate", "variant": "", "task_id": "232"}
+{"task_desc": "Here, you only need to place the chocolate pudding on the plate", "variant": "", "task_id": "233"}
+{"task_desc": "Here, you only need to place the orange juice on the plate. Other objects in the scene can be ignored. No additional actions are required.", "variant": "", "task_id": "234"}
+{"task_desc": "In this scene, your task is to place the popcorn on the stove. You do not need to interact with any other item.", "variant": "", "task_id": "235"}
+{"task_desc": "In this scenario, just place the salad dressing in the basket", "variant": "", "task_id": "236"}
+{"task_desc": "In this simple task, you should place the macaroni and cheese in the basket. Other objects in the scene can be ignored. No additional actions are required.", "variant": "", "task_id": "237"}
+{"task_desc": "In this simple task, you should place the ketchup on the stove", "variant": "", "task_id": "238"}
+{"task_desc": "Here, you only need to place the tomato sauce on the stove and turn off the stove. This is a straightforward step.", "variant": "", "task_id": "239"}
+{"task_desc": "Here, you only need to place the alphabet soup in the basket. Everything else is just background clutter.", "variant": "", "task_id": "240"}
+{"task_desc": "In this scenario, just place the salad dressing in the basket", "variant": "", "task_id": "241"}
+{"task_desc": "In this scene, please place the cookies in the basket. Nothing else in the scene matters for this.", "variant": "", "task_id": "242"}
+{"task_desc": "In this scene, please place the ketchup in the basket", "variant": "", "task_id": "243"}
+{"task_desc": "In this simple task, you should place the macaroni and cheese in the basket. Other objects in the scene can be ignored. No additional actions are required.", "variant": "", "task_id": "244"}
+{"task_desc": "In this scene, simply place the tomato sauce on the plate. Nothing else in the scene matters for this. This is a straightforward step.", "variant": "", "task_id": "245"}
+{"task_desc": "In this scenario, just place the cream cheese on the plate. Everything else is just background clutter.", "variant": "", "task_id": "246"}
+{"task_desc": "In this scenario, just open the microwave. Everything else is just background clutter.", "variant": "", "task_id": "247"}
+{"task_desc": "In this scene, your task is to open the microwave and place the alphabet soup in it. No additional actions are required. This is a straightforward step.", "variant": "", "task_id": "248"}
+{"task_desc": "In this scene, the goal is to open the microwave and place the cream cheese in it", "variant": "", "task_id": "249"}
+{"task_desc": "In this scenario, just open the microwave. Everything else is just background clutter.", "variant": "", "task_id": "250"}
+{"task_desc": "In this scene, you just need to open the microwave and place the chocolate pudding in it. Other objects in the scene can be ignored. No additional actions are required.", "variant": "", "task_id": "251"}
+{"task_desc": "In this simple task, you should open the microwave and place alphabet soup in it", "variant": "", "task_id": "252"}
+{"task_desc": "In this scene, simply close the top drawer of the white cabinet", "variant": "", "task_id": "253"}
+{"task_desc": "In this scene, simply close the top and middle drawer of the white cabinet. You do not need to interact with any other item. Nothing else in the scene matters for this.", "variant": "", "task_id": "254"}
+{"task_desc": "In this scene, the goal is to place the bowl in the top drawer. Nothing else in the scene matters for this.", "variant": "", "task_id": "255"}
+{"task_desc": "In this scene, you just need to place the bowl in the top drawer and close the top drawer. This is a straightforward step.", "variant": "", "task_id": "256"}
+{"task_desc": "In this scene, please close the top drawer of the white cabinet and place the bowl in the middle drawer", "variant": "", "task_id": "257"}
+{"task_desc": "In this scene, please close the top and middle drawer of the white cabinet and close the microwave. This is a straightforward step. Everything else is just background clutter.", "variant": "", "task_id": "258"}
+{"task_desc": "In this scene, please place the cream cheese from the table into the top drawer. Everything else is just background clutter. Nothing else in the scene matters for this.", "variant": "", "task_id": "259"}
+{"task_desc": "Here, you only need to place the tomato sauce from the table onto the top layer of the wine rack. Nothing else in the scene matters for this.", "variant": "", "task_id": "260"}
+{"task_desc": "In this scene, simply place the bbq sauce from the drawer onto the top layer of the wine rack. No additional actions are required. This is a straightforward step.", "variant": "", "task_id": "261"}
+{"task_desc": "In this scene, your task is to place the cookies from the drawer onto the top layer of the wine rack and close the drawer. Nothing else in the scene matters for this. No additional actions are required.", "variant": "", "task_id": "262"}
+{"task_desc": "In this simple task, you should place the alphabet soup on the top layer of the wine rack", "variant": "", "task_id": "263"}
+{"task_desc": "In this scene, please place the bowl on top of the cabinet. Everything else is just background clutter.", "variant": "", "task_id": "264"}
+{"task_desc": "In this scene, your task is to place the milk in the bottom drawer", "variant": "", "task_id": "265"}
+{"task_desc": "In this scene, simply open the top drawer. You do not need to interact with any other item.", "variant": "", "task_id": "266"}
+{"task_desc": "In this scene, please close the bottom drawer. You do not need to interact with any other item. No additional actions are required.", "variant": "", "task_id": "267"}
+{"task_desc": "For this instruction, please close the bottom drawer and open the middle drawer. This is a straightforward step.", "variant": "", "task_id": "268"}
+{"task_desc": "In this scene, the goal is to place the bowl on the middle plate relative to the robot", "variant": "", "task_id": "269"}
+{"task_desc": "In this simple task, you should place the bowl on the nearest plate relative to the robot", "variant": "", "task_id": "270"}
+{"task_desc": "In this simple task, you should place the bowl on the nearest plate relative to the robot", "variant": "", "task_id": "271"}
+{"task_desc": "In this simple task, you should place the bbq sauce that is in the drawer onto the top of the cabinet. You do not need to interact with any other item. Nothing else in the scene matters for this.", "variant": "", "task_id": "272"}
+{"task_desc": "In this scenario, just place the bbq sauce that is in the drawer onto the top of the cabinet and close the drawer. No additional actions are required.", "variant": "", "task_id": "273"}
+{"task_desc": "For this instruction, please place the milk that is on the plate onto the top of the cabinet. This is a straightforward step. Everything else is just background clutter.", "variant": "", "task_id": "274"}
+{"task_desc": "In this scene, the goal is to place the chocolate pudding that is in the drawer onto the middle plate relative to the robot. Everything else is just background clutter.", "variant": "", "task_id": "275"}
+{"task_desc": "In this scene, you just need to place the tomato sauce that is in the drawer onto the nearest plate relative to the robot", "variant": "", "task_id": "276"}
+{"task_desc": "In this scene, simply place the butter that is on the plate onto the middle plate relative to the robot. No additional actions are required. Everything else is just background clutter.", "variant": "", "task_id": "277"}
+{"task_desc": "In this scene, your task is to place the milk that is on the plate onto the nearest plate relative to the robot. Nothing else in the scene matters for this.", "variant": "", "task_id": "278"}
+{"task_desc": "For this instruction, please place the popcorn that is on the plate onto the middle plate relative to the robot. This is a straightforward step.", "variant": "", "task_id": "279"}
+{"task_desc": "For this instruction, please place the cookies that is on the plate onto the nearest plate relative to the robot", "variant": "", "task_id": "280"}
+{"task_desc": "For this instruction, please place the popcorn on top of the cabinet. This is a straightforward step.", "variant": "", "task_id": "281"}
+{"task_desc": "In this scene, simply open the top drawer. You do not need to interact with any other item.", "variant": "", "task_id": "282"}
+{"task_desc": "In this scene, the goal is to place the bowl on the middle plate relative to the robot", "variant": "", "task_id": "283"}
+{"task_desc": "In this simple task, you should place the bowl on the nearest plate relative to the robot", "variant": "", "task_id": "284"}
+{"task_desc": "In this scene, please place the bowl on top of the cabinet. Everything else is just background clutter.", "variant": "", "task_id": "285"}
+{"task_desc": "In this scene, please place the bowl on the middle plate relative to the robot and place the porcelain mug in the bottom drawer. This is a straightforward step. No additional actions are required.", "variant": "", "task_id": "286"}
+{"task_desc": "For this instruction, please place the bowl on the nearest plate relative to the robot and place the porcelain mug in the bottom drawer", "variant": "", "task_id": "287"}
+{"task_desc": "In this scene, you just need to place the cyan grid book into the left desk caddy's back compartment", "variant": "A1", "task_id": "288"}
+{"task_desc": "In this scenario, just place the light yellow book into the left desk caddy's back compartment", "variant": "A2", "task_id": "288"}
+{"task_desc": "In this simple task, you should place the white speckle book into the left desk caddy's front compartment. Everything else is just background clutter. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "289"}
+{"task_desc": "In this scene, you just need to place the dark grey book into the left desk caddy's front compartment", "variant": "A2", "task_id": "289"}
+{"task_desc": "In this scene, please place the cookies into the left desk caddy's left compartment. No additional actions are required. Everything else is just background clutter.", "variant": "", "task_id": "290"}
+{"task_desc": "In this scene, you just need to place the teal wavy book into the left desk caddy's left compartment. Everything else is just background clutter. This is a straightforward step.", "variant": "A1", "task_id": "291"}
+{"task_desc": "In this scene, simply place the light yellow book into the left desk caddy's left compartment. Nothing else in the scene matters for this. No additional actions are required.", "variant": "A2", "task_id": "291"}
+{"task_desc": "In this scene, simply place the navy speckle book into the left desk caddy's left compartment", "variant": "A1", "task_id": "292"}
+{"task_desc": "In this scene, simply place the light yellow book into the left desk caddy's left compartment. Nothing else in the scene matters for this. No additional actions are required.", "variant": "A2", "task_id": "292"}
+{"task_desc": "In this scene, please place the orange juice into the left desk caddy's right compartment", "variant": "", "task_id": "293"}
+{"task_desc": "In this scene, simply place the brown grid book into the left desk caddy's right compartment. Everything else is just background clutter. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "294"}
+{"task_desc": "For this instruction, please place the dark grey book into the left desk caddy's right compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "294"}
+{"task_desc": "In this scene, simply place the cyan grid book into the left desk caddy's right compartment. Everything else is just background clutter.", "variant": "A1", "task_id": "295"}
+{"task_desc": "For this instruction, please place the light yellow book into the left desk caddy's right compartment", "variant": "A2", "task_id": "295"}
+{"task_desc": "In this scene, please place the left yellow green striped book into the left desk caddy's back compartment. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "296"}
+{"task_desc": "In this scene, you just need to place the left dark grey book into the left desk caddy's back compartment. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "296"}
+{"task_desc": "In this scene, simply place the right white speckle book into the left desk caddy's front compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "297"}
+{"task_desc": "For this instruction, please place the purple book into the left desk caddy's right compartment. This is a straightforward step.", "variant": "A1", "task_id": "298"}
+{"task_desc": "For this instruction, please place the light yellow book into the left desk caddy's right compartment", "variant": "A2", "task_id": "298"}
+{"task_desc": "In this scenario, just place the left purple book into the left desk caddy's left compartment. No additional actions are required. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "299"}
+{"task_desc": "In this simple task, you should place the left dark grey book into the left desk caddy's left compartment. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "299"}
+{"task_desc": "In this scenario, just place the yellow green striped book into the left desk caddy's back compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "300"}
+{"task_desc": "Here, you only need to place the light green book into the left desk caddy's back compartment. No additional actions are required.", "variant": "A2", "task_id": "300"}
+{"task_desc": "For this instruction, please place the white speckle book into the left desk caddy's back compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "301"}
+{"task_desc": "In this scenario, just place the light yellow book into the left desk caddy's back compartment", "variant": "A2", "task_id": "301"}
+{"task_desc": "In this scenario, just place the butter into the left desk caddy's right compartment. No additional actions are required. Everything else is just background clutter.", "variant": "", "task_id": "302"}
+{"task_desc": "For this instruction, please place the cyan grid book into the left desk caddy's left compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "303"}
+{"task_desc": "In this simple task, you should place the dark grey book into the left desk caddy's left compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "303"}
+{"task_desc": "In this scene, the goal is to place the purple book into the left desk caddy's left compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "304"}
+{"task_desc": "In this scene, please place the light red book into the left desk caddy's left compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "304"}
+{"task_desc": "For this instruction, please place the purple book into the left desk caddy's right compartment. This is a straightforward step.", "variant": "A1", "task_id": "305"}
+{"task_desc": "In this scene, simply place the dark orange book into the left desk caddy's right compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "305"}
+{"task_desc": "For this instruction, please place the popcorn into the left desk caddy's left compartment", "variant": "", "task_id": "306"}
+{"task_desc": "In this simple task, you should place the white speckle book into the left desk caddy's front compartment. Everything else is just background clutter. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "307"}
+{"task_desc": "In this scene, please place the dark striped book into the left desk caddy's front compartment. This is a straightforward step. You do not need to interact with any other item.", "variant": "A2", "task_id": "307"}
+{"task_desc": "In this scene, simply place the purple book into the left desk caddy's front compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "308"}
+{"task_desc": "In this scene, simply place the light yellow book into the left desk caddy's front compartment. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "308"}
+{"task_desc": "In this scene, simply place the navy speckle book into the left desk caddy's left compartment", "variant": "A1", "task_id": "309"}
+{"task_desc": "In this scenario, just place the dark striped book into the left desk caddy's left compartment. No additional actions are required. This is a straightforward step.", "variant": "A2", "task_id": "309"}
+{"task_desc": "For this instruction, please place the bbq sauce into the left desk caddy's left compartment. No additional actions are required. You do not need to interact with any other item.", "variant": "", "task_id": "310"}
+{"task_desc": "In this scenario, just place the brown grid book into the left desk caddy's front compartment", "variant": "A1", "task_id": "311"}
+{"task_desc": "In this simple task, you should place the light red book into the left desk caddy's front compartment. Nothing else in the scene matters for this. Everything else is just background clutter.", "variant": "A2", "task_id": "311"}
+{"task_desc": "In this scene, please place the yellow green striped book into the left desk caddy's left compartment. No additional actions are required. This is a straightforward step.", "variant": "A1", "task_id": "312"}
+{"task_desc": "For this instruction, please place the light green book into the left desk caddy's left compartment. This is a straightforward step.", "variant": "A2", "task_id": "312"}
+{"task_desc": "In this scene, simply place the navy speckle book into the left desk caddy's back compartment. No additional actions are required. This is a straightforward step.", "variant": "A1", "task_id": "313"}
+{"task_desc": "In this scenario, just place the light yellow book into the left desk caddy's back compartment", "variant": "A2", "task_id": "313"}
+{"task_desc": "In this scene, simply place the white speckle book into the left desk caddy's left compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "314"}
+{"task_desc": "In this scenario, just place the dark striped book into the left desk caddy's left compartment. No additional actions are required. This is a straightforward step.", "variant": "A2", "task_id": "314"}
+{"task_desc": "Here, you only need to place the brown grid book into the left desk caddy's back compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "315"}
+{"task_desc": "In this scene, simply place the dark orange book into the left desk caddy's back compartment. You do not need to interact with any other item. No additional actions are required.", "variant": "A2", "task_id": "315"}
+{"task_desc": "For this instruction, please place the left purple book into the left desk caddy's back compartment. This is a straightforward step.", "variant": "A1", "task_id": "316"}
+{"task_desc": "In this scene, please place the right purple book into the left desk caddy's front compartment", "variant": "A1", "task_id": "317"}
+{"task_desc": "In this scene, the goal is to place the right light red book into the left desk caddy's front compartment. You do not need to interact with any other item.", "variant": "A2", "task_id": "317"}
+{"task_desc": "In this scenario, just place the yellow green striped book into the left desk caddy's back compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "318"}
+{"task_desc": "Here, you only need to place the dark striped book into the left desk caddy's back compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "318"}
+{"task_desc": "In this scene, please place the teal wavy book into the left desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "319"}
+{"task_desc": "In this scene, simply place the dark orange book into the left desk caddy's right compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "319"}
+{"task_desc": "In this scene, simply place the right brown grid book into the left desk caddy's front compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "320"}
+{"task_desc": "In this simple task, you should place the purple book into the left desk caddy's back compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "321"}
+{"task_desc": "Here, you only need to place the light green book into the left desk caddy's back compartment. No additional actions are required.", "variant": "A2", "task_id": "321"}
+{"task_desc": "For this instruction, please place the left purple book into the left desk caddy's front compartment. This is a straightforward step. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "322"}
+{"task_desc": "In this scene, simply place the left light yellow book into the left desk caddy's front compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "322"}
+{"task_desc": "In this simple task, you should place the yellow green striped book into the left desk caddy's front compartment", "variant": "A1", "task_id": "323"}
+{"task_desc": "In this simple task, you should place the light red book into the left desk caddy's front compartment. Nothing else in the scene matters for this. Everything else is just background clutter.", "variant": "A2", "task_id": "323"}
+{"task_desc": "In this scene, your task is to place the left pink wavy book into the left desk caddy's right compartment", "variant": "A1", "task_id": "324"}
+{"task_desc": "In this scene, your task is to place the right yellow green striped book into the left desk caddy's front compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "325"}
+{"task_desc": "In this scene, simply place the right dark striped book into the left desk caddy's front compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "325"}
+{"task_desc": "In this simple task, you should place the brown grid book into the left desk caddy's left compartment. Everything else is just background clutter. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "326"}
+{"task_desc": "In this simple task, you should place the dark grey book into the left desk caddy's left compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "326"}
+{"task_desc": "In this scene, please place the popcorn into the left desk caddy's right compartment. No additional actions are required. Other objects in the scene can be ignored.", "variant": "", "task_id": "327"}
+{"task_desc": "In this scenario, just place the teal wavy book into the right desk caddy's back compartment. This is a straightforward step. You do not need to interact with any other item.", "variant": "A1", "task_id": "328"}
+{"task_desc": "In this scene, your task is to place the dark grey book into the right desk caddy's back compartment", "variant": "A2", "task_id": "328"}
+{"task_desc": "In this scene, the goal is to place the bbq sauce into the right desk caddy's right compartment. This is a straightforward step. Other objects in the scene can be ignored.", "variant": "", "task_id": "329"}
+{"task_desc": "In this scene, simply place the teal wavy book into the right desk caddy's right compartment", "variant": "A1", "task_id": "330"}
+{"task_desc": "In this scene, simply place the light yellow book into the right desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "330"}
+{"task_desc": "For this instruction, please place the white speckle book into the right desk caddy's right compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "331"}
+{"task_desc": "In this scene, you just need to place the dark grey book into the right desk caddy's right compartment. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "331"}
+{"task_desc": "For this instruction, please place the tomato sauce into the right desk caddy's right compartment. Everything else is just background clutter.", "variant": "", "task_id": "332"}
+{"task_desc": "In this scene, simply place the teal wavy book into the right desk caddy's right compartment", "variant": "A1", "task_id": "333"}
+{"task_desc": "In this scene, simply place the light yellow book into the right desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "333"}
+{"task_desc": "In this scene, your task is to place the brown grid book into the right desk caddy's right compartment. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "334"}
+{"task_desc": "In this scene, you just need to place the dark grey book into the right desk caddy's right compartment. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "334"}
+{"task_desc": "In this scene, the goal is to place the cream cheese into the right desk caddy's left compartment. Everything else is just background clutter. No additional actions are required.", "variant": "", "task_id": "335"}
+{"task_desc": "For this instruction, please place the white speckle book into the right desk caddy's back compartment", "variant": "A1", "task_id": "336"}
+{"task_desc": "In this simple task, you should place the light yellow book into the right desk caddy's back compartment. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "336"}
+{"task_desc": "In this scene, your task is to place the left pink wavy book into the right desk caddy's right compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "337"}
+{"task_desc": "In this simple task, you should place the right navy speckle book into the right desk caddy's front compartment", "variant": "A1", "task_id": "338"}
+{"task_desc": "Here, you only need to place the right dark grey book into the right desk caddy's front compartment. This is a straightforward step.", "variant": "A2", "task_id": "338"}
+{"task_desc": "In this scene, your task is to place the brown grid book into the right desk caddy's right compartment. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "339"}
+{"task_desc": "In this scene, simply place the light yellow book into the right desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "339"}
+{"task_desc": "In this simple task, you should place the teal wavy book into the right desk caddy's front compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "340"}
+{"task_desc": "In this scenario, just place the dark grey book into the right desk caddy's front compartment. You do not need to interact with any other item. This is a straightforward step.", "variant": "A2", "task_id": "340"}
+{"task_desc": "For this instruction, please place the white speckle book into the right desk caddy's back compartment", "variant": "A1", "task_id": "341"}
+{"task_desc": "In this simple task, you should place the light yellow book into the right desk caddy's back compartment. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "341"}
+{"task_desc": "For this instruction, please place the tomato sauce into the right desk caddy's right compartment. Everything else is just background clutter.", "variant": "", "task_id": "342"}
+{"task_desc": "In this scene, simply place the navy speckle book into the right desk caddy's right compartment. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "343"}
+{"task_desc": "In this scene, simply place the light green book into the right desk caddy's right compartment. This is a straightforward step.", "variant": "A2", "task_id": "343"}
+{"task_desc": "In this scene, please place the popcorn into the right desk caddy's left compartment", "variant": "", "task_id": "344"}
+{"task_desc": "In this scenario, just place the teal wavy book into the right desk caddy's back compartment. This is a straightforward step. You do not need to interact with any other item.", "variant": "A1", "task_id": "345"}
+{"task_desc": "In this scene, simply place the dark orange book into the right desk caddy's back compartment. Everything else is just background clutter. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "345"}
+{"task_desc": "In this simple task, you should place the pink wavy book into the right desk caddy's front compartment", "variant": "A1", "task_id": "346"}
+{"task_desc": "In this scenario, just place the light red book into the right desk caddy's front compartment", "variant": "A2", "task_id": "346"}
+{"task_desc": "In this scenario, just place the yellow green striped book into the right desk caddy's left compartment. Everything else is just background clutter.", "variant": "A1", "task_id": "347"}
+{"task_desc": "In this scene, simply place the dark striped book into the right desk caddy's left compartment. Other objects in the scene can be ignored. You do not need to interact with any other item.", "variant": "A2", "task_id": "347"}
+{"task_desc": "In this scene, you just need to place the yellow green striped book into the right desk caddy's right compartment", "variant": "A1", "task_id": "348"}
+{"task_desc": "For this instruction, please place the light red book into the right desk caddy's right compartment. This is a straightforward step. Everything else is just background clutter.", "variant": "A2", "task_id": "348"}
+{"task_desc": "In this scenario, just place the purple book into the right desk caddy's front compartment", "variant": "A1", "task_id": "349"}
+{"task_desc": "In this scene, simply place the dark striped book into the right desk caddy's front compartment. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "349"}
+{"task_desc": "In this scene, your task is to place the white speckle book into the right desk caddy's front compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "350"}
+{"task_desc": "In this simple task, you should place the light yellow book into the right desk caddy's front compartment. No additional actions are required. Everything else is just background clutter.", "variant": "A2", "task_id": "350"}
+{"task_desc": "Here, you only need to place the cookies into the right desk caddy's right compartment. Other objects in the scene can be ignored. No additional actions are required.", "variant": "", "task_id": "351"}
+{"task_desc": "In this scene, please place the navy speckle book into the right desk caddy's back compartment", "variant": "A1", "task_id": "352"}
+{"task_desc": "In this simple task, you should place the light yellow book into the right desk caddy's back compartment. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "352"}
+{"task_desc": "In this scene, simply place the pink wavy book into the right desk caddy's back compartment", "variant": "A1", "task_id": "353"}
+{"task_desc": "In this scene, your task is to place the dark grey book into the right desk caddy's back compartment", "variant": "A2", "task_id": "353"}
+{"task_desc": "In this scenario, just place the teal wavy book into the right desk caddy's back compartment. This is a straightforward step. You do not need to interact with any other item.", "variant": "A1", "task_id": "354"}
+{"task_desc": "In this scene, simply place the dark orange book into the right desk caddy's back compartment. Everything else is just background clutter. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "354"}
+{"task_desc": "In this scene, your task is to place the white speckle book into the right desk caddy's front compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "355"}
+{"task_desc": "In this scene, please place the light green book into the right desk caddy's front compartment", "variant": "A2", "task_id": "355"}
+{"task_desc": "Here, you only need to place the pink wavy book into the right desk caddy's left compartment", "variant": "A1", "task_id": "356"}
+{"task_desc": "In this simple task, you should place the dark orange book into the right desk caddy's left compartment. Other objects in the scene can be ignored. Everything else is just background clutter.", "variant": "A2", "task_id": "356"}
+{"task_desc": "Here, you only need to place the left purple book into the right desk caddy's front compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "357"}
+{"task_desc": "In this scenario, just place the left light red book into the right desk caddy's front compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "357"}
+{"task_desc": "In this scene, simply place the pink wavy book into the right desk caddy's back compartment", "variant": "A1", "task_id": "358"}
+{"task_desc": "In this scenario, just place the dark striped book into the right desk caddy's back compartment. You do not need to interact with any other item. Everything else is just background clutter.", "variant": "A2", "task_id": "358"}
+{"task_desc": "In this simple task, you should place the right brown grid book into the right desk caddy's back compartment", "variant": "A1", "task_id": "359"}
+{"task_desc": "In this scene, the goal is to place the yellow green striped book into the right desk caddy's front compartment. You do not need to interact with any other item. This is a straightforward step.", "variant": "A1", "task_id": "360"}
+{"task_desc": "In this scenario, just place the light red book into the right desk caddy's front compartment", "variant": "A2", "task_id": "360"}
+{"task_desc": "Here, you only need to place the right pink wavy book into the right desk caddy's back compartment. No additional actions are required.", "variant": "A1", "task_id": "361"}
+{"task_desc": "In this simple task, you should place the right light yellow book into the right desk caddy's back compartment", "variant": "A2", "task_id": "361"}
+{"task_desc": "In this scene, the goal is to place the cyan grid book into the right desk caddy's right compartment", "variant": "A1", "task_id": "362"}
+{"task_desc": "In this scene, simply place the light green book into the right desk caddy's right compartment. This is a straightforward step.", "variant": "A2", "task_id": "362"}
+{"task_desc": "Here, you only need to place the left teal wavy book into the right desk caddy's front compartment. Everything else is just background clutter. You do not need to interact with any other item.", "variant": "A1", "task_id": "363"}
+{"task_desc": "In this scenario, just place the purple book into the right desk caddy's left compartment", "variant": "A1", "task_id": "364"}
+{"task_desc": "In this simple task, you should place the dark grey book into the right desk caddy's left compartment. Everything else is just background clutter. This is a straightforward step.", "variant": "A2", "task_id": "364"}
+{"task_desc": "For this instruction, please place the left pink wavy book into the right desk caddy's front compartment", "variant": "A1", "task_id": "365"}
+{"task_desc": "In this scene, you just need to place the left dark striped book into the right desk caddy's front compartment. No additional actions are required. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "365"}
+{"task_desc": "For this instruction, please place the tomato sauce into the right desk caddy's right compartment. Everything else is just background clutter.", "variant": "", "task_id": "366"}
+{"task_desc": "In this scene, your task is to place the white speckle book into the right desk caddy's front compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "367"}
+{"task_desc": "In this scene, please place the dark orange book into the right desk caddy's front compartment", "variant": "A2", "task_id": "367"}
+{"task_desc": "Here, you only need to place the navy speckle book into the back desk caddy's right compartment", "variant": "A1", "task_id": "368"}
+{"task_desc": "In this scene, your task is to place the dark grey book into the back desk caddy's right compartment", "variant": "A2", "task_id": "368"}
+{"task_desc": "In this simple task, you should place the purple book into the back desk caddy's front compartment. This is a straightforward step.", "variant": "A1", "task_id": "369"}
+{"task_desc": "In this scene, your task is to place the light yellow book into the back desk caddy's front compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "369"}
+{"task_desc": "For this instruction, please place the orange juice into the back desk caddy's right compartment", "variant": "", "task_id": "370"}
+{"task_desc": "In this scene, simply place the teal wavy book into the back desk caddy's front compartment. No additional actions are required.", "variant": "A1", "task_id": "371"}
+{"task_desc": "In this scenario, just place the dark grey book into the back desk caddy's front compartment. You do not need to interact with any other item.", "variant": "A2", "task_id": "371"}
+{"task_desc": "In this scene, please place the ketchup into the back desk caddy's left compartment. This is a straightforward step.", "variant": "", "task_id": "372"}
+{"task_desc": "In this scene, your task is to place the navy speckle book into the back desk caddy's front compartment. No additional actions are required. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "373"}
+{"task_desc": "In this scenario, just place the dark grey book into the back desk caddy's front compartment. You do not need to interact with any other item.", "variant": "A2", "task_id": "373"}
+{"task_desc": "In this scene, your task is to place the pink wavy book into the back desk caddy's front compartment. Nothing else in the scene matters for this. You do not need to interact with any other item.", "variant": "A1", "task_id": "374"}
+{"task_desc": "In this scene, your task is to place the light yellow book into the back desk caddy's front compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "374"}
+{"task_desc": "In this scenario, just place the ketchup into the back desk caddy's right compartment. This is a straightforward step. Everything else is just background clutter.", "variant": "", "task_id": "375"}
+{"task_desc": "For this instruction, please place the left navy speckle book into the back desk caddy's left compartment", "variant": "A1", "task_id": "376"}
+{"task_desc": "Here, you only need to place the left dark grey book into the back desk caddy's left compartment. This is a straightforward step.", "variant": "A2", "task_id": "376"}
+{"task_desc": "In this scene, the goal is to place the white speckle book into the back desk caddy's right compartment. No additional actions are required.", "variant": "A1", "task_id": "377"}
+{"task_desc": "In this simple task, you should place the light yellow book into the back desk caddy's right compartment. No additional actions are required.", "variant": "A2", "task_id": "377"}
+{"task_desc": "In this scene, your task is to place the right yellow green striped book into the back desk caddy's right compartment", "variant": "A1", "task_id": "378"}
+{"task_desc": "For this instruction, please place the chocolate pudding into the back desk caddy's left compartment. Everything else is just background clutter.", "variant": "", "task_id": "379"}
+{"task_desc": "In this scene, your task is to place the salad dressing into the back desk caddy's left compartment. Everything else is just background clutter.", "variant": "", "task_id": "380"}
+{"task_desc": "In this simple task, you should place the purple book into the back desk caddy's right compartment. This is a straightforward step.", "variant": "A1", "task_id": "381"}
+{"task_desc": "In this scene, your task is to place the dark grey book into the back desk caddy's right compartment", "variant": "A2", "task_id": "381"}
+{"task_desc": "In this scene, your task is to place the cyan grid book into the back desk caddy's front compartment", "variant": "A1", "task_id": "382"}
+{"task_desc": "In this scene, simply place the light green book into the back desk caddy's front compartment. Other objects in the scene can be ignored. No additional actions are required.", "variant": "A2", "task_id": "382"}
+{"task_desc": "In this scene, your task is to place the teal wavy book into the back desk caddy's right compartment. Everything else is just background clutter.", "variant": "A1", "task_id": "383"}
+{"task_desc": "In this simple task, you should place the light yellow book into the back desk caddy's right compartment. No additional actions are required.", "variant": "A2", "task_id": "383"}
+{"task_desc": "In this scene, the goal is to place the white speckle book into the back desk caddy's left compartment. Everything else is just background clutter.", "variant": "A1", "task_id": "384"}
+{"task_desc": "In this scene, your task is to place the dark orange book into the back desk caddy's left compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "384"}
+{"task_desc": "In this scene, the goal is to place the white speckle book into the back desk caddy's left compartment. Everything else is just background clutter.", "variant": "A1", "task_id": "385"}
+{"task_desc": "In this scenario, just place the light red book into the back desk caddy's left compartment. No additional actions are required.", "variant": "A2", "task_id": "385"}
+{"task_desc": "In this scenario, just place the ketchup into the back desk caddy's right compartment. This is a straightforward step. Everything else is just background clutter.", "variant": "", "task_id": "386"}
+{"task_desc": "In this scene, your task is to place the teal wavy book into the back desk caddy's right compartment. Everything else is just background clutter.", "variant": "A1", "task_id": "387"}
+{"task_desc": "In this simple task, you should place the dark striped book into the back desk caddy's right compartment. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "387"}
+{"task_desc": "In this scene, the goal is to place the cookies into the back desk caddy's right compartment. No additional actions are required.", "variant": "", "task_id": "388"}
+{"task_desc": "For this instruction, please place the navy speckle book into the back desk caddy's left compartment. Other objects in the scene can be ignored. No additional actions are required.", "variant": "A1", "task_id": "389"}
+{"task_desc": "In this scene, the goal is to place the dark striped book into the back desk caddy's left compartment. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "389"}
+{"task_desc": "In this scene, your task is to place the cyan grid book into the back desk caddy's front compartment", "variant": "A1", "task_id": "390"}
+{"task_desc": "In this scene, simply place the light red book into the back desk caddy's front compartment. No additional actions are required.", "variant": "A2", "task_id": "390"}
+{"task_desc": "In this scenario, just place the purple book into the back desk caddy's left compartment. No additional actions are required.", "variant": "A1", "task_id": "391"}
+{"task_desc": "In this scene, simply place the light yellow book into the back desk caddy's left compartment. Nothing else in the scene matters for this. Everything else is just background clutter.", "variant": "A2", "task_id": "391"}
+{"task_desc": "In this scene, the goal is to place the cyan grid book into the back desk caddy's back compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "392"}
+{"task_desc": "For this instruction, please place the dark orange book into the back desk caddy's back compartment. You do not need to interact with any other item.", "variant": "A2", "task_id": "392"}
+{"task_desc": "In this scene, simply place the teal wavy book into the back desk caddy's front compartment. No additional actions are required.", "variant": "A1", "task_id": "393"}
+{"task_desc": "In this scene, you just need to place the dark striped book into the back desk caddy's front compartment. You do not need to interact with any other item.", "variant": "A2", "task_id": "393"}
+{"task_desc": "In this scene, simply place the white speckle book into the back desk caddy's front compartment", "variant": "A1", "task_id": "394"}
+{"task_desc": "In this scenario, just place the dark grey book into the back desk caddy's front compartment. You do not need to interact with any other item.", "variant": "A2", "task_id": "394"}
+{"task_desc": "For this instruction, please place the navy speckle book into the back desk caddy's left compartment. Other objects in the scene can be ignored. No additional actions are required.", "variant": "A1", "task_id": "395"}
+{"task_desc": "In this scene, simply place the light yellow book into the back desk caddy's left compartment. Nothing else in the scene matters for this. Everything else is just background clutter.", "variant": "A2", "task_id": "395"}
+{"task_desc": "In this scene, simply place the right teal wavy book into the back desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "396"}
+{"task_desc": "In this scene, simply place the right light red book into the back desk caddy's right compartment", "variant": "A2", "task_id": "396"}
+{"task_desc": "For this instruction, please place the pink wavy book into the back desk caddy's left compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "397"}
+{"task_desc": "In this scene, your task is to place the dark orange book into the back desk caddy's left compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "397"}
+{"task_desc": "In this scene, you just need to place the brown grid book into the back desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "398"}
+{"task_desc": "In this simple task, you should place the dark striped book into the back desk caddy's right compartment. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "398"}
+{"task_desc": "For this instruction, please place the left yellow green striped book into the back desk caddy's back compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "399"}
+{"task_desc": "In this scenario, just place the right white speckle book into the back desk caddy's back compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "400"}
+{"task_desc": "For this instruction, please place the left cyan grid book into the back desk caddy's back compartment", "variant": "A1", "task_id": "401"}
+{"task_desc": "In this scene, your task is to place the left light yellow book into the back desk caddy's back compartment", "variant": "A2", "task_id": "401"}
+{"task_desc": "In this scene, the goal is to place the cyan grid book into the back desk caddy's right compartment", "variant": "A1", "task_id": "402"}
+{"task_desc": "For this instruction, please place the light red book into the back desk caddy's right compartment. No additional actions are required.", "variant": "A2", "task_id": "402"}
+{"task_desc": "In this scene, your task is to place the teal wavy book into the back desk caddy's right compartment. Everything else is just background clutter.", "variant": "A1", "task_id": "403"}
+{"task_desc": "Here, you only need to place the light green book into the back desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "403"}
+{"task_desc": "In this scene, simply place the yellow green striped book into the back desk caddy's back compartment", "variant": "A1", "task_id": "404"}
+{"task_desc": "In this scene, simply place the left dark orange book into the back desk caddy's back compartment", "variant": "A2", "task_id": "404"}
+{"task_desc": "Here, you only need to place the navy speckle book into the back desk caddy's right compartment", "variant": "A1", "task_id": "405"}
+{"task_desc": "In this scene, your task is to place the dark grey book into the back desk caddy's right compartment", "variant": "A2", "task_id": "405"}
+{"task_desc": "Here, you only need to place the left brown grid book into the back desk caddy's left compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "406"}
+{"task_desc": "In this scene, simply place the left dark striped book into the back desk caddy's left compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "406"}
+{"task_desc": "In this scene, simply place the butter into the back desk caddy's right compartment", "variant": "", "task_id": "407"}
+{"task_desc": "In this scene, you just need to place the brown grid book into the back desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "408"}
+{"task_desc": "In this simple task, you should place the light yellow book into the back desk caddy's right compartment. No additional actions are required.", "variant": "A2", "task_id": "408"}
+{"task_desc": "In this scene, the goal is to place the white speckle book into the back desk caddy's right compartment. No additional actions are required.", "variant": "A1", "task_id": "409"}
+{"task_desc": "In this scene, your task is to place the dark grey book into the back desk caddy's right compartment", "variant": "A2", "task_id": "409"}
+{"task_desc": "In this scene, simply place the milk into the left desk caddy's right compartment. Everything else is just background clutter.", "variant": "", "task_id": "410"}
+{"task_desc": "In this simple task, you should place the brown grid book into the left desk caddy's left compartment. Everything else is just background clutter. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "411"}
+{"task_desc": "In this scene, simply place the light yellow book into the left desk caddy's left compartment. Nothing else in the scene matters for this. No additional actions are required.", "variant": "A2", "task_id": "411"}
+{"task_desc": "In this scene, simply place the salad dressing into the back desk caddy's right compartment", "variant": "", "task_id": "412"}
+{"task_desc": "In this scene, the goal is to place the white speckle book into the back desk caddy's right compartment. No additional actions are required.", "variant": "A1", "task_id": "413"}
+{"task_desc": "In this scene, your task is to place the dark grey book into the back desk caddy's right compartment", "variant": "A2", "task_id": "413"}
+{"task_desc": "In this scenario, just place the yellow green striped book into the left desk caddy's back compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "414"}
+{"task_desc": "In this scene, your task is to place the light red book into the left desk caddy's back compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "414"}
+{"task_desc": "Here, you only need to place the navy speckle book into the back desk caddy's right compartment", "variant": "A1", "task_id": "415"}
+{"task_desc": "In this simple task, you should place the light yellow book into the back desk caddy's right compartment. No additional actions are required.", "variant": "A2", "task_id": "415"}
+{"task_desc": "In this scene, simply place the left yellow green striped book into the left desk caddy's left compartment", "variant": "A1", "task_id": "416"}
+{"task_desc": "In this simple task, you should place the left dark grey book into the left desk caddy's left compartment. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "416"}
+{"task_desc": "In this simple task, you should place the purple book into the left desk caddy's back compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "417"}
+{"task_desc": "In this scenario, just place the light yellow book into the left desk caddy's back compartment", "variant": "A2", "task_id": "417"}
+{"task_desc": "In this simple task, you should place the milk into the back desk caddy's right compartment. This is a straightforward step.", "variant": "", "task_id": "418"}
+{"task_desc": "In this scene, your task is to place the right yellow green striped book into the back desk caddy's back compartment. Everything else is just background clutter.", "variant": "A1", "task_id": "419"}
+{"task_desc": "In this simple task, you should place the white speckle book into the back desk caddy's back compartment. Nothing else in the scene matters for this. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "420"}
+{"task_desc": "In this scene, your task is to place the light green book into the back desk caddy's back compartment. Everything else is just background clutter. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "420"}
+{"task_desc": "In this scene, simply place the pink wavy book into the left desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "421"}
+{"task_desc": "For this instruction, please place the dark grey book into the left desk caddy's right compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "421"}
+{"task_desc": "In this scene, your task is to place the navy speckle book into the left desk caddy's right compartment. You do not need to interact with any other item. This is a straightforward step.", "variant": "A1", "task_id": "422"}
+{"task_desc": "For this instruction, please place the light yellow book into the left desk caddy's right compartment", "variant": "A2", "task_id": "422"}
+{"task_desc": "In this scenario, just place the alphabet soup into the back desk caddy's left compartment. This is a straightforward step.", "variant": "", "task_id": "423"}
+{"task_desc": "In this scene, your task is to place the navy speckle book into the left desk caddy's right compartment. You do not need to interact with any other item. This is a straightforward step.", "variant": "A1", "task_id": "424"}
+{"task_desc": "For this instruction, please place the light red book into the left desk caddy's right compartment. You do not need to interact with any other item. This is a straightforward step.", "variant": "A2", "task_id": "424"}
+{"task_desc": "For this instruction, please place the cyan grid book into the left desk caddy's left compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "425"}
+{"task_desc": "In this scene, please place the dark orange book into the left desk caddy's left compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "425"}
+{"task_desc": "For this instruction, please place the macaroni and cheese into the left desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "", "task_id": "426"}
+{"task_desc": "In this simple task, you should place the purple book into the left desk caddy's back compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "427"}
+{"task_desc": "Here, you only need to place the dark striped book into the left desk caddy's back compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "427"}
+{"task_desc": "In this scene, you just need to place the cyan grid book into the left desk caddy's front compartment. No additional actions are required. Everything else is just background clutter.", "variant": "A1", "task_id": "428"}
+{"task_desc": "In this simple task, you should place the light red book into the left desk caddy's front compartment. Nothing else in the scene matters for this. Everything else is just background clutter.", "variant": "A2", "task_id": "428"}
+{"task_desc": "In this scene, the goal is to place the white speckle book into the back desk caddy's right compartment. No additional actions are required.", "variant": "A1", "task_id": "429"}
+{"task_desc": "In this simple task, you should place the dark striped book into the back desk caddy's right compartment. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "429"}
+{"task_desc": "In this scenario, just place the brown grid book into the back desk caddy's back compartment. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "430"}
+{"task_desc": "In this scene, you just need to place the light yellow book into the back desk caddy's back compartment. You do not need to interact with any other item.", "variant": "A2", "task_id": "430"}
+{"task_desc": "For this instruction, please place the popcorn into the back desk caddy's right compartment. Everything else is just background clutter. No additional actions are required.", "variant": "", "task_id": "431"}
+{"task_desc": "In this scene, simply place the navy speckle book into the left desk caddy's left compartment", "variant": "A1", "task_id": "432"}
+{"task_desc": "In this simple task, you should place the dark grey book into the left desk caddy's left compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "432"}
+{"task_desc": "In this scene, please place the teal wavy book into the left desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "433"}
+{"task_desc": "In this scene, simply place the dark orange book into the left desk caddy's right compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "433"}
+{"task_desc": "In this scene, simply place the cyan grid book into the left desk caddy's right compartment. Everything else is just background clutter.", "variant": "A1", "task_id": "434"}
+{"task_desc": "In this scene, simply place the light green book into the left desk caddy's right compartment. Everything else is just background clutter. This is a straightforward step.", "variant": "A2", "task_id": "434"}
+{"task_desc": "In this scene, your task is to place the pink wavy book into the left desk caddy's back compartment", "variant": "A1", "task_id": "435"}
+{"task_desc": "In this scenario, just place the light yellow book into the left desk caddy's back compartment", "variant": "A2", "task_id": "435"}
+{"task_desc": "In this scene, your task is to place the navy speckle book into the back desk caddy's back compartment", "variant": "A1", "task_id": "436"}
+{"task_desc": "In this scene, simply place the left dark orange book into the back desk caddy's back compartment", "variant": "A2", "task_id": "436"}
+{"task_desc": "Here, you only need to place the left brown grid book into the back desk caddy's left compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "437"}
+{"task_desc": "In this scene, your task is to place the right white speckle book into the back desk caddy's right compartment", "variant": "A1", "task_id": "438"}
+{"task_desc": "In this scene, simply place the right light red book into the back desk caddy's right compartment", "variant": "A2", "task_id": "438"}
+{"task_desc": "In this simple task, you should place the brown grid book into the left desk caddy's left compartment. Everything else is just background clutter. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "439"}
+{"task_desc": "In this scenario, just place the dark striped book into the left desk caddy's left compartment. No additional actions are required. This is a straightforward step.", "variant": "A2", "task_id": "439"}
+{"task_desc": "In this scene, please place the yellow green striped book into the left desk caddy's left compartment. No additional actions are required. This is a straightforward step.", "variant": "A1", "task_id": "440"}
+{"task_desc": "For this instruction, please place the light green book into the left desk caddy's left compartment. This is a straightforward step.", "variant": "A2", "task_id": "440"}
+{"task_desc": "In this scenario, just place the right white speckle book into the left desk caddy's left compartment. Nothing else in the scene matters for this. You do not need to interact with any other item.", "variant": "A1", "task_id": "441"}
+{"task_desc": "For this instruction, please place the left purple book into the left desk caddy's front compartment. This is a straightforward step. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "442"}
+{"task_desc": "In this scene, simply place the left light yellow book into the left desk caddy's front compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "442"}
+{"task_desc": "In this scene, please place the teal wavy book into the left desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "443"}
+{"task_desc": "For this instruction, please place the light red book into the left desk caddy's right compartment. You do not need to interact with any other item. This is a straightforward step.", "variant": "A2", "task_id": "443"}
+{"task_desc": "In this scene, simply place the pink wavy book into the left desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "444"}
+{"task_desc": "In this scene, simply place the dark orange book into the left desk caddy's right compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "444"}
+{"task_desc": "For this instruction, please place the right teal wavy book into the left desk caddy's back compartment", "variant": "A1", "task_id": "445"}
+{"task_desc": "In this scene, simply place the left purple book into the back desk caddy's left compartment", "variant": "A1", "task_id": "446"}
+{"task_desc": "In this scene, simply place the left dark striped book into the back desk caddy's left compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "446"}
+{"task_desc": "For this instruction, please place the purple book into the left desk caddy's right compartment. This is a straightforward step.", "variant": "A1", "task_id": "447"}
+{"task_desc": "For this instruction, please place the dark grey book into the left desk caddy's right compartment. Everything else is just background clutter.", "variant": "A2", "task_id": "447"}
+{"task_desc": "For this instruction, please place the purple book upright on top of the shelf", "variant": "A1", "task_id": "448"}
+{"task_desc": "In this scenario, just place the light yellow book upright on top of the shelf. Everything else is just background clutter. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "448"}
+{"task_desc": "Here, you only need to place the teal wavy book in the top region of the shelf. Nothing else in the scene matters for this. You do not need to interact with any other item.", "variant": "A1", "task_id": "449"}
+{"task_desc": "In this scene, simply place the dark grey book in the top region of the shelf. No additional actions are required.", "variant": "A2", "task_id": "449"}
+{"task_desc": "In this scene, simply place the white speckle book flat on top of the shelf. You do not need to interact with any other item.", "variant": "A1", "task_id": "450"}
+{"task_desc": "In this scene, simply place the light yellow book flat on top of the shelf", "variant": "A2", "task_id": "450"}
+{"task_desc": "For this instruction, please place the pink wavy book flat on top of the shelf. You do not need to interact with any other item. This is a straightforward step.", "variant": "A1", "task_id": "451"}
+{"task_desc": "In this scene, please place the dark grey book flat on top of the shelf. No additional actions are required.", "variant": "A2", "task_id": "451"}
+{"task_desc": "In this scene, your task is to place the butter on top of the shelf. Other objects in the scene can be ignored.", "variant": "", "task_id": "452"}
+{"task_desc": "In this scene, your task is to place the orange juice on top of the shelf. This is a straightforward step.", "variant": "", "task_id": "453"}
+{"task_desc": "For this instruction, please place the pink wavy book flat on top of the shelf. You do not need to interact with any other item. This is a straightforward step.", "variant": "A1", "task_id": "454"}
+{"task_desc": "In this scene, simply place the light yellow book flat on top of the shelf", "variant": "A2", "task_id": "454"}
+{"task_desc": "For this instruction, please place the pink wavy book flat on top of the shelf. You do not need to interact with any other item. This is a straightforward step.", "variant": "A1", "task_id": "455"}
+{"task_desc": "In this scene, please place the dark grey book flat on top of the shelf. No additional actions are required.", "variant": "A2", "task_id": "455"}
+{"task_desc": "In this scene, you just need to place the left pink wavy book upright on top of the shelf. No additional actions are required.", "variant": "A1", "task_id": "456"}
+{"task_desc": "In this scene, you just need to place the yellow green striped book upright on top of the shelf", "variant": "A1", "task_id": "457"}
+{"task_desc": "In this scenario, just place the light yellow book upright on top of the shelf. Everything else is just background clutter. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "457"}
+{"task_desc": "In this scene, please place the tomato sauce on top of the shelf. You do not need to interact with any other item. This is a straightforward step.", "variant": "", "task_id": "458"}
+{"task_desc": "For this instruction, please place the right white speckle book in the top region of the shelf. This is a straightforward step.", "variant": "A1", "task_id": "459"}
+{"task_desc": "In this simple task, you should place the right dark grey book in the top region of the shelf. You do not need to interact with any other item.", "variant": "A2", "task_id": "459"}
+{"task_desc": "Here, you only need to place the left white speckle book flat on top of the shelf", "variant": "A1", "task_id": "460"}
+{"task_desc": "In this scene, simply place the cyan grid book flat on top of the shelf. Everything else is just background clutter. This is a straightforward step.", "variant": "A1", "task_id": "461"}
+{"task_desc": "In this scene, please place the left light yellow book flat on top of the shelf. This is a straightforward step. You do not need to interact with any other item.", "variant": "A2", "task_id": "461"}
+{"task_desc": "In this scene, simply place the white speckle book flat on top of the shelf. You do not need to interact with any other item.", "variant": "A1", "task_id": "462"}
+{"task_desc": "In this scene, please place the dark grey book flat on top of the shelf. No additional actions are required.", "variant": "A2", "task_id": "462"}
+{"task_desc": "In this scene, your task is to place the purple book flat on top of the shelf. You do not need to interact with any other item.", "variant": "A1", "task_id": "463"}
+{"task_desc": "In this scenario, just place the light green book flat on top of the shelf. Everything else is just background clutter.", "variant": "A2", "task_id": "463"}
+{"task_desc": "In this scene, simply place the salad dressing on top of the shelf. Other objects in the scene can be ignored.", "variant": "", "task_id": "464"}
+{"task_desc": "In this scene, you just need to place the navy speckle book flat on top of the shelf. No additional actions are required.", "variant": "A1", "task_id": "465"}
+{"task_desc": "In this scene, simply place the light yellow book flat on top of the shelf", "variant": "A2", "task_id": "465"}
+{"task_desc": "In this scenario, just place the white speckle book upright on top of the shelf. This is a straightforward step.", "variant": "A1", "task_id": "466"}
+{"task_desc": "In this scene, simply place the dark grey book upright on top of the shelf. You do not need to interact with any other item. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "466"}
+{"task_desc": "In this scene, you just need to place the yellow green striped book upright on top of the shelf", "variant": "A1", "task_id": "467"}
+{"task_desc": "In this scene, simply place the light green book upright on top of the shelf. You do not need to interact with any other item. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "467"}
+{"task_desc": "For this instruction, please place the purple book upright on top of the shelf", "variant": "A1", "task_id": "468"}
+{"task_desc": "Here, you only need to place the dark orange book upright on top of the shelf. No additional actions are required. You do not need to interact with any other item.", "variant": "A2", "task_id": "468"}
+{"task_desc": "In this scene, the goal is to place the yellow green striped book in the top region of the shelf. No additional actions are required.", "variant": "A1", "task_id": "469"}
+{"task_desc": "In this scene, you just need to place the light red book in the top region of the shelf. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "469"}
+{"task_desc": "In this scene, please place the navy speckle book in the top region of the shelf. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "470"}
+{"task_desc": "In this scenario, just place the dark striped book in the top region of the shelf", "variant": "A2", "task_id": "470"}
+{"task_desc": "In this scene, the goal is to place the teal wavy book flat on top of the shelf. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "471"}
+{"task_desc": "In this scene, your task is to place the dark orange book flat on top of the shelf. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "471"}
+{"task_desc": "In this scene, you just need to place the yellow green striped book upright on top of the shelf", "variant": "A1", "task_id": "472"}
+{"task_desc": "In this simple task, you should place the light red book upright on top of the shelf. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "472"}
+{"task_desc": "In this scene, your task is to place the butter on top of the shelf. Other objects in the scene can be ignored.", "variant": "", "task_id": "473"}
+{"task_desc": "In this scene, the goal is to place the pink wavy book in the top region of the shelf", "variant": "A1", "task_id": "474"}
+{"task_desc": "In this scene, you just need to place the light red book in the top region of the shelf. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "474"}
+{"task_desc": "In this scene, simply place the cyan grid book flat on top of the shelf. Everything else is just background clutter. This is a straightforward step.", "variant": "A1", "task_id": "475"}
+{"task_desc": "In this scene, simply place the light yellow book flat on top of the shelf", "variant": "A2", "task_id": "475"}
+{"task_desc": "In this simple task, you should place the purple book in the top region of the shelf. You do not need to interact with any other item.", "variant": "A1", "task_id": "476"}
+{"task_desc": "In this scenario, just place the dark striped book in the top region of the shelf", "variant": "A2", "task_id": "476"}
+{"task_desc": "In this scene, you just need to place the yellow green striped book flat on top of the shelf. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "477"}
+{"task_desc": "For this instruction, please place the light red book flat on top of the shelf. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "477"}
+{"task_desc": "Here, you only need to place the teal wavy book in the top region of the shelf. Nothing else in the scene matters for this. You do not need to interact with any other item.", "variant": "A1", "task_id": "478"}
+{"task_desc": "In this simple task, you should place the left dark striped book in the top region of the shelf. Nothing else in the scene matters for this. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "478"}
+{"task_desc": "In this scene, simply place the white speckle book flat on top of the shelf. You do not need to interact with any other item.", "variant": "A1", "task_id": "479"}
+{"task_desc": "In this scene, please place the left dark orange book flat on top of the shelf", "variant": "A2", "task_id": "479"}
+{"task_desc": "In this scene, simply place the left purple book in the top region of the shelf", "variant": "A1", "task_id": "480"}
+{"task_desc": "Here, you only need to place the left light red book in the top region of the shelf. No additional actions are required.", "variant": "A2", "task_id": "480"}
+{"task_desc": "In this scene, simply place the right yellow green striped book upright on top of the shelf. You do not need to interact with any other item. No additional actions are required.", "variant": "A1", "task_id": "481"}
+{"task_desc": "Here, you only need to place the navy speckle book upright on top of the shelf. No additional actions are required.", "variant": "A1", "task_id": "482"}
+{"task_desc": "In this scene, simply place the dark striped book upright on top of the shelf", "variant": "A2", "task_id": "482"}
+{"task_desc": "In this scene, simply place the cyan grid book flat on top of the shelf. Everything else is just background clutter. This is a straightforward step.", "variant": "A1", "task_id": "483"}
+{"task_desc": "In this scene, you just need to place the left dark striped book flat on top of the shelf. Other objects in the scene can be ignored. Everything else is just background clutter.", "variant": "A2", "task_id": "483"}
+{"task_desc": "In this scenario, just place the left cyan grid book in the top region of the shelf. You do not need to interact with any other item. This is a straightforward step.", "variant": "A1", "task_id": "484"}
+{"task_desc": "Here, you only need to place the left light red book in the top region of the shelf. No additional actions are required.", "variant": "A2", "task_id": "484"}
+{"task_desc": "In this scene, simply place the right pink wavy book flat on top of the shelf", "variant": "A1", "task_id": "485"}
+{"task_desc": "In this scene, simply place the cyan grid book upright on top of the shelf", "variant": "A1", "task_id": "486"}
+{"task_desc": "Here, you only need to place the dark orange book upright on top of the shelf. No additional actions are required. You do not need to interact with any other item.", "variant": "A2", "task_id": "486"}
+{"task_desc": "In this scene, simply place the white speckle book in the top region of the shelf. Everything else is just background clutter.", "variant": "A1", "task_id": "487"}
+{"task_desc": "In this simple task, you should place the left dark striped book in the top region of the shelf. Nothing else in the scene matters for this. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "487"}
+{"task_desc": "In this scene, your task is to place the left purple book flat on top of the shelf. You do not need to interact with any other item.", "variant": "A1", "task_id": "488"}
+{"task_desc": "Here, you only need to place the left light red book flat on top of the shelf. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "488"}
+{"task_desc": "In this scene, please place the cream cheese in the top region of the shelf. Nothing else in the scene matters for this.", "variant": "", "task_id": "489"}
+{"task_desc": "In this scenario, just place the left teal wavy book in the top region of the shelf. You do not need to interact with any other item.", "variant": "A1", "task_id": "490"}
+{"task_desc": "In this scene, you just need to place the right teal wavy book in the top region of the shelf. You do not need to interact with any other item.", "variant": "A1", "task_id": "491"}
+{"task_desc": "For this instruction, please place the right light yellow book in the top region of the shelf. Everything else is just background clutter. No additional actions are required.", "variant": "A2", "task_id": "491"}
+{"task_desc": "Here, you only need to place the navy speckle book upright on top of the shelf. No additional actions are required.", "variant": "A1", "task_id": "492"}
+{"task_desc": "In this simple task, you should place the light red book upright on top of the shelf. Nothing else in the scene matters for this.", "variant": "A2", "task_id": "492"}
+{"task_desc": "In this scene, simply place the white speckle book in the top region of the shelf. Everything else is just background clutter.", "variant": "A1", "task_id": "493"}
+{"task_desc": "In this scene, simply place the left light green book in the top region of the shelf. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "493"}
+{"task_desc": "In this simple task, you should place the milk on top of the shelf. This is a straightforward step.", "variant": "", "task_id": "494"}
+{"task_desc": "In this scene, simply place the brown grid book flat on top of the shelf. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "495"}
+{"task_desc": "In this simple task, you should place the right dark grey book flat on top of the shelf", "variant": "A2", "task_id": "495"}
+{"task_desc": "In this scene, you just need to place the left yellow green striped book flat on top of the shelf", "variant": "A1", "task_id": "496"}
+{"task_desc": "In this scene, you just need to place the left dark striped book flat on top of the shelf. Other objects in the scene can be ignored. Everything else is just background clutter.", "variant": "A2", "task_id": "496"}
+{"task_desc": "Here, you only need to place the bbq sauce in the top region of the shelf. Nothing else in the scene matters for this.", "variant": "", "task_id": "497"}
+{"task_desc": "In this scene, please place the right navy speckle book flat on top of the shelf", "variant": "A1", "task_id": "498"}
+{"task_desc": "In this scene, please place the navy speckle book in the top region of the shelf. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "499"}
+{"task_desc": "In this scene, simply place the right dark orange book in the top region of the shelf. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "499"}
+{"task_desc": "In this scene, simply place the cyan grid book upright on top of the shelf", "variant": "A1", "task_id": "500"}
+{"task_desc": "In this scene, simply place the dark grey book upright on top of the shelf. You do not need to interact with any other item. Other objects in the scene can be ignored.", "variant": "A2", "task_id": "500"}
+{"task_desc": "In this scenario, just place the milk into the left desk caddy's right compartment and place the popcorn into the left desk caddy's right compartment and place the salad dressing into the left desk caddy's left compartment. Other objects in the scene can be ignored.", "variant": "", "task_id": "501"}
+{"task_desc": "In this scene, you just need to place the popcorn into the left desk caddy's right compartment and place the bbq sauce into the left desk caddy's left compartment", "variant": "", "task_id": "502"}
+{"task_desc": "In this scene, your task is to place the popcorn into the left desk caddy's right compartment and place the alphabet soup into the left desk caddy's left compartment. Nothing else in the scene matters for this. No additional actions are required.", "variant": "", "task_id": "503"}
+{"task_desc": "In this simple task, you should place the cookies into the left desk caddy's left compartment and place the alphabet soup into the left desk caddy's right compartment. You do not need to interact with any other item.", "variant": "", "task_id": "504"}
+{"task_desc": "For this instruction, please place the ketchup into the left desk caddy's right compartment and place the left salad dressing into the left desk caddy's left compartment and place the right salad dressing into the left desk caddy's right compartment. You do not need to interact with any other item.", "variant": "", "task_id": "505"}
+{"task_desc": "In this scene, simply place the bbq sauce into the left desk caddy's right compartment and place the chocolate pudding into the left desk caddy's right compartment. Everything else is just background clutter. This is a straightforward step.", "variant": "", "task_id": "506"}
+{"task_desc": "In this scene, the goal is to place the teal wavy book into the left desk caddy's front compartment and place the pink wavy book into the left desk caddy's left compartment and place the purple book into the left desk caddy's back compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "507"}
+{"task_desc": "In this scene, simply place the tomato sauce into the left desk caddy's right compartment and place the butter into the left desk caddy's left compartment. This is a straightforward step.", "variant": "", "task_id": "508"}
+{"task_desc": "In this scene, please place the pink wavy book into the left desk caddy's left compartment and place the yellow green striped book into the left desk caddy's right compartment and place the navy speckle book into the left desk caddy's right compartment", "variant": "A1", "task_id": "509"}
+{"task_desc": "In this scene, the goal is to place the brown grid book into the left desk caddy's front compartment and place the teal wavy book into the left desk caddy's left compartment and place the white speckle book into the left desk caddy's back compartment. Nothing else in the scene matters for this. No additional actions are required.", "variant": "A1", "task_id": "510"}
+{"task_desc": "For this instruction, please place the pink wavy book into the left desk caddy's left compartment and place the teal wavy book into the left desk caddy's left compartment", "variant": "A1", "task_id": "511"}
+{"task_desc": "In this scene, the goal is to place the tomato sauce into the left desk caddy's right compartment and place the orange juice into the left desk caddy's left compartment. Nothing else in the scene matters for this.", "variant": "", "task_id": "512"}
+{"task_desc": "In this scene, your task is to place the brown grid book into the left desk caddy's left compartment and place the pink wavy book into the left desk caddy's right compartment and place the purple book into the left desk caddy's right compartment. This is a straightforward step.", "variant": "A1", "task_id": "513"}
+{"task_desc": "Here, you only need to place the pink wavy book into the left desk caddy's front compartment and place the white speckle book into the left desk caddy's left compartment and place the yellow green striped book into the left desk caddy's back compartment. This is a straightforward step.", "variant": "A1", "task_id": "514"}
+{"task_desc": "In this scene, please place the right white speckle book into the left desk caddy's front compartment and place the cyan grid book into the left desk caddy's left compartment and place the pink wavy book into the left desk caddy's left compartment. Nothing else in the scene matters for this. You do not need to interact with any other item.", "variant": "A1", "task_id": "515"}
+{"task_desc": "Here, you only need to place the left purple book into the left desk caddy's back compartment and place the cyan grid book into the left desk caddy's left compartment and place the right purple book into the left desk caddy's front compartment", "variant": "A1", "task_id": "516"}
+{"task_desc": "In this scenario, just place the left navy speckle book into the left desk caddy's right compartment and place the right navy speckle book into the left desk caddy's right compartment and place the yellow green striped book into the left desk caddy's left compartment. Everything else is just background clutter. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "517"}
+{"task_desc": "In this simple task, you should place the salad dressing into the left desk caddy's left compartment and place the macaroni and cheese into the left desk caddy's right compartment. You do not need to interact with any other item.", "variant": "", "task_id": "518"}
+{"task_desc": "In this scene, please place the salad dressing into the left desk caddy's right compartment and place the left macaroni and cheese into the left desk caddy's left compartment. Everything else is just background clutter.", "variant": "", "task_id": "519"}
+{"task_desc": "In this scene, simply place the left purple book into the left desk caddy's right compartment and place the right purple book into the left desk caddy's right compartment and place the navy speckle book into the left desk caddy's left compartment. Everything else is just background clutter.", "variant": "A1", "task_id": "520"}
+{"task_desc": "In this scene, simply place the salad dressing into the right desk caddy's right compartment and place the chocolate pudding into the right desk caddy's left compartment", "variant": "", "task_id": "521"}
+{"task_desc": "In this scene, simply place the bbq sauce into the right desk caddy's right compartment and place the ketchup into the right desk caddy's left compartment", "variant": "", "task_id": "522"}
+{"task_desc": "In this scene, your task is to place the popcorn into the right desk caddy's right compartment and place the cookies into the right desk caddy's right compartment and place the salad dressing into the right desk caddy's left compartment. Nothing else in the scene matters for this. Everything else is just background clutter.", "variant": "", "task_id": "523"}
+{"task_desc": "In this scene, please place the tomato sauce into the right desk caddy's right compartment and place the popcorn into the right desk caddy's left compartment", "variant": "", "task_id": "524"}
+{"task_desc": "In this scene, simply place the brown grid book into the right desk caddy's front compartment and place the right purple book into the right desk caddy's left compartment and place the left purple book into the right desk caddy's back compartment", "variant": "A1", "task_id": "525"}
+{"task_desc": "In this scene, your task is to place the left tomato sauce into the right desk caddy's left compartment and place the alphabet soup into the right desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "", "task_id": "526"}
+{"task_desc": "For this instruction, please place the orange juice into the right desk caddy's left compartment and place the alphabet soup into the right desk caddy's right compartment. This is a straightforward step.", "variant": "", "task_id": "527"}
+{"task_desc": "For this instruction, please place the orange juice into the right desk caddy's left compartment and place the alphabet soup into the right desk caddy's right compartment. This is a straightforward step.", "variant": "", "task_id": "528"}
+{"task_desc": "In this scene, please place the tomato sauce into the right desk caddy's left compartment and place the bbq sauce into the right desk caddy's right compartment", "variant": "", "task_id": "529"}
+{"task_desc": "In this simple task, you should place the chocolate pudding into the right desk caddy's right compartment and place the salad dressing into the right desk caddy's right compartment", "variant": "", "task_id": "530"}
+{"task_desc": "In this scene, please place the macaroni and cheese into the right desk caddy's left compartment and place the butter into the right desk caddy's right compartment. You do not need to interact with any other item. Nothing else in the scene matters for this.", "variant": "", "task_id": "531"}
+{"task_desc": "In this scenario, just place the salad dressing into the right desk caddy's left compartment and place the tomato sauce into the right desk caddy's right compartment. No additional actions are required.", "variant": "", "task_id": "532"}
+{"task_desc": "In this scene, please place the purple book into the right desk caddy's front compartment and place the teal wavy book into the right desk caddy's left compartment and place the brown grid book into the right desk caddy's back compartment", "variant": "A1", "task_id": "533"}
+{"task_desc": "Here, you only need to place the yellow green striped book into the right desk caddy's left compartment and place the purple book into the right desk caddy's right compartment and place the navy speckle book into the right desk caddy's right compartment", "variant": "A1", "task_id": "534"}
+{"task_desc": "In this scene, simply place the navy speckle book into the right desk caddy's right compartment and place the left cyan grid book into the right desk caddy's right compartment. No additional actions are required.", "variant": "A1", "task_id": "535"}
+{"task_desc": "Here, you only need to place the left cyan grid book into the right desk caddy's left compartment and place the teal wavy book into the right desk caddy's right compartment. Everything else is just background clutter. This is a straightforward step.", "variant": "A1", "task_id": "536"}
+{"task_desc": "In this scene, your task is to place the navy speckle book into the right desk caddy's front compartment and place the left white speckle book into the right desk caddy's right compartment and place the purple book into the right desk caddy's right compartment. This is a straightforward step.", "variant": "A1", "task_id": "537"}
+{"task_desc": "For this instruction, please place the butter into the right desk caddy's right compartment and place the left alphabet soup into the right desk caddy's left compartment. Other objects in the scene can be ignored.", "variant": "", "task_id": "538"}
+{"task_desc": "In this scene, you just need to place the right alphabet soup into the right desk caddy's left compartment and place the salad dressing into the right desk caddy's left compartment and place the macaroni and cheese into the right desk caddy's right compartment", "variant": "", "task_id": "539"}
+{"task_desc": "In this scene, simply place the left navy speckle book into the right desk caddy's right compartment and place the right navy speckle book into the right desk caddy's right compartment and place the purple book into the right desk caddy's left compartment. Everything else is just background clutter.", "variant": "A1", "task_id": "540"}
+{"task_desc": "In this scene, simply place the macaroni and cheese into the back desk caddy's right compartment and place the cream cheese into the back desk caddy's left compartment", "variant": "", "task_id": "541"}
+{"task_desc": "In this scenario, just place the white speckle book into the back desk caddy's left compartment and place the yellow green striped book into the back desk caddy's right compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "542"}
+{"task_desc": "In this scene, simply place the cream cheese into the back desk caddy's right compartment and place the chocolate pudding into the back desk caddy's left compartment. You do not need to interact with any other item.", "variant": "", "task_id": "543"}
+{"task_desc": "In this scenario, just place the brown grid book into the back desk caddy's left compartment and place the navy speckle book into the back desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "544"}
+{"task_desc": "In this scene, simply place the left brown grid book into the back desk caddy's left compartment and place the navy speckle book into the back desk caddy's right compartment and place the right brown grid book into the back desk caddy's right compartment. Everything else is just background clutter.", "variant": "A1", "task_id": "545"}
+{"task_desc": "In this scene, the goal is to place the macaroni and cheese into the back desk caddy's right compartment and place the left tomato sauce into the back desk caddy's left compartment and place the right tomato sauce into the back desk caddy's right compartment. Nothing else in the scene matters for this.", "variant": "", "task_id": "546"}
+{"task_desc": "In this scene, simply place the brown grid book into the back desk caddy's left compartment and place the teal wavy book into the back desk caddy's right compartment and place the yellow green striped book into the back desk caddy's right compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "547"}
+{"task_desc": "In this scene, your task is to place the popcorn into the back desk caddy's right compartment and place the macaroni and cheese into the back desk caddy's left compartment", "variant": "", "task_id": "548"}
+{"task_desc": "In this scene, your task is to place the tomato sauce into the back desk caddy's right compartment and place the popcorn into the back desk caddy's left compartment and place the cream cheese into the back desk caddy's right compartment. Nothing else in the scene matters for this. Other objects in the scene can be ignored.", "variant": "", "task_id": "549"}
+{"task_desc": "In this scenario, just place the bbq sauce into the back desk caddy's left compartment and place the chocolate pudding into the back desk caddy's right compartment. This is a straightforward step.", "variant": "", "task_id": "550"}
+{"task_desc": "In this scene, the goal is to place the cream cheese into the back desk caddy's right compartment and place the chocolate pudding into the back desk caddy's right compartment. Everything else is just background clutter.", "variant": "", "task_id": "551"}
+{"task_desc": "In this scene, please place the tomato sauce into the back desk caddy's right compartment and place the ketchup into the back desk caddy's left compartment and place the bbq sauce into the back desk caddy's right compartment. Everything else is just background clutter.", "variant": "", "task_id": "552"}
+{"task_desc": "In this scenario, just place the bbq sauce into the back desk caddy's left compartment and place the chocolate pudding into the back desk caddy's right compartment. This is a straightforward step.", "variant": "", "task_id": "553"}
+{"task_desc": "In this simple task, you should place the teal wavy book into the back desk caddy's back compartment and place the cyan grid book into the back desk caddy's right compartment", "variant": "A1", "task_id": "554"}
+{"task_desc": "In this simple task, you should place the navy speckle book into the back desk caddy's left compartment and place the right white speckle book into the back desk caddy's back compartment and place the brown grid book into the back desk caddy's front compartment. This is a straightforward step. You do not need to interact with any other item.", "variant": "A1", "task_id": "555"}
+{"task_desc": "Here, you only need to place the purple book into the back desk caddy's right compartment and place the left white speckle book into the back desk caddy's right compartment", "variant": "A1", "task_id": "556"}
+{"task_desc": "In this scenario, just place the cream cheese into the back desk caddy's left compartment and place the right macaroni and cheese into the back desk caddy's right compartment. No additional actions are required.", "variant": "", "task_id": "557"}
+{"task_desc": "In this scene, your task is to place the navy speckle book into the back desk caddy's front compartment and place the left brown grid book into the back desk caddy's right compartment and place the pink wavy book into the back desk caddy's right compartment. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "558"}
+{"task_desc": "For this instruction, please place the orange juice into the back desk caddy's left compartment and place the cream cheese into the back desk caddy's right compartment. Other objects in the scene can be ignored. Nothing else in the scene matters for this.", "variant": "", "task_id": "559"}
+{"task_desc": "In this scene, you just need to place the right cream cheese into the back desk caddy's left compartment and place the bbq sauce into the back desk caddy's left compartment and place the popcorn into the back desk caddy's right compartment. Other objects in the scene can be ignored.", "variant": "", "task_id": "560"}
+{"task_desc": "In this scenario, just place the cookies into the back desk caddy's right compartment and place the butter into the back desk caddy's left compartment and place the alphabet soup into the back desk caddy's right compartment", "variant": "", "task_id": "561"}
+{"task_desc": "In this scene, please place the purple book into the left desk caddy's right compartment and place the cyan grid book into the left desk caddy's back compartment. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "562"}
+{"task_desc": "In this scenario, just place the tomato sauce into the back desk caddy's right compartment and place the cookies into the left desk caddy's right compartment. You do not need to interact with any other item. Nothing else in the scene matters for this.", "variant": "", "task_id": "563"}
+{"task_desc": "In this scene, please place the navy speckle book into the back desk caddy's left compartment and place the brown grid book into the back desk caddy's left compartment and place the teal wavy book into the left desk caddy's right compartment", "variant": "A1", "task_id": "564"}
+{"task_desc": "In this scenario, just place the cookies into the left desk caddy's right compartment and place the right macaroni and cheese into the back desk caddy's left compartment", "variant": "", "task_id": "565"}
+{"task_desc": "In this scenario, just place the purple book into the back desk caddy's right compartment and place the left cyan grid book into the back desk caddy's right compartment. No additional actions are required.", "variant": "A1", "task_id": "566"}
+{"task_desc": "In this scenario, just place the macaroni and cheese into the left desk caddy's left compartment and place the cream cheese into the left desk caddy's left compartment and place the milk into the back desk caddy's right compartment", "variant": "", "task_id": "567"}
+{"task_desc": "In this scene, please place the cyan grid book into the left desk caddy's right compartment and place the yellow green striped book into the back desk caddy's front compartment and place the teal wavy book into the back desk caddy's back compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "568"}
+{"task_desc": "In this scenario, just place the alphabet soup into the left desk caddy's left compartment and place the tomato sauce into the left desk caddy's left compartment and place the cream cheese into the back desk caddy's right compartment. Nothing else in the scene matters for this.", "variant": "", "task_id": "569"}
+{"task_desc": "For this instruction, please place the cyan grid book into the back desk caddy's left compartment and place the purple book into the back desk caddy's left compartment and place the yellow green striped book into the left desk caddy's right compartment. Everything else is just background clutter.", "variant": "A1", "task_id": "570"}
+{"task_desc": "In this scene, you just need to place the salad dressing into the left desk caddy's left compartment and place the tomato sauce into the left desk caddy's left compartment and place the orange juice into the back desk caddy's right compartment. Everything else is just background clutter.", "variant": "", "task_id": "571"}
+{"task_desc": "In this scene, simply place the teal wavy book into the back desk caddy's left compartment and place the yellow green striped book into the back desk caddy's left compartment and place the purple book into the left desk caddy's right compartment", "variant": "A1", "task_id": "572"}
+{"task_desc": "For this instruction, please place the brown grid book into the back desk caddy's left compartment and place the navy speckle book into the back desk caddy's left compartment and place the teal wavy book into the left desk caddy's right compartment. Everything else is just background clutter.", "variant": "A1", "task_id": "573"}
+{"task_desc": "Here, you only need to place the navy speckle book into the left desk caddy's right compartment and place the pink wavy book into the back desk caddy's front compartment and place the cyan grid book into the back desk caddy's back compartment. You do not need to interact with any other item.", "variant": "A1", "task_id": "574"}
+{"task_desc": "In this scene, you just need to place the left cyan grid book into the back desk caddy's left compartment and place the right cyan grid book into the left desk caddy's right compartment and place the pink wavy book into the left desk caddy's back compartment. No additional actions are required.", "variant": "A1", "task_id": "575"}
+{"task_desc": "In this scenario, just place the navy speckle book into the back desk caddy's right compartment and place the left teal wavy book into the left desk caddy's back compartment and place the right teal wavy book into the left desk caddy's left compartment. No additional actions are required.", "variant": "A1", "task_id": "576"}
+{"task_desc": "In this scene, the goal is to place the right teal wavy book into the back desk caddy's back compartment and place the purple book into the left desk caddy's back compartment and place the left teal wavy book into the left desk caddy's left compartment. Nothing else in the scene matters for this.", "variant": "A1", "task_id": "577"}
+{"task_desc": "In this scenario, just place the butter into the back desk caddy's left compartment and place the tomato sauce into the back desk caddy's right compartment. Nothing else in the scene matters for this.", "variant": "", "task_id": "578"}
+{"task_desc": "In this scene, simply place the right cyan grid book into the back desk caddy's right compartment and place the yellow green striped book into the left desk caddy's right compartment and place the teal wavy book into the left desk caddy's left compartment. Everything else is just background clutter.", "variant": "A1", "task_id": "579"}
+{"task_desc": "Here, you only need to place the yellow green striped book into the back desk caddy's right compartment and place the right cyan grid book into the back desk caddy's left compartment and place the navy speckle book into the back desk caddy's left compartment. This is a straightforward step. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "580"}
+{"task_desc": "In this scene, the goal is to place the cookies on top of the shelf and place the tomato sauce on top of the shelf. You do not need to interact with any other item. Everything else is just background clutter.", "variant": "", "task_id": "581"}
+{"task_desc": "In this scene, simply place the ketchup on top of the shelf and place the milk in the top region of the shelf and place the cream cheese on top of the shelf. No additional actions are required. Everything else is just background clutter.", "variant": "", "task_id": "582"}
+{"task_desc": "In this scene, your task is to place the butter in the top region of the shelf and place the cream cheese on top of the shelf", "variant": "", "task_id": "583"}
+{"task_desc": "In this scene, you just need to place the chocolate pudding on top of the shelf and place the ketchup in the top region of the shelf and place the popcorn on top of the shelf. Nothing else in the scene matters for this. No additional actions are required.", "variant": "", "task_id": "584"}
+{"task_desc": "In this scenario, just place the right navy speckle book upright on top of the shelf and place the left navy speckle book upright on top of the shelf. Other objects in the scene can be ignored.", "variant": "A1", "task_id": "585"}
+{"task_desc": "For this instruction, please place the right orange juice on top of the shelf and place the macaroni and cheese on top of the shelf. This is a straightforward step. Nothing else in the scene matters for this.", "variant": "", "task_id": "586"}
+{"task_desc": "In this scene, please place the butter on top of the shelf and place the tomato sauce on top of the shelf. No additional actions are required.", "variant": "", "task_id": "587"}
+{"task_desc": "Here, you only need to place the yellow green striped book upright on top of the shelf and place the teal wavy book flat on top of the shelf. This is a straightforward step.", "variant": "A1", "task_id": "588"}
+{"task_desc": "In this simple task, you should place the alphabet soup on top of the shelf and place the macaroni and cheese on top of the shelf. No additional actions are required.", "variant": "", "task_id": "589"}
+{"task_desc": "For this instruction, please place the chocolate pudding on top of the shelf and place the ketchup on top of the shelf. This is a straightforward step.", "variant": "", "task_id": "590"}
+{"task_desc": "In this scene, simply place the yellow green striped book upright on top of the shelf and place the purple book upright on top of the shelf", "variant": "A1", "task_id": "591"}
+{"task_desc": "In this scene, your task is to place the ketchup on top of the shelf and place the butter on top of the shelf. This is a straightforward step. You do not need to interact with any other item.", "variant": "", "task_id": "592"}
+{"task_desc": "For this instruction, please place the white speckle book flat on top of the shelf and place the left pink wavy book flat on top of the shelf. Everything else is just background clutter.", "variant": "A1", "task_id": "593"}
+{"task_desc": "In this scene, simply place the right cyan grid book flat on top of the shelf and place the yellow green striped book flat on top of the shelf. You do not need to interact with any other item.", "variant": "A1", "task_id": "594"}
+{"task_desc": "In this simple task, you should place the left purple book flat on top of the shelf and place the yellow green striped book upright on top of the shelf. Everything else is just background clutter.", "variant": "A1", "task_id": "595"}
+{"task_desc": "For this instruction, please place the left teal wavy book flat on top of the shelf and place the pink wavy book flat on top of the shelf", "variant": "A1", "task_id": "596"}
+{"task_desc": "In this scene, simply place the left butter on top of the shelf and place the orange juice on top of the shelf", "variant": "", "task_id": "597"}
+{"task_desc": "In this scenario, just place the right tomato sauce on top of the shelf and place the cream cheese on top of the shelf. No additional actions are required. You do not need to interact with any other item.", "variant": "", "task_id": "598"}
+{"task_desc": "In this scenario, just place the right chocolate pudding on top of the shelf and place the milk on top of the shelf. This is a straightforward step.", "variant": "", "task_id": "599"}
+{"task_desc": "In this simple task, you should place the right yellow green striped book upright on top of the shelf and place the left yellow green striped book upright on top of the shelf. You do not need to interact with any other item. This is a straightforward step.", "variant": "A1", "task_id": "600"}

@@ -1,0 +1,118 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the ketchup into the left desk caddy's right compartment and place the left salad dressing into the left desk caddy's left compartment and place the right salad dressing into the left desk caddy's right compartment)
+    (:regions
+      (salad_dressing_B_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.022000000000000002 -0.24200000000000002 0.062 -0.158)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (salad_dressing_A_init_region
+          (:target study_table)
+          (:ranges (
+              (0.10900000000000001 0.069 0.171 0.131)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (desk_caddy_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.20500000000000002 0.20500000000000002 -0.115 0.295)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (ketchup_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.158 -0.258 -0.08199999999999999 -0.182)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (yellow_book_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.081 -0.091 -0.019000000000000003 -0.028999999999999998)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_black_bowl_init_region
+          (:target study_table)
+          (:ranges (
+              (0.298 -0.252 0.328 -0.22199999999999998)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (right_contain_region
+          (:target desk_caddy_1)
+      )
+      (left_contain_region
+          (:target desk_caddy_1)
+      )
+      (back_contain_region
+          (:target desk_caddy_1)
+      )
+      (front_contain_region
+          (:target desk_caddy_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    salad_dressing_1 salad_dressing_2 - salad_dressing
+    yellow_book_1 - yellow_book
+    ketchup_1 - ketchup
+    red_coffee_mug_1 - red_coffee_mug
+    desk_caddy_1 - desk_caddy
+    akita_black_bowl_1 - akita_black_bowl
+  )
+
+  (:obj_of_interest
+    ketchup_1
+    salad_dressing_1
+    salad_dressing_2
+    desk_caddy_1
+  )
+
+  (:init
+    (On desk_caddy_1 study_table_desk_caddy_init_region)
+    (On salad_dressing_1 study_table_salad_dressing_A_init_region)
+    (On salad_dressing_2 study_table_salad_dressing_B_init_region)
+    (On yellow_book_1 study_table_yellow_book_init_region)
+    (On ketchup_1 study_table_ketchup_init_region)
+    (On akita_black_bowl_1 study_table_akita_black_bowl_init_region)
+  )
+
+  (:goal
+    (And (In ketchup_1 desk_caddy_1_right_contain_region) (In salad_dressing_1 desk_caddy_1_left_contain_region) (In salad_dressing_2 desk_caddy_1_right_contain_region))
+  )
+
+)

@@ -1,0 +1,100 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the cream cheese on the plate)
+    (:regions
+      (microwave_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.075 0.125 0.075 0.275)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.11699999999999999 -0.183 0.183 -0.11699999999999999)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_coffee_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.22299999999999998 -0.273 -0.077 -0.127)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (alphabet_soup_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.382 -0.188 0.41200000000000003 -0.15799999999999997)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (butter_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.2 0.16699999999999998 -0.16999999999999998 0.197)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target microwave_1)
+      )
+      (heating_region
+          (:target microwave_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    microwave_1 - microwave
+  )
+
+  (:objects
+    cream_cheese_1 - cream_cheese
+    red_coffee_mug_1 - red_coffee_mug
+    plate_1 - plate
+    alphabet_soup_1 - alphabet_soup
+    butter_1 - butter
+  )
+
+  (:obj_of_interest
+    cream_cheese_1
+    plate_1
+  )
+
+  (:init
+    (On cream_cheese_1 microwave_1_top_side)
+    (On red_coffee_mug_1 kitchen_table_red_coffee_mug_init_region)
+    (On microwave_1 kitchen_table_microwave_init_region)
+    (Close microwave_1)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On alphabet_soup_1 kitchen_table_alphabet_soup_init_region)
+    (On butter_1 kitchen_table_butter_init_region)
+  )
+
+  (:goal
+    (And (On cream_cheese_1 plate_1))
+  )
+
+)

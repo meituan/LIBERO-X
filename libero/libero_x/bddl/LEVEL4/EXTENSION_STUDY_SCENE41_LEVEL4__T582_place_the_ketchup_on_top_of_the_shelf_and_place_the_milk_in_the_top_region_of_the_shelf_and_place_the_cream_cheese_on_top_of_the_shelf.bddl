@@ -1,0 +1,128 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the ketchup on top of the shelf and place the milk in the top region of the shelf and place the cream cheese on top of the shelf)
+    (:regions
+      (milk_init_region
+          (:target study_table)
+          (:ranges (
+              (0.119 -0.231 0.181 -0.169)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cream_cheese_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.181 0.169 -0.119 0.231)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.07 -0.020000000000000004 0.07 0.12000000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.22199999999999998 -0.322 -0.078 -0.178)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (ketchup_init_region
+          (:target study_table)
+          (:ranges (
+              (0.034 0.08399999999999999 0.166 0.216)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (bbq_sauce_init_region
+          (:target study_table)
+          (:ranges (
+              (0.036 -0.4 0.066 -0.37)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cookies_init_region
+          (:target study_table)
+          (:ranges (
+              (0.34199999999999997 -0.29100000000000004 0.372 -0.261)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    milk_1 - milk
+    ketchup_1 - ketchup
+    white_yellow_mug_1 - white_yellow_mug
+    cream_cheese_1 - cream_cheese
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+    bbq_sauce_1 - bbq_sauce
+    cookies_1 - cookies
+  )
+
+  (:obj_of_interest
+    ketchup_1
+    milk_1
+    cream_cheese_1
+    wooden_two_layer_shelf_1
+  )
+
+  (:init
+    (On milk_1 study_table_milk_init_region)
+    (On ketchup_1 study_table_ketchup_init_region)
+    (On white_yellow_mug_1 study_table_white_yellow_mug_init_region)
+    (On cream_cheese_1 study_table_cream_cheese_init_region)
+    (On wooden_two_layer_shelf_1 study_table_wooden_two_layer_shelf_init_region)
+    (On bbq_sauce_1 study_table_bbq_sauce_init_region)
+    (On cookies_1 study_table_cookies_init_region)
+  )
+
+  (:goal
+    (And (On ketchup_1 wooden_two_layer_shelf_1_top_side) (In milk_1 wooden_two_layer_shelf_1_top_region) (On cream_cheese_1 wooden_two_layer_shelf_1_top_side))
+  )
+
+)

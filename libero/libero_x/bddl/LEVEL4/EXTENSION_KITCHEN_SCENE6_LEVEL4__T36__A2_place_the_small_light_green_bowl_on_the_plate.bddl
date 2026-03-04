@@ -1,0 +1,95 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the small light green bowl on the plate)
+    (:regions
+      (akita_green_bowl_interference_light_green_small_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.272 -0.272 -0.128 -0.128)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.03 -0.32999999999999996 0.03 -0.27)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.067 0.133 0.067 0.267)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (yellow_book_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.16999999999999998 0.256 0.2 0.28600000000000003)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target white_cabinet_1)
+      )
+      (top_region
+          (:target white_cabinet_1)
+      )
+      (middle_region
+          (:target white_cabinet_1)
+      )
+      (bottom_region
+          (:target white_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    white_cabinet_1 - white_cabinet
+  )
+
+  (:objects
+    akita_green_bowl_interference_light_green_small_1 - akita_green_bowl_interference_light_green_small
+    akita_green_bowl_1 - akita_green_bowl
+    akita_red_bowl_1 - akita_red_bowl
+    plate_1 - plate
+    yellow_book_1 - yellow_book
+  )
+
+  (:obj_of_interest
+    akita_green_bowl_interference_light_green_small_1
+    plate_1
+  )
+
+  (:init
+    (On akita_green_bowl_interference_light_green_small_1 kitchen_table_akita_green_bowl_interference_light_green_small_init_region)
+    (On akita_green_bowl_1 white_cabinet_1_top_side)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On white_cabinet_1 kitchen_table_white_cabinet_init_region)
+    (Open white_cabinet_1_bottom_region)
+    (In akita_red_bowl_1 white_cabinet_1_bottom_region)
+    (On yellow_book_1 kitchen_table_yellow_book_init_region)
+  )
+
+  (:goal
+    (And (On akita_green_bowl_interference_light_green_small_1 plate_1))
+  )
+
+)

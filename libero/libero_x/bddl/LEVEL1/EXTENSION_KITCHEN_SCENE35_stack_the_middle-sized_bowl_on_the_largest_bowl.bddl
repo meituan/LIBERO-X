@@ -1,0 +1,97 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language stack the middle-sized bowl on the largest bowl)
+    (:regions
+      (cream_cheese_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.21000000000000002 0.19 -0.19 0.21000000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (bowl_drainer_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.13999999999999999 0.09000000000000001 0.16 0.11)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_black_bowl_1_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.07500000000000001 -0.225 0.125 -0.17500000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (small_akita_black_bowl_1_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.225 -0.025 -0.17500000000000002 0.025)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (large_akita_black_bowl_1_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.125 -0.225 -0.07500000000000001 -0.17500000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (left_region
+          (:target bowl_drainer_1)
+      )
+      (right_region
+          (:target bowl_drainer_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    bowl_drainer_1 - bowl_drainer
+  )
+
+  (:objects
+    akita_black_bowl_1 - akita_black_bowl
+    small_akita_black_bowl_1 - small_akita_black_bowl
+    large_akita_black_bowl_1 - large_akita_black_bowl
+    cream_cheese_1 - cream_cheese
+  )
+
+  (:obj_of_interest
+    large_akita_black_bowl_1
+    akita_black_bowl_1
+  )
+
+  (:init
+    (On akita_black_bowl_1 kitchen_table_akita_black_bowl_1_init_region)
+    (On small_akita_black_bowl_1 kitchen_table_small_akita_black_bowl_1_init_region)
+    (On large_akita_black_bowl_1 kitchen_table_large_akita_black_bowl_1_init_region)
+    (On bowl_drainer_1 kitchen_table_bowl_drainer_init_region)
+    (On cream_cheese_1 kitchen_table_cream_cheese_init_region)
+  )
+
+  (:goal
+    (And (On akita_black_bowl_1 large_akita_black_bowl_1))
+  )
+
+)

@@ -1,0 +1,112 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the cyan grid book flat on top of the shelf)
+    (:regions
+      (orange_book_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.069 0.171 -0.031000000000000003 0.209)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_book_A_init_region
+          (:target study_table)
+          (:ranges (
+              (0.10099999999999999 0.14100000000000001 0.13899999999999998 0.179)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_book_B_init_region
+          (:target study_table)
+          (:ranges (
+              (0.168 0.008 0.232 0.07200000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cyan_grid_book_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.192 0.198 -0.128 0.262)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.26 -0.33 -0.09999999999999999 -0.16999999999999998)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (ketchup_init_region
+          (:target study_table)
+          (:ranges (
+              (0.366 0.14900000000000002 0.396 0.179)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+    red_book_1 red_book_2 - red_book
+    orange_book_1 - orange_book
+    cyan_grid_book_1 - cyan_grid_book
+    ketchup_1 - ketchup
+  )
+
+  (:obj_of_interest
+    cyan_grid_book_1
+    wooden_two_layer_shelf_1
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 study_table_wooden_two_layer_shelf_init_region)
+    (On red_book_1 study_table_red_book_A_init_region)
+    (On red_book_2 study_table_red_book_B_init_region)
+    (On orange_book_1 study_table_orange_book_init_region)
+    (On cyan_grid_book_1 study_table_cyan_grid_book_init_region)
+    (On ketchup_1 study_table_ketchup_init_region)
+  )
+
+  (:goal
+    (And (SideOn cyan_grid_book_1 wooden_two_layer_shelf_1_top_side))
+  )
+
+)

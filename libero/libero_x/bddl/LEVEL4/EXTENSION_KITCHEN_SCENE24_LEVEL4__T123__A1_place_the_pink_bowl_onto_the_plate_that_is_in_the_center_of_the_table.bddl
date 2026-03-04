@@ -1,0 +1,145 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the pink bowl onto the plate that is in the center of the table)
+    (:regions
+      (pink_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.259 -0.409 -0.14100000000000001 -0.291)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_2_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.137 0.013000000000000005 -0.063 0.087)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.11099999999999999 0.011000000000000003 0.189 0.089)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (wooden_tray_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.032 -0.182 0.032 -0.118)
+            )
+          )
+          (:yaw_rotation (
+              (1.571 1.571)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.032 0.218 0.032 0.28200000000000003)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_purple_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.40700000000000003 0.006000000000000002 -0.377 0.036000000000000004)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_yellow_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.362 0.27899999999999997 -0.33199999999999996 0.309)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (salad_dressing_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.12000000000000001 -0.41000000000000003 0.15000000000000002 -0.38)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (contain_region
+          (:target wooden_tray_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+  )
+
+  (:objects
+    wooden_tray_1 - wooden_tray
+    plate_1 plate_2 - plate
+    akita_black_bowl_1 - akita_black_bowl
+    pink_bowl_1 - pink_bowl
+    akita_blue_bowl_1 - akita_blue_bowl
+    akita_purple_bowl_1 - akita_purple_bowl
+    akita_yellow_bowl_1 - akita_yellow_bowl
+    salad_dressing_1 - salad_dressing
+  )
+
+  (:obj_of_interest
+    pink_bowl_1
+    plate_2
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 kitchen_table_wooden_two_layer_shelf_init_region)
+    (On wooden_tray_1 kitchen_table_wooden_tray_init_region)
+    (On pink_bowl_1 kitchen_table_pink_bowl_init_region)
+    (On akita_black_bowl_1 wooden_two_layer_shelf_1_top_region)
+    (On akita_blue_bowl_1 wooden_tray_1_contain_region)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On plate_2 kitchen_table_plate_2_init_region)
+    (On akita_purple_bowl_1 kitchen_table_akita_purple_bowl_init_region)
+    (On akita_yellow_bowl_1 kitchen_table_akita_yellow_bowl_init_region)
+    (On salad_dressing_1 kitchen_table_salad_dressing_init_region)
+  )
+
+  (:goal
+    (And (On pink_bowl_1 plate_2))
+  )
+
+)

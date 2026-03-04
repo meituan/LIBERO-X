@@ -1,0 +1,74 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the large off-white bowl on the plate)
+    (:regions
+      (white_bowl_interference_off_white_large_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.249 0.251 -0.15100000000000002 0.349)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (microwave_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.046 -0.296 0.046 -0.20400000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.064 0.164 0.136 0.23600000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (top_side
+          (:target microwave_1)
+      )
+      (heating_region
+          (:target microwave_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    microwave_1 - microwave
+  )
+
+  (:objects
+    plate_1 - plate
+    white_bowl_interference_off_white_large_1 - white_bowl_interference_off_white_large
+    white_bowl_1 - white_bowl
+  )
+
+  (:obj_of_interest
+    white_bowl_interference_off_white_large_1
+    plate_1
+  )
+
+  (:init
+    (On white_bowl_interference_off_white_large_1 kitchen_table_white_bowl_interference_off_white_large_init_region)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On microwave_1 kitchen_table_microwave_init_region)
+    (Open microwave_1)
+    (On white_bowl_1 microwave_1_top_side)
+  )
+
+  (:goal
+    (And (On white_bowl_interference_off_white_large_1 plate_1))
+  )
+
+)

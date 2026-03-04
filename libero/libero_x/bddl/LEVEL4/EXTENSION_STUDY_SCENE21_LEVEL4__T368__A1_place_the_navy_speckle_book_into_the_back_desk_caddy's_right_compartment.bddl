@@ -1,0 +1,116 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the navy speckle book into the back desk caddy's right compartment)
+    (:regions
+      (navy_speckle_book_init_region
+          (:target study_table)
+          (:ranges (
+              (0.11599999999999999 0.146 0.184 0.214)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (desk_caddy_back_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.345 -0.045 -0.255 0.045)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_coffee_mug_init_region
+          (:target study_table)
+          (:ranges (
+              (0.066 -0.194 0.134 -0.126)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.021 0.029 0.021 0.07100000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (yellow_book_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.216 -0.266 -0.08399999999999999 -0.134)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (macaroni_and_cheese_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.085 0.321 -0.05500000000000001 0.35100000000000003)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (right_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (left_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (back_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (front_contain_region
+          (:target desk_caddy_back_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    navy_speckle_book_1 - navy_speckle_book
+    yellow_book_1 - yellow_book
+    white_yellow_mug_1 - white_yellow_mug
+    red_coffee_mug_1 - red_coffee_mug
+    desk_caddy_back_1 - desk_caddy_back
+    macaroni_and_cheese_1 - macaroni_and_cheese
+  )
+
+  (:obj_of_interest
+    navy_speckle_book_1
+    desk_caddy_back_1
+  )
+
+  (:init
+    (On desk_caddy_back_1 study_table_desk_caddy_back_init_region)
+    (On navy_speckle_book_1 study_table_navy_speckle_book_init_region)
+    (On yellow_book_1 study_table_yellow_book_init_region)
+    (On white_yellow_mug_1 study_table_white_yellow_mug_init_region)
+    (On red_coffee_mug_1 study_table_red_coffee_mug_init_region)
+    (On macaroni_and_cheese_1 study_table_macaroni_and_cheese_init_region)
+  )
+
+  (:goal
+    (And (ExactIn navy_speckle_book_1 desk_caddy_back_1_right_contain_region))
+  )
+
+)

@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "libero-x"
+version = "0.1.0"
+description = "LIBERO-X: Robustness Litmus for Vision-Language-Action Models"
+authors = [
+    {name = "Guodong Wang", email = "wangguodong20@meituan.com"},
+    {name = "Chenkai Zhang", email = "zhangchenkai@buaa.edu.cn"},
+    {name = "Qingjie Liu"},
+    {name = "Jinjin Zhang"},
+    {name = "Jiancheng Cai"},
+    {name = "Junjie Liu"},
+    {name = "Xinmin Liu"}
+]
+readme = "README.md"
+requires-python = ">=3"
+dependencies = [
+    "openpi-client @ file:./packages/openpi-client"
+]
+
+[project.scripts]
+"lifelong.main" = "libero.lifelong.main:main"
+"lifelong.eval" = "libero.lifelong.evaluate:main" 
+"libero.config_copy" = "scripts.config_copy:main"
+"libero.create_template" = "scripts.create_template:main"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+include = ["libero*"]
+exclude = ["tests*", "docs*", "examples*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.md", "*.txt", "*.yaml", "*.yml", "*.json"]

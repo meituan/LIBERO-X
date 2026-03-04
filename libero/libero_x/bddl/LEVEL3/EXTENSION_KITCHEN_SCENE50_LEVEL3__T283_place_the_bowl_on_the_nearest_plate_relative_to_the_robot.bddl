@@ -1,0 +1,132 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the bowl on the nearest plate relative to the robot)
+    (:regions
+      (plate_farthest_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.068 -0.232 0.132 -0.168)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (plate_middle_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.136 -0.23600000000000002 -0.064 -0.164)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (plate_nearest_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.33199999999999996 -0.232 -0.268 -0.168)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (wooden_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.061 0.139 0.061 0.261)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_red_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.15600000000000003 -0.013 0.186 0.017)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (milk_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.16099999999999998 0.298 -0.131 0.328)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (alphabet_soup_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.372 0.045 0.402 0.075)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_cabinet_1)
+      )
+      (top_region
+          (:target wooden_cabinet_1)
+      )
+      (middle_region
+          (:target wooden_cabinet_1)
+      )
+      (bottom_region
+          (:target wooden_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_cabinet_1 - wooden_cabinet
+  )
+
+  (:objects
+    porcelain_mug_1 - porcelain_mug
+    small_akita_black_bowl_1 - small_akita_black_bowl
+    plate_1 plate_2 plate_3 - plate
+    akita_red_bowl_1 - akita_red_bowl
+    milk_1 - milk
+    alphabet_soup_1 - alphabet_soup
+  )
+
+  (:obj_of_interest
+    small_akita_black_bowl_1
+    plate_1
+  )
+
+  (:init
+    (Open wooden_cabinet_1_bottom_region)
+    (In small_akita_black_bowl_1 wooden_cabinet_1_bottom_region)
+    (On wooden_cabinet_1 kitchen_table_wooden_cabinet_init_region)
+    (On plate_1 kitchen_table_plate_nearest_init_region)
+    (On plate_2 kitchen_table_plate_middle_init_region)
+    (On plate_3 kitchen_table_plate_farthest_init_region)
+    (On porcelain_mug_1 plate_2)
+    (On akita_red_bowl_1 kitchen_table_akita_red_bowl_init_region)
+    (On milk_1 kitchen_table_milk_init_region)
+    (On alphabet_soup_1 kitchen_table_alphabet_soup_init_region)
+  )
+
+  (:goal
+    (And (On small_akita_black_bowl_1 plate_1))
+  )
+
+)

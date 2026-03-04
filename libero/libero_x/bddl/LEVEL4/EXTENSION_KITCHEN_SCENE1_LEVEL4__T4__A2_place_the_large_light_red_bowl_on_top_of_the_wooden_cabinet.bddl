@@ -1,0 +1,129 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the large light red bowl on top of the wooden cabinet)
+    (:regions
+      (akita_green_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.313 -0.063 -0.187 0.063)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_red_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.063 -0.063 0.063 0.063)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_red_bowl_interference_light_red_large_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.047 0.203 0.047 0.297)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.234 0.166 -0.166 0.234)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (wooden_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.07 -0.37 0.07 -0.22999999999999998)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (ketchup_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.239 0.12000000000000001 0.269 0.15000000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_purple_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.265 -0.203 0.29500000000000004 -0.173)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_cabinet_1)
+      )
+      (top_region
+          (:target wooden_cabinet_1)
+      )
+      (middle_region
+          (:target wooden_cabinet_1)
+      )
+      (bottom_region
+          (:target wooden_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_cabinet_1 - wooden_cabinet
+  )
+
+  (:objects
+    akita_red_bowl_interference_light_red_large_1 - akita_red_bowl_interference_light_red_large
+    akita_green_bowl_1 - akita_green_bowl
+    akita_red_bowl_1 - akita_red_bowl
+    plate_1 - plate
+    ketchup_1 - ketchup
+    akita_purple_bowl_1 - akita_purple_bowl
+  )
+
+  (:obj_of_interest
+    akita_red_bowl_interference_light_red_large_1
+    plate_1
+  )
+
+  (:init
+    (On akita_red_bowl_interference_light_red_large_1 kitchen_table_akita_red_bowl_interference_light_red_large_init_region)
+    (On akita_green_bowl_1 kitchen_table_akita_green_bowl_init_region)
+    (On akita_red_bowl_1 kitchen_table_akita_red_bowl_init_region)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On wooden_cabinet_1 kitchen_table_wooden_cabinet_init_region)
+    (On ketchup_1 kitchen_table_ketchup_init_region)
+    (On akita_purple_bowl_1 kitchen_table_akita_purple_bowl_init_region)
+  )
+
+  (:goal
+    (And (On akita_red_bowl_interference_light_red_large_1 wooden_cabinet_1_top_side))
+  )
+
+)

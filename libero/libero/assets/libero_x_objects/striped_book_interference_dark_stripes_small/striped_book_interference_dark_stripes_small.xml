@@ -1,0 +1,15 @@
+<mujoco model="striped_book_interference_dark_stripes_small">
+  <asset>
+  <texture file="striped_book_interference_dark_stripes_small_texture.png" name="tex-striped_book_interference_dark_stripes_small" type="2d" />
+  <material name="striped_book_interference_dark_stripes_small" reflectance="0.5" texrepeat="1 1" texture="tex-striped_book_interference_dark_stripes_small" texuniform="false" />
+  <mesh file="visual/striped_book_interference_dark_stripes_small_vis.msh" name="striped_book_interference_dark_stripes_small_vis" scale="0.32 0.32 0.32" /></asset>
+  <worldbody>
+    <body>
+      <body name="object">
+      <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="striped_book_interference_dark_stripes_small_vis" conaffinity="0" contype="0" group="1" material="striped_book_interference_dark_stripes_small" /><geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.00038 -0.00972 0.05550" quat="0.00000 0.00000 1.00000 0.00000" size="0.01147 0.04415 0.05376" group="0" rgba="0.8 0.8 0.8 0.3" /></body>
+      <site rgba="0 0 0 0" size="0.00400" pos="0.00000 0.00000 -0.04800" name="bottom_site" />
+      <site rgba="0 0 0 0" size="0.00400" pos="0.00000 0.00000 0.03200" name="top_site" />
+      <site rgba="0 0 0 0" size="0.00400" pos="0.02000 0.02000 0.00000" name="horizontal_radius_site" />
+    </body>
+  </worldbody>
+</mujoco>

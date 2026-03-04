@@ -1,0 +1,125 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the cyan grid book upright on top of the shelf)
+    (:regions
+      (cyan_grid_book_init_region
+          (:target study_table)
+          (:ranges (
+              (0.138 -0.162 0.202 -0.098)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (orange_book_init_region
+          (:target study_table)
+          (:ranges (
+              (0.11200000000000002 0.132 0.168 0.188)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_coffee_mug_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.279 0.241 -0.161 0.359)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (striped_book_A_init_region
+          (:target study_table)
+          (:ranges (
+              (0.0019999999999999983 0.052000000000000005 0.057999999999999996 0.108)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (striped_book_B_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.10800000000000001 0.14200000000000002 0.008 0.258)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.247 -0.317 -0.11299999999999999 -0.183)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (chocolate_pudding_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.040999999999999995 -0.176 -0.011 -0.14600000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+    red_coffee_mug_1 - red_coffee_mug
+    striped_book_1 striped_book_2 - striped_book
+    cyan_grid_book_1 - cyan_grid_book
+    orange_book_1 - orange_book
+    chocolate_pudding_1 - chocolate_pudding
+  )
+
+  (:obj_of_interest
+    cyan_grid_book_1
+    wooden_two_layer_shelf_1
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 study_table_wooden_two_layer_shelf_init_region)
+    (On striped_book_1 study_table_striped_book_A_init_region)
+    (On striped_book_2 study_table_striped_book_B_init_region)
+    (On cyan_grid_book_1 study_table_cyan_grid_book_init_region)
+    (On orange_book_1 study_table_orange_book_init_region)
+    (On red_coffee_mug_1 study_table_red_coffee_mug_init_region)
+    (On chocolate_pudding_1 study_table_chocolate_pudding_init_region)
+  )
+
+  (:goal
+    (And (UprightOn cyan_grid_book_1 wooden_two_layer_shelf_1_top_side))
+  )
+
+)

@@ -1,0 +1,92 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the butter on the top layer of the shelf)
+    (:regions
+      (flat_stove_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.346 0.054000000000000006 -0.254 0.14600000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (moka_pot_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.034 -0.016 0.166 0.116)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.078 -0.328 0.078 -0.172)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (cookies_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.026 0.306 0.004 0.336)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (cook_region
+          (:target flat_stove_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+    flat_stove_1 - flat_stove
+  )
+
+  (:objects
+    butter_1 - butter
+    moka_pot_1 - moka_pot
+    cookies_1 - cookies
+  )
+
+  (:obj_of_interest
+    butter_1
+    wooden_two_layer_shelf_1
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 kitchen_table_wooden_two_layer_shelf_init_region)
+    (On butter_1 wooden_two_layer_shelf_1_top_side)
+    (On flat_stove_1 kitchen_table_flat_stove_init_region)
+    (On moka_pot_1 kitchen_table_moka_pot_init_region)
+    (On cookies_1 kitchen_table_cookies_init_region)
+  )
+
+  (:goal
+    (And (In butter_1 wooden_two_layer_shelf_1_top_region))
+  )
+
+)

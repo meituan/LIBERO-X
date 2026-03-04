@@ -1,0 +1,101 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the bowl in the top drawer)
+    (:regions
+      (microwave_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.045 -0.295 0.045 -0.20500000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (white_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.158 0.242 -0.042 0.358)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (bbq_sauce_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.1 0.24 0.13 0.27)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cream_cheese_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.326 0.136 -0.296 0.16599999999999998)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target microwave_1)
+      )
+      (heating_region
+          (:target microwave_1)
+      )
+      (top_side
+          (:target white_cabinet_1)
+      )
+      (top_region
+          (:target white_cabinet_1)
+      )
+      (middle_region
+          (:target white_cabinet_1)
+      )
+      (bottom_region
+          (:target white_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    microwave_1 - microwave
+    white_cabinet_1 - white_cabinet
+  )
+
+  (:objects
+    small_akita_black_bowl_1 - small_akita_black_bowl
+    bbq_sauce_1 - bbq_sauce
+    cream_cheese_1 - cream_cheese
+  )
+
+  (:obj_of_interest
+    white_cabinet_1
+    small_akita_black_bowl_1
+  )
+
+  (:init
+    (On small_akita_black_bowl_1 microwave_1_top_side)
+    (On microwave_1 kitchen_table_microwave_init_region)
+    (Open microwave_1)
+    (Open white_cabinet_1_top_region)
+    (Open white_cabinet_1_middle_region)
+    (On white_cabinet_1 kitchen_table_white_cabinet_init_region)
+    (On bbq_sauce_1 kitchen_table_bbq_sauce_init_region)
+    (On cream_cheese_1 kitchen_table_cream_cheese_init_region)
+  )
+
+  (:goal
+    (And (In small_akita_black_bowl_1 white_cabinet_1_top_region))
+  )
+
+)

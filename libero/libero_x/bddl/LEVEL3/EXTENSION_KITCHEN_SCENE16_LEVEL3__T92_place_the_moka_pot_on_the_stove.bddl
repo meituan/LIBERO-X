@@ -1,0 +1,118 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the moka pot on the stove)
+    (:regions
+      (flat_stove_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.347 0.053000000000000005 -0.253 0.14700000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (moka_pot_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.035 -0.015 0.165 0.115)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.078 -0.328 0.078 -0.172)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (akita_red_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.185 -0.099 0.21500000000000002 -0.069)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (chocolate_pudding_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.19 0.115 0.21999999999999997 0.14500000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_green_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.339 -0.12 -0.309 -0.09)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (cook_region
+          (:target flat_stove_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+    flat_stove_1 - flat_stove
+  )
+
+  (:objects
+    chefmate_8_frypan_1 - chefmate_8_frypan
+    moka_pot_1 - moka_pot
+    akita_red_bowl_1 - akita_red_bowl
+    chocolate_pudding_1 - chocolate_pudding
+    akita_green_bowl_1 - akita_green_bowl
+  )
+
+  (:obj_of_interest
+    moka_pot_1
+    flat_stove_1
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 kitchen_table_wooden_two_layer_shelf_init_region)
+    (On chefmate_8_frypan_1 wooden_two_layer_shelf_1_bottom_region)
+    (On flat_stove_1 kitchen_table_flat_stove_init_region)
+    (On moka_pot_1 kitchen_table_moka_pot_init_region)
+    (On akita_red_bowl_1 kitchen_table_akita_red_bowl_init_region)
+    (On chocolate_pudding_1 kitchen_table_chocolate_pudding_init_region)
+    (On akita_green_bowl_1 kitchen_table_akita_green_bowl_init_region)
+  )
+
+  (:goal
+    (And (On moka_pot_1 flat_stove_1_cook_region))
+  )
+
+)

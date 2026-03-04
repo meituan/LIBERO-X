@@ -1,0 +1,118 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the porcelain mug that is on the plate onto the nearest plate relative to the robot)
+    (:regions
+      (plate_farthest_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.069 0.169 0.131 0.231)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (plate_middle_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.13 0.17 -0.07 0.23)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (plate_nearest_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.33499999999999996 0.165 -0.265 0.23500000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (wooden_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.059 -0.259 0.059 -0.14100000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (red_coffee_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.192 -0.22999999999999998 0.22199999999999998 -0.2)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (milk_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.23399999999999999 0.179 0.264 0.20900000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_cabinet_1)
+      )
+      (top_region
+          (:target wooden_cabinet_1)
+      )
+      (middle_region
+          (:target wooden_cabinet_1)
+      )
+      (bottom_region
+          (:target wooden_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_cabinet_1 - wooden_cabinet
+  )
+
+  (:objects
+    porcelain_mug_1 porcelain_mug_2 - porcelain_mug
+    plate_1 plate_2 plate_3 - plate
+    red_coffee_mug_1 - red_coffee_mug
+    milk_1 - milk
+  )
+
+  (:obj_of_interest
+    porcelain_mug_2
+    plate_1
+  )
+
+  (:init
+    (In porcelain_mug_1 wooden_cabinet_1_top_region)
+    (Open wooden_cabinet_1_top_region)
+    (On wooden_cabinet_1 kitchen_table_wooden_cabinet_init_region)
+    (On plate_1 kitchen_table_plate_nearest_init_region)
+    (On plate_2 kitchen_table_plate_middle_init_region)
+    (On plate_3 kitchen_table_plate_farthest_init_region)
+    (On porcelain_mug_2 plate_3)
+    (On red_coffee_mug_1 kitchen_table_red_coffee_mug_init_region)
+    (On milk_1 kitchen_table_milk_init_region)
+  )
+
+  (:goal
+    (And (On porcelain_mug_2 plate_1))
+  )
+
+)

@@ -1,0 +1,826 @@
+{"task_desc": "the pink bowl should be placed on the plate", "variant": "A1", "task_id": "001"}
+{"task_desc": "the small light green bowl should be placed on the plate", "variant": "A2", "task_id": "001"}
+{"task_desc": "the cyan bowl should be placed on the plate", "variant": "A1", "task_id": "002"}
+{"task_desc": "the small dark yellow bowl should be placed on the plate", "variant": "A2", "task_id": "002"}
+{"task_desc": "the orange bowl should be placed on the plate", "variant": "A1", "task_id": "003"}
+{"task_desc": "the large light red bowl should be placed on the plate", "variant": "A2", "task_id": "003"}
+{"task_desc": "the pink bowl should be placed on top of the wooden cabinet", "variant": "A1", "task_id": "004"}
+{"task_desc": "the large light red bowl should be placed on top of the wooden cabinet", "variant": "A2", "task_id": "004"}
+{"task_desc": "the pink bowl should be placed on top of the wooden cabinet", "variant": "A1", "task_id": "005"}
+{"task_desc": "the small light green bowl should be placed on top of the wooden cabinet", "variant": "A2", "task_id": "005"}
+{"task_desc": "the teal bowl should be placed on top of the wooden cabinet", "variant": "A1", "task_id": "006"}
+{"task_desc": "the small dark yellow bowl should be placed on top of the wooden cabinet", "variant": "A2", "task_id": "006"}
+{"task_desc": "the top drawer of the wooden cabinet should be opened", "variant": "", "task_id": "007"}
+{"task_desc": "the middle drawer of the wooden cabinet should be opened", "variant": "", "task_id": "008"}
+{"task_desc": "the top drawer of the wooden cabinet should be opened", "variant": "", "task_id": "009"}
+{"task_desc": "the pink bowl should be placed on the plate", "variant": "A1", "task_id": "010"}
+{"task_desc": "the small light green bowl should be placed on the plate", "variant": "A2", "task_id": "010"}
+{"task_desc": "the teal bowl should be placed on the plate", "variant": "A1", "task_id": "011"}
+{"task_desc": "the small dark yellow bowl should be placed on the plate", "variant": "A2", "task_id": "011"}
+{"task_desc": "the orange bowl should be placed on the plate", "variant": "A1", "task_id": "012"}
+{"task_desc": "the large light red bowl should be placed on the plate", "variant": "A2", "task_id": "012"}
+{"task_desc": "the cyan bowl should be placed on the plate", "variant": "A1", "task_id": "013"}
+{"task_desc": "the small light green bowl should be placed on the plate", "variant": "A2", "task_id": "013"}
+{"task_desc": "the teal bowl should be placed on the plate", "variant": "A1", "task_id": "014"}
+{"task_desc": "the small dark yellow bowl should be placed on the plate", "variant": "A2", "task_id": "014"}
+{"task_desc": "the teal bowl should be placed on the plate", "variant": "A1", "task_id": "015"}
+{"task_desc": "the large light red bowl should be placed on the plate", "variant": "A2", "task_id": "015"}
+{"task_desc": "the middle drawer of the wooden cabinet should be opened", "variant": "", "task_id": "016"}
+{"task_desc": "the top drawer of the wooden cabinet should be opened", "variant": "", "task_id": "017"}
+{"task_desc": "the cyan bowl should be placed on top of the wooden cabinet", "variant": "A1", "task_id": "018"}
+{"task_desc": "the large light red bowl should be placed on top of the wooden cabinet", "variant": "A2", "task_id": "018"}
+{"task_desc": "the orange bowl should be placed on top of the wooden cabinet", "variant": "A1", "task_id": "019"}
+{"task_desc": "the small light green bowl should be placed on top of the wooden cabinet", "variant": "A2", "task_id": "019"}
+{"task_desc": "the pink bowl should be placed on top of the wooden cabinet", "variant": "A1", "task_id": "020"}
+{"task_desc": "the small dark yellow bowl should be placed on top of the wooden cabinet", "variant": "A2", "task_id": "020"}
+{"task_desc": "the middle drawer of the white cabinet should be opened", "variant": "", "task_id": "021"}
+{"task_desc": "the top drawer of the white cabinet should be opened", "variant": "", "task_id": "022"}
+{"task_desc": "the orange bowl should be placed on the plate", "variant": "A1", "task_id": "023"}
+{"task_desc": "the small light green bowl should be placed on the plate", "variant": "A2", "task_id": "023"}
+{"task_desc": "the pink bowl should be placed on the plate", "variant": "A1", "task_id": "024"}
+{"task_desc": "the small dark yellow bowl should be placed on the plate", "variant": "A2", "task_id": "024"}
+{"task_desc": "the cyan bowl should be placed on the plate", "variant": "A1", "task_id": "025"}
+{"task_desc": "the large light red bowl should be placed on the plate", "variant": "A2", "task_id": "025"}
+{"task_desc": "the bottom drawer of the white cabinet should be closed", "variant": "", "task_id": "026"}
+{"task_desc": "the orange bowl should be placed in the bottom drawer of the white cabinet", "variant": "A1", "task_id": "027"}
+{"task_desc": "the small light green bowl should be placed in the bottom drawer of the white cabinet", "variant": "A2", "task_id": "027"}
+{"task_desc": "the orange bowl should be placed in the bottom drawer of the white cabinet", "variant": "A1", "task_id": "028"}
+{"task_desc": "the large light red bowl should be placed in the bottom drawer of the white cabinet", "variant": "A2", "task_id": "028"}
+{"task_desc": "the orange bowl should be placed in the bottom drawer of the white cabinet", "variant": "A1", "task_id": "029"}
+{"task_desc": "the small dark yellow bowl should be placed in the bottom drawer of the white cabinet", "variant": "A2", "task_id": "029"}
+{"task_desc": "the bbq sauce should be placed in the bottom drawer of the white cabinet and the drawer should be closed", "variant": "", "task_id": "030"}
+{"task_desc": "the cookies should be placed in the bottom drawer of the white cabinet and the drawer should be closed", "variant": "", "task_id": "031"}
+{"task_desc": "the cream cheese should be placed in the bottom drawer of the white cabinet and the drawer should be closed", "variant": "", "task_id": "032"}
+{"task_desc": "the bottom drawer of the white cabinet should be closed and the popcorn should be placed on the plate", "variant": "", "task_id": "033"}
+{"task_desc": "the bottom drawer of the white cabinet should be closed and the alphabet soup should be placed on the plate", "variant": "", "task_id": "034"}
+{"task_desc": "the bottom drawer of the white cabinet should be closed and the alphabet soup should be placed on the plate", "variant": "", "task_id": "035"}
+{"task_desc": "the teal bowl should be placed on the plate", "variant": "A1", "task_id": "036"}
+{"task_desc": "the small light green bowl should be placed on the plate", "variant": "A2", "task_id": "036"}
+{"task_desc": "the orange bowl should be placed on the plate", "variant": "A1", "task_id": "037"}
+{"task_desc": "the large light red bowl should be placed on the plate", "variant": "A2", "task_id": "037"}
+{"task_desc": "the pink bowl should be placed on the plate", "variant": "A1", "task_id": "038"}
+{"task_desc": "the small dark yellow bowl should be placed on the plate", "variant": "A2", "task_id": "038"}
+{"task_desc": "the orange juice should be placed on the plate and the bottom drawer of the white cabinet should be closed", "variant": "", "task_id": "039"}
+{"task_desc": "the teal bowl should be placed on the plate", "variant": "A1", "task_id": "040"}
+{"task_desc": "the small light green bowl should be placed on the plate", "variant": "A2", "task_id": "040"}
+{"task_desc": "the teal bowl should be placed on the plate", "variant": "A1", "task_id": "041"}
+{"task_desc": "the small dark yellow bowl should be placed on the plate", "variant": "A2", "task_id": "041"}
+{"task_desc": "the cyan bowl should be placed to the left of the bowl drainer", "variant": "A1", "task_id": "042"}
+{"task_desc": "the teal bowl should be placed to the left of the bowl drainer", "variant": "A1", "task_id": "043"}
+{"task_desc": "the orange bowl should be placed to the right of the bowl drainer", "variant": "A1", "task_id": "044"}
+{"task_desc": "the cyan bowl should be placed to the right of the bowl drainer", "variant": "A1", "task_id": "045"}
+{"task_desc": "the bowl should be picked up on the plate and it should be placed to the right of the bowl drainer", "variant": "", "task_id": "046"}
+{"task_desc": "the bowl should be picked up on the plate and it should be placed to the left of the bowl drainer", "variant": "", "task_id": "047"}
+{"task_desc": "the bowl should be picked up on the table and it should be placed to the right of the bowl drainer", "variant": "", "task_id": "048"}
+{"task_desc": "the bowl should be picked up on the table and it should be placed to the left of the bowl drainer", "variant": "", "task_id": "049"}
+{"task_desc": "the bowl should be picked up on the plate and it should be placed on top of the white cabinet", "variant": "", "task_id": "050"}
+{"task_desc": "the bowl should be picked up on the table and it should be placed on top of the white cabinet", "variant": "", "task_id": "051"}
+{"task_desc": "the cyan bowl should be placed to the left of the bowl drainer", "variant": "A1", "task_id": "052"}
+{"task_desc": "the orange bowl should be placed to the left of the bowl drainer", "variant": "A1", "task_id": "053"}
+{"task_desc": "the cyan bowl should be placed to the right of the bowl drainer", "variant": "A1", "task_id": "054"}
+{"task_desc": "the cyan bowl should be placed to the right of the bowl drainer", "variant": "A1", "task_id": "055"}
+{"task_desc": "the cyan bowl should be placed on the stove", "variant": "A1", "task_id": "056"}
+{"task_desc": "the small light green bowl should be placed on the stove", "variant": "A2", "task_id": "056"}
+{"task_desc": "the orange bowl should be placed on the stove", "variant": "A1", "task_id": "057"}
+{"task_desc": "the large light grey bowl should be placed on the stove", "variant": "A2", "task_id": "057"}
+{"task_desc": "the flat stove should be turned on", "variant": "", "task_id": "058"}
+{"task_desc": "the ketchup should be placed on the stove and the stove should be turned on", "variant": "", "task_id": "059"}
+{"task_desc": "the bbq sauce should be placed on the stove and the stove should be turned on", "variant": "", "task_id": "060"}
+{"task_desc": "the milk should be placed to the left of the bowl drainer", "variant": "", "task_id": "061"}
+{"task_desc": "the macaroni and cheese should be placed to the right of the bowl drainer", "variant": "", "task_id": "062"}
+{"task_desc": "the teal bowl should be placed to the right of the bowl drainer and the pink bowl should be placed to the left of the bowl drainer", "variant": "A1", "task_id": "063"}
+{"task_desc": "the pink bowl should be placed to the right of the bowl drainer and the teal bowl should be placed to the left of the bowl drainer", "variant": "A1", "task_id": "064"}
+{"task_desc": "the cyan bowl should be placed to the left of the bowl drainer", "variant": "A1", "task_id": "065"}
+{"task_desc": "the pink bowl should be placed to the left of the bowl drainer", "variant": "A1", "task_id": "066"}
+{"task_desc": "the pink bowl should be placed to the right of the bowl drainer", "variant": "A1", "task_id": "067"}
+{"task_desc": "the pink bowl should be placed to the right of the bowl drainer", "variant": "A1", "task_id": "068"}
+{"task_desc": "the pink bowl should be placed on the stove", "variant": "A1", "task_id": "069"}
+{"task_desc": "the small light green bowl should be placed on the stove", "variant": "A2", "task_id": "069"}
+{"task_desc": "the cyan bowl should be placed on the stove", "variant": "A1", "task_id": "070"}
+{"task_desc": "the large light grey bowl should be placed on the stove", "variant": "A2", "task_id": "070"}
+{"task_desc": "the flat stove should be turned on", "variant": "", "task_id": "071"}
+{"task_desc": "the popcorn should be placed on the stove and the stove should be turned on", "variant": "", "task_id": "072"}
+{"task_desc": "the butter should be placed on the stove and the stove should be turned on", "variant": "", "task_id": "073"}
+{"task_desc": "the orange bowl should be placed on top of the shelf", "variant": "A1", "task_id": "074"}
+{"task_desc": "the small light green bowl should be placed on top of the shelf", "variant": "A2", "task_id": "074"}
+{"task_desc": "the orange bowl should be placed on top of the shelf", "variant": "A1", "task_id": "075"}
+{"task_desc": "the small dark yellow bowl should be placed on top of the shelf", "variant": "A2", "task_id": "075"}
+{"task_desc": "the cyan bowl should be placed to the right of the bowl drainer", "variant": "A1", "task_id": "076"}
+{"task_desc": "the teal bowl should be placed to the left of the bowl drainer", "variant": "A1", "task_id": "077"}
+{"task_desc": "the flat stove should be turned on", "variant": "", "task_id": "078"}
+{"task_desc": "the chocolate pudding should be placed on the stove", "variant": "", "task_id": "079"}
+{"task_desc": "the butter should be placed on top of the shelf", "variant": "", "task_id": "080"}
+{"task_desc": "the popcorn should be placed on the top layer of the shelf", "variant": "", "task_id": "081"}
+{"task_desc": "the popcorn should be placed on the bottom layer of the shelf", "variant": "", "task_id": "082"}
+{"task_desc": "the flat stove should be turned on", "variant": "", "task_id": "083"}
+{"task_desc": "the orange juice should be placed on the stove", "variant": "", "task_id": "084"}
+{"task_desc": "the milk should be placed on the stove and the stove should be turned on", "variant": "", "task_id": "085"}
+{"task_desc": "the cream cheese should be placed on top of the shelf", "variant": "", "task_id": "086"}
+{"task_desc": "the ketchup should be placed on the top layer of the shelf", "variant": "", "task_id": "087"}
+{"task_desc": "the butter should be placed on the top layer of the shelf", "variant": "", "task_id": "088"}
+{"task_desc": "the cream cheese should be placed on the stove", "variant": "", "task_id": "089"}
+{"task_desc": "the milk should be placed on the stove and the stove should be turned on", "variant": "", "task_id": "090"}
+{"task_desc": "the macaroni and cheese should be placed on top of the shelf", "variant": "", "task_id": "091"}
+{"task_desc": "the cream cheese should be placed on the stove", "variant": "", "task_id": "092"}
+{"task_desc": "the ketchup should be placed on the stove and the stove should be turned on", "variant": "", "task_id": "093"}
+{"task_desc": "the orange juice should be placed on top of the shelf", "variant": "", "task_id": "094"}
+{"task_desc": "the orange juice should be placed on the stove", "variant": "", "task_id": "095"}
+{"task_desc": "the chocolate pudding should be placed on the stove and the stove should be closed", "variant": "", "task_id": "096"}
+{"task_desc": "the bowl should be placed on the plate", "variant": "", "task_id": "097"}
+{"task_desc": "the alphabet soup should be placed on the stove", "variant": "", "task_id": "098"}
+{"task_desc": "the cookies should be placed on the stove", "variant": "", "task_id": "099"}
+{"task_desc": "the bowl should be placed on the plate", "variant": "", "task_id": "100"}
+{"task_desc": "the butter should be placed on the top layer of the shelf", "variant": "", "task_id": "101"}
+{"task_desc": "the popcorn should be placed on the top layer of the shelf and the chocolate pudding should be placed on the stove", "variant": "", "task_id": "102"}
+{"task_desc": "the bowl should be placed on the plate", "variant": "", "task_id": "103"}
+{"task_desc": "the stove should be turned on", "variant": "", "task_id": "104"}
+{"task_desc": "the bowl should be placed on top of the shelf", "variant": "", "task_id": "105"}
+{"task_desc": "the orange bowl should be placed on the plate", "variant": "A1", "task_id": "106"}
+{"task_desc": "the small light green bowl should be placed on the plate", "variant": "A2", "task_id": "106"}
+{"task_desc": "the pink bowl should be placed on the plate", "variant": "A1", "task_id": "107"}
+{"task_desc": "the large light red bowl should be placed on the plate", "variant": "A2", "task_id": "107"}
+{"task_desc": "the pink bowl should be placed in the basket", "variant": "A1", "task_id": "108"}
+{"task_desc": "the small light green bowl should be placed in the basket", "variant": "A2", "task_id": "108"}
+{"task_desc": "the cyan bowl should be placed in the basket", "variant": "A1", "task_id": "109"}
+{"task_desc": "the large light red bowl should be placed in the basket", "variant": "A2", "task_id": "109"}
+{"task_desc": "the orange bowl should be placed on the plate", "variant": "A1", "task_id": "110"}
+{"task_desc": "the small light green bowl should be placed on the plate", "variant": "A2", "task_id": "110"}
+{"task_desc": "the orange bowl should be placed on the plate", "variant": "A1", "task_id": "111"}
+{"task_desc": "the large light grey bowl should be placed on the plate", "variant": "A2", "task_id": "111"}
+{"task_desc": "the pink bowl should be placed in the basket", "variant": "A1", "task_id": "112"}
+{"task_desc": "the small light green bowl should be placed in the basket", "variant": "A2", "task_id": "112"}
+{"task_desc": "the teal bowl should be placed in the basket", "variant": "A1", "task_id": "113"}
+{"task_desc": "the large light grey bowl should be placed in the basket", "variant": "A2", "task_id": "113"}
+{"task_desc": "the pink bowl should be placed on the plate", "variant": "A1", "task_id": "114"}
+{"task_desc": "the small light green bowl should be placed on the plate", "variant": "A2", "task_id": "114"}
+{"task_desc": "the pink bowl should be placed on the plate", "variant": "A1", "task_id": "115"}
+{"task_desc": "the large light grey bowl should be placed on the plate", "variant": "A2", "task_id": "115"}
+{"task_desc": "the teal bowl should be placed on the plate", "variant": "A1", "task_id": "116"}
+{"task_desc": "the large dark blue bowl should be placed on the plate", "variant": "A2", "task_id": "116"}
+{"task_desc": "the orange bowl should be placed in the wooden tray", "variant": "A1", "task_id": "117"}
+{"task_desc": "the small light green bowl should be placed in the wooden tray", "variant": "A2", "task_id": "117"}
+{"task_desc": "the cyan bowl should be placed in the wooden tray", "variant": "A1", "task_id": "118"}
+{"task_desc": "the large light grey bowl should be placed in the wooden tray", "variant": "A2", "task_id": "118"}
+{"task_desc": "the orange bowl should be placed in the wooden tray", "variant": "A1", "task_id": "119"}
+{"task_desc": "the large dark blue bowl should be placed in the wooden tray", "variant": "A2", "task_id": "119"}
+{"task_desc": "the teal bowl and the orange bowl should be placed in the wooden tray", "variant": "A1", "task_id": "120"}
+{"task_desc": "the teal bowl and the orange bowl should be placed in the wooden tray", "variant": "A1", "task_id": "121"}
+{"task_desc": "the orange bowl and the teal bowl should be placed in the wooden tray", "variant": "A1", "task_id": "122"}
+{"task_desc": "the pink bowl should be placed onto the plate that is in the center of the table", "variant": "A1", "task_id": "123"}
+{"task_desc": "the small light green bowl should be placed onto the plate that is in the center of the table", "variant": "A2", "task_id": "123"}
+{"task_desc": "the cyan bowl should be placed onto the plate that is in the center of the table", "variant": "A1", "task_id": "124"}
+{"task_desc": "the large light grey bowl should be placed onto the plate that is in the center of the table", "variant": "A2", "task_id": "124"}
+{"task_desc": "the cyan bowl should be placed onto the plate that is in the center of the table", "variant": "A1", "task_id": "125"}
+{"task_desc": "the large dark blue bowl should be placed onto the plate that is in the center of the table", "variant": "A2", "task_id": "125"}
+{"task_desc": "the cyan bowl should be placed onto the plate that is next to the blue bowl", "variant": "A1", "task_id": "126"}
+{"task_desc": "the small light green bowl should be placed onto the plate that is next to the blue bowl", "variant": "A2", "task_id": "126"}
+{"task_desc": "the orange bowl should be placed onto the plate that is next to the blue bowl", "variant": "A1", "task_id": "127"}
+{"task_desc": "the large light grey bowl should be placed onto the plate that is next to the blue bowl", "variant": "A2", "task_id": "127"}
+{"task_desc": "the orange bowl should be placed onto the plate that is next to the orange bowl", "variant": "A1", "task_id": "128"}
+{"task_desc": "the large dark blue bowl should be placed onto the plate that is next to the large dark blue bowl", "variant": "A2", "task_id": "128"}
+{"task_desc": "the pink bowl should be placed onto the plate that is in the table center and the cyan bowl should be placed onto the plate that is next to the blue bowl", "variant": "A1", "task_id": "129"}
+{"task_desc": "the cyan bowl should be placed onto the plate that is in the table center and the orange bowl should be placed onto the plate that is next to the blue bowl", "variant": "A1", "task_id": "130"}
+{"task_desc": "the pink bowl should be placed onto the plate that is in the table center", "variant": "A1", "task_id": "131"}
+{"task_desc": "the large off-white bowl should be placed onto the plate that is in the table center", "variant": "A2", "task_id": "131"}
+{"task_desc": "the teal bowl should be placed on the off-center plate", "variant": "A1", "task_id": "132"}
+{"task_desc": "the large off-white bowl should be placed on the off-center plate", "variant": "A2", "task_id": "132"}
+{"task_desc": "the cyan bowl should be stacked on the green bowl", "variant": "A1", "task_id": "133"}
+{"task_desc": "the teal bowl should be stacked on the blue bowl", "variant": "A1", "task_id": "134"}
+{"task_desc": "the orange bowl should be placed on the off-center plate and the cyan bowl should be placed on top of the wooden shelf", "variant": "A1", "task_id": "135"}
+{"task_desc": "the pink bowl should be placed on the off-center plate and the cyan bowl should be placed on top of the wooden shelf", "variant": "A1", "task_id": "136"}
+{"task_desc": "the orange bowl should be placed on the plate", "variant": "A1", "task_id": "137"}
+{"task_desc": "the large off-white bowl should be placed on the plate", "variant": "A2", "task_id": "137"}
+{"task_desc": "the orange bowl should be placed on the plate", "variant": "A1", "task_id": "138"}
+{"task_desc": "the small light green bowl should be placed on the plate", "variant": "A2", "task_id": "138"}
+{"task_desc": "the white bowl should be placed on the plate and the pink bowl should be placed on top of the microwave", "variant": "A1", "task_id": "139"}
+{"task_desc": "the cyan bowl should be placed on the plate next to the green bowl", "variant": "A1", "task_id": "140"}
+{"task_desc": "the large off-white bowl should be placed on the plate next to the green bowl", "variant": "A2", "task_id": "140"}
+{"task_desc": "the orange bowl should be placed on the plate next to the green bowl", "variant": "A1", "task_id": "141"}
+{"task_desc": "the large dark blue bowl should be placed on the plate next to the green bowl", "variant": "A2", "task_id": "141"}
+{"task_desc": "the teal bowl should be placed on the plate next to the teal bowl", "variant": "A1", "task_id": "142"}
+{"task_desc": "the small light green bowl should be placed on the plate next to the small light green bowl", "variant": "A2", "task_id": "142"}
+{"task_desc": "the pink bowl should be stacked on the blue bowl", "variant": "A1", "task_id": "143"}
+{"task_desc": "the teal bowl should be stacked on the green bowl", "variant": "A1", "task_id": "144"}
+{"task_desc": "the teal bowl should be placed onto the plate that is on the left side of the table", "variant": "A1", "task_id": "145"}
+{"task_desc": "the large off-white bowl should be placed onto the plate that is on the left side of the table", "variant": "A2", "task_id": "145"}
+{"task_desc": "the cyan bowl should be placed onto the plate that is on the left side of the table", "variant": "A1", "task_id": "146"}
+{"task_desc": "the small light green bowl should be placed onto the plate that is on the left side of the table", "variant": "A2", "task_id": "146"}
+{"task_desc": "the orange bowl should be placed onto the plate that is on the left side of the table", "variant": "A1", "task_id": "147"}
+{"task_desc": "the large dark blue bowl should be placed onto the plate that is on the left side of the table", "variant": "A2", "task_id": "147"}
+{"task_desc": "the cyan bowl should be placed onto the plate that is on top of the cabinet", "variant": "A1", "task_id": "148"}
+{"task_desc": "the large dark blue bowl should be placed onto the plate that is on top of the cabinet", "variant": "A2", "task_id": "148"}
+{"task_desc": "the pink bowl should be placed onto the plate that is on top of the cabinet", "variant": "A1", "task_id": "149"}
+{"task_desc": "the small light green bowl should be placed onto the plate that is on top of the cabinet", "variant": "A2", "task_id": "149"}
+{"task_desc": "the pink bowl should be placed onto the plate that is on top of the cabinet", "variant": "A1", "task_id": "150"}
+{"task_desc": "the large off-white bowl should be placed onto the plate that is on top of the cabinet", "variant": "A2", "task_id": "150"}
+{"task_desc": "the cyan bowl should be placed onto the plate that is on the left side of the table", "variant": "A1", "task_id": "151"}
+{"task_desc": "the large dark blue bowl should be placed onto the plate that is on the left side of the table", "variant": "A2", "task_id": "151"}
+{"task_desc": "the orange bowl should be placed onto the plate that is on the left side of the table", "variant": "A1", "task_id": "152"}
+{"task_desc": "the small light green bowl should be placed onto the plate that is on the left side of the table", "variant": "A2", "task_id": "152"}
+{"task_desc": "the teal bowl should be placed onto the plate that is on the left side of the table", "variant": "A1", "task_id": "153"}
+{"task_desc": "the large off-white bowl should be placed onto the plate that is on the left side of the table", "variant": "A2", "task_id": "153"}
+{"task_desc": "the cyan bowl should be stacked on the blue bowl", "variant": "A1", "task_id": "154"}
+{"task_desc": "the pink bowl should be stacked on the green bowl", "variant": "A1", "task_id": "155"}
+{"task_desc": "the orange bowl should be placed to the left of the bowl drainer", "variant": "A1", "task_id": "156"}
+{"task_desc": "the cyan bowl should be placed to the left of the bowl drainer", "variant": "A1", "task_id": "157"}
+{"task_desc": "the cyan bowl should be placed to the left of the bowl drainer", "variant": "A1", "task_id": "158"}
+{"task_desc": "the pink bowl should be placed to the right of the bowl drainer", "variant": "A1", "task_id": "159"}
+{"task_desc": "the teal bowl should be placed to the right of the bowl drainer", "variant": "A1", "task_id": "160"}
+{"task_desc": "the cyan bowl should be placed to the right of the bowl drainer", "variant": "A1", "task_id": "161"}
+{"task_desc": "the teal bowl should be stacked on the black bowl", "variant": "A1", "task_id": "162"}
+{"task_desc": "the teal bowl should be stacked on the black bowl", "variant": "A1", "task_id": "163"}
+{"task_desc": "the teal bowl should be placed to the left of the bowl drainer and the orange bowl should be placed to the right of the bowl drainer", "variant": "A1", "task_id": "164"}
+{"task_desc": "the teal bowl should be placed to the left of the bowl drainer and the pink bowl should be placed to the right of the bowl drainer", "variant": "A1", "task_id": "165"}
+{"task_desc": "the cyan bowl should be placed to the right of the bowl drainer and the pink bowl should be placed to the left of the bowl drainer", "variant": "A1", "task_id": "166"}
+{"task_desc": "the cyan bowl should be placed to the right of the bowl drainer and the teal bowl should be placed to the left of the bowl drainer", "variant": "A1", "task_id": "167"}
+{"task_desc": "the butter should be placed on the stove", "variant": "", "task_id": "168"}
+{"task_desc": "the tomato sauce should be placed on the top layer of the wooden shelf", "variant": "", "task_id": "169"}
+{"task_desc": "the popcorn should be placed on top of the wooden shelf", "variant": "", "task_id": "170"}
+{"task_desc": "the ramekin should be placed on top of the wooden shelf", "variant": "", "task_id": "171"}
+{"task_desc": "the ramekin should be placed on the bottom layer of the wooden shelf", "variant": "", "task_id": "172"}
+{"task_desc": "the ramekin should be placed on the stove", "variant": "", "task_id": "173"}
+{"task_desc": "the stove should be turned on", "variant": "", "task_id": "174"}
+{"task_desc": "the medium-sized bowl should be placed inside the right compartment of the bowl drainer", "variant": "", "task_id": "175"}
+{"task_desc": "the smallest bowl should be placed inside the right compartment of the bowl drainer", "variant": "", "task_id": "176"}
+{"task_desc": "the largest bowl should be placed inside the right compartment of the bowl drainer", "variant": "", "task_id": "177"}
+{"task_desc": "the medium-sized bowl should be placed inside the left compartment of the bowl drainer", "variant": "", "task_id": "178"}
+{"task_desc": "the smallest bowl should be placed inside the left compartment of the bowl drainer", "variant": "", "task_id": "179"}
+{"task_desc": "the largest bowl should be placed inside the left compartment of the bowl drainer", "variant": "", "task_id": "180"}
+{"task_desc": "the medium-sized bowl should be placed on the flat stove", "variant": "", "task_id": "181"}
+{"task_desc": "the smallest bowl should be placed on the flat stove", "variant": "", "task_id": "182"}
+{"task_desc": "the largest bowl should be placed on the flat stove", "variant": "", "task_id": "183"}
+{"task_desc": "the largest bowl should be placed in the left side of the drainer and the medium bowl in the right side", "variant": "", "task_id": "184"}
+{"task_desc": "the smallest bowl should be placed in the left side of the drainer and the medium bowl in the right side", "variant": "", "task_id": "185"}
+{"task_desc": "the flat stove should be turned off", "variant": "", "task_id": "186"}
+{"task_desc": "the flat stove should be turned off and the largest bowl should be placed on it", "variant": "", "task_id": "187"}
+{"task_desc": "the flat stove should be turned off and the smallest bowl should be placed on it", "variant": "", "task_id": "188"}
+{"task_desc": "the largest bowl should be placed in the left side of the drainer and the medium bowl in the right side", "variant": "", "task_id": "189"}
+{"task_desc": "the smallest bowl should be placed in the left side of the drainer and the medium bowl in the right side", "variant": "", "task_id": "190"}
+{"task_desc": "the stove should be turned off and the largest bowl should be placed in the left side of the drainer and the medium bowl in the right side", "variant": "", "task_id": "191"}
+{"task_desc": "the stove should be turned off and the smallest bowl should be placed in the left side of the drainer and the medium bowl in the right side", "variant": "", "task_id": "192"}
+{"task_desc": "the largest bowl should be placed in the left side of the drainer", "variant": "", "task_id": "193"}
+{"task_desc": "the smallest bowl should be placed in the left side of the drainer", "variant": "", "task_id": "194"}
+{"task_desc": "the middle-sized bowl should be placed in the left side of the drainer", "variant": "", "task_id": "195"}
+{"task_desc": "the cream cheese should be placed in the smallest bowl", "variant": "", "task_id": "196"}
+{"task_desc": "the bbq sauce should be placed in the middle-sized bowl", "variant": "", "task_id": "197"}
+{"task_desc": "the cream cheese should be placed in the largest bowl", "variant": "", "task_id": "198"}
+{"task_desc": "the smallest bowl should be stacked on the largest bowl", "variant": "", "task_id": "199"}
+{"task_desc": "the middle-sized bowl should be stacked on the largest bowl", "variant": "", "task_id": "200"}
+{"task_desc": "the smallest bowl should be stacked on the middle-sized bowl", "variant": "", "task_id": "201"}
+{"task_desc": "the middle-sized bowl should be stacked on the largest bowl and the smallest bowl should be stacked on the middle-sized bowl", "variant": "", "task_id": "202"}
+{"task_desc": "the butter should be placed in the green bowl", "variant": "", "task_id": "203"}
+{"task_desc": "the teal bowl should be placed in the left side of the drainer", "variant": "A1", "task_id": "204"}
+{"task_desc": "the pink bowl should be placed in the right side of the drainer", "variant": "A1", "task_id": "205"}
+{"task_desc": "the green bowl should be stacked on the largest bowl", "variant": "", "task_id": "206"}
+{"task_desc": "the pink bowl should be stacked on the middle-sized black bowl", "variant": "A1", "task_id": "207"}
+{"task_desc": "middle-sized black bowl should be stacked on the green bowl", "variant": "", "task_id": "208"}
+{"task_desc": "the smallest bowl should be stacked on the middle-sized black bowl", "variant": "", "task_id": "209"}
+{"task_desc": "the smallest bowl should be stacked on the green bowl", "variant": "", "task_id": "210"}
+{"task_desc": "the cream cheese should be placed in the smallest bowl", "variant": "", "task_id": "211"}
+{"task_desc": "the bbq sauce should be placed in the middle-sized bowl", "variant": "", "task_id": "212"}
+{"task_desc": "the cream cheese should be placed in the largest bowl", "variant": "", "task_id": "213"}
+{"task_desc": "the smallest bowl should be placed in the left side of the drainer and the largest bowl should be placed in the right side", "variant": "", "task_id": "214"}
+{"task_desc": "the largest bowl should be placed in the left side of the drainer and the smallest bowl should be placed in the right side", "variant": "", "task_id": "215"}
+{"task_desc": "the smallest bowl should be stacked on the largest bowl", "variant": "", "task_id": "216"}
+{"task_desc": "the middle-sized bowl should be stacked on the largest bowl", "variant": "", "task_id": "217"}
+{"task_desc": "the smallest bowl should be stacked on the middle-sized bowl", "variant": "", "task_id": "218"}
+{"task_desc": "the top drawer of the wooden cabinet should be opened", "variant": "", "task_id": "219"}
+{"task_desc": "the middle drawer of the wooden cabinet should be opened", "variant": "", "task_id": "220"}
+{"task_desc": "the flat stove should be turned off", "variant": "", "task_id": "221"}
+{"task_desc": "the mug should be placed on the plate", "variant": "", "task_id": "222"}
+{"task_desc": "chocolate pudding should be placed on the stove", "variant": "", "task_id": "223"}
+{"task_desc": "salad dressing should be placed on the stove and the stove should be turned off", "variant": "", "task_id": "224"}
+{"task_desc": "the mug should be placed on the plate", "variant": "", "task_id": "225"}
+{"task_desc": "the frying pan should be placed on the top layer of the shelf", "variant": "", "task_id": "226"}
+{"task_desc": "the frying pan should be placed on the top layer of the shelf and the bbq sauce should be placed on the stove", "variant": "", "task_id": "227"}
+{"task_desc": "the alphabet soup should be placed on the plate", "variant": "", "task_id": "228"}
+{"task_desc": "the alphabet soup should be placed on the plate", "variant": "", "task_id": "229"}
+{"task_desc": "the frying pan should be placed on the top layer of the shelf", "variant": "", "task_id": "230"}
+{"task_desc": "the frying pan should be placed on the top layer of the shelf and the stove should be turned off", "variant": "", "task_id": "231"}
+{"task_desc": "the chocolate pudding should be placed on the plate", "variant": "", "task_id": "232"}
+{"task_desc": "the chocolate pudding should be placed on the plate", "variant": "", "task_id": "233"}
+{"task_desc": "the orange juice should be placed on the plate", "variant": "", "task_id": "234"}
+{"task_desc": "the popcorn should be placed on the stove", "variant": "", "task_id": "235"}
+{"task_desc": "the salad dressing should be placed in the basket", "variant": "", "task_id": "236"}
+{"task_desc": "the macaroni and cheese should be placed in the basket", "variant": "", "task_id": "237"}
+{"task_desc": "the ketchup should be placed on the stove", "variant": "", "task_id": "238"}
+{"task_desc": "the tomato sauce should be placed on the stove and the stove should be turned off", "variant": "", "task_id": "239"}
+{"task_desc": "the alphabet soup should be placed in the basket", "variant": "", "task_id": "240"}
+{"task_desc": "the salad dressing should be placed in the basket", "variant": "", "task_id": "241"}
+{"task_desc": "the cookies should be placed in the basket", "variant": "", "task_id": "242"}
+{"task_desc": "the ketchup should be placed in the basket", "variant": "", "task_id": "243"}
+{"task_desc": "the macaroni and cheese should be placed in the basket", "variant": "", "task_id": "244"}
+{"task_desc": "the tomato sauce should be placed on the plate", "variant": "", "task_id": "245"}
+{"task_desc": "the cream cheese should be placed on the plate", "variant": "", "task_id": "246"}
+{"task_desc": "the microwave should be opened", "variant": "", "task_id": "247"}
+{"task_desc": "the microwave should be opened and the alphabet soup should be placed in it", "variant": "", "task_id": "248"}
+{"task_desc": "the microwave should be opened and the cream cheese should be placed in it", "variant": "", "task_id": "249"}
+{"task_desc": "the microwave should be opened", "variant": "", "task_id": "250"}
+{"task_desc": "the microwave should be opened and the chocolate pudding should be placed in it", "variant": "", "task_id": "251"}
+{"task_desc": "the microwave should be opened and alphabet soup should be placed in it", "variant": "", "task_id": "252"}
+{"task_desc": "the top drawer of the white cabinet should be closed", "variant": "", "task_id": "253"}
+{"task_desc": "the top and middle drawer of the white cabinet should be closed", "variant": "", "task_id": "254"}
+{"task_desc": "the bowl should be placed in the top drawer", "variant": "", "task_id": "255"}
+{"task_desc": "the bowl should be placed in the top drawer and the top drawer should be closed", "variant": "", "task_id": "256"}
+{"task_desc": "the top drawer of the white cabinet should be closed and the bowl should be placed in the middle drawer", "variant": "", "task_id": "257"}
+{"task_desc": "the top and middle drawer of the white cabinet should be closed and the microwave should be closed", "variant": "", "task_id": "258"}
+{"task_desc": "the cream cheese from the table should be placed into the top drawer", "variant": "", "task_id": "259"}
+{"task_desc": "the tomato sauce from the table should be placed onto the top layer of the wine rack", "variant": "", "task_id": "260"}
+{"task_desc": "the bbq sauce from the drawer should be placed onto the top layer of the wine rack", "variant": "", "task_id": "261"}
+{"task_desc": "the cookies from the drawer should be placed onto the top layer of the wine rack and the drawer should be closed", "variant": "", "task_id": "262"}
+{"task_desc": "the alphabet soup should be placed on the top layer of the wine rack", "variant": "", "task_id": "263"}
+{"task_desc": "the bowl should be placed on top of the cabinet", "variant": "", "task_id": "264"}
+{"task_desc": "the milk should be placed in the bottom drawer", "variant": "", "task_id": "265"}
+{"task_desc": "the top drawer should be opened", "variant": "", "task_id": "266"}
+{"task_desc": "the bottom drawer should be closed", "variant": "", "task_id": "267"}
+{"task_desc": "the bottom drawer should be closed and the middle drawer should be opened", "variant": "", "task_id": "268"}
+{"task_desc": "the bowl should be placed on the middle plate relative to the robot", "variant": "", "task_id": "269"}
+{"task_desc": "the bowl should be placed on the nearest plate relative to the robot", "variant": "", "task_id": "270"}
+{"task_desc": "the bowl should be placed on the nearest plate relative to the robot", "variant": "", "task_id": "271"}
+{"task_desc": "the bbq sauce that is should be placed in the drawer onto the top of the cabinet", "variant": "", "task_id": "272"}
+{"task_desc": "the bbq sauce that is should be placed in the drawer onto the top of the cabinet and the drawer should be closed", "variant": "", "task_id": "273"}
+{"task_desc": "the milk that is should be placed on the plate onto the top of the cabinet", "variant": "", "task_id": "274"}
+{"task_desc": "the chocolate pudding that is should be placed in the drawer onto the middle plate relative to the robot", "variant": "", "task_id": "275"}
+{"task_desc": "the tomato sauce that is should be placed in the drawer onto the nearest plate relative to the robot", "variant": "", "task_id": "276"}
+{"task_desc": "the butter that is should be placed on the plate onto the middle plate relative to the robot", "variant": "", "task_id": "277"}
+{"task_desc": "the milk that is should be placed on the plate onto the nearest plate relative to the robot", "variant": "", "task_id": "278"}
+{"task_desc": "the popcorn that is should be placed on the plate onto the middle plate relative to the robot", "variant": "", "task_id": "279"}
+{"task_desc": "the cookies that is should be placed on the plate onto the nearest plate relative to the robot", "variant": "", "task_id": "280"}
+{"task_desc": "the popcorn should be placed on top of the cabinet", "variant": "", "task_id": "281"}
+{"task_desc": "the top drawer should be opened", "variant": "", "task_id": "282"}
+{"task_desc": "the bowl should be placed on the middle plate relative to the robot", "variant": "", "task_id": "283"}
+{"task_desc": "the bowl should be placed on the nearest plate relative to the robot", "variant": "", "task_id": "284"}
+{"task_desc": "the bowl should be placed on top of the cabinet", "variant": "", "task_id": "285"}
+{"task_desc": "the bowl should be placed on the middle plate relative to the robot and the porcelain mug should be placed in the bottom drawer", "variant": "", "task_id": "286"}
+{"task_desc": "the bowl should be placed on the nearest plate relative to the robot and the porcelain mug should be placed in the bottom drawer", "variant": "", "task_id": "287"}
+{"task_desc": "the cyan grid book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "288"}
+{"task_desc": "the light yellow book should be placed into the left desk caddy's back compartment", "variant": "A2", "task_id": "288"}
+{"task_desc": "the white speckle book should be placed into the left desk caddy's front compartment", "variant": "A1", "task_id": "289"}
+{"task_desc": "the dark grey book should be placed into the left desk caddy's front compartment", "variant": "A2", "task_id": "289"}
+{"task_desc": "the cookies should be placed into the left desk caddy's left compartment", "variant": "", "task_id": "290"}
+{"task_desc": "the teal wavy book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "291"}
+{"task_desc": "the light yellow book should be placed into the left desk caddy's left compartment", "variant": "A2", "task_id": "291"}
+{"task_desc": "the navy speckle book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "292"}
+{"task_desc": "the light yellow book should be placed into the left desk caddy's left compartment", "variant": "A2", "task_id": "292"}
+{"task_desc": "the orange juice should be placed into the left desk caddy's right compartment", "variant": "", "task_id": "293"}
+{"task_desc": "the brown grid book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "294"}
+{"task_desc": "the dark grey book should be placed into the left desk caddy's right compartment", "variant": "A2", "task_id": "294"}
+{"task_desc": "the cyan grid book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "295"}
+{"task_desc": "the light yellow book should be placed into the left desk caddy's right compartment", "variant": "A2", "task_id": "295"}
+{"task_desc": "the left yellow green striped book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "296"}
+{"task_desc": "the left dark grey book should be placed into the left desk caddy's back compartment", "variant": "A2", "task_id": "296"}
+{"task_desc": "the right white speckle book should be placed into the left desk caddy's front compartment", "variant": "A1", "task_id": "297"}
+{"task_desc": "the purple book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "298"}
+{"task_desc": "the light yellow book should be placed into the left desk caddy's right compartment", "variant": "A2", "task_id": "298"}
+{"task_desc": "the left purple book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "299"}
+{"task_desc": "the left dark grey book should be placed into the left desk caddy's left compartment", "variant": "A2", "task_id": "299"}
+{"task_desc": "the yellow green striped book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "300"}
+{"task_desc": "the light green book should be placed into the left desk caddy's back compartment", "variant": "A2", "task_id": "300"}
+{"task_desc": "the white speckle book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "301"}
+{"task_desc": "the light yellow book should be placed into the left desk caddy's back compartment", "variant": "A2", "task_id": "301"}
+{"task_desc": "the butter should be placed into the left desk caddy's right compartment", "variant": "", "task_id": "302"}
+{"task_desc": "the cyan grid book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "303"}
+{"task_desc": "the dark grey book should be placed into the left desk caddy's left compartment", "variant": "A2", "task_id": "303"}
+{"task_desc": "the purple book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "304"}
+{"task_desc": "the light red book should be placed into the left desk caddy's left compartment", "variant": "A2", "task_id": "304"}
+{"task_desc": "the purple book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "305"}
+{"task_desc": "the dark orange book should be placed into the left desk caddy's right compartment", "variant": "A2", "task_id": "305"}
+{"task_desc": "the popcorn should be placed into the left desk caddy's left compartment", "variant": "", "task_id": "306"}
+{"task_desc": "the white speckle book should be placed into the left desk caddy's front compartment", "variant": "A1", "task_id": "307"}
+{"task_desc": "the dark striped book should be placed into the left desk caddy's front compartment", "variant": "A2", "task_id": "307"}
+{"task_desc": "the purple book should be placed into the left desk caddy's front compartment", "variant": "A1", "task_id": "308"}
+{"task_desc": "the light yellow book should be placed into the left desk caddy's front compartment", "variant": "A2", "task_id": "308"}
+{"task_desc": "the navy speckle book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "309"}
+{"task_desc": "the dark striped book should be placed into the left desk caddy's left compartment", "variant": "A2", "task_id": "309"}
+{"task_desc": "the bbq sauce should be placed into the left desk caddy's left compartment", "variant": "", "task_id": "310"}
+{"task_desc": "the brown grid book should be placed into the left desk caddy's front compartment", "variant": "A1", "task_id": "311"}
+{"task_desc": "the light red book should be placed into the left desk caddy's front compartment", "variant": "A2", "task_id": "311"}
+{"task_desc": "the yellow green striped book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "312"}
+{"task_desc": "the light green book should be placed into the left desk caddy's left compartment", "variant": "A2", "task_id": "312"}
+{"task_desc": "the navy speckle book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "313"}
+{"task_desc": "the light yellow book should be placed into the left desk caddy's back compartment", "variant": "A2", "task_id": "313"}
+{"task_desc": "the white speckle book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "314"}
+{"task_desc": "the dark striped book should be placed into the left desk caddy's left compartment", "variant": "A2", "task_id": "314"}
+{"task_desc": "the brown grid book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "315"}
+{"task_desc": "the dark orange book should be placed into the left desk caddy's back compartment", "variant": "A2", "task_id": "315"}
+{"task_desc": "the left purple book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "316"}
+{"task_desc": "the right purple book should be placed into the left desk caddy's front compartment", "variant": "A1", "task_id": "317"}
+{"task_desc": "the right light red book should be placed into the left desk caddy's front compartment", "variant": "A2", "task_id": "317"}
+{"task_desc": "the yellow green striped book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "318"}
+{"task_desc": "the dark striped book should be placed into the left desk caddy's back compartment", "variant": "A2", "task_id": "318"}
+{"task_desc": "the teal wavy book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "319"}
+{"task_desc": "the dark orange book should be placed into the left desk caddy's right compartment", "variant": "A2", "task_id": "319"}
+{"task_desc": "the right brown grid book should be placed into the left desk caddy's front compartment", "variant": "A1", "task_id": "320"}
+{"task_desc": "the purple book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "321"}
+{"task_desc": "the light green book should be placed into the left desk caddy's back compartment", "variant": "A2", "task_id": "321"}
+{"task_desc": "the left purple book should be placed into the left desk caddy's front compartment", "variant": "A1", "task_id": "322"}
+{"task_desc": "the left light yellow book should be placed into the left desk caddy's front compartment", "variant": "A2", "task_id": "322"}
+{"task_desc": "the yellow green striped book should be placed into the left desk caddy's front compartment", "variant": "A1", "task_id": "323"}
+{"task_desc": "the light red book should be placed into the left desk caddy's front compartment", "variant": "A2", "task_id": "323"}
+{"task_desc": "the left pink wavy book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "324"}
+{"task_desc": "the right yellow green striped book should be placed into the left desk caddy's front compartment", "variant": "A1", "task_id": "325"}
+{"task_desc": "the right dark striped book should be placed into the left desk caddy's front compartment", "variant": "A2", "task_id": "325"}
+{"task_desc": "the brown grid book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "326"}
+{"task_desc": "the dark grey book should be placed into the left desk caddy's left compartment", "variant": "A2", "task_id": "326"}
+{"task_desc": "the popcorn should be placed into the left desk caddy's right compartment", "variant": "", "task_id": "327"}
+{"task_desc": "the teal wavy book should be placed into the right desk caddy's back compartment", "variant": "A1", "task_id": "328"}
+{"task_desc": "the dark grey book should be placed into the right desk caddy's back compartment", "variant": "A2", "task_id": "328"}
+{"task_desc": "the bbq sauce should be placed into the right desk caddy's right compartment", "variant": "", "task_id": "329"}
+{"task_desc": "the teal wavy book should be placed into the right desk caddy's right compartment", "variant": "A1", "task_id": "330"}
+{"task_desc": "the light yellow book should be placed into the right desk caddy's right compartment", "variant": "A2", "task_id": "330"}
+{"task_desc": "the white speckle book should be placed into the right desk caddy's right compartment", "variant": "A1", "task_id": "331"}
+{"task_desc": "the dark grey book should be placed into the right desk caddy's right compartment", "variant": "A2", "task_id": "331"}
+{"task_desc": "the tomato sauce should be placed into the right desk caddy's right compartment", "variant": "", "task_id": "332"}
+{"task_desc": "the teal wavy book should be placed into the right desk caddy's right compartment", "variant": "A1", "task_id": "333"}
+{"task_desc": "the light yellow book should be placed into the right desk caddy's right compartment", "variant": "A2", "task_id": "333"}
+{"task_desc": "the brown grid book should be placed into the right desk caddy's right compartment", "variant": "A1", "task_id": "334"}
+{"task_desc": "the dark grey book should be placed into the right desk caddy's right compartment", "variant": "A2", "task_id": "334"}
+{"task_desc": "the cream cheese should be placed into the right desk caddy's left compartment", "variant": "", "task_id": "335"}
+{"task_desc": "the white speckle book should be placed into the right desk caddy's back compartment", "variant": "A1", "task_id": "336"}
+{"task_desc": "the light yellow book should be placed into the right desk caddy's back compartment", "variant": "A2", "task_id": "336"}
+{"task_desc": "the left pink wavy book should be placed into the right desk caddy's right compartment", "variant": "A1", "task_id": "337"}
+{"task_desc": "the right navy speckle book should be placed into the right desk caddy's front compartment", "variant": "A1", "task_id": "338"}
+{"task_desc": "the right dark grey book should be placed into the right desk caddy's front compartment", "variant": "A2", "task_id": "338"}
+{"task_desc": "the brown grid book should be placed into the right desk caddy's right compartment", "variant": "A1", "task_id": "339"}
+{"task_desc": "the light yellow book should be placed into the right desk caddy's right compartment", "variant": "A2", "task_id": "339"}
+{"task_desc": "the teal wavy book should be placed into the right desk caddy's front compartment", "variant": "A1", "task_id": "340"}
+{"task_desc": "the dark grey book should be placed into the right desk caddy's front compartment", "variant": "A2", "task_id": "340"}
+{"task_desc": "the white speckle book should be placed into the right desk caddy's back compartment", "variant": "A1", "task_id": "341"}
+{"task_desc": "the light yellow book should be placed into the right desk caddy's back compartment", "variant": "A2", "task_id": "341"}
+{"task_desc": "the tomato sauce should be placed into the right desk caddy's right compartment", "variant": "", "task_id": "342"}
+{"task_desc": "the navy speckle book should be placed into the right desk caddy's right compartment", "variant": "A1", "task_id": "343"}
+{"task_desc": "the light green book should be placed into the right desk caddy's right compartment", "variant": "A2", "task_id": "343"}
+{"task_desc": "the popcorn should be placed into the right desk caddy's left compartment", "variant": "", "task_id": "344"}
+{"task_desc": "the teal wavy book should be placed into the right desk caddy's back compartment", "variant": "A1", "task_id": "345"}
+{"task_desc": "the dark orange book should be placed into the right desk caddy's back compartment", "variant": "A2", "task_id": "345"}
+{"task_desc": "the pink wavy book should be placed into the right desk caddy's front compartment", "variant": "A1", "task_id": "346"}
+{"task_desc": "the light red book should be placed into the right desk caddy's front compartment", "variant": "A2", "task_id": "346"}
+{"task_desc": "the yellow green striped book should be placed into the right desk caddy's left compartment", "variant": "A1", "task_id": "347"}
+{"task_desc": "the dark striped book should be placed into the right desk caddy's left compartment", "variant": "A2", "task_id": "347"}
+{"task_desc": "the yellow green striped book should be placed into the right desk caddy's right compartment", "variant": "A1", "task_id": "348"}
+{"task_desc": "the light red book should be placed into the right desk caddy's right compartment", "variant": "A2", "task_id": "348"}
+{"task_desc": "the purple book should be placed into the right desk caddy's front compartment", "variant": "A1", "task_id": "349"}
+{"task_desc": "the dark striped book should be placed into the right desk caddy's front compartment", "variant": "A2", "task_id": "349"}
+{"task_desc": "the white speckle book should be placed into the right desk caddy's front compartment", "variant": "A1", "task_id": "350"}
+{"task_desc": "the light yellow book should be placed into the right desk caddy's front compartment", "variant": "A2", "task_id": "350"}
+{"task_desc": "the cookies should be placed into the right desk caddy's right compartment", "variant": "", "task_id": "351"}
+{"task_desc": "the navy speckle book should be placed into the right desk caddy's back compartment", "variant": "A1", "task_id": "352"}
+{"task_desc": "the light yellow book should be placed into the right desk caddy's back compartment", "variant": "A2", "task_id": "352"}
+{"task_desc": "the pink wavy book should be placed into the right desk caddy's back compartment", "variant": "A1", "task_id": "353"}
+{"task_desc": "the dark grey book should be placed into the right desk caddy's back compartment", "variant": "A2", "task_id": "353"}
+{"task_desc": "the teal wavy book should be placed into the right desk caddy's back compartment", "variant": "A1", "task_id": "354"}
+{"task_desc": "the dark orange book should be placed into the right desk caddy's back compartment", "variant": "A2", "task_id": "354"}
+{"task_desc": "the white speckle book should be placed into the right desk caddy's front compartment", "variant": "A1", "task_id": "355"}
+{"task_desc": "the light green book should be placed into the right desk caddy's front compartment", "variant": "A2", "task_id": "355"}
+{"task_desc": "the pink wavy book should be placed into the right desk caddy's left compartment", "variant": "A1", "task_id": "356"}
+{"task_desc": "the dark orange book should be placed into the right desk caddy's left compartment", "variant": "A2", "task_id": "356"}
+{"task_desc": "the left purple book should be placed into the right desk caddy's front compartment", "variant": "A1", "task_id": "357"}
+{"task_desc": "the left light red book should be placed into the right desk caddy's front compartment", "variant": "A2", "task_id": "357"}
+{"task_desc": "the pink wavy book should be placed into the right desk caddy's back compartment", "variant": "A1", "task_id": "358"}
+{"task_desc": "the dark striped book should be placed into the right desk caddy's back compartment", "variant": "A2", "task_id": "358"}
+{"task_desc": "the right brown grid book should be placed into the right desk caddy's back compartment", "variant": "A1", "task_id": "359"}
+{"task_desc": "the yellow green striped book should be placed into the right desk caddy's front compartment", "variant": "A1", "task_id": "360"}
+{"task_desc": "the light red book should be placed into the right desk caddy's front compartment", "variant": "A2", "task_id": "360"}
+{"task_desc": "the right pink wavy book should be placed into the right desk caddy's back compartment", "variant": "A1", "task_id": "361"}
+{"task_desc": "the right light yellow book should be placed into the right desk caddy's back compartment", "variant": "A2", "task_id": "361"}
+{"task_desc": "the cyan grid book should be placed into the right desk caddy's right compartment", "variant": "A1", "task_id": "362"}
+{"task_desc": "the light green book should be placed into the right desk caddy's right compartment", "variant": "A2", "task_id": "362"}
+{"task_desc": "the left teal wavy book should be placed into the right desk caddy's front compartment", "variant": "A1", "task_id": "363"}
+{"task_desc": "the purple book should be placed into the right desk caddy's left compartment", "variant": "A1", "task_id": "364"}
+{"task_desc": "the dark grey book should be placed into the right desk caddy's left compartment", "variant": "A2", "task_id": "364"}
+{"task_desc": "the left pink wavy book should be placed into the right desk caddy's front compartment", "variant": "A1", "task_id": "365"}
+{"task_desc": "the left dark striped book should be placed into the right desk caddy's front compartment", "variant": "A2", "task_id": "365"}
+{"task_desc": "the tomato sauce should be placed into the right desk caddy's right compartment", "variant": "", "task_id": "366"}
+{"task_desc": "the white speckle book should be placed into the right desk caddy's front compartment", "variant": "A1", "task_id": "367"}
+{"task_desc": "the dark orange book should be placed into the right desk caddy's front compartment", "variant": "A2", "task_id": "367"}
+{"task_desc": "the navy speckle book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "368"}
+{"task_desc": "the dark grey book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "368"}
+{"task_desc": "the purple book should be placed into the back desk caddy's front compartment", "variant": "A1", "task_id": "369"}
+{"task_desc": "the light yellow book should be placed into the back desk caddy's front compartment", "variant": "A2", "task_id": "369"}
+{"task_desc": "the orange juice should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "370"}
+{"task_desc": "the teal wavy book should be placed into the back desk caddy's front compartment", "variant": "A1", "task_id": "371"}
+{"task_desc": "the dark grey book should be placed into the back desk caddy's front compartment", "variant": "A2", "task_id": "371"}
+{"task_desc": "the ketchup should be placed into the back desk caddy's left compartment", "variant": "", "task_id": "372"}
+{"task_desc": "the navy speckle book should be placed into the back desk caddy's front compartment", "variant": "A1", "task_id": "373"}
+{"task_desc": "the dark grey book should be placed into the back desk caddy's front compartment", "variant": "A2", "task_id": "373"}
+{"task_desc": "the pink wavy book should be placed into the back desk caddy's front compartment", "variant": "A1", "task_id": "374"}
+{"task_desc": "the light yellow book should be placed into the back desk caddy's front compartment", "variant": "A2", "task_id": "374"}
+{"task_desc": "the ketchup should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "375"}
+{"task_desc": "the left navy speckle book should be placed into the back desk caddy's left compartment", "variant": "A1", "task_id": "376"}
+{"task_desc": "the left dark grey book should be placed into the back desk caddy's left compartment", "variant": "A2", "task_id": "376"}
+{"task_desc": "the white speckle book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "377"}
+{"task_desc": "the light yellow book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "377"}
+{"task_desc": "the right yellow green striped book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "378"}
+{"task_desc": "the chocolate pudding should be placed into the back desk caddy's left compartment", "variant": "", "task_id": "379"}
+{"task_desc": "the salad dressing should be placed into the back desk caddy's left compartment", "variant": "", "task_id": "380"}
+{"task_desc": "the purple book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "381"}
+{"task_desc": "the dark grey book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "381"}
+{"task_desc": "the cyan grid book should be placed into the back desk caddy's front compartment", "variant": "A1", "task_id": "382"}
+{"task_desc": "the light green book should be placed into the back desk caddy's front compartment", "variant": "A2", "task_id": "382"}
+{"task_desc": "the teal wavy book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "383"}
+{"task_desc": "the light yellow book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "383"}
+{"task_desc": "the white speckle book should be placed into the back desk caddy's left compartment", "variant": "A1", "task_id": "384"}
+{"task_desc": "the dark orange book should be placed into the back desk caddy's left compartment", "variant": "A2", "task_id": "384"}
+{"task_desc": "the white speckle book should be placed into the back desk caddy's left compartment", "variant": "A1", "task_id": "385"}
+{"task_desc": "the light red book should be placed into the back desk caddy's left compartment", "variant": "A2", "task_id": "385"}
+{"task_desc": "the ketchup should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "386"}
+{"task_desc": "the teal wavy book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "387"}
+{"task_desc": "the dark striped book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "387"}
+{"task_desc": "the cookies should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "388"}
+{"task_desc": "the navy speckle book should be placed into the back desk caddy's left compartment", "variant": "A1", "task_id": "389"}
+{"task_desc": "the dark striped book should be placed into the back desk caddy's left compartment", "variant": "A2", "task_id": "389"}
+{"task_desc": "the cyan grid book should be placed into the back desk caddy's front compartment", "variant": "A1", "task_id": "390"}
+{"task_desc": "the light red book should be placed into the back desk caddy's front compartment", "variant": "A2", "task_id": "390"}
+{"task_desc": "the purple book should be placed into the back desk caddy's left compartment", "variant": "A1", "task_id": "391"}
+{"task_desc": "the light yellow book should be placed into the back desk caddy's left compartment", "variant": "A2", "task_id": "391"}
+{"task_desc": "the cyan grid book should be placed into the back desk caddy's back compartment", "variant": "A1", "task_id": "392"}
+{"task_desc": "the dark orange book should be placed into the back desk caddy's back compartment", "variant": "A2", "task_id": "392"}
+{"task_desc": "the teal wavy book should be placed into the back desk caddy's front compartment", "variant": "A1", "task_id": "393"}
+{"task_desc": "the dark striped book should be placed into the back desk caddy's front compartment", "variant": "A2", "task_id": "393"}
+{"task_desc": "the white speckle book should be placed into the back desk caddy's front compartment", "variant": "A1", "task_id": "394"}
+{"task_desc": "the dark grey book should be placed into the back desk caddy's front compartment", "variant": "A2", "task_id": "394"}
+{"task_desc": "the navy speckle book should be placed into the back desk caddy's left compartment", "variant": "A1", "task_id": "395"}
+{"task_desc": "the light yellow book should be placed into the back desk caddy's left compartment", "variant": "A2", "task_id": "395"}
+{"task_desc": "the right teal wavy book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "396"}
+{"task_desc": "the right light red book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "396"}
+{"task_desc": "the pink wavy book should be placed into the back desk caddy's left compartment", "variant": "A1", "task_id": "397"}
+{"task_desc": "the dark orange book should be placed into the back desk caddy's left compartment", "variant": "A2", "task_id": "397"}
+{"task_desc": "the brown grid book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "398"}
+{"task_desc": "the dark striped book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "398"}
+{"task_desc": "the left yellow green striped book should be placed into the back desk caddy's back compartment", "variant": "A1", "task_id": "399"}
+{"task_desc": "the right white speckle book should be placed into the back desk caddy's back compartment", "variant": "A1", "task_id": "400"}
+{"task_desc": "the left cyan grid book should be placed into the back desk caddy's back compartment", "variant": "A1", "task_id": "401"}
+{"task_desc": "the left light yellow book should be placed into the back desk caddy's back compartment", "variant": "A2", "task_id": "401"}
+{"task_desc": "the cyan grid book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "402"}
+{"task_desc": "the light red book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "402"}
+{"task_desc": "the teal wavy book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "403"}
+{"task_desc": "the light green book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "403"}
+{"task_desc": "the yellow green striped book should be placed into the back desk caddy's back compartment", "variant": "A1", "task_id": "404"}
+{"task_desc": "the left dark orange book should be placed into the back desk caddy's back compartment", "variant": "A2", "task_id": "404"}
+{"task_desc": "the navy speckle book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "405"}
+{"task_desc": "the dark grey book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "405"}
+{"task_desc": "the left brown grid book should be placed into the back desk caddy's left compartment", "variant": "A1", "task_id": "406"}
+{"task_desc": "the left dark striped book should be placed into the back desk caddy's left compartment", "variant": "A2", "task_id": "406"}
+{"task_desc": "the butter should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "407"}
+{"task_desc": "the brown grid book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "408"}
+{"task_desc": "the light yellow book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "408"}
+{"task_desc": "the white speckle book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "409"}
+{"task_desc": "the dark grey book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "409"}
+{"task_desc": "the milk should be placed into the left desk caddy's right compartment", "variant": "", "task_id": "410"}
+{"task_desc": "the brown grid book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "411"}
+{"task_desc": "the light yellow book should be placed into the left desk caddy's left compartment", "variant": "A2", "task_id": "411"}
+{"task_desc": "the salad dressing should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "412"}
+{"task_desc": "the white speckle book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "413"}
+{"task_desc": "the dark grey book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "413"}
+{"task_desc": "the yellow green striped book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "414"}
+{"task_desc": "the light red book should be placed into the left desk caddy's back compartment", "variant": "A2", "task_id": "414"}
+{"task_desc": "the navy speckle book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "415"}
+{"task_desc": "the light yellow book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "415"}
+{"task_desc": "the left yellow green striped book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "416"}
+{"task_desc": "the left dark grey book should be placed into the left desk caddy's left compartment", "variant": "A2", "task_id": "416"}
+{"task_desc": "the purple book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "417"}
+{"task_desc": "the light yellow book should be placed into the left desk caddy's back compartment", "variant": "A2", "task_id": "417"}
+{"task_desc": "the milk should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "418"}
+{"task_desc": "the right yellow green striped book should be placed into the back desk caddy's back compartment", "variant": "A1", "task_id": "419"}
+{"task_desc": "the white speckle book should be placed into the back desk caddy's back compartment", "variant": "A1", "task_id": "420"}
+{"task_desc": "the light green book should be placed into the back desk caddy's back compartment", "variant": "A2", "task_id": "420"}
+{"task_desc": "the pink wavy book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "421"}
+{"task_desc": "the dark grey book should be placed into the left desk caddy's right compartment", "variant": "A2", "task_id": "421"}
+{"task_desc": "the navy speckle book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "422"}
+{"task_desc": "the light yellow book should be placed into the left desk caddy's right compartment", "variant": "A2", "task_id": "422"}
+{"task_desc": "the alphabet soup should be placed into the back desk caddy's left compartment", "variant": "", "task_id": "423"}
+{"task_desc": "the navy speckle book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "424"}
+{"task_desc": "the light red book should be placed into the left desk caddy's right compartment", "variant": "A2", "task_id": "424"}
+{"task_desc": "the cyan grid book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "425"}
+{"task_desc": "the dark orange book should be placed into the left desk caddy's left compartment", "variant": "A2", "task_id": "425"}
+{"task_desc": "the macaroni and cheese should be placed into the left desk caddy's right compartment", "variant": "", "task_id": "426"}
+{"task_desc": "the purple book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "427"}
+{"task_desc": "the dark striped book should be placed into the left desk caddy's back compartment", "variant": "A2", "task_id": "427"}
+{"task_desc": "the cyan grid book should be placed into the left desk caddy's front compartment", "variant": "A1", "task_id": "428"}
+{"task_desc": "the light red book should be placed into the left desk caddy's front compartment", "variant": "A2", "task_id": "428"}
+{"task_desc": "the white speckle book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "429"}
+{"task_desc": "the dark striped book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "429"}
+{"task_desc": "the brown grid book should be placed into the back desk caddy's back compartment", "variant": "A1", "task_id": "430"}
+{"task_desc": "the light yellow book should be placed into the back desk caddy's back compartment", "variant": "A2", "task_id": "430"}
+{"task_desc": "the popcorn should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "431"}
+{"task_desc": "the navy speckle book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "432"}
+{"task_desc": "the dark grey book should be placed into the left desk caddy's left compartment", "variant": "A2", "task_id": "432"}
+{"task_desc": "the teal wavy book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "433"}
+{"task_desc": "the dark orange book should be placed into the left desk caddy's right compartment", "variant": "A2", "task_id": "433"}
+{"task_desc": "the cyan grid book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "434"}
+{"task_desc": "the light green book should be placed into the left desk caddy's right compartment", "variant": "A2", "task_id": "434"}
+{"task_desc": "the pink wavy book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "435"}
+{"task_desc": "the light yellow book should be placed into the left desk caddy's back compartment", "variant": "A2", "task_id": "435"}
+{"task_desc": "the navy speckle book should be placed into the back desk caddy's back compartment", "variant": "A1", "task_id": "436"}
+{"task_desc": "the left dark orange book should be placed into the back desk caddy's back compartment", "variant": "A2", "task_id": "436"}
+{"task_desc": "the left brown grid book should be placed into the back desk caddy's left compartment", "variant": "A1", "task_id": "437"}
+{"task_desc": "the right white speckle book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "438"}
+{"task_desc": "the right light red book should be placed into the back desk caddy's right compartment", "variant": "A2", "task_id": "438"}
+{"task_desc": "the brown grid book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "439"}
+{"task_desc": "the dark striped book should be placed into the left desk caddy's left compartment", "variant": "A2", "task_id": "439"}
+{"task_desc": "the yellow green striped book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "440"}
+{"task_desc": "the light green book should be placed into the left desk caddy's left compartment", "variant": "A2", "task_id": "440"}
+{"task_desc": "the right white speckle book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "441"}
+{"task_desc": "the left purple book should be placed into the left desk caddy's front compartment", "variant": "A1", "task_id": "442"}
+{"task_desc": "the left light yellow book should be placed into the left desk caddy's front compartment", "variant": "A2", "task_id": "442"}
+{"task_desc": "the teal wavy book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "443"}
+{"task_desc": "the light red book should be placed into the left desk caddy's right compartment", "variant": "A2", "task_id": "443"}
+{"task_desc": "the pink wavy book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "444"}
+{"task_desc": "the dark orange book should be placed into the left desk caddy's right compartment", "variant": "A2", "task_id": "444"}
+{"task_desc": "the right teal wavy book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "445"}
+{"task_desc": "the left purple book should be placed into the back desk caddy's left compartment", "variant": "A1", "task_id": "446"}
+{"task_desc": "the left dark striped book should be placed into the back desk caddy's left compartment", "variant": "A2", "task_id": "446"}
+{"task_desc": "the purple book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "447"}
+{"task_desc": "the dark grey book should be placed into the left desk caddy's right compartment", "variant": "A2", "task_id": "447"}
+{"task_desc": "the purple book upright should be placed on top of the shelf", "variant": "A1", "task_id": "448"}
+{"task_desc": "the light yellow book upright should be placed on top of the shelf", "variant": "A2", "task_id": "448"}
+{"task_desc": "the teal wavy book should be placed in the top region of the shelf", "variant": "A1", "task_id": "449"}
+{"task_desc": "the dark grey book should be placed in the top region of the shelf", "variant": "A2", "task_id": "449"}
+{"task_desc": "the white speckle book flat should be placed on top of the shelf", "variant": "A1", "task_id": "450"}
+{"task_desc": "the light yellow book flat should be placed on top of the shelf", "variant": "A2", "task_id": "450"}
+{"task_desc": "the pink wavy book flat should be placed on top of the shelf", "variant": "A1", "task_id": "451"}
+{"task_desc": "the dark grey book flat should be placed on top of the shelf", "variant": "A2", "task_id": "451"}
+{"task_desc": "the butter should be placed on top of the shelf", "variant": "", "task_id": "452"}
+{"task_desc": "the orange juice should be placed on top of the shelf", "variant": "", "task_id": "453"}
+{"task_desc": "the pink wavy book flat should be placed on top of the shelf", "variant": "A1", "task_id": "454"}
+{"task_desc": "the light yellow book flat should be placed on top of the shelf", "variant": "A2", "task_id": "454"}
+{"task_desc": "the pink wavy book flat should be placed on top of the shelf", "variant": "A1", "task_id": "455"}
+{"task_desc": "the dark grey book flat should be placed on top of the shelf", "variant": "A2", "task_id": "455"}
+{"task_desc": "the left pink wavy book upright should be placed on top of the shelf", "variant": "A1", "task_id": "456"}
+{"task_desc": "the yellow green striped book upright should be placed on top of the shelf", "variant": "A1", "task_id": "457"}
+{"task_desc": "the light yellow book upright should be placed on top of the shelf", "variant": "A2", "task_id": "457"}
+{"task_desc": "the tomato sauce should be placed on top of the shelf", "variant": "", "task_id": "458"}
+{"task_desc": "the right white speckle book should be placed in the top region of the shelf", "variant": "A1", "task_id": "459"}
+{"task_desc": "the right dark grey book should be placed in the top region of the shelf", "variant": "A2", "task_id": "459"}
+{"task_desc": "the left white speckle book flat should be placed on top of the shelf", "variant": "A1", "task_id": "460"}
+{"task_desc": "the cyan grid book flat should be placed on top of the shelf", "variant": "A1", "task_id": "461"}
+{"task_desc": "the left light yellow book flat should be placed on top of the shelf", "variant": "A2", "task_id": "461"}
+{"task_desc": "the white speckle book flat should be placed on top of the shelf", "variant": "A1", "task_id": "462"}
+{"task_desc": "the dark grey book flat should be placed on top of the shelf", "variant": "A2", "task_id": "462"}
+{"task_desc": "the purple book flat should be placed on top of the shelf", "variant": "A1", "task_id": "463"}
+{"task_desc": "the light green book flat should be placed on top of the shelf", "variant": "A2", "task_id": "463"}
+{"task_desc": "the salad dressing should be placed on top of the shelf", "variant": "", "task_id": "464"}
+{"task_desc": "the navy speckle book flat should be placed on top of the shelf", "variant": "A1", "task_id": "465"}
+{"task_desc": "the light yellow book flat should be placed on top of the shelf", "variant": "A2", "task_id": "465"}
+{"task_desc": "the white speckle book upright should be placed on top of the shelf", "variant": "A1", "task_id": "466"}
+{"task_desc": "the dark grey book upright should be placed on top of the shelf", "variant": "A2", "task_id": "466"}
+{"task_desc": "the yellow green striped book upright should be placed on top of the shelf", "variant": "A1", "task_id": "467"}
+{"task_desc": "the light green book upright should be placed on top of the shelf", "variant": "A2", "task_id": "467"}
+{"task_desc": "the purple book upright should be placed on top of the shelf", "variant": "A1", "task_id": "468"}
+{"task_desc": "the dark orange book upright should be placed on top of the shelf", "variant": "A2", "task_id": "468"}
+{"task_desc": "the yellow green striped book should be placed in the top region of the shelf", "variant": "A1", "task_id": "469"}
+{"task_desc": "the light red book should be placed in the top region of the shelf", "variant": "A2", "task_id": "469"}
+{"task_desc": "the navy speckle book should be placed in the top region of the shelf", "variant": "A1", "task_id": "470"}
+{"task_desc": "the dark striped book should be placed in the top region of the shelf", "variant": "A2", "task_id": "470"}
+{"task_desc": "the teal wavy book flat should be placed on top of the shelf", "variant": "A1", "task_id": "471"}
+{"task_desc": "the dark orange book flat should be placed on top of the shelf", "variant": "A2", "task_id": "471"}
+{"task_desc": "the yellow green striped book upright should be placed on top of the shelf", "variant": "A1", "task_id": "472"}
+{"task_desc": "the light red book upright should be placed on top of the shelf", "variant": "A2", "task_id": "472"}
+{"task_desc": "the butter should be placed on top of the shelf", "variant": "", "task_id": "473"}
+{"task_desc": "the pink wavy book should be placed in the top region of the shelf", "variant": "A1", "task_id": "474"}
+{"task_desc": "the light red book should be placed in the top region of the shelf", "variant": "A2", "task_id": "474"}
+{"task_desc": "the cyan grid book flat should be placed on top of the shelf", "variant": "A1", "task_id": "475"}
+{"task_desc": "the light yellow book flat should be placed on top of the shelf", "variant": "A2", "task_id": "475"}
+{"task_desc": "the purple book should be placed in the top region of the shelf", "variant": "A1", "task_id": "476"}
+{"task_desc": "the dark striped book should be placed in the top region of the shelf", "variant": "A2", "task_id": "476"}
+{"task_desc": "the yellow green striped book flat should be placed on top of the shelf", "variant": "A1", "task_id": "477"}
+{"task_desc": "the light red book flat should be placed on top of the shelf", "variant": "A2", "task_id": "477"}
+{"task_desc": "the teal wavy book should be placed in the top region of the shelf", "variant": "A1", "task_id": "478"}
+{"task_desc": "the left dark striped book should be placed in the top region of the shelf", "variant": "A2", "task_id": "478"}
+{"task_desc": "the white speckle book flat should be placed on top of the shelf", "variant": "A1", "task_id": "479"}
+{"task_desc": "the left dark orange book flat should be placed on top of the shelf", "variant": "A2", "task_id": "479"}
+{"task_desc": "the left purple book should be placed in the top region of the shelf", "variant": "A1", "task_id": "480"}
+{"task_desc": "the left light red book should be placed in the top region of the shelf", "variant": "A2", "task_id": "480"}
+{"task_desc": "the right yellow green striped book upright should be placed on top of the shelf", "variant": "A1", "task_id": "481"}
+{"task_desc": "the navy speckle book upright should be placed on top of the shelf", "variant": "A1", "task_id": "482"}
+{"task_desc": "the dark striped book upright should be placed on top of the shelf", "variant": "A2", "task_id": "482"}
+{"task_desc": "the cyan grid book flat should be placed on top of the shelf", "variant": "A1", "task_id": "483"}
+{"task_desc": "the left dark striped book flat should be placed on top of the shelf", "variant": "A2", "task_id": "483"}
+{"task_desc": "the left cyan grid book should be placed in the top region of the shelf", "variant": "A1", "task_id": "484"}
+{"task_desc": "the left light red book should be placed in the top region of the shelf", "variant": "A2", "task_id": "484"}
+{"task_desc": "the right pink wavy book flat should be placed on top of the shelf", "variant": "A1", "task_id": "485"}
+{"task_desc": "the cyan grid book upright should be placed on top of the shelf", "variant": "A1", "task_id": "486"}
+{"task_desc": "the dark orange book upright should be placed on top of the shelf", "variant": "A2", "task_id": "486"}
+{"task_desc": "the white speckle book should be placed in the top region of the shelf", "variant": "A1", "task_id": "487"}
+{"task_desc": "the left dark striped book should be placed in the top region of the shelf", "variant": "A2", "task_id": "487"}
+{"task_desc": "the left purple book flat should be placed on top of the shelf", "variant": "A1", "task_id": "488"}
+{"task_desc": "the left light red book flat should be placed on top of the shelf", "variant": "A2", "task_id": "488"}
+{"task_desc": "the cream cheese should be placed in the top region of the shelf", "variant": "", "task_id": "489"}
+{"task_desc": "the left teal wavy book should be placed in the top region of the shelf", "variant": "A1", "task_id": "490"}
+{"task_desc": "the right teal wavy book should be placed in the top region of the shelf", "variant": "A1", "task_id": "491"}
+{"task_desc": "the right light yellow book should be placed in the top region of the shelf", "variant": "A2", "task_id": "491"}
+{"task_desc": "the navy speckle book upright should be placed on top of the shelf", "variant": "A1", "task_id": "492"}
+{"task_desc": "the light red book upright should be placed on top of the shelf", "variant": "A2", "task_id": "492"}
+{"task_desc": "the white speckle book should be placed in the top region of the shelf", "variant": "A1", "task_id": "493"}
+{"task_desc": "the left light green book should be placed in the top region of the shelf", "variant": "A2", "task_id": "493"}
+{"task_desc": "the milk should be placed on top of the shelf", "variant": "", "task_id": "494"}
+{"task_desc": "the brown grid book flat should be placed on top of the shelf", "variant": "A1", "task_id": "495"}
+{"task_desc": "the right dark grey book flat should be placed on top of the shelf", "variant": "A2", "task_id": "495"}
+{"task_desc": "the left yellow green striped book flat should be placed on top of the shelf", "variant": "A1", "task_id": "496"}
+{"task_desc": "the left dark striped book flat should be placed on top of the shelf", "variant": "A2", "task_id": "496"}
+{"task_desc": "the bbq sauce should be placed in the top region of the shelf", "variant": "", "task_id": "497"}
+{"task_desc": "the right navy speckle book flat should be placed on top of the shelf", "variant": "A1", "task_id": "498"}
+{"task_desc": "the navy speckle book should be placed in the top region of the shelf", "variant": "A1", "task_id": "499"}
+{"task_desc": "the right dark orange book should be placed in the top region of the shelf", "variant": "A2", "task_id": "499"}
+{"task_desc": "the cyan grid book upright should be placed on top of the shelf", "variant": "A1", "task_id": "500"}
+{"task_desc": "the dark grey book upright should be placed on top of the shelf", "variant": "A2", "task_id": "500"}
+{"task_desc": "the milk should be placed into the left desk caddy's right compartment and the popcorn should be placed into the left desk caddy's right compartment and the salad dressing should be placed into the left desk caddy's left compartment", "variant": "", "task_id": "501"}
+{"task_desc": "the popcorn should be placed into the left desk caddy's right compartment and the bbq sauce should be placed into the left desk caddy's left compartment", "variant": "", "task_id": "502"}
+{"task_desc": "the popcorn should be placed into the left desk caddy's right compartment and the alphabet soup should be placed into the left desk caddy's left compartment", "variant": "", "task_id": "503"}
+{"task_desc": "the cookies should be placed into the left desk caddy's left compartment and the alphabet soup should be placed into the left desk caddy's right compartment", "variant": "", "task_id": "504"}
+{"task_desc": "the ketchup should be placed into the left desk caddy's right compartment and the left salad dressing should be placed into the left desk caddy's left compartment and the right salad dressing should be placed into the left desk caddy's right compartment", "variant": "", "task_id": "505"}
+{"task_desc": "the bbq sauce should be placed into the left desk caddy's right compartment and the chocolate pudding should be placed into the left desk caddy's right compartment", "variant": "", "task_id": "506"}
+{"task_desc": "the teal wavy book should be placed into the left desk caddy's front compartment and the pink wavy book should be placed into the left desk caddy's left compartment and the purple book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "507"}
+{"task_desc": "the tomato sauce should be placed into the left desk caddy's right compartment and the butter should be placed into the left desk caddy's left compartment", "variant": "", "task_id": "508"}
+{"task_desc": "the pink wavy book should be placed into the left desk caddy's left compartment and the yellow green striped book should be placed into the left desk caddy's right compartment and the navy speckle book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "509"}
+{"task_desc": "the brown grid book should be placed into the left desk caddy's front compartment and the teal wavy book should be placed into the left desk caddy's left compartment and the white speckle book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "510"}
+{"task_desc": "the pink wavy book should be placed into the left desk caddy's left compartment and the teal wavy book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "511"}
+{"task_desc": "the tomato sauce should be placed into the left desk caddy's right compartment and the orange juice should be placed into the left desk caddy's left compartment", "variant": "", "task_id": "512"}
+{"task_desc": "the brown grid book should be placed into the left desk caddy's left compartment and the pink wavy book should be placed into the left desk caddy's right compartment and the purple book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "513"}
+{"task_desc": "the pink wavy book should be placed into the left desk caddy's front compartment and the white speckle book should be placed into the left desk caddy's left compartment and the yellow green striped book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "514"}
+{"task_desc": "the right white speckle book should be placed into the left desk caddy's front compartment and the cyan grid book should be placed into the left desk caddy's left compartment and the pink wavy book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "515"}
+{"task_desc": "the left purple book should be placed into the left desk caddy's back compartment and the cyan grid book should be placed into the left desk caddy's left compartment and the right purple book should be placed into the left desk caddy's front compartment", "variant": "A1", "task_id": "516"}
+{"task_desc": "the left navy speckle book should be placed into the left desk caddy's right compartment and the right navy speckle book should be placed into the left desk caddy's right compartment and the yellow green striped book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "517"}
+{"task_desc": "the salad dressing should be placed into the left desk caddy's left compartment and the macaroni and cheese should be placed into the left desk caddy's right compartment", "variant": "", "task_id": "518"}
+{"task_desc": "the salad dressing should be placed into the left desk caddy's right compartment and the left macaroni and cheese should be placed into the left desk caddy's left compartment", "variant": "", "task_id": "519"}
+{"task_desc": "the left purple book should be placed into the left desk caddy's right compartment and the right purple book should be placed into the left desk caddy's right compartment and the navy speckle book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "520"}
+{"task_desc": "the salad dressing should be placed into the right desk caddy's right compartment and the chocolate pudding should be placed into the right desk caddy's left compartment", "variant": "", "task_id": "521"}
+{"task_desc": "the bbq sauce should be placed into the right desk caddy's right compartment and the ketchup should be placed into the right desk caddy's left compartment", "variant": "", "task_id": "522"}
+{"task_desc": "the popcorn should be placed into the right desk caddy's right compartment and the cookies should be placed into the right desk caddy's right compartment and the salad dressing should be placed into the right desk caddy's left compartment", "variant": "", "task_id": "523"}
+{"task_desc": "the tomato sauce should be placed into the right desk caddy's right compartment and the popcorn should be placed into the right desk caddy's left compartment", "variant": "", "task_id": "524"}
+{"task_desc": "the brown grid book should be placed into the right desk caddy's front compartment and the right purple book should be placed into the right desk caddy's left compartment and the left purple book should be placed into the right desk caddy's back compartment", "variant": "A1", "task_id": "525"}
+{"task_desc": "the left tomato sauce should be placed into the right desk caddy's left compartment and the alphabet soup should be placed into the right desk caddy's right compartment", "variant": "", "task_id": "526"}
+{"task_desc": "the orange juice should be placed into the right desk caddy's left compartment and the alphabet soup should be placed into the right desk caddy's right compartment", "variant": "", "task_id": "527"}
+{"task_desc": "the orange juice should be placed into the right desk caddy's left compartment and the alphabet soup should be placed into the right desk caddy's right compartment", "variant": "", "task_id": "528"}
+{"task_desc": "the tomato sauce should be placed into the right desk caddy's left compartment and the bbq sauce should be placed into the right desk caddy's right compartment", "variant": "", "task_id": "529"}
+{"task_desc": "the chocolate pudding should be placed into the right desk caddy's right compartment and the salad dressing should be placed into the right desk caddy's right compartment", "variant": "", "task_id": "530"}
+{"task_desc": "the macaroni and cheese should be placed into the right desk caddy's left compartment and the butter should be placed into the right desk caddy's right compartment", "variant": "", "task_id": "531"}
+{"task_desc": "the salad dressing should be placed into the right desk caddy's left compartment and the tomato sauce should be placed into the right desk caddy's right compartment", "variant": "", "task_id": "532"}
+{"task_desc": "the purple book should be placed into the right desk caddy's front compartment and the teal wavy book should be placed into the right desk caddy's left compartment and the brown grid book should be placed into the right desk caddy's back compartment", "variant": "A1", "task_id": "533"}
+{"task_desc": "the yellow green striped book should be placed into the right desk caddy's left compartment and the purple book should be placed into the right desk caddy's right compartment and the navy speckle book should be placed into the right desk caddy's right compartment", "variant": "A1", "task_id": "534"}
+{"task_desc": "the navy speckle book should be placed into the right desk caddy's right compartment and the left cyan grid book should be placed into the right desk caddy's right compartment", "variant": "A1", "task_id": "535"}
+{"task_desc": "the left cyan grid book should be placed into the right desk caddy's left compartment and the teal wavy book should be placed into the right desk caddy's right compartment", "variant": "A1", "task_id": "536"}
+{"task_desc": "the navy speckle book should be placed into the right desk caddy's front compartment and the left white speckle book should be placed into the right desk caddy's right compartment and the purple book should be placed into the right desk caddy's right compartment", "variant": "A1", "task_id": "537"}
+{"task_desc": "the butter should be placed into the right desk caddy's right compartment and the left alphabet soup should be placed into the right desk caddy's left compartment", "variant": "", "task_id": "538"}
+{"task_desc": "the right alphabet soup should be placed into the right desk caddy's left compartment and the salad dressing should be placed into the right desk caddy's left compartment and the macaroni and cheese should be placed into the right desk caddy's right compartment", "variant": "", "task_id": "539"}
+{"task_desc": "the left navy speckle book should be placed into the right desk caddy's right compartment and the right navy speckle book should be placed into the right desk caddy's right compartment and the purple book should be placed into the right desk caddy's left compartment", "variant": "A1", "task_id": "540"}
+{"task_desc": "the macaroni and cheese should be placed into the back desk caddy's right compartment and the cream cheese should be placed into the back desk caddy's left compartment", "variant": "", "task_id": "541"}
+{"task_desc": "the white speckle book should be placed into the back desk caddy's left compartment and the yellow green striped book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "542"}
+{"task_desc": "the cream cheese should be placed into the back desk caddy's right compartment and the chocolate pudding should be placed into the back desk caddy's left compartment", "variant": "", "task_id": "543"}
+{"task_desc": "the brown grid book should be placed into the back desk caddy's left compartment and the navy speckle book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "544"}
+{"task_desc": "the left brown grid book should be placed into the back desk caddy's left compartment and the navy speckle book should be placed into the back desk caddy's right compartment and the right brown grid book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "545"}
+{"task_desc": "the macaroni and cheese should be placed into the back desk caddy's right compartment and the left tomato sauce should be placed into the back desk caddy's left compartment and the right tomato sauce should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "546"}
+{"task_desc": "the brown grid book should be placed into the back desk caddy's left compartment and the teal wavy book should be placed into the back desk caddy's right compartment and the yellow green striped book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "547"}
+{"task_desc": "the popcorn should be placed into the back desk caddy's right compartment and the macaroni and cheese should be placed into the back desk caddy's left compartment", "variant": "", "task_id": "548"}
+{"task_desc": "the tomato sauce should be placed into the back desk caddy's right compartment and the popcorn should be placed into the back desk caddy's left compartment and the cream cheese should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "549"}
+{"task_desc": "the bbq sauce should be placed into the back desk caddy's left compartment and the chocolate pudding should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "550"}
+{"task_desc": "the cream cheese should be placed into the back desk caddy's right compartment and the chocolate pudding should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "551"}
+{"task_desc": "the tomato sauce should be placed into the back desk caddy's right compartment and the ketchup should be placed into the back desk caddy's left compartment and the bbq sauce should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "552"}
+{"task_desc": "the bbq sauce should be placed into the back desk caddy's left compartment and the chocolate pudding should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "553"}
+{"task_desc": "the teal wavy book should be placed into the back desk caddy's back compartment and the cyan grid book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "554"}
+{"task_desc": "the navy speckle book should be placed into the back desk caddy's left compartment and the right white speckle book should be placed into the back desk caddy's back compartment and the brown grid book should be placed into the back desk caddy's front compartment", "variant": "A1", "task_id": "555"}
+{"task_desc": "the purple book should be placed into the back desk caddy's right compartment and the left white speckle book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "556"}
+{"task_desc": "the cream cheese should be placed into the back desk caddy's left compartment and the right macaroni and cheese should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "557"}
+{"task_desc": "the navy speckle book should be placed into the back desk caddy's front compartment and the left brown grid book should be placed into the back desk caddy's right compartment and the pink wavy book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "558"}
+{"task_desc": "the orange juice should be placed into the back desk caddy's left compartment and the cream cheese should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "559"}
+{"task_desc": "the right cream cheese should be placed into the back desk caddy's left compartment and the bbq sauce should be placed into the back desk caddy's left compartment and the popcorn should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "560"}
+{"task_desc": "the cookies should be placed into the back desk caddy's right compartment and the butter should be placed into the back desk caddy's left compartment and the alphabet soup should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "561"}
+{"task_desc": "the purple book should be placed into the left desk caddy's right compartment and the cyan grid book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "562"}
+{"task_desc": "the tomato sauce should be placed into the back desk caddy's right compartment and the cookies should be placed into the left desk caddy's right compartment", "variant": "", "task_id": "563"}
+{"task_desc": "the navy speckle book should be placed into the back desk caddy's left compartment and the brown grid book should be placed into the back desk caddy's left compartment and the teal wavy book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "564"}
+{"task_desc": "the cookies should be placed into the left desk caddy's right compartment and the right macaroni and cheese should be placed into the back desk caddy's left compartment", "variant": "", "task_id": "565"}
+{"task_desc": "the purple book should be placed into the back desk caddy's right compartment and the left cyan grid book should be placed into the back desk caddy's right compartment", "variant": "A1", "task_id": "566"}
+{"task_desc": "the macaroni and cheese should be placed into the left desk caddy's left compartment and the cream cheese should be placed into the left desk caddy's left compartment and the milk should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "567"}
+{"task_desc": "the cyan grid book should be placed into the left desk caddy's right compartment and the yellow green striped book should be placed into the back desk caddy's front compartment and the teal wavy book should be placed into the back desk caddy's back compartment", "variant": "A1", "task_id": "568"}
+{"task_desc": "the alphabet soup should be placed into the left desk caddy's left compartment and the tomato sauce should be placed into the left desk caddy's left compartment and the cream cheese should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "569"}
+{"task_desc": "the cyan grid book should be placed into the back desk caddy's left compartment and the purple book should be placed into the back desk caddy's left compartment and the yellow green striped book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "570"}
+{"task_desc": "the salad dressing should be placed into the left desk caddy's left compartment and the tomato sauce should be placed into the left desk caddy's left compartment and the orange juice should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "571"}
+{"task_desc": "the teal wavy book should be placed into the back desk caddy's left compartment and the yellow green striped book should be placed into the back desk caddy's left compartment and the purple book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "572"}
+{"task_desc": "the brown grid book should be placed into the back desk caddy's left compartment and the navy speckle book should be placed into the back desk caddy's left compartment and the teal wavy book should be placed into the left desk caddy's right compartment", "variant": "A1", "task_id": "573"}
+{"task_desc": "the navy speckle book should be placed into the left desk caddy's right compartment and the pink wavy book should be placed into the back desk caddy's front compartment and the cyan grid book should be placed into the back desk caddy's back compartment", "variant": "A1", "task_id": "574"}
+{"task_desc": "the left cyan grid book should be placed into the back desk caddy's left compartment and the right cyan grid book should be placed into the left desk caddy's right compartment and the pink wavy book should be placed into the left desk caddy's back compartment", "variant": "A1", "task_id": "575"}
+{"task_desc": "the navy speckle book should be placed into the back desk caddy's right compartment and the left teal wavy book should be placed into the left desk caddy's back compartment and the right teal wavy book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "576"}
+{"task_desc": "the right teal wavy book should be placed into the back desk caddy's back compartment and the purple book should be placed into the left desk caddy's back compartment and the left teal wavy book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "577"}
+{"task_desc": "the butter should be placed into the back desk caddy's left compartment and the tomato sauce should be placed into the back desk caddy's right compartment", "variant": "", "task_id": "578"}
+{"task_desc": "the right cyan grid book should be placed into the back desk caddy's right compartment and the yellow green striped book should be placed into the left desk caddy's right compartment and the teal wavy book should be placed into the left desk caddy's left compartment", "variant": "A1", "task_id": "579"}
+{"task_desc": "the yellow green striped book should be placed into the back desk caddy's right compartment and the right cyan grid book should be placed into the back desk caddy's left compartment and the navy speckle book should be placed into the back desk caddy's left compartment", "variant": "A1", "task_id": "580"}
+{"task_desc": "the cookies should be placed on top of the shelf and the tomato sauce should be placed on top of the shelf", "variant": "", "task_id": "581"}
+{"task_desc": "the ketchup should be placed on top of the shelf and the milk should be placed in the top region of the shelf and the cream cheese should be placed on top of the shelf", "variant": "", "task_id": "582"}
+{"task_desc": "the butter should be placed in the top region of the shelf and the cream cheese should be placed on top of the shelf", "variant": "", "task_id": "583"}
+{"task_desc": "the chocolate pudding should be placed on top of the shelf and the ketchup should be placed in the top region of the shelf and the popcorn should be placed on top of the shelf", "variant": "", "task_id": "584"}
+{"task_desc": "the right navy speckle book upright should be placed on top of the shelf and the left navy speckle book upright should be placed on top of the shelf", "variant": "A1", "task_id": "585"}
+{"task_desc": "the right orange juice should be placed on top of the shelf and the macaroni and cheese should be placed on top of the shelf", "variant": "", "task_id": "586"}
+{"task_desc": "the butter should be placed on top of the shelf and the tomato sauce should be placed on top of the shelf", "variant": "", "task_id": "587"}
+{"task_desc": "the yellow green striped book upright should be placed on top of the shelf and the teal wavy book flat should be placed on top of the shelf", "variant": "A1", "task_id": "588"}
+{"task_desc": "the alphabet soup should be placed on top of the shelf and the macaroni and cheese should be placed on top of the shelf", "variant": "", "task_id": "589"}
+{"task_desc": "the chocolate pudding should be placed on top of the shelf and the ketchup should be placed on top of the shelf", "variant": "", "task_id": "590"}
+{"task_desc": "the yellow green striped book upright should be placed on top of the shelf and the purple book upright should be placed on top of the shelf", "variant": "A1", "task_id": "591"}
+{"task_desc": "the ketchup should be placed on top of the shelf and the butter should be placed on top of the shelf", "variant": "", "task_id": "592"}
+{"task_desc": "the white speckle book flat should be placed on top of the shelf and the left pink wavy book flat should be placed on top of the shelf", "variant": "A1", "task_id": "593"}
+{"task_desc": "the right cyan grid book flat should be placed on top of the shelf and the yellow green striped book flat should be placed on top of the shelf", "variant": "A1", "task_id": "594"}
+{"task_desc": "the left purple book flat should be placed on top of the shelf and the yellow green striped book upright should be placed on top of the shelf", "variant": "A1", "task_id": "595"}
+{"task_desc": "the left teal wavy book flat should be placed on top of the shelf and the pink wavy book flat should be placed on top of the shelf", "variant": "A1", "task_id": "596"}
+{"task_desc": "the left butter should be placed on top of the shelf and the orange juice should be placed on top of the shelf", "variant": "", "task_id": "597"}
+{"task_desc": "the right tomato sauce should be placed on top of the shelf and the cream cheese should be placed on top of the shelf", "variant": "", "task_id": "598"}
+{"task_desc": "the right chocolate pudding should be placed on top of the shelf and the milk should be placed on top of the shelf", "variant": "", "task_id": "599"}
+{"task_desc": "the right yellow green striped book upright should be placed on top of the shelf and the left yellow green striped book upright should be placed on top of the shelf", "variant": "A1", "task_id": "600"}

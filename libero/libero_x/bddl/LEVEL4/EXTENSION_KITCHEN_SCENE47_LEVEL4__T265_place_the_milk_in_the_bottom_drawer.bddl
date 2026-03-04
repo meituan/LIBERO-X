@@ -1,0 +1,97 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the milk in the bottom drawer)
+    (:regions
+      (white_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.053 0.14700000000000002 0.053 0.253)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (wine_rack_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.071 -0.271 0.071 -0.129)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (yellow_book_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.27 0.018000000000000002 -0.24 0.048)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (porcelain_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.28700000000000003 0.26699999999999996 -0.257 0.297)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_region
+          (:target wine_rack_1)
+      )
+      (top_side
+          (:target white_cabinet_1)
+      )
+      (top_region
+          (:target white_cabinet_1)
+      )
+      (middle_region
+          (:target white_cabinet_1)
+      )
+      (bottom_region
+          (:target white_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wine_rack_1 - wine_rack
+    white_cabinet_1 - white_cabinet
+  )
+
+  (:objects
+    milk_1 - milk
+    small_akita_black_bowl_1 - small_akita_black_bowl
+    yellow_book_1 - yellow_book
+    porcelain_mug_1 - porcelain_mug
+  )
+
+  (:obj_of_interest
+    milk_1
+  )
+
+  (:init
+    (On wine_rack_1 kitchen_table_wine_rack_init_region)
+    (On milk_1 white_cabinet_1_top_side)
+    (In small_akita_black_bowl_1 white_cabinet_1_bottom_region)
+    (Open white_cabinet_1_bottom_region)
+    (On white_cabinet_1 kitchen_table_white_cabinet_init_region)
+    (On yellow_book_1 kitchen_table_yellow_book_init_region)
+    (On porcelain_mug_1 kitchen_table_porcelain_mug_init_region)
+  )
+
+  (:goal
+    (And (In milk_1 white_cabinet_1_bottom_region))
+  )
+
+)

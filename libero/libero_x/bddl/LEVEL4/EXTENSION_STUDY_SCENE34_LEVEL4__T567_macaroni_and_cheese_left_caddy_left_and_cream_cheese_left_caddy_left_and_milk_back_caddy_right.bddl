@@ -1,0 +1,144 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the macaroni and cheese into the left desk caddy's left compartment and place the cream cheese into the left desk caddy's left compartment and place the milk into the back desk caddy's right compartment)
+    (:regions
+      (milk_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.14100000000000001 -0.261 -0.059000000000000004 -0.179)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (desk_caddy_back_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.345 -0.245 -0.255 -0.15500000000000003)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (desk_caddy_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.22499999999999998 0.20500000000000002 -0.135 0.295)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cream_cheese_init_region
+          (:target study_table)
+          (:ranges (
+              (0.06999999999999999 -0.16999999999999998 0.16999999999999998 -0.06999999999999999)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (macaroni_and_cheese_init_region
+          (:target study_table)
+          (:ranges (
+              (0.13899999999999998 0.009000000000000001 0.221 0.091)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (yellow_book_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.078 -0.098 0.038000000000000006 0.018000000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_black_bowl_init_region
+          (:target study_table)
+          (:ranges (
+              (0.314 -0.342 0.34400000000000003 -0.312)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (right_contain_region
+          (:target desk_caddy_1)
+      )
+      (left_contain_region
+          (:target desk_caddy_1)
+      )
+      (back_contain_region
+          (:target desk_caddy_1)
+      )
+      (front_contain_region
+          (:target desk_caddy_1)
+      )
+      (right_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (left_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (back_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (front_contain_region
+          (:target desk_caddy_back_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    milk_1 - milk
+    yellow_book_1 - yellow_book
+    cream_cheese_1 - cream_cheese
+    macaroni_and_cheese_1 - macaroni_and_cheese
+    desk_caddy_1 - desk_caddy
+    desk_caddy_back_1 - desk_caddy_back
+    akita_black_bowl_1 - akita_black_bowl
+  )
+
+  (:obj_of_interest
+    macaroni_and_cheese_1
+    cream_cheese_1
+    milk_1
+    desk_caddy_1
+    desk_caddy_back_1
+  )
+
+  (:init
+    (On desk_caddy_1 study_table_desk_caddy_init_region)
+    (On desk_caddy_back_1 study_table_desk_caddy_back_init_region)
+    (On milk_1 study_table_milk_init_region)
+    (On yellow_book_1 study_table_yellow_book_init_region)
+    (On cream_cheese_1 study_table_cream_cheese_init_region)
+    (On macaroni_and_cheese_1 study_table_macaroni_and_cheese_init_region)
+    (On akita_black_bowl_1 study_table_akita_black_bowl_init_region)
+  )
+
+  (:goal
+    (And (In macaroni_and_cheese_1 desk_caddy_1_left_contain_region) (In cream_cheese_1 desk_caddy_1_left_contain_region) (In milk_1 desk_caddy_back_1_right_contain_region))
+  )
+
+)

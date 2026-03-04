@@ -1,0 +1,114 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the yellow green striped book upright on top of the shelf and place the teal wavy book flat on top of the shelf)
+    (:regions
+      (yellow_green_striped_book_init_region
+          (:target study_table)
+          (:ranges (
+              (0.069 0.119 0.131 0.181)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (green_book_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.22 0.13 -0.07999999999999999 0.27)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_coffee_mug_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.031 0.019000000000000003 0.031 0.081)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.22199999999999998 -0.322 -0.078 -0.178)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (teal_wavy_book_init_region
+          (:target study_table)
+          (:ranges (
+              (0.08399999999999999 -0.266 0.216 -0.134)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_red_bowl_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.35000000000000003 0.22199999999999998 -0.32 0.252)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    yellow_green_striped_book_1 - yellow_green_striped_book
+    teal_wavy_book_1 - teal_wavy_book
+    green_book_1 - green_book
+    red_coffee_mug_1 - red_coffee_mug
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+    akita_red_bowl_1 - akita_red_bowl
+  )
+
+  (:obj_of_interest
+    yellow_green_striped_book_1
+    teal_wavy_book_1
+    wooden_two_layer_shelf_1
+  )
+
+  (:init
+    (On yellow_green_striped_book_1 study_table_yellow_green_striped_book_init_region)
+    (On teal_wavy_book_1 study_table_teal_wavy_book_init_region)
+    (On green_book_1 study_table_green_book_init_region)
+    (On red_coffee_mug_1 study_table_red_coffee_mug_init_region)
+    (On wooden_two_layer_shelf_1 study_table_wooden_two_layer_shelf_init_region)
+    (On akita_red_bowl_1 study_table_akita_red_bowl_init_region)
+  )
+
+  (:goal
+    (And (UprightOn yellow_green_striped_book_1 wooden_two_layer_shelf_1_top_side) (SideOn teal_wavy_book_1 wooden_two_layer_shelf_1_top_side))
+  )
+
+)

@@ -1,0 +1,156 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the left red book into the back desk caddy's left compartment and place the right red book into the left desk caddy's right compartment and place the orange book into the left desk caddy's back compartment)
+    (:regions
+      (desk_caddy_back_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.345 -0.245 -0.255 -0.15500000000000003)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (desk_caddy_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.22499999999999998 0.20500000000000002 -0.135 0.295)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (orange_book_init_region
+          (:target study_table)
+          (:ranges (
+              (0.168 0.128 0.272 0.23199999999999998)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_book_B_init_region
+          (:target study_table)
+          (:ranges (
+              (0.127 -0.11299999999999999 0.23299999999999998 -0.006999999999999999)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_book_A_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.172 -0.302 -0.068 -0.198)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (striped_book_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.022 -0.041999999999999996 0.022 0.0019999999999999983)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (tomato_sauce_init_region
+          (:target study_table)
+          (:ranges (
+              (0.258 -0.322 0.28800000000000003 -0.292)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_green_bowl_init_region
+          (:target study_table)
+          (:ranges (
+              (0.11900000000000001 0.33499999999999996 0.14900000000000002 0.365)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (right_contain_region
+          (:target desk_caddy_1)
+      )
+      (left_contain_region
+          (:target desk_caddy_1)
+      )
+      (back_contain_region
+          (:target desk_caddy_1)
+      )
+      (front_contain_region
+          (:target desk_caddy_1)
+      )
+      (right_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (left_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (back_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (front_contain_region
+          (:target desk_caddy_back_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    desk_caddy_1 - desk_caddy
+    desk_caddy_back_1 - desk_caddy_back
+    red_book_1 red_book_2 - red_book
+    orange_book_1 - orange_book
+    striped_book_1 - striped_book
+    tomato_sauce_1 - tomato_sauce
+    akita_green_bowl_1 - akita_green_bowl
+  )
+
+  (:obj_of_interest
+    red_book_2
+    red_book_1
+    orange_book_1
+    desk_caddy_1
+    desk_caddy_back_1
+  )
+
+  (:init
+    (On desk_caddy_1 study_table_desk_caddy_init_region)
+    (On desk_caddy_back_1 study_table_desk_caddy_back_init_region)
+    (On red_book_1 study_table_red_book_A_init_region)
+    (On red_book_2 study_table_red_book_B_init_region)
+    (On orange_book_1 study_table_orange_book_init_region)
+    (On striped_book_1 study_table_striped_book_init_region)
+    (On tomato_sauce_1 study_table_tomato_sauce_init_region)
+    (On akita_green_bowl_1 study_table_akita_green_bowl_init_region)
+  )
+
+  (:goal
+    (And (ExactIn red_book_2 desk_caddy_back_1_left_contain_region) (ExactIn red_book_1 desk_caddy_1_right_contain_region) (ExactIn orange_book_1 desk_caddy_1_back_contain_region))
+  )
+
+)

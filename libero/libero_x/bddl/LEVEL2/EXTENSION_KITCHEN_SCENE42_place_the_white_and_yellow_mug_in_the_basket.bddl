@@ -1,0 +1,79 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the white and yellow mug in the basket)
+    (:regions
+      (basket_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.07300000000000001 -0.223 -0.027000000000000003 -0.17700000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_coffee_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.087 -0.213 0.213 -0.087)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (short_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.088 0.062 0.088 0.238)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (middle_region
+          (:target short_cabinet_1)
+      )
+      (top_region
+          (:target short_cabinet_1)
+      )
+      (bottom_region
+          (:target short_cabinet_1)
+      )
+      (contain_region
+          (:target basket_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    short_cabinet_1 - short_cabinet
+  )
+
+  (:objects
+    white_yellow_mug_1 - white_yellow_mug
+    red_coffee_mug_1 - red_coffee_mug
+    basket_1 - basket
+  )
+
+  (:obj_of_interest
+    white_yellow_mug_1
+    basket_1
+  )
+
+  (:init
+    (On white_yellow_mug_1 short_cabinet_1_top_region)
+    (On red_coffee_mug_1 kitchen_table_red_coffee_mug_init_region)
+    (On short_cabinet_1 kitchen_table_short_cabinet_init_region)
+    (On basket_1 kitchen_table_basket_init_region)
+  )
+
+  (:goal
+    (And (In white_yellow_mug_1 basket_1_contain_region))
+  )
+
+)

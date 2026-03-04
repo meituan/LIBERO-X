@@ -1,0 +1,118 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the macaroni and cheese on top of the shelf)
+    (:regions
+      (flat_stove_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.356 0.044000000000000004 -0.244 0.156)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (moka_pot_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.037000000000000005 -0.012999999999999998 0.163 0.113)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.078 -0.328 0.078 -0.172)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (black_book_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.16299999999999998 -0.35200000000000004 0.193 -0.322)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (ketchup_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.359 -0.128 -0.32899999999999996 -0.098)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (bbq_sauce_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.40700000000000003 0.364 -0.377 0.394)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (cook_region
+          (:target flat_stove_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+    flat_stove_1 - flat_stove
+  )
+
+  (:objects
+    macaroni_and_cheese_1 - macaroni_and_cheese
+    moka_pot_1 - moka_pot
+    black_book_1 - black_book
+    ketchup_1 - ketchup
+    bbq_sauce_1 - bbq_sauce
+  )
+
+  (:obj_of_interest
+    macaroni_and_cheese_1
+    wooden_two_layer_shelf_1
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 kitchen_table_wooden_two_layer_shelf_init_region)
+    (On macaroni_and_cheese_1 wooden_two_layer_shelf_1_bottom_region)
+    (On flat_stove_1 kitchen_table_flat_stove_init_region)
+    (On moka_pot_1 kitchen_table_moka_pot_init_region)
+    (On black_book_1 kitchen_table_black_book_init_region)
+    (On ketchup_1 kitchen_table_ketchup_init_region)
+    (On bbq_sauce_1 kitchen_table_bbq_sauce_init_region)
+  )
+
+  (:goal
+    (And (On macaroni_and_cheese_1 wooden_two_layer_shelf_1_top_side))
+  )
+
+)

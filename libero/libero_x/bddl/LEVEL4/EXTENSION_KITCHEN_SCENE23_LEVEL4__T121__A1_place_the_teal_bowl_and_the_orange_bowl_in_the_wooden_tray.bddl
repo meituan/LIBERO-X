@@ -1,0 +1,107 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the teal bowl and the orange bowl in the wooden tray)
+    (:regions
+      (teal_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.11 -0.009999999999999995 0.009999999999999995 0.11)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (orange_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.09 -0.009999999999999995 0.21 0.11)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.23600000000000002 -0.38599999999999995 -0.164 -0.314)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (wooden_tray_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.023 -0.173 0.023 -0.127)
+            )
+          )
+          (:yaw_rotation (
+              (1.571 1.571)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.023 0.227 0.023 0.273)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (contain_region
+          (:target wooden_tray_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+  )
+
+  (:objects
+    wooden_tray_1 - wooden_tray
+    plate_1 - plate
+    teal_bowl_1 - teal_bowl
+    akita_green_bowl_1 - akita_green_bowl
+    orange_bowl_1 - orange_bowl
+  )
+
+  (:obj_of_interest
+    teal_bowl_1
+    orange_bowl_1
+    wooden_tray_1
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 kitchen_table_wooden_two_layer_shelf_init_region)
+    (On wooden_tray_1 kitchen_table_wooden_tray_init_region)
+    (On teal_bowl_1 kitchen_table_teal_bowl_init_region)
+    (On akita_green_bowl_1 wooden_two_layer_shelf_1_top_region)
+    (On orange_bowl_1 kitchen_table_orange_bowl_init_region)
+    (On plate_1 kitchen_table_plate_init_region)
+    (Turnon flat_stove_1)
+  )
+
+  (:goal
+    (And (In teal_bowl_1 wooden_tray_1_contain_region) (In orange_bowl_1 wooden_tray_1_contain_region))
+  )
+
+)

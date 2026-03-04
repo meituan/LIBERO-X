@@ -1,0 +1,76 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language open the microwave and place the white and yellow mug in it)
+    (:regions
+      (microwave_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.061 -0.261 0.061 -0.139)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.182 0.168 -0.118 0.232)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (salad_dressing_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.27599999999999997 0.304 0.306 0.334)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target microwave_1)
+      )
+      (heating_region
+          (:target microwave_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    microwave_1 - microwave
+  )
+
+  (:objects
+    white_yellow_mug_1 - white_yellow_mug
+    porcelain_mug_1 - porcelain_mug
+    plate_1 - plate
+    salad_dressing_1 - salad_dressing
+  )
+
+  (:obj_of_interest
+    microwave_1
+    white_yellow_mug_1
+  )
+
+  (:init
+    (On white_yellow_mug_1 plate_1)
+    (On porcelain_mug_1 microwave_1_top_side)
+    (On microwave_1 kitchen_table_microwave_init_region)
+    (Close microwave_1)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On salad_dressing_1 kitchen_table_salad_dressing_init_region)
+  )
+
+  (:goal
+    (And (Open microwave_1) (In white_yellow_mug_1 microwave_1_heating_region))
+  )
+
+)

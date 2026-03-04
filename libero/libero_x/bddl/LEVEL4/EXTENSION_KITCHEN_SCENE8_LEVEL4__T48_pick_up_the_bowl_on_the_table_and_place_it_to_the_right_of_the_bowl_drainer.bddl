@@ -1,0 +1,110 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language pick up the bowl on the table and place it to the right of the bowl drainer)
+    (:regions
+      (akita_black_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.363 -0.063 -0.237 0.063)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_yellow_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.28 -0.23 -0.22 -0.17)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (bowl_drainer_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.045000000000000005 -0.10500000000000001 0.155 0.0049999999999999975)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.037 -0.33699999999999997 0.037 -0.263)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.035 0.235 0.165 0.365)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target white_cabinet_1)
+      )
+      (top_region
+          (:target white_cabinet_1)
+      )
+      (middle_region
+          (:target white_cabinet_1)
+      )
+      (bottom_region
+          (:target white_cabinet_1)
+      )
+      (left_region
+          (:target bowl_drainer_1)
+      )
+      (right_region
+          (:target bowl_drainer_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    white_cabinet_1 - white_cabinet
+    bowl_drainer_1 - bowl_drainer
+  )
+
+  (:objects
+    akita_black_bowl_1 akita_black_bowl_2 - akita_black_bowl
+    akita_yellow_bowl_1 - akita_yellow_bowl
+    plate_1 - plate
+  )
+
+  (:obj_of_interest
+    akita_black_bowl_1
+    bowl_drainer_1
+  )
+
+  (:init
+    (On akita_yellow_bowl_1 kitchen_table_akita_yellow_bowl_init_region)
+    (On akita_black_bowl_1 kitchen_table_akita_black_bowl_init_region)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On akita_black_bowl_2 plate_1)
+    (On white_cabinet_1 kitchen_table_white_cabinet_init_region)
+    (On bowl_drainer_1 kitchen_table_bowl_drainer_init_region)
+  )
+
+  (:goal
+    (And (In akita_black_bowl_1 bowl_drainer_1_right_region))
+  )
+
+)

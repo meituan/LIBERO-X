@@ -1,0 +1,95 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the green bowl to the right of the bowl drainer)
+    (:regions
+      (wooden_two_layer_shelf_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.01 -0.21000000000000002 0.01 -0.19)
+            )
+          )
+          (:yaw_rotation (
+              (3.141592653589793 3.141592653589793)
+            )
+          )
+      )
+      (bowl_drainer_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.09000000000000001 0.13999999999999999 0.11 0.16)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_yellow_bowl_1_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.225 -0.025 -0.17500000000000002 0.025)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_green_bowl_1_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.225 0.17500000000000002 -0.17500000000000002 0.225)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (left_region
+          (:target bowl_drainer_1)
+      )
+      (right_region
+          (:target bowl_drainer_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+    bowl_drainer_1 - bowl_drainer
+  )
+
+  (:objects
+    akita_yellow_bowl_1 - akita_yellow_bowl
+    akita_green_bowl_1 - akita_green_bowl
+    akita_black_bowl_1 - akita_black_bowl
+  )
+
+  (:obj_of_interest
+    akita_green_bowl_1
+    bowl_drainer_1
+  )
+
+  (:init
+    (On akita_green_bowl_1 kitchen_table_akita_green_bowl_1_init_region)
+    (On akita_yellow_bowl_1 kitchen_table_akita_yellow_bowl_1_init_region)
+    (On wooden_two_layer_shelf_1 kitchen_table_wooden_two_layer_shelf_init_region)
+    (On bowl_drainer_1 kitchen_table_bowl_drainer_init_region)
+    (On akita_black_bowl_1 wooden_two_layer_shelf_1_top_region)
+  )
+
+  (:goal
+    (And (In akita_green_bowl_1 bowl_drainer_1_right_region))
+  )
+
+)

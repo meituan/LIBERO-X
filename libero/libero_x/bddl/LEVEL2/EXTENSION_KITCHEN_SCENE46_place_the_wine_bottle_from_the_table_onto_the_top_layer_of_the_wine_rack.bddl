@@ -1,0 +1,82 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the wine bottle from the table onto the top layer of the wine rack)
+    (:regions
+      (white_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.18 0.21999999999999997 -0.020000000000000004 0.38)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (wine_bottle_2_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.035 -0.015 0.165 0.115)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (wine_rack_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.075 -0.275 0.075 -0.125)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (top_region
+          (:target wine_rack_1)
+      )
+      (top_side
+          (:target white_cabinet_1)
+      )
+      (top_region
+          (:target white_cabinet_1)
+      )
+      (middle_region
+          (:target white_cabinet_1)
+      )
+      (bottom_region
+          (:target white_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wine_rack_1 - wine_rack
+    white_cabinet_1 - white_cabinet
+  )
+
+  (:objects
+    wine_bottle_1 wine_bottle_2 - wine_bottle
+  )
+
+  (:obj_of_interest
+    white_cabinet_1
+    wine_bottle_2
+  )
+
+  (:init
+    (On wine_rack_1 kitchen_table_wine_rack_init_region)
+    (In wine_bottle_1 white_cabinet_1_top_region)
+    (On wine_bottle_2 kitchen_table_wine_bottle_2_init_region)
+    (Open white_cabinet_1_top_region)
+    (On white_cabinet_1 kitchen_table_white_cabinet_init_region)
+  )
+
+  (:goal
+    (And (On wine_bottle_2 wine_rack_1_top_region))
+  )
+
+)

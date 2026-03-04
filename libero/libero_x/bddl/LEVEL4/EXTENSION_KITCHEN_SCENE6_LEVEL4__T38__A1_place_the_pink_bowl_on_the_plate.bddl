@@ -1,0 +1,121 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the pink bowl on the plate)
+    (:regions
+      (pink_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.272 -0.272 -0.128 -0.128)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.034 -0.33399999999999996 0.034 -0.266)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.07 0.13 0.07 0.27)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (tomato_sauce_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.369 0.126 -0.33899999999999997 0.15599999999999997)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.241 -0.14100000000000001 0.271 -0.111)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (orange_juice_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.21400000000000002 0.062 -0.184 0.092)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target white_cabinet_1)
+      )
+      (top_region
+          (:target white_cabinet_1)
+      )
+      (middle_region
+          (:target white_cabinet_1)
+      )
+      (bottom_region
+          (:target white_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    white_cabinet_1 - white_cabinet
+  )
+
+  (:objects
+    pink_bowl_1 - pink_bowl
+    akita_green_bowl_1 - akita_green_bowl
+    akita_red_bowl_1 - akita_red_bowl
+    plate_1 - plate
+    tomato_sauce_1 - tomato_sauce
+    white_yellow_mug_1 - white_yellow_mug
+    orange_juice_1 - orange_juice
+  )
+
+  (:obj_of_interest
+    pink_bowl_1
+    plate_1
+  )
+
+  (:init
+    (On pink_bowl_1 kitchen_table_pink_bowl_init_region)
+    (On akita_green_bowl_1 white_cabinet_1_top_side)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On white_cabinet_1 kitchen_table_white_cabinet_init_region)
+    (Open white_cabinet_1_bottom_region)
+    (In akita_red_bowl_1 white_cabinet_1_bottom_region)
+    (On tomato_sauce_1 kitchen_table_tomato_sauce_init_region)
+    (On white_yellow_mug_1 kitchen_table_white_yellow_mug_init_region)
+    (On orange_juice_1 kitchen_table_orange_juice_init_region)
+  )
+
+  (:goal
+    (And (On pink_bowl_1 plate_1))
+  )
+
+)

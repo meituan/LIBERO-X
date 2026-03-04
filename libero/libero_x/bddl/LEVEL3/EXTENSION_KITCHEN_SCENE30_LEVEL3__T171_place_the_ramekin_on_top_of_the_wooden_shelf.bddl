@@ -1,0 +1,129 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the ramekin on top of the wooden shelf)
+    (:regions
+      (flat_stove_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.01 0.13999999999999999 0.01 0.16)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (frypan_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.24000000000000002 -0.04 -0.16 0.04)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (glazed_rim_porcelain_ramekin_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.025 -0.025 0.025 0.025)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.02 -0.22 0.02 -0.18000000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (yellow_book_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.27999999999999997 -0.004 0.31 0.026)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_black_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.21500000000000002 -0.265 0.245 -0.235)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_red_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.091 0.257 -0.061 0.28700000000000003)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (cook_region
+          (:target flat_stove_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+    flat_stove_1 - flat_stove
+  )
+
+  (:objects
+    chefmate_8_frypan_1 - chefmate_8_frypan
+    glazed_rim_porcelain_ramekin_1 - glazed_rim_porcelain_ramekin
+    yellow_book_1 - yellow_book
+    akita_black_bowl_1 - akita_black_bowl
+    akita_red_bowl_1 - akita_red_bowl
+  )
+
+  (:obj_of_interest
+    glazed_rim_porcelain_ramekin_1
+    wooden_two_layer_shelf_1
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 kitchen_table_wooden_two_layer_shelf_init_region)
+    (On chefmate_8_frypan_1 kitchen_table_frypan_init_region)
+    (On flat_stove_1 kitchen_table_flat_stove_init_region)
+    (On glazed_rim_porcelain_ramekin_1 kitchen_table_glazed_rim_porcelain_ramekin_init_region)
+    (On yellow_book_1 kitchen_table_yellow_book_init_region)
+    (On akita_black_bowl_1 kitchen_table_akita_black_bowl_init_region)
+    (On akita_red_bowl_1 kitchen_table_akita_red_bowl_init_region)
+  )
+
+  (:goal
+    (And (On glazed_rim_porcelain_ramekin_1 wooden_two_layer_shelf_1_top_side))
+  )
+
+)

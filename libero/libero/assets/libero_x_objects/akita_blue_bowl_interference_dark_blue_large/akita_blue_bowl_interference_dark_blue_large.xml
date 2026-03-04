@@ -1,0 +1,57 @@
+<mujoco model="akita_blue_bowl_interference_dark_blue_large">
+  <asset>
+    <texture file="akita_blue_bowl_interference_dark_blue_large_texture.png" name="tex-akita_blue_bowl_interference_dark_blue_large" type="2d" />
+    <material name="akita_blue_bowl_interference_dark_blue_large" reflectance="0.5" texrepeat="1 1" texture="tex-akita_blue_bowl_interference_dark_blue_large" texuniform="false" />
+    <mesh file="visual/akita_bowl_vis.msh" name="akita_bowl_vis" scale="0.84 0.84 0.84" />
+  </asset>
+  <worldbody>
+    <body>
+      <body name="object" pos="0 -0.1 0">
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="mesh" mesh="akita_bowl_vis" conaffinity="0" contype="0" group="1" material="akita_blue_bowl_interference_dark_blue_large" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.00012 0.04033 0.01127" quat="0.60990 -0.35780 -0.35780 -0.60990" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.01763 0.03620 0.01151" quat="0.45959 -0.42672 0.26704 0.73169" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.03126 0.02530 0.01170" quat="0.29172 -0.47299 0.16619 0.81459" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.03904 0.00952 0.01181" quat="0.10855 -0.49698 0.05658 0.85908" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.03944 -0.00762 0.01181" quat="0.49761 -0.07722 0.86246 0.05074" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.03230 -0.02388 0.01181" quat="0.47408 -0.26597 0.82406 0.15949" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.01868 -0.03557 0.01181" quat="0.42646 -0.44336 0.74380 0.26138" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.00145 -0.04015 0.01181" quat="0.59728 0.35787 0.34946 -0.62695" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.01621 -0.03676 0.01181" quat="0.72249 0.27055 0.42070 -0.47731" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.03028 -0.02641 0.01181" quat="0.17267 -0.80894 0.30891 0.46945" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.03866 -0.01092 0.01181" quat="0.85700 0.06550 0.49588 -0.12397" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.03866 -0.01092 0.01181" quat="0.85700 0.06550 0.49588 -0.12397" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.04018 0.00026 0.01181" quat="0.86591 -0.00473 0.50017 -0.00248" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.03643 0.01693 0.01181" quat="0.84663 -0.11101 0.48771 0.18175" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.02587 0.03074 0.01181" quat="0.21392 0.78724 0.36065 -0.45213" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.01388 0.03770 0.01181" quat="0.71324 -0.28870 0.40847 0.49101" size="0.00085 0.01190 0.01424" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.00012 0.05654 0.04040" quat="0.09041 0.70130 0.70130 -0.09041" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.02069 0.05262 0.04040" quat="0.10558 0.55930 0.81905 -0.07209" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.03809 0.04180 0.04040" quat="0.11689 0.40164 0.90683 -0.05176" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.05057 0.02530 0.04040" quat="0.22890 -0.12439 0.02951 0.96502" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.05627 0.00552 0.04040" quat="0.12768 0.04949 0.99056 -0.00638" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.05466 -0.01445 0.04040" quat="0.12679 0.12680 0.01635 -0.98366" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.04590 -0.03301 0.04040" quat="0.12173 -0.30325 0.94430 0.03909" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.03091 -0.04735 0.04040" quat="0.11249 -0.47128 0.87267 0.06075" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.01212 -0.05522 0.04040" quat="0.62080 0.09971 0.08003 -0.77348" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.00838 -0.05592 0.04040" quat="0.75082 0.08352 0.09678 -0.64802" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.02790 -0.04918 0.04040" quat="0.06445 -0.85651 0.50004 0.11041" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.04357 -0.03604 0.04040" quat="0.93283 0.04342 0.12024 -0.33687" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.05370 -0.01770 0.04040" quat="0.02040 -0.97909 0.15826 0.12620" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.05650 0.00222 0.04040" quat="0.00238 0.99162 0.01844 -0.12782" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.05650 0.00222 0.04040" quat="0.00238 0.99162 0.01844 -0.12782" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.05209 0.02198 0.04040" quat="0.02524 0.97229 0.19574 -0.12533" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.04099 0.03894 0.04040" quat="0.04729 0.92146 0.36683 -0.11878" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.02480 0.05081 0.04040" quat="0.06760 0.84175 0.52452 -0.10850" size="0.00154 0.01121 0.02250" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.01267 0.05510 0.04040" quat="0.07953 0.77656 0.61693 -0.10010" size="0.00150 0.00533 0.02246" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.00000 -0.00090 0.00500" quat="0.70711 0.00000 0.70711 0.00000" size="0.00310 0.01856 0.01940" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.00000 -0.02425 0.00500" quat="0.70711 0.00000 0.70711 0.00000" size="0.00310 0.00517 0.01940" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="0.02185 0.00019 0.00500" quat="0.50000 -0.50000 0.50000 0.50000" size="0.00310 0.00594 0.01856" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.02172 0.00005 0.00500" quat="0.50000 -0.50000 0.50000 0.50000" size="0.00310 0.00544 0.01856" group="0" rgba="0.8 0.8 0.8 0.3" />
+        <geom solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" type="box" pos="-0.00000 0.01788 0.00500" quat="0.00000 0.70711 0.00000 -0.70711" size="0.00310 0.00889 0.01940" group="0" rgba="0.8 0.8 0.8 0.3" />
+      </body>
+      <site rgba="0 0 0 0" size="0.00600" pos="0.00000 0.00000 -0.07200" name="bottom_site" />
+      <site rgba="0 0 0 0" size="0.00600" pos="0.00000 0.00000 0.04800" name="top_site" />
+      <site rgba="0 0 0 0" size="0.00600" pos="0.03000 0.03000 0.00000" name="horizontal_radius_site" />
+    </body>
+  </worldbody>
+</mujoco>

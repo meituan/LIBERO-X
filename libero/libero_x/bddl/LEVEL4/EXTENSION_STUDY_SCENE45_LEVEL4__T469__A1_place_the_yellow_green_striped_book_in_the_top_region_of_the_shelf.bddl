@@ -1,0 +1,113 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the yellow green striped book in the top region of the shelf)
+    (:regions
+      (orange_book_init_region
+          (:target study_table)
+          (:ranges (
+              (0.01 0.24 0.03 0.26)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (yellow_green_striped_book_init_region
+          (:target study_table)
+          (:ranges (
+              (0.11 0.07 0.13 0.09)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_coffee_mug_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.094 0.156 -0.025999999999999995 0.224)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (striped_book_init_region
+          (:target study_table)
+          (:ranges (
+              (0.156 -0.084 0.224 -0.016)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.23399999999999999 -0.294 -0.126 -0.186)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (bbq_sauce_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.135 -0.038 -0.105 -0.008)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+    red_coffee_mug_1 - red_coffee_mug
+    yellow_green_striped_book_1 - yellow_green_striped_book
+    orange_book_1 - orange_book
+    striped_book_1 - striped_book
+    bbq_sauce_1 - bbq_sauce
+  )
+
+  (:obj_of_interest
+    yellow_green_striped_book_1
+    wooden_two_layer_shelf_1
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 study_table_wooden_two_layer_shelf_init_region)
+    (On red_coffee_mug_1 study_table_red_coffee_mug_init_region)
+    (On yellow_green_striped_book_1 study_table_yellow_green_striped_book_init_region)
+    (On orange_book_1 study_table_orange_book_init_region)
+    (On striped_book_1 study_table_striped_book_init_region)
+    (On bbq_sauce_1 study_table_bbq_sauce_init_region)
+  )
+
+  (:goal
+    (And (In yellow_green_striped_book_1 wooden_two_layer_shelf_1_top_region))
+  )
+
+)

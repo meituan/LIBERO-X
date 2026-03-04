@@ -1,0 +1,102 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language open the microwave and place white mug in it)
+    (:regions
+      (microwave_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.064 -0.264 0.064 -0.136)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.181 0.169 -0.119 0.231)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_coffee_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.17099999999999999 -0.013999999999999999 -0.14100000000000001 0.016)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_yellow_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.315 0.373 0.34500000000000003 0.403)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_red_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.18 0.241 0.21000000000000002 0.271)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target microwave_1)
+      )
+      (heating_region
+          (:target microwave_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    microwave_1 - microwave
+  )
+
+  (:objects
+    white_yellow_mug_1 - white_yellow_mug
+    porcelain_mug_1 - porcelain_mug
+    plate_1 - plate
+    red_coffee_mug_1 - red_coffee_mug
+    akita_yellow_bowl_1 - akita_yellow_bowl
+    akita_red_bowl_1 - akita_red_bowl
+  )
+
+  (:obj_of_interest
+    microwave_1
+    porcelain_mug_1
+  )
+
+  (:init
+    (On white_yellow_mug_1 plate_1)
+    (On porcelain_mug_1 microwave_1_top_side)
+    (On microwave_1 kitchen_table_microwave_init_region)
+    (Close microwave_1)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On red_coffee_mug_1 kitchen_table_red_coffee_mug_init_region)
+    (On akita_yellow_bowl_1 kitchen_table_akita_yellow_bowl_init_region)
+    (On akita_red_bowl_1 kitchen_table_akita_red_bowl_init_region)
+  )
+
+  (:goal
+    (And (Open microwave_1) (In porcelain_mug_1 microwave_1_heating_region))
+  )
+
+)

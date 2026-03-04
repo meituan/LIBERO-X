@@ -1,0 +1,75 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the white bowl on the plate and place the green bowl on top of the microwave)
+    (:regions
+      (akita_green_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.28 0.21999999999999997 -0.12000000000000001 0.38)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (microwave_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.075 -0.325 0.075 -0.175)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.061000000000000006 0.161 0.139 0.23900000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (top_side
+          (:target microwave_1)
+      )
+      (heating_region
+          (:target microwave_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    microwave_1 - microwave
+  )
+
+  (:objects
+    plate_1 - plate
+    akita_green_bowl_1 - akita_green_bowl
+    white_bowl_1 - white_bowl
+  )
+
+  (:obj_of_interest
+    plate_1
+    akita_green_bowl_1
+    microwave_1
+  )
+
+  (:init
+    (On akita_green_bowl_1 kitchen_table_akita_green_bowl_init_region)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On microwave_1 kitchen_table_microwave_init_region)
+    (Open microwave_1)
+    (On white_bowl_1 microwave_1_top_side)
+  )
+
+  (:goal
+    (And (On akita_green_bowl_1 plate_1) (On akita_green_bowl_1 microwave_1_top_side))
+  )
+
+)

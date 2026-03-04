@@ -1,0 +1,826 @@
+{"task_desc": "pink bowl on plate", "variant": "A1", "task_id": "001"}
+{"task_desc": "small light green bowl on plate", "variant": "A2", "task_id": "001"}
+{"task_desc": "cyan bowl on plate", "variant": "A1", "task_id": "002"}
+{"task_desc": "small dark yellow bowl on plate", "variant": "A2", "task_id": "002"}
+{"task_desc": "orange bowl on plate", "variant": "A1", "task_id": "003"}
+{"task_desc": "large light red bowl on plate", "variant": "A2", "task_id": "003"}
+{"task_desc": "pink bowl on top cabinet", "variant": "A1", "task_id": "004"}
+{"task_desc": "large light red bowl on top cabinet", "variant": "A2", "task_id": "004"}
+{"task_desc": "pink bowl on top cabinet", "variant": "A1", "task_id": "005"}
+{"task_desc": "small light green bowl on top cabinet", "variant": "A2", "task_id": "005"}
+{"task_desc": "teal bowl on top cabinet", "variant": "A1", "task_id": "006"}
+{"task_desc": "small dark yellow bowl on top cabinet", "variant": "A2", "task_id": "006"}
+{"task_desc": "open top drawer cabinet", "variant": "", "task_id": "007"}
+{"task_desc": "open middle drawer cabinet", "variant": "", "task_id": "008"}
+{"task_desc": "open top drawer cabinet", "variant": "", "task_id": "009"}
+{"task_desc": "pink bowl on plate", "variant": "A1", "task_id": "010"}
+{"task_desc": "small light green bowl on plate", "variant": "A2", "task_id": "010"}
+{"task_desc": "teal bowl on plate", "variant": "A1", "task_id": "011"}
+{"task_desc": "small dark yellow bowl on plate", "variant": "A2", "task_id": "011"}
+{"task_desc": "orange bowl on plate", "variant": "A1", "task_id": "012"}
+{"task_desc": "large light red bowl on plate", "variant": "A2", "task_id": "012"}
+{"task_desc": "cyan bowl on plate", "variant": "A1", "task_id": "013"}
+{"task_desc": "small light green bowl on plate", "variant": "A2", "task_id": "013"}
+{"task_desc": "teal bowl on plate", "variant": "A1", "task_id": "014"}
+{"task_desc": "small dark yellow bowl on plate", "variant": "A2", "task_id": "014"}
+{"task_desc": "teal bowl on plate", "variant": "A1", "task_id": "015"}
+{"task_desc": "large light red bowl on plate", "variant": "A2", "task_id": "015"}
+{"task_desc": "open middle drawer cabinet", "variant": "", "task_id": "016"}
+{"task_desc": "open top drawer cabinet", "variant": "", "task_id": "017"}
+{"task_desc": "cyan bowl on top cabinet", "variant": "A1", "task_id": "018"}
+{"task_desc": "large light red bowl on top cabinet", "variant": "A2", "task_id": "018"}
+{"task_desc": "orange bowl on top cabinet", "variant": "A1", "task_id": "019"}
+{"task_desc": "small light green bowl on top cabinet", "variant": "A2", "task_id": "019"}
+{"task_desc": "pink bowl on top cabinet", "variant": "A1", "task_id": "020"}
+{"task_desc": "small dark yellow bowl on top cabinet", "variant": "A2", "task_id": "020"}
+{"task_desc": "open middle drawer cabinet", "variant": "", "task_id": "021"}
+{"task_desc": "open top drawer cabinet", "variant": "", "task_id": "022"}
+{"task_desc": "orange bowl on plate", "variant": "A1", "task_id": "023"}
+{"task_desc": "small light green bowl on plate", "variant": "A2", "task_id": "023"}
+{"task_desc": "pink bowl on plate", "variant": "A1", "task_id": "024"}
+{"task_desc": "small dark yellow bowl on plate", "variant": "A2", "task_id": "024"}
+{"task_desc": "cyan bowl on plate", "variant": "A1", "task_id": "025"}
+{"task_desc": "large light red bowl on plate", "variant": "A2", "task_id": "025"}
+{"task_desc": "close bottom drawer cabinet", "variant": "", "task_id": "026"}
+{"task_desc": "orange bowl in bottom drawer cabinet", "variant": "A1", "task_id": "027"}
+{"task_desc": "small light green bowl in bottom drawer cabinet", "variant": "A2", "task_id": "027"}
+{"task_desc": "orange bowl in bottom drawer cabinet", "variant": "A1", "task_id": "028"}
+{"task_desc": "large light red bowl in bottom drawer cabinet", "variant": "A2", "task_id": "028"}
+{"task_desc": "orange bowl in bottom drawer cabinet", "variant": "A1", "task_id": "029"}
+{"task_desc": "small dark yellow bowl in bottom drawer cabinet", "variant": "A2", "task_id": "029"}
+{"task_desc": "bbq sauce in bottom drawer cabinet and close drawer", "variant": "", "task_id": "030"}
+{"task_desc": "cookies in bottom drawer cabinet and close drawer", "variant": "", "task_id": "031"}
+{"task_desc": "cream cheese in bottom drawer cabinet and close drawer", "variant": "", "task_id": "032"}
+{"task_desc": "close bottom drawer cabinet and popcorn on plate", "variant": "", "task_id": "033"}
+{"task_desc": "close bottom drawer cabinet and alphabet soup on plate", "variant": "", "task_id": "034"}
+{"task_desc": "close bottom drawer cabinet and alphabet soup on plate", "variant": "", "task_id": "035"}
+{"task_desc": "teal bowl on plate", "variant": "A1", "task_id": "036"}
+{"task_desc": "small light green bowl on plate", "variant": "A2", "task_id": "036"}
+{"task_desc": "orange bowl on plate", "variant": "A1", "task_id": "037"}
+{"task_desc": "large light red bowl on plate", "variant": "A2", "task_id": "037"}
+{"task_desc": "pink bowl on plate", "variant": "A1", "task_id": "038"}
+{"task_desc": "small dark yellow bowl on plate", "variant": "A2", "task_id": "038"}
+{"task_desc": "orange juice on plate and close bottom drawer cabinet", "variant": "", "task_id": "039"}
+{"task_desc": "teal bowl on plate", "variant": "A1", "task_id": "040"}
+{"task_desc": "small light green bowl on plate", "variant": "A2", "task_id": "040"}
+{"task_desc": "teal bowl on plate", "variant": "A1", "task_id": "041"}
+{"task_desc": "small dark yellow bowl on plate", "variant": "A2", "task_id": "041"}
+{"task_desc": "cyan bowl to left bowl drainer", "variant": "A1", "task_id": "042"}
+{"task_desc": "teal bowl to left bowl drainer", "variant": "A1", "task_id": "043"}
+{"task_desc": "orange bowl to right bowl drainer", "variant": "A1", "task_id": "044"}
+{"task_desc": "cyan bowl to right bowl drainer", "variant": "A1", "task_id": "045"}
+{"task_desc": "bowl on plate and to right bowl drainer", "variant": "", "task_id": "046"}
+{"task_desc": "bowl on plate and to left bowl drainer", "variant": "", "task_id": "047"}
+{"task_desc": "bowl on table and to right bowl drainer", "variant": "", "task_id": "048"}
+{"task_desc": "bowl on table and to left bowl drainer", "variant": "", "task_id": "049"}
+{"task_desc": "bowl on plate and on top cabinet", "variant": "", "task_id": "050"}
+{"task_desc": "bowl on table and on top cabinet", "variant": "", "task_id": "051"}
+{"task_desc": "cyan bowl to left bowl drainer", "variant": "A1", "task_id": "052"}
+{"task_desc": "orange bowl to left bowl drainer", "variant": "A1", "task_id": "053"}
+{"task_desc": "cyan bowl to right bowl drainer", "variant": "A1", "task_id": "054"}
+{"task_desc": "cyan bowl to right bowl drainer", "variant": "A1", "task_id": "055"}
+{"task_desc": "cyan bowl on stove", "variant": "A1", "task_id": "056"}
+{"task_desc": "small light green bowl on stove", "variant": "A2", "task_id": "056"}
+{"task_desc": "orange bowl on stove", "variant": "A1", "task_id": "057"}
+{"task_desc": "large light grey bowl on stove", "variant": "A2", "task_id": "057"}
+{"task_desc": "turn on flat stove", "variant": "", "task_id": "058"}
+{"task_desc": "ketchup on stove and turn on stove", "variant": "", "task_id": "059"}
+{"task_desc": "bbq sauce on stove and turn on stove", "variant": "", "task_id": "060"}
+{"task_desc": "milk to left bowl drainer", "variant": "", "task_id": "061"}
+{"task_desc": "macaroni and cheese to right bowl drainer", "variant": "", "task_id": "062"}
+{"task_desc": "teal bowl to right bowl drainer and pink bowl to left bowl drainer", "variant": "A1", "task_id": "063"}
+{"task_desc": "pink bowl to right bowl drainer and teal bowl to left bowl drainer", "variant": "A1", "task_id": "064"}
+{"task_desc": "cyan bowl to left bowl drainer", "variant": "A1", "task_id": "065"}
+{"task_desc": "pink bowl to left bowl drainer", "variant": "A1", "task_id": "066"}
+{"task_desc": "pink bowl to right bowl drainer", "variant": "A1", "task_id": "067"}
+{"task_desc": "pink bowl to right bowl drainer", "variant": "A1", "task_id": "068"}
+{"task_desc": "pink bowl on stove", "variant": "A1", "task_id": "069"}
+{"task_desc": "small light green bowl on stove", "variant": "A2", "task_id": "069"}
+{"task_desc": "cyan bowl on stove", "variant": "A1", "task_id": "070"}
+{"task_desc": "large light grey bowl on stove", "variant": "A2", "task_id": "070"}
+{"task_desc": "turn on flat stove", "variant": "", "task_id": "071"}
+{"task_desc": "popcorn on stove and turn on stove", "variant": "", "task_id": "072"}
+{"task_desc": "butter on stove and turn on stove", "variant": "", "task_id": "073"}
+{"task_desc": "orange bowl on top shelf", "variant": "A1", "task_id": "074"}
+{"task_desc": "small light green bowl on top shelf", "variant": "A2", "task_id": "074"}
+{"task_desc": "orange bowl on top shelf", "variant": "A1", "task_id": "075"}
+{"task_desc": "small dark yellow bowl on top shelf", "variant": "A2", "task_id": "075"}
+{"task_desc": "cyan bowl to right bowl drainer", "variant": "A1", "task_id": "076"}
+{"task_desc": "teal bowl to left bowl drainer", "variant": "A1", "task_id": "077"}
+{"task_desc": "turn on flat stove", "variant": "", "task_id": "078"}
+{"task_desc": "chocolate pudding on stove", "variant": "", "task_id": "079"}
+{"task_desc": "butter on top shelf", "variant": "", "task_id": "080"}
+{"task_desc": "popcorn on top layer shelf", "variant": "", "task_id": "081"}
+{"task_desc": "popcorn on bottom layer shelf", "variant": "", "task_id": "082"}
+{"task_desc": "turn on flat stove", "variant": "", "task_id": "083"}
+{"task_desc": "orange juice on stove", "variant": "", "task_id": "084"}
+{"task_desc": "milk on stove and turn on stove", "variant": "", "task_id": "085"}
+{"task_desc": "cream cheese on top shelf", "variant": "", "task_id": "086"}
+{"task_desc": "ketchup on top layer shelf", "variant": "", "task_id": "087"}
+{"task_desc": "butter on top layer shelf", "variant": "", "task_id": "088"}
+{"task_desc": "cream cheese on stove", "variant": "", "task_id": "089"}
+{"task_desc": "milk on stove and turn on stove", "variant": "", "task_id": "090"}
+{"task_desc": "macaroni and cheese on top shelf", "variant": "", "task_id": "091"}
+{"task_desc": "cream cheese on stove", "variant": "", "task_id": "092"}
+{"task_desc": "ketchup on stove and turn on stove", "variant": "", "task_id": "093"}
+{"task_desc": "orange juice on top shelf", "variant": "", "task_id": "094"}
+{"task_desc": "orange juice on stove", "variant": "", "task_id": "095"}
+{"task_desc": "chocolate pudding on stove and close stove", "variant": "", "task_id": "096"}
+{"task_desc": "bowl on plate", "variant": "", "task_id": "097"}
+{"task_desc": "alphabet soup on stove", "variant": "", "task_id": "098"}
+{"task_desc": "cookies on stove", "variant": "", "task_id": "099"}
+{"task_desc": "bowl on plate", "variant": "", "task_id": "100"}
+{"task_desc": "butter on top layer shelf", "variant": "", "task_id": "101"}
+{"task_desc": "popcorn on top layer shelf and chocolate pudding on stove", "variant": "", "task_id": "102"}
+{"task_desc": "bowl on plate", "variant": "", "task_id": "103"}
+{"task_desc": "turn on stove", "variant": "", "task_id": "104"}
+{"task_desc": "bowl on top shelf", "variant": "", "task_id": "105"}
+{"task_desc": "orange bowl on plate", "variant": "A1", "task_id": "106"}
+{"task_desc": "small light green bowl on plate", "variant": "A2", "task_id": "106"}
+{"task_desc": "pink bowl on plate", "variant": "A1", "task_id": "107"}
+{"task_desc": "large light red bowl on plate", "variant": "A2", "task_id": "107"}
+{"task_desc": "pink bowl in basket", "variant": "A1", "task_id": "108"}
+{"task_desc": "small light green bowl in basket", "variant": "A2", "task_id": "108"}
+{"task_desc": "cyan bowl in basket", "variant": "A1", "task_id": "109"}
+{"task_desc": "large light red bowl in basket", "variant": "A2", "task_id": "109"}
+{"task_desc": "orange bowl on plate", "variant": "A1", "task_id": "110"}
+{"task_desc": "small light green bowl on plate", "variant": "A2", "task_id": "110"}
+{"task_desc": "orange bowl on plate", "variant": "A1", "task_id": "111"}
+{"task_desc": "large light grey bowl on plate", "variant": "A2", "task_id": "111"}
+{"task_desc": "pink bowl in basket", "variant": "A1", "task_id": "112"}
+{"task_desc": "small light green bowl in basket", "variant": "A2", "task_id": "112"}
+{"task_desc": "teal bowl in basket", "variant": "A1", "task_id": "113"}
+{"task_desc": "large light grey bowl in basket", "variant": "A2", "task_id": "113"}
+{"task_desc": "pink bowl on plate", "variant": "A1", "task_id": "114"}
+{"task_desc": "small light green bowl on plate", "variant": "A2", "task_id": "114"}
+{"task_desc": "pink bowl on plate", "variant": "A1", "task_id": "115"}
+{"task_desc": "large light grey bowl on plate", "variant": "A2", "task_id": "115"}
+{"task_desc": "teal bowl on plate", "variant": "A1", "task_id": "116"}
+{"task_desc": "large dark blue bowl on plate", "variant": "A2", "task_id": "116"}
+{"task_desc": "orange bowl in wooden tray", "variant": "A1", "task_id": "117"}
+{"task_desc": "small light green bowl in wooden tray", "variant": "A2", "task_id": "117"}
+{"task_desc": "cyan bowl in wooden tray", "variant": "A1", "task_id": "118"}
+{"task_desc": "large light grey bowl in wooden tray", "variant": "A2", "task_id": "118"}
+{"task_desc": "orange bowl in wooden tray", "variant": "A1", "task_id": "119"}
+{"task_desc": "large dark blue bowl in wooden tray", "variant": "A2", "task_id": "119"}
+{"task_desc": "teal bowl and orange bowl in wooden tray", "variant": "A1", "task_id": "120"}
+{"task_desc": "teal bowl and orange bowl in wooden tray", "variant": "A1", "task_id": "121"}
+{"task_desc": "orange bowl and teal bowl in wooden tray", "variant": "A1", "task_id": "122"}
+{"task_desc": "pink bowl onto plate that is in center table", "variant": "A1", "task_id": "123"}
+{"task_desc": "small light green bowl onto plate that is in center table", "variant": "A2", "task_id": "123"}
+{"task_desc": "cyan bowl onto plate that is in center table", "variant": "A1", "task_id": "124"}
+{"task_desc": "large light grey bowl onto plate that is in center table", "variant": "A2", "task_id": "124"}
+{"task_desc": "cyan bowl onto plate that is in center table", "variant": "A1", "task_id": "125"}
+{"task_desc": "large dark blue bowl onto plate that is in center table", "variant": "A2", "task_id": "125"}
+{"task_desc": "cyan bowl onto plate that is next to blue bowl", "variant": "A1", "task_id": "126"}
+{"task_desc": "small light green bowl onto plate that is next to blue bowl", "variant": "A2", "task_id": "126"}
+{"task_desc": "orange bowl onto plate that is next to blue bowl", "variant": "A1", "task_id": "127"}
+{"task_desc": "large light grey bowl onto plate that is next to blue bowl", "variant": "A2", "task_id": "127"}
+{"task_desc": "orange bowl onto plate that is next to orange bowl", "variant": "A1", "task_id": "128"}
+{"task_desc": "large dark blue bowl onto plate that is next to large dark blue bowl", "variant": "A2", "task_id": "128"}
+{"task_desc": "pink bowl onto plate that is in table center and cyan bowl onto plate that is next to blue bowl", "variant": "A1", "task_id": "129"}
+{"task_desc": "cyan bowl onto plate that is in table center and orange bowl onto plate that is next to blue bowl", "variant": "A1", "task_id": "130"}
+{"task_desc": "pink bowl onto plate that is in table center", "variant": "A1", "task_id": "131"}
+{"task_desc": "large off-white bowl onto plate that is in table center", "variant": "A2", "task_id": "131"}
+{"task_desc": "teal bowl on off-center plate", "variant": "A1", "task_id": "132"}
+{"task_desc": "large off-white bowl on off-center plate", "variant": "A2", "task_id": "132"}
+{"task_desc": "cyan bowl on green bowl", "variant": "A1", "task_id": "133"}
+{"task_desc": "teal bowl on blue bowl", "variant": "A1", "task_id": "134"}
+{"task_desc": "orange bowl on off-center plate and cyan bowl on top wooden shelf", "variant": "A1", "task_id": "135"}
+{"task_desc": "pink bowl on off-center plate and cyan bowl on top wooden shelf", "variant": "A1", "task_id": "136"}
+{"task_desc": "orange bowl on plate", "variant": "A1", "task_id": "137"}
+{"task_desc": "large off-white bowl on plate", "variant": "A2", "task_id": "137"}
+{"task_desc": "orange bowl on plate", "variant": "A1", "task_id": "138"}
+{"task_desc": "small light green bowl on plate", "variant": "A2", "task_id": "138"}
+{"task_desc": "white bowl on plate and pink bowl on top microwave", "variant": "A1", "task_id": "139"}
+{"task_desc": "cyan bowl on plate next to green bowl", "variant": "A1", "task_id": "140"}
+{"task_desc": "large off-white bowl on plate next to green bowl", "variant": "A2", "task_id": "140"}
+{"task_desc": "orange bowl on plate next to green bowl", "variant": "A1", "task_id": "141"}
+{"task_desc": "large dark blue bowl on plate next to green bowl", "variant": "A2", "task_id": "141"}
+{"task_desc": "teal bowl on plate next to teal bowl", "variant": "A1", "task_id": "142"}
+{"task_desc": "small light green bowl on plate next to small light green bowl", "variant": "A2", "task_id": "142"}
+{"task_desc": "pink bowl on blue bowl", "variant": "A1", "task_id": "143"}
+{"task_desc": "teal bowl on green bowl", "variant": "A1", "task_id": "144"}
+{"task_desc": "teal bowl onto plate that is on left side table", "variant": "A1", "task_id": "145"}
+{"task_desc": "large off-white bowl onto plate that is on left side table", "variant": "A2", "task_id": "145"}
+{"task_desc": "cyan bowl onto plate that is on left side table", "variant": "A1", "task_id": "146"}
+{"task_desc": "small light green bowl onto plate that is on left side table", "variant": "A2", "task_id": "146"}
+{"task_desc": "orange bowl onto plate that is on left side table", "variant": "A1", "task_id": "147"}
+{"task_desc": "large dark blue bowl onto plate that is on left side table", "variant": "A2", "task_id": "147"}
+{"task_desc": "cyan bowl onto plate that is on top cabinet", "variant": "A1", "task_id": "148"}
+{"task_desc": "large dark blue bowl onto plate that is on top cabinet", "variant": "A2", "task_id": "148"}
+{"task_desc": "pink bowl onto plate that is on top cabinet", "variant": "A1", "task_id": "149"}
+{"task_desc": "small light green bowl onto plate that is on top cabinet", "variant": "A2", "task_id": "149"}
+{"task_desc": "pink bowl onto plate that is on top cabinet", "variant": "A1", "task_id": "150"}
+{"task_desc": "large off-white bowl onto plate that is on top cabinet", "variant": "A2", "task_id": "150"}
+{"task_desc": "cyan bowl onto plate that is on left side table", "variant": "A1", "task_id": "151"}
+{"task_desc": "large dark blue bowl onto plate that is on left side table", "variant": "A2", "task_id": "151"}
+{"task_desc": "orange bowl onto plate that is on left side table", "variant": "A1", "task_id": "152"}
+{"task_desc": "small light green bowl onto plate that is on left side table", "variant": "A2", "task_id": "152"}
+{"task_desc": "teal bowl onto plate that is on left side table", "variant": "A1", "task_id": "153"}
+{"task_desc": "large off-white bowl onto plate that is on left side table", "variant": "A2", "task_id": "153"}
+{"task_desc": "cyan bowl on blue bowl", "variant": "A1", "task_id": "154"}
+{"task_desc": "pink bowl on green bowl", "variant": "A1", "task_id": "155"}
+{"task_desc": "orange bowl to left bowl drainer", "variant": "A1", "task_id": "156"}
+{"task_desc": "cyan bowl to left bowl drainer", "variant": "A1", "task_id": "157"}
+{"task_desc": "cyan bowl to left bowl drainer", "variant": "A1", "task_id": "158"}
+{"task_desc": "pink bowl to right bowl drainer", "variant": "A1", "task_id": "159"}
+{"task_desc": "teal bowl to right bowl drainer", "variant": "A1", "task_id": "160"}
+{"task_desc": "cyan bowl to right bowl drainer", "variant": "A1", "task_id": "161"}
+{"task_desc": "teal bowl on black bowl", "variant": "A1", "task_id": "162"}
+{"task_desc": "teal bowl on black bowl", "variant": "A1", "task_id": "163"}
+{"task_desc": "teal bowl to left bowl drainer and orange bowl to right bowl drainer", "variant": "A1", "task_id": "164"}
+{"task_desc": "teal bowl to left bowl drainer and pink bowl to right bowl drainer", "variant": "A1", "task_id": "165"}
+{"task_desc": "cyan bowl to right bowl drainer and pink bowl to left bowl drainer", "variant": "A1", "task_id": "166"}
+{"task_desc": "cyan bowl to right bowl drainer and teal bowl to left bowl drainer", "variant": "A1", "task_id": "167"}
+{"task_desc": "butter on stove", "variant": "", "task_id": "168"}
+{"task_desc": "tomato sauce on top layer wooden shelf", "variant": "", "task_id": "169"}
+{"task_desc": "popcorn on top wooden shelf", "variant": "", "task_id": "170"}
+{"task_desc": "ramekin on top wooden shelf", "variant": "", "task_id": "171"}
+{"task_desc": "ramekin on bottom layer wooden shelf", "variant": "", "task_id": "172"}
+{"task_desc": "ramekin on stove", "variant": "", "task_id": "173"}
+{"task_desc": "turn on stove", "variant": "", "task_id": "174"}
+{"task_desc": "medium-sized bowl inside right bowl drainer", "variant": "", "task_id": "175"}
+{"task_desc": "smallest bowl inside right bowl drainer", "variant": "", "task_id": "176"}
+{"task_desc": "largest bowl inside right bowl drainer", "variant": "", "task_id": "177"}
+{"task_desc": "medium-sized bowl inside left bowl drainer", "variant": "", "task_id": "178"}
+{"task_desc": "smallest bowl inside left bowl drainer", "variant": "", "task_id": "179"}
+{"task_desc": "largest bowl inside left bowl drainer", "variant": "", "task_id": "180"}
+{"task_desc": "medium-sized bowl on flat stove", "variant": "", "task_id": "181"}
+{"task_desc": "smallest bowl on flat stove", "variant": "", "task_id": "182"}
+{"task_desc": "largest bowl on flat stove", "variant": "", "task_id": "183"}
+{"task_desc": "largest bowl in left side drainer and medium bowl in right side", "variant": "", "task_id": "184"}
+{"task_desc": "smallest bowl in left side drainer and medium bowl in right side", "variant": "", "task_id": "185"}
+{"task_desc": "turn off flat stove", "variant": "", "task_id": "186"}
+{"task_desc": "turn off flat stove and largest bowl on", "variant": "", "task_id": "187"}
+{"task_desc": "turn off flat stove and smallest bowl on", "variant": "", "task_id": "188"}
+{"task_desc": "largest bowl in left side drainer and medium bowl in right side", "variant": "", "task_id": "189"}
+{"task_desc": "smallest bowl in left side drainer and medium bowl in right side", "variant": "", "task_id": "190"}
+{"task_desc": "turn off stove and largest bowl in left side drainer and medium bowl in right side", "variant": "", "task_id": "191"}
+{"task_desc": "turn off stove and smallest bowl in left side drainer and medium bowl in right side", "variant": "", "task_id": "192"}
+{"task_desc": "largest bowl in left side drainer", "variant": "", "task_id": "193"}
+{"task_desc": "smallest bowl in left side drainer", "variant": "", "task_id": "194"}
+{"task_desc": "middle-sized bowl in left side drainer", "variant": "", "task_id": "195"}
+{"task_desc": "cream cheese in smallest bowl", "variant": "", "task_id": "196"}
+{"task_desc": "bbq sauce in middle-sized bowl", "variant": "", "task_id": "197"}
+{"task_desc": "cream cheese in largest bowl", "variant": "", "task_id": "198"}
+{"task_desc": "smallest bowl on largest bowl", "variant": "", "task_id": "199"}
+{"task_desc": "middle-sized bowl on largest bowl", "variant": "", "task_id": "200"}
+{"task_desc": "smallest bowl on middle-sized bowl", "variant": "", "task_id": "201"}
+{"task_desc": "middle-sized bowl on largest bowl and smallest bowl on middle-sized bowl", "variant": "", "task_id": "202"}
+{"task_desc": "butter in green bowl", "variant": "", "task_id": "203"}
+{"task_desc": "teal bowl in left side drainer", "variant": "A1", "task_id": "204"}
+{"task_desc": "pink bowl in right side drainer", "variant": "A1", "task_id": "205"}
+{"task_desc": "green bowl on largest bowl", "variant": "", "task_id": "206"}
+{"task_desc": "pink bowl on middle-sized black bowl", "variant": "A1", "task_id": "207"}
+{"task_desc": "middle-sized black bowl on green bowl", "variant": "", "task_id": "208"}
+{"task_desc": "smallest bowl on middle-sized black bowl", "variant": "", "task_id": "209"}
+{"task_desc": "smallest bowl on green bowl", "variant": "", "task_id": "210"}
+{"task_desc": "cream cheese in smallest bowl", "variant": "", "task_id": "211"}
+{"task_desc": "bbq sauce in middle-sized bowl", "variant": "", "task_id": "212"}
+{"task_desc": "cream cheese in largest bowl", "variant": "", "task_id": "213"}
+{"task_desc": "smallest bowl in left side drainer and largest bowl in right side", "variant": "", "task_id": "214"}
+{"task_desc": "largest bowl in left side drainer and smallest bowl in right side", "variant": "", "task_id": "215"}
+{"task_desc": "smallest bowl on largest bowl", "variant": "", "task_id": "216"}
+{"task_desc": "middle-sized bowl on largest bowl", "variant": "", "task_id": "217"}
+{"task_desc": "smallest bowl on middle-sized bowl", "variant": "", "task_id": "218"}
+{"task_desc": "open top drawer cabinet", "variant": "", "task_id": "219"}
+{"task_desc": "open middle drawer cabinet", "variant": "", "task_id": "220"}
+{"task_desc": "turn off flat stove", "variant": "", "task_id": "221"}
+{"task_desc": "mug on plate", "variant": "", "task_id": "222"}
+{"task_desc": "chocolate pudding on stove", "variant": "", "task_id": "223"}
+{"task_desc": "salad dressing on stove and turn off stove", "variant": "", "task_id": "224"}
+{"task_desc": "mug on plate", "variant": "", "task_id": "225"}
+{"task_desc": "frying pan on top layer shelf", "variant": "", "task_id": "226"}
+{"task_desc": "frying pan on top layer shelf and bbq sauce on stove", "variant": "", "task_id": "227"}
+{"task_desc": "alphabet soup on plate", "variant": "", "task_id": "228"}
+{"task_desc": "alphabet soup on plate", "variant": "", "task_id": "229"}
+{"task_desc": "frying pan on top layer shelf", "variant": "", "task_id": "230"}
+{"task_desc": "frying pan on top layer shelf and turn off stove", "variant": "", "task_id": "231"}
+{"task_desc": "chocolate pudding on plate", "variant": "", "task_id": "232"}
+{"task_desc": "chocolate pudding on plate", "variant": "", "task_id": "233"}
+{"task_desc": "orange juice on plate", "variant": "", "task_id": "234"}
+{"task_desc": "popcorn on stove", "variant": "", "task_id": "235"}
+{"task_desc": "salad dressing in basket", "variant": "", "task_id": "236"}
+{"task_desc": "macaroni and cheese in basket", "variant": "", "task_id": "237"}
+{"task_desc": "ketchup on stove", "variant": "", "task_id": "238"}
+{"task_desc": "tomato sauce on stove and turn off stove", "variant": "", "task_id": "239"}
+{"task_desc": "alphabet soup in basket", "variant": "", "task_id": "240"}
+{"task_desc": "salad dressing in basket", "variant": "", "task_id": "241"}
+{"task_desc": "cookies in basket", "variant": "", "task_id": "242"}
+{"task_desc": "ketchup in basket", "variant": "", "task_id": "243"}
+{"task_desc": "macaroni and cheese in basket", "variant": "", "task_id": "244"}
+{"task_desc": "tomato sauce on plate", "variant": "", "task_id": "245"}
+{"task_desc": "cream cheese on plate", "variant": "", "task_id": "246"}
+{"task_desc": "open microwave", "variant": "", "task_id": "247"}
+{"task_desc": "open microwave and alphabet soup in", "variant": "", "task_id": "248"}
+{"task_desc": "open microwave and cream cheese in", "variant": "", "task_id": "249"}
+{"task_desc": "open microwave", "variant": "", "task_id": "250"}
+{"task_desc": "open microwave and chocolate pudding in", "variant": "", "task_id": "251"}
+{"task_desc": "open microwave and alphabet soup in", "variant": "", "task_id": "252"}
+{"task_desc": "close top drawer cabinet", "variant": "", "task_id": "253"}
+{"task_desc": "close top and middle drawer cabinet", "variant": "", "task_id": "254"}
+{"task_desc": "bowl in top drawer", "variant": "", "task_id": "255"}
+{"task_desc": "bowl in top drawer and close top drawer", "variant": "", "task_id": "256"}
+{"task_desc": "close top drawer cabinet and bowl in middle drawer", "variant": "", "task_id": "257"}
+{"task_desc": "close top and middle drawer cabinet and close microwave", "variant": "", "task_id": "258"}
+{"task_desc": "cream cheese from table into top drawer", "variant": "", "task_id": "259"}
+{"task_desc": "tomato sauce from table onto top layer wine rack", "variant": "", "task_id": "260"}
+{"task_desc": "bbq sauce from drawer onto top layer wine rack", "variant": "", "task_id": "261"}
+{"task_desc": "cookies from drawer onto top layer wine rack and close drawer", "variant": "", "task_id": "262"}
+{"task_desc": "alphabet soup on top layer wine rack", "variant": "", "task_id": "263"}
+{"task_desc": "bowl on top cabinet", "variant": "", "task_id": "264"}
+{"task_desc": "milk in bottom drawer", "variant": "", "task_id": "265"}
+{"task_desc": "open top drawer", "variant": "", "task_id": "266"}
+{"task_desc": "close bottom drawer", "variant": "", "task_id": "267"}
+{"task_desc": "close bottom drawer and open middle drawer", "variant": "", "task_id": "268"}
+{"task_desc": "bowl on middle plate relative to robot", "variant": "", "task_id": "269"}
+{"task_desc": "bowl on nearest plate relative to robot", "variant": "", "task_id": "270"}
+{"task_desc": "bowl on nearest plate relative to robot", "variant": "", "task_id": "271"}
+{"task_desc": "bbq sauce that is in drawer onto top cabinet", "variant": "", "task_id": "272"}
+{"task_desc": "bbq sauce that is in drawer onto top cabinet and close drawer", "variant": "", "task_id": "273"}
+{"task_desc": "milk that is on plate onto top cabinet", "variant": "", "task_id": "274"}
+{"task_desc": "chocolate pudding that is in drawer onto middle plate relative to robot", "variant": "", "task_id": "275"}
+{"task_desc": "tomato sauce that is in drawer onto nearest plate relative to robot", "variant": "", "task_id": "276"}
+{"task_desc": "butter that is on plate onto middle plate relative to robot", "variant": "", "task_id": "277"}
+{"task_desc": "milk that is on plate onto nearest plate relative to robot", "variant": "", "task_id": "278"}
+{"task_desc": "popcorn that is on plate onto middle plate relative to robot", "variant": "", "task_id": "279"}
+{"task_desc": "cookies that is on plate onto nearest plate relative to robot", "variant": "", "task_id": "280"}
+{"task_desc": "popcorn on top cabinet", "variant": "", "task_id": "281"}
+{"task_desc": "open top drawer", "variant": "", "task_id": "282"}
+{"task_desc": "bowl on middle plate relative to robot", "variant": "", "task_id": "283"}
+{"task_desc": "bowl on nearest plate relative to robot", "variant": "", "task_id": "284"}
+{"task_desc": "bowl on top cabinet", "variant": "", "task_id": "285"}
+{"task_desc": "bowl on middle plate relative to robot and porcelain mug in bottom drawer", "variant": "", "task_id": "286"}
+{"task_desc": "bowl on nearest plate relative to robot and porcelain mug in bottom drawer", "variant": "", "task_id": "287"}
+{"task_desc": "cyan grid book into left caddy back", "variant": "A1", "task_id": "288"}
+{"task_desc": "light yellow book into left caddy back", "variant": "A2", "task_id": "288"}
+{"task_desc": "white speckle book into left caddy front", "variant": "A1", "task_id": "289"}
+{"task_desc": "dark grey book into left caddy front", "variant": "A2", "task_id": "289"}
+{"task_desc": "cookies into left caddy left", "variant": "", "task_id": "290"}
+{"task_desc": "teal wavy book into left caddy left", "variant": "A1", "task_id": "291"}
+{"task_desc": "light yellow book into left caddy left", "variant": "A2", "task_id": "291"}
+{"task_desc": "navy speckle book into left caddy left", "variant": "A1", "task_id": "292"}
+{"task_desc": "light yellow book into left caddy left", "variant": "A2", "task_id": "292"}
+{"task_desc": "orange juice into left caddy right", "variant": "", "task_id": "293"}
+{"task_desc": "brown grid book into left caddy right", "variant": "A1", "task_id": "294"}
+{"task_desc": "dark grey book into left caddy right", "variant": "A2", "task_id": "294"}
+{"task_desc": "cyan grid book into left caddy right", "variant": "A1", "task_id": "295"}
+{"task_desc": "light yellow book into left caddy right", "variant": "A2", "task_id": "295"}
+{"task_desc": "left yellow green striped book into left caddy back", "variant": "A1", "task_id": "296"}
+{"task_desc": "left dark grey book into left caddy back", "variant": "A2", "task_id": "296"}
+{"task_desc": "right white speckle book into left caddy front", "variant": "A1", "task_id": "297"}
+{"task_desc": "purple book into left caddy right", "variant": "A1", "task_id": "298"}
+{"task_desc": "light yellow book into left caddy right", "variant": "A2", "task_id": "298"}
+{"task_desc": "left purple book into left caddy left", "variant": "A1", "task_id": "299"}
+{"task_desc": "left dark grey book into left caddy left", "variant": "A2", "task_id": "299"}
+{"task_desc": "yellow green striped book into left caddy back", "variant": "A1", "task_id": "300"}
+{"task_desc": "light green book into left caddy back", "variant": "A2", "task_id": "300"}
+{"task_desc": "white speckle book into left caddy back", "variant": "A1", "task_id": "301"}
+{"task_desc": "light yellow book into left caddy back", "variant": "A2", "task_id": "301"}
+{"task_desc": "butter into left caddy right", "variant": "", "task_id": "302"}
+{"task_desc": "cyan grid book into left caddy left", "variant": "A1", "task_id": "303"}
+{"task_desc": "dark grey book into left caddy left", "variant": "A2", "task_id": "303"}
+{"task_desc": "purple book into left caddy left", "variant": "A1", "task_id": "304"}
+{"task_desc": "light red book into left caddy left", "variant": "A2", "task_id": "304"}
+{"task_desc": "purple book into left caddy right", "variant": "A1", "task_id": "305"}
+{"task_desc": "dark orange book into left caddy right", "variant": "A2", "task_id": "305"}
+{"task_desc": "popcorn into left caddy left", "variant": "", "task_id": "306"}
+{"task_desc": "white speckle book into left caddy front", "variant": "A1", "task_id": "307"}
+{"task_desc": "dark striped book into left caddy front", "variant": "A2", "task_id": "307"}
+{"task_desc": "purple book into left caddy front", "variant": "A1", "task_id": "308"}
+{"task_desc": "light yellow book into left caddy front", "variant": "A2", "task_id": "308"}
+{"task_desc": "navy speckle book into left caddy left", "variant": "A1", "task_id": "309"}
+{"task_desc": "dark striped book into left caddy left", "variant": "A2", "task_id": "309"}
+{"task_desc": "bbq sauce into left caddy left", "variant": "", "task_id": "310"}
+{"task_desc": "brown grid book into left caddy front", "variant": "A1", "task_id": "311"}
+{"task_desc": "light red book into left caddy front", "variant": "A2", "task_id": "311"}
+{"task_desc": "yellow green striped book into left caddy left", "variant": "A1", "task_id": "312"}
+{"task_desc": "light green book into left caddy left", "variant": "A2", "task_id": "312"}
+{"task_desc": "navy speckle book into left caddy back", "variant": "A1", "task_id": "313"}
+{"task_desc": "light yellow book into left caddy back", "variant": "A2", "task_id": "313"}
+{"task_desc": "white speckle book into left caddy left", "variant": "A1", "task_id": "314"}
+{"task_desc": "dark striped book into left caddy left", "variant": "A2", "task_id": "314"}
+{"task_desc": "brown grid book into left caddy back", "variant": "A1", "task_id": "315"}
+{"task_desc": "dark orange book into left caddy back", "variant": "A2", "task_id": "315"}
+{"task_desc": "left purple book into left caddy back", "variant": "A1", "task_id": "316"}
+{"task_desc": "right purple book into left caddy front", "variant": "A1", "task_id": "317"}
+{"task_desc": "right light red book into left caddy front", "variant": "A2", "task_id": "317"}
+{"task_desc": "yellow green striped book into left caddy back", "variant": "A1", "task_id": "318"}
+{"task_desc": "dark striped book into left caddy back", "variant": "A2", "task_id": "318"}
+{"task_desc": "teal wavy book into left caddy right", "variant": "A1", "task_id": "319"}
+{"task_desc": "dark orange book into left caddy right", "variant": "A2", "task_id": "319"}
+{"task_desc": "right brown grid book into left caddy front", "variant": "A1", "task_id": "320"}
+{"task_desc": "purple book into left caddy back", "variant": "A1", "task_id": "321"}
+{"task_desc": "light green book into left caddy back", "variant": "A2", "task_id": "321"}
+{"task_desc": "left purple book into left caddy front", "variant": "A1", "task_id": "322"}
+{"task_desc": "left light yellow book into left caddy front", "variant": "A2", "task_id": "322"}
+{"task_desc": "yellow green striped book into left caddy front", "variant": "A1", "task_id": "323"}
+{"task_desc": "light red book into left caddy front", "variant": "A2", "task_id": "323"}
+{"task_desc": "left pink wavy book into left caddy right", "variant": "A1", "task_id": "324"}
+{"task_desc": "right yellow green striped book into left caddy front", "variant": "A1", "task_id": "325"}
+{"task_desc": "right dark striped book into left caddy front", "variant": "A2", "task_id": "325"}
+{"task_desc": "brown grid book into left caddy left", "variant": "A1", "task_id": "326"}
+{"task_desc": "dark grey book into left caddy left", "variant": "A2", "task_id": "326"}
+{"task_desc": "popcorn into left caddy right", "variant": "", "task_id": "327"}
+{"task_desc": "teal wavy book into right caddy back", "variant": "A1", "task_id": "328"}
+{"task_desc": "dark grey book into right caddy back", "variant": "A2", "task_id": "328"}
+{"task_desc": "bbq sauce into right caddy right", "variant": "", "task_id": "329"}
+{"task_desc": "teal wavy book into right caddy right", "variant": "A1", "task_id": "330"}
+{"task_desc": "light yellow book into right caddy right", "variant": "A2", "task_id": "330"}
+{"task_desc": "white speckle book into right caddy right", "variant": "A1", "task_id": "331"}
+{"task_desc": "dark grey book into right caddy right", "variant": "A2", "task_id": "331"}
+{"task_desc": "tomato sauce into right caddy right", "variant": "", "task_id": "332"}
+{"task_desc": "teal wavy book into right caddy right", "variant": "A1", "task_id": "333"}
+{"task_desc": "light yellow book into right caddy right", "variant": "A2", "task_id": "333"}
+{"task_desc": "brown grid book into right caddy right", "variant": "A1", "task_id": "334"}
+{"task_desc": "dark grey book into right caddy right", "variant": "A2", "task_id": "334"}
+{"task_desc": "cream cheese into right caddy left", "variant": "", "task_id": "335"}
+{"task_desc": "white speckle book into right caddy back", "variant": "A1", "task_id": "336"}
+{"task_desc": "light yellow book into right caddy back", "variant": "A2", "task_id": "336"}
+{"task_desc": "left pink wavy book into right caddy right", "variant": "A1", "task_id": "337"}
+{"task_desc": "right navy speckle book into right caddy front", "variant": "A1", "task_id": "338"}
+{"task_desc": "right dark grey book into right caddy front", "variant": "A2", "task_id": "338"}
+{"task_desc": "brown grid book into right caddy right", "variant": "A1", "task_id": "339"}
+{"task_desc": "light yellow book into right caddy right", "variant": "A2", "task_id": "339"}
+{"task_desc": "teal wavy book into right caddy front", "variant": "A1", "task_id": "340"}
+{"task_desc": "dark grey book into right caddy front", "variant": "A2", "task_id": "340"}
+{"task_desc": "white speckle book into right caddy back", "variant": "A1", "task_id": "341"}
+{"task_desc": "light yellow book into right caddy back", "variant": "A2", "task_id": "341"}
+{"task_desc": "tomato sauce into right caddy right", "variant": "", "task_id": "342"}
+{"task_desc": "navy speckle book into right caddy right", "variant": "A1", "task_id": "343"}
+{"task_desc": "light green book into right caddy right", "variant": "A2", "task_id": "343"}
+{"task_desc": "popcorn into right caddy left", "variant": "", "task_id": "344"}
+{"task_desc": "teal wavy book into right caddy back", "variant": "A1", "task_id": "345"}
+{"task_desc": "dark orange book into right caddy back", "variant": "A2", "task_id": "345"}
+{"task_desc": "pink wavy book into right caddy front", "variant": "A1", "task_id": "346"}
+{"task_desc": "light red book into right caddy front", "variant": "A2", "task_id": "346"}
+{"task_desc": "yellow green striped book into right caddy left", "variant": "A1", "task_id": "347"}
+{"task_desc": "dark striped book into right caddy left", "variant": "A2", "task_id": "347"}
+{"task_desc": "yellow green striped book into right caddy right", "variant": "A1", "task_id": "348"}
+{"task_desc": "light red book into right caddy right", "variant": "A2", "task_id": "348"}
+{"task_desc": "purple book into right caddy front", "variant": "A1", "task_id": "349"}
+{"task_desc": "dark striped book into right caddy front", "variant": "A2", "task_id": "349"}
+{"task_desc": "white speckle book into right caddy front", "variant": "A1", "task_id": "350"}
+{"task_desc": "light yellow book into right caddy front", "variant": "A2", "task_id": "350"}
+{"task_desc": "cookies into right caddy right", "variant": "", "task_id": "351"}
+{"task_desc": "navy speckle book into right caddy back", "variant": "A1", "task_id": "352"}
+{"task_desc": "light yellow book into right caddy back", "variant": "A2", "task_id": "352"}
+{"task_desc": "pink wavy book into right caddy back", "variant": "A1", "task_id": "353"}
+{"task_desc": "dark grey book into right caddy back", "variant": "A2", "task_id": "353"}
+{"task_desc": "teal wavy book into right caddy back", "variant": "A1", "task_id": "354"}
+{"task_desc": "dark orange book into right caddy back", "variant": "A2", "task_id": "354"}
+{"task_desc": "white speckle book into right caddy front", "variant": "A1", "task_id": "355"}
+{"task_desc": "light green book into right caddy front", "variant": "A2", "task_id": "355"}
+{"task_desc": "pink wavy book into right caddy left", "variant": "A1", "task_id": "356"}
+{"task_desc": "dark orange book into right caddy left", "variant": "A2", "task_id": "356"}
+{"task_desc": "left purple book into right caddy front", "variant": "A1", "task_id": "357"}
+{"task_desc": "left light red book into right caddy front", "variant": "A2", "task_id": "357"}
+{"task_desc": "pink wavy book into right caddy back", "variant": "A1", "task_id": "358"}
+{"task_desc": "dark striped book into right caddy back", "variant": "A2", "task_id": "358"}
+{"task_desc": "right brown grid book into right caddy back", "variant": "A1", "task_id": "359"}
+{"task_desc": "yellow green striped book into right caddy front", "variant": "A1", "task_id": "360"}
+{"task_desc": "light red book into right caddy front", "variant": "A2", "task_id": "360"}
+{"task_desc": "right pink wavy book into right caddy back", "variant": "A1", "task_id": "361"}
+{"task_desc": "right light yellow book into right caddy back", "variant": "A2", "task_id": "361"}
+{"task_desc": "cyan grid book into right caddy right", "variant": "A1", "task_id": "362"}
+{"task_desc": "light green book into right caddy right", "variant": "A2", "task_id": "362"}
+{"task_desc": "left teal wavy book into right caddy front", "variant": "A1", "task_id": "363"}
+{"task_desc": "purple book into right caddy left", "variant": "A1", "task_id": "364"}
+{"task_desc": "dark grey book into right caddy left", "variant": "A2", "task_id": "364"}
+{"task_desc": "left pink wavy book into right caddy front", "variant": "A1", "task_id": "365"}
+{"task_desc": "left dark striped book into right caddy front", "variant": "A2", "task_id": "365"}
+{"task_desc": "tomato sauce into right caddy right", "variant": "", "task_id": "366"}
+{"task_desc": "white speckle book into right caddy front", "variant": "A1", "task_id": "367"}
+{"task_desc": "dark orange book into right caddy front", "variant": "A2", "task_id": "367"}
+{"task_desc": "navy speckle book into back caddy right", "variant": "A1", "task_id": "368"}
+{"task_desc": "dark grey book into back caddy right", "variant": "A2", "task_id": "368"}
+{"task_desc": "purple book into back caddy front", "variant": "A1", "task_id": "369"}
+{"task_desc": "light yellow book into back caddy front", "variant": "A2", "task_id": "369"}
+{"task_desc": "orange juice into back caddy right", "variant": "", "task_id": "370"}
+{"task_desc": "teal wavy book into back caddy front", "variant": "A1", "task_id": "371"}
+{"task_desc": "dark grey book into back caddy front", "variant": "A2", "task_id": "371"}
+{"task_desc": "ketchup into back caddy left", "variant": "", "task_id": "372"}
+{"task_desc": "navy speckle book into back caddy front", "variant": "A1", "task_id": "373"}
+{"task_desc": "dark grey book into back caddy front", "variant": "A2", "task_id": "373"}
+{"task_desc": "pink wavy book into back caddy front", "variant": "A1", "task_id": "374"}
+{"task_desc": "light yellow book into back caddy front", "variant": "A2", "task_id": "374"}
+{"task_desc": "ketchup into back caddy right", "variant": "", "task_id": "375"}
+{"task_desc": "left navy speckle book into back caddy left", "variant": "A1", "task_id": "376"}
+{"task_desc": "left dark grey book into back caddy left", "variant": "A2", "task_id": "376"}
+{"task_desc": "white speckle book into back caddy right", "variant": "A1", "task_id": "377"}
+{"task_desc": "light yellow book into back caddy right", "variant": "A2", "task_id": "377"}
+{"task_desc": "right yellow green striped book into back caddy right", "variant": "A1", "task_id": "378"}
+{"task_desc": "chocolate pudding into back caddy left", "variant": "", "task_id": "379"}
+{"task_desc": "salad dressing into back caddy left", "variant": "", "task_id": "380"}
+{"task_desc": "purple book into back caddy right", "variant": "A1", "task_id": "381"}
+{"task_desc": "dark grey book into back caddy right", "variant": "A2", "task_id": "381"}
+{"task_desc": "cyan grid book into back caddy front", "variant": "A1", "task_id": "382"}
+{"task_desc": "light green book into back caddy front", "variant": "A2", "task_id": "382"}
+{"task_desc": "teal wavy book into back caddy right", "variant": "A1", "task_id": "383"}
+{"task_desc": "light yellow book into back caddy right", "variant": "A2", "task_id": "383"}
+{"task_desc": "white speckle book into back caddy left", "variant": "A1", "task_id": "384"}
+{"task_desc": "dark orange book into back caddy left", "variant": "A2", "task_id": "384"}
+{"task_desc": "white speckle book into back caddy left", "variant": "A1", "task_id": "385"}
+{"task_desc": "light red book into back caddy left", "variant": "A2", "task_id": "385"}
+{"task_desc": "ketchup into back caddy right", "variant": "", "task_id": "386"}
+{"task_desc": "teal wavy book into back caddy right", "variant": "A1", "task_id": "387"}
+{"task_desc": "dark striped book into back caddy right", "variant": "A2", "task_id": "387"}
+{"task_desc": "cookies into back caddy right", "variant": "", "task_id": "388"}
+{"task_desc": "navy speckle book into back caddy left", "variant": "A1", "task_id": "389"}
+{"task_desc": "dark striped book into back caddy left", "variant": "A2", "task_id": "389"}
+{"task_desc": "cyan grid book into back caddy front", "variant": "A1", "task_id": "390"}
+{"task_desc": "light red book into back caddy front", "variant": "A2", "task_id": "390"}
+{"task_desc": "purple book into back caddy left", "variant": "A1", "task_id": "391"}
+{"task_desc": "light yellow book into back caddy left", "variant": "A2", "task_id": "391"}
+{"task_desc": "cyan grid book into back caddy back", "variant": "A1", "task_id": "392"}
+{"task_desc": "dark orange book into back caddy back", "variant": "A2", "task_id": "392"}
+{"task_desc": "teal wavy book into back caddy front", "variant": "A1", "task_id": "393"}
+{"task_desc": "dark striped book into back caddy front", "variant": "A2", "task_id": "393"}
+{"task_desc": "white speckle book into back caddy front", "variant": "A1", "task_id": "394"}
+{"task_desc": "dark grey book into back caddy front", "variant": "A2", "task_id": "394"}
+{"task_desc": "navy speckle book into back caddy left", "variant": "A1", "task_id": "395"}
+{"task_desc": "light yellow book into back caddy left", "variant": "A2", "task_id": "395"}
+{"task_desc": "right teal wavy book into back caddy right", "variant": "A1", "task_id": "396"}
+{"task_desc": "right light red book into back caddy right", "variant": "A2", "task_id": "396"}
+{"task_desc": "pink wavy book into back caddy left", "variant": "A1", "task_id": "397"}
+{"task_desc": "dark orange book into back caddy left", "variant": "A2", "task_id": "397"}
+{"task_desc": "brown grid book into back caddy right", "variant": "A1", "task_id": "398"}
+{"task_desc": "dark striped book into back caddy right", "variant": "A2", "task_id": "398"}
+{"task_desc": "left yellow green striped book into back caddy back", "variant": "A1", "task_id": "399"}
+{"task_desc": "right white speckle book into back caddy back", "variant": "A1", "task_id": "400"}
+{"task_desc": "left cyan grid book into back caddy back", "variant": "A1", "task_id": "401"}
+{"task_desc": "left light yellow book into back caddy back", "variant": "A2", "task_id": "401"}
+{"task_desc": "cyan grid book into back caddy right", "variant": "A1", "task_id": "402"}
+{"task_desc": "light red book into back caddy right", "variant": "A2", "task_id": "402"}
+{"task_desc": "teal wavy book into back caddy right", "variant": "A1", "task_id": "403"}
+{"task_desc": "light green book into back caddy right", "variant": "A2", "task_id": "403"}
+{"task_desc": "yellow green striped book into back caddy back", "variant": "A1", "task_id": "404"}
+{"task_desc": "left dark orange book into back caddy back", "variant": "A2", "task_id": "404"}
+{"task_desc": "navy speckle book into back caddy right", "variant": "A1", "task_id": "405"}
+{"task_desc": "dark grey book into back caddy right", "variant": "A2", "task_id": "405"}
+{"task_desc": "left brown grid book into back caddy left", "variant": "A1", "task_id": "406"}
+{"task_desc": "left dark striped book into back caddy left", "variant": "A2", "task_id": "406"}
+{"task_desc": "butter into back caddy right", "variant": "", "task_id": "407"}
+{"task_desc": "brown grid book into back caddy right", "variant": "A1", "task_id": "408"}
+{"task_desc": "light yellow book into back caddy right", "variant": "A2", "task_id": "408"}
+{"task_desc": "white speckle book into back caddy right", "variant": "A1", "task_id": "409"}
+{"task_desc": "dark grey book into back caddy right", "variant": "A2", "task_id": "409"}
+{"task_desc": "milk into left caddy right", "variant": "", "task_id": "410"}
+{"task_desc": "brown grid book into left caddy left", "variant": "A1", "task_id": "411"}
+{"task_desc": "light yellow book into left caddy left", "variant": "A2", "task_id": "411"}
+{"task_desc": "salad dressing into back caddy right", "variant": "", "task_id": "412"}
+{"task_desc": "white speckle book into back caddy right", "variant": "A1", "task_id": "413"}
+{"task_desc": "dark grey book into back caddy right", "variant": "A2", "task_id": "413"}
+{"task_desc": "yellow green striped book into left caddy back", "variant": "A1", "task_id": "414"}
+{"task_desc": "light red book into left caddy back", "variant": "A2", "task_id": "414"}
+{"task_desc": "navy speckle book into back caddy right", "variant": "A1", "task_id": "415"}
+{"task_desc": "light yellow book into back caddy right", "variant": "A2", "task_id": "415"}
+{"task_desc": "left yellow green striped book into left caddy left", "variant": "A1", "task_id": "416"}
+{"task_desc": "left dark grey book into left caddy left", "variant": "A2", "task_id": "416"}
+{"task_desc": "purple book into left caddy back", "variant": "A1", "task_id": "417"}
+{"task_desc": "light yellow book into left caddy back", "variant": "A2", "task_id": "417"}
+{"task_desc": "milk into back caddy right", "variant": "", "task_id": "418"}
+{"task_desc": "right yellow green striped book into back caddy back", "variant": "A1", "task_id": "419"}
+{"task_desc": "white speckle book into back caddy back", "variant": "A1", "task_id": "420"}
+{"task_desc": "light green book into back caddy back", "variant": "A2", "task_id": "420"}
+{"task_desc": "pink wavy book into left caddy right", "variant": "A1", "task_id": "421"}
+{"task_desc": "dark grey book into left caddy right", "variant": "A2", "task_id": "421"}
+{"task_desc": "navy speckle book into left caddy right", "variant": "A1", "task_id": "422"}
+{"task_desc": "light yellow book into left caddy right", "variant": "A2", "task_id": "422"}
+{"task_desc": "alphabet soup into back caddy left", "variant": "", "task_id": "423"}
+{"task_desc": "navy speckle book into left caddy right", "variant": "A1", "task_id": "424"}
+{"task_desc": "light red book into left caddy right", "variant": "A2", "task_id": "424"}
+{"task_desc": "cyan grid book into left caddy left", "variant": "A1", "task_id": "425"}
+{"task_desc": "dark orange book into left caddy left", "variant": "A2", "task_id": "425"}
+{"task_desc": "macaroni and cheese into left caddy right", "variant": "", "task_id": "426"}
+{"task_desc": "purple book into left caddy back", "variant": "A1", "task_id": "427"}
+{"task_desc": "dark striped book into left caddy back", "variant": "A2", "task_id": "427"}
+{"task_desc": "cyan grid book into left caddy front", "variant": "A1", "task_id": "428"}
+{"task_desc": "light red book into left caddy front", "variant": "A2", "task_id": "428"}
+{"task_desc": "white speckle book into back caddy right", "variant": "A1", "task_id": "429"}
+{"task_desc": "dark striped book into back caddy right", "variant": "A2", "task_id": "429"}
+{"task_desc": "brown grid book into back caddy back", "variant": "A1", "task_id": "430"}
+{"task_desc": "light yellow book into back caddy back", "variant": "A2", "task_id": "430"}
+{"task_desc": "popcorn into back caddy right", "variant": "", "task_id": "431"}
+{"task_desc": "navy speckle book into left caddy left", "variant": "A1", "task_id": "432"}
+{"task_desc": "dark grey book into left caddy left", "variant": "A2", "task_id": "432"}
+{"task_desc": "teal wavy book into left caddy right", "variant": "A1", "task_id": "433"}
+{"task_desc": "dark orange book into left caddy right", "variant": "A2", "task_id": "433"}
+{"task_desc": "cyan grid book into left caddy right", "variant": "A1", "task_id": "434"}
+{"task_desc": "light green book into left caddy right", "variant": "A2", "task_id": "434"}
+{"task_desc": "pink wavy book into left caddy back", "variant": "A1", "task_id": "435"}
+{"task_desc": "light yellow book into left caddy back", "variant": "A2", "task_id": "435"}
+{"task_desc": "navy speckle book into back caddy back", "variant": "A1", "task_id": "436"}
+{"task_desc": "left dark orange book into back caddy back", "variant": "A2", "task_id": "436"}
+{"task_desc": "left brown grid book into back caddy left", "variant": "A1", "task_id": "437"}
+{"task_desc": "right white speckle book into back caddy right", "variant": "A1", "task_id": "438"}
+{"task_desc": "right light red book into back caddy right", "variant": "A2", "task_id": "438"}
+{"task_desc": "brown grid book into left caddy left", "variant": "A1", "task_id": "439"}
+{"task_desc": "dark striped book into left caddy left", "variant": "A2", "task_id": "439"}
+{"task_desc": "yellow green striped book into left caddy left", "variant": "A1", "task_id": "440"}
+{"task_desc": "light green book into left caddy left", "variant": "A2", "task_id": "440"}
+{"task_desc": "right white speckle book into left caddy left", "variant": "A1", "task_id": "441"}
+{"task_desc": "left purple book into left caddy front", "variant": "A1", "task_id": "442"}
+{"task_desc": "left light yellow book into left caddy front", "variant": "A2", "task_id": "442"}
+{"task_desc": "teal wavy book into left caddy right", "variant": "A1", "task_id": "443"}
+{"task_desc": "light red book into left caddy right", "variant": "A2", "task_id": "443"}
+{"task_desc": "pink wavy book into left caddy right", "variant": "A1", "task_id": "444"}
+{"task_desc": "dark orange book into left caddy right", "variant": "A2", "task_id": "444"}
+{"task_desc": "right teal wavy book into left caddy back", "variant": "A1", "task_id": "445"}
+{"task_desc": "left purple book into back caddy left", "variant": "A1", "task_id": "446"}
+{"task_desc": "left dark striped book into back caddy left", "variant": "A2", "task_id": "446"}
+{"task_desc": "purple book into left caddy right", "variant": "A1", "task_id": "447"}
+{"task_desc": "dark grey book into left caddy right", "variant": "A2", "task_id": "447"}
+{"task_desc": "purple book upright on top shelf", "variant": "A1", "task_id": "448"}
+{"task_desc": "light yellow book upright on top shelf", "variant": "A2", "task_id": "448"}
+{"task_desc": "teal wavy book in top region shelf", "variant": "A1", "task_id": "449"}
+{"task_desc": "dark grey book in top region shelf", "variant": "A2", "task_id": "449"}
+{"task_desc": "white speckle book flat on top shelf", "variant": "A1", "task_id": "450"}
+{"task_desc": "light yellow book flat on top shelf", "variant": "A2", "task_id": "450"}
+{"task_desc": "pink wavy book flat on top shelf", "variant": "A1", "task_id": "451"}
+{"task_desc": "dark grey book flat on top shelf", "variant": "A2", "task_id": "451"}
+{"task_desc": "butter on top shelf", "variant": "", "task_id": "452"}
+{"task_desc": "orange juice on top shelf", "variant": "", "task_id": "453"}
+{"task_desc": "pink wavy book flat on top shelf", "variant": "A1", "task_id": "454"}
+{"task_desc": "light yellow book flat on top shelf", "variant": "A2", "task_id": "454"}
+{"task_desc": "pink wavy book flat on top shelf", "variant": "A1", "task_id": "455"}
+{"task_desc": "dark grey book flat on top shelf", "variant": "A2", "task_id": "455"}
+{"task_desc": "left pink wavy book upright on top shelf", "variant": "A1", "task_id": "456"}
+{"task_desc": "yellow green striped book upright on top shelf", "variant": "A1", "task_id": "457"}
+{"task_desc": "light yellow book upright on top shelf", "variant": "A2", "task_id": "457"}
+{"task_desc": "tomato sauce on top shelf", "variant": "", "task_id": "458"}
+{"task_desc": "right white speckle book in top region shelf", "variant": "A1", "task_id": "459"}
+{"task_desc": "right dark grey book in top region shelf", "variant": "A2", "task_id": "459"}
+{"task_desc": "left white speckle book flat on top shelf", "variant": "A1", "task_id": "460"}
+{"task_desc": "cyan grid book flat on top shelf", "variant": "A1", "task_id": "461"}
+{"task_desc": "left light yellow book flat on top shelf", "variant": "A2", "task_id": "461"}
+{"task_desc": "white speckle book flat on top shelf", "variant": "A1", "task_id": "462"}
+{"task_desc": "dark grey book flat on top shelf", "variant": "A2", "task_id": "462"}
+{"task_desc": "purple book flat on top shelf", "variant": "A1", "task_id": "463"}
+{"task_desc": "light green book flat on top shelf", "variant": "A2", "task_id": "463"}
+{"task_desc": "salad dressing on top shelf", "variant": "", "task_id": "464"}
+{"task_desc": "navy speckle book flat on top shelf", "variant": "A1", "task_id": "465"}
+{"task_desc": "light yellow book flat on top shelf", "variant": "A2", "task_id": "465"}
+{"task_desc": "white speckle book upright on top shelf", "variant": "A1", "task_id": "466"}
+{"task_desc": "dark grey book upright on top shelf", "variant": "A2", "task_id": "466"}
+{"task_desc": "yellow green striped book upright on top shelf", "variant": "A1", "task_id": "467"}
+{"task_desc": "light green book upright on top shelf", "variant": "A2", "task_id": "467"}
+{"task_desc": "purple book upright on top shelf", "variant": "A1", "task_id": "468"}
+{"task_desc": "dark orange book upright on top shelf", "variant": "A2", "task_id": "468"}
+{"task_desc": "yellow green striped book in top region shelf", "variant": "A1", "task_id": "469"}
+{"task_desc": "light red book in top region shelf", "variant": "A2", "task_id": "469"}
+{"task_desc": "navy speckle book in top region shelf", "variant": "A1", "task_id": "470"}
+{"task_desc": "dark striped book in top region shelf", "variant": "A2", "task_id": "470"}
+{"task_desc": "teal wavy book flat on top shelf", "variant": "A1", "task_id": "471"}
+{"task_desc": "dark orange book flat on top shelf", "variant": "A2", "task_id": "471"}
+{"task_desc": "yellow green striped book upright on top shelf", "variant": "A1", "task_id": "472"}
+{"task_desc": "light red book upright on top shelf", "variant": "A2", "task_id": "472"}
+{"task_desc": "butter on top shelf", "variant": "", "task_id": "473"}
+{"task_desc": "pink wavy book in top region shelf", "variant": "A1", "task_id": "474"}
+{"task_desc": "light red book in top region shelf", "variant": "A2", "task_id": "474"}
+{"task_desc": "cyan grid book flat on top shelf", "variant": "A1", "task_id": "475"}
+{"task_desc": "light yellow book flat on top shelf", "variant": "A2", "task_id": "475"}
+{"task_desc": "purple book in top region shelf", "variant": "A1", "task_id": "476"}
+{"task_desc": "dark striped book in top region shelf", "variant": "A2", "task_id": "476"}
+{"task_desc": "yellow green striped book flat on top shelf", "variant": "A1", "task_id": "477"}
+{"task_desc": "light red book flat on top shelf", "variant": "A2", "task_id": "477"}
+{"task_desc": "teal wavy book in top region shelf", "variant": "A1", "task_id": "478"}
+{"task_desc": "left dark striped book in top region shelf", "variant": "A2", "task_id": "478"}
+{"task_desc": "white speckle book flat on top shelf", "variant": "A1", "task_id": "479"}
+{"task_desc": "left dark orange book flat on top shelf", "variant": "A2", "task_id": "479"}
+{"task_desc": "left purple book in top region shelf", "variant": "A1", "task_id": "480"}
+{"task_desc": "left light red book in top region shelf", "variant": "A2", "task_id": "480"}
+{"task_desc": "right yellow green striped book upright on top shelf", "variant": "A1", "task_id": "481"}
+{"task_desc": "navy speckle book upright on top shelf", "variant": "A1", "task_id": "482"}
+{"task_desc": "dark striped book upright on top shelf", "variant": "A2", "task_id": "482"}
+{"task_desc": "cyan grid book flat on top shelf", "variant": "A1", "task_id": "483"}
+{"task_desc": "left dark striped book flat on top shelf", "variant": "A2", "task_id": "483"}
+{"task_desc": "left cyan grid book in top region shelf", "variant": "A1", "task_id": "484"}
+{"task_desc": "left light red book in top region shelf", "variant": "A2", "task_id": "484"}
+{"task_desc": "right pink wavy book flat on top shelf", "variant": "A1", "task_id": "485"}
+{"task_desc": "cyan grid book upright on top shelf", "variant": "A1", "task_id": "486"}
+{"task_desc": "dark orange book upright on top shelf", "variant": "A2", "task_id": "486"}
+{"task_desc": "white speckle book in top region shelf", "variant": "A1", "task_id": "487"}
+{"task_desc": "left dark striped book in top region shelf", "variant": "A2", "task_id": "487"}
+{"task_desc": "left purple book flat on top shelf", "variant": "A1", "task_id": "488"}
+{"task_desc": "left light red book flat on top shelf", "variant": "A2", "task_id": "488"}
+{"task_desc": "cream cheese in top region shelf", "variant": "", "task_id": "489"}
+{"task_desc": "left teal wavy book in top region shelf", "variant": "A1", "task_id": "490"}
+{"task_desc": "right teal wavy book in top region shelf", "variant": "A1", "task_id": "491"}
+{"task_desc": "right light yellow book in top region shelf", "variant": "A2", "task_id": "491"}
+{"task_desc": "navy speckle book upright on top shelf", "variant": "A1", "task_id": "492"}
+{"task_desc": "light red book upright on top shelf", "variant": "A2", "task_id": "492"}
+{"task_desc": "white speckle book in top region shelf", "variant": "A1", "task_id": "493"}
+{"task_desc": "left light green book in top region shelf", "variant": "A2", "task_id": "493"}
+{"task_desc": "milk on top shelf", "variant": "", "task_id": "494"}
+{"task_desc": "brown grid book flat on top shelf", "variant": "A1", "task_id": "495"}
+{"task_desc": "right dark grey book flat on top shelf", "variant": "A2", "task_id": "495"}
+{"task_desc": "left yellow green striped book flat on top shelf", "variant": "A1", "task_id": "496"}
+{"task_desc": "left dark striped book flat on top shelf", "variant": "A2", "task_id": "496"}
+{"task_desc": "bbq sauce in top region shelf", "variant": "", "task_id": "497"}
+{"task_desc": "right navy speckle book flat on top shelf", "variant": "A1", "task_id": "498"}
+{"task_desc": "navy speckle book in top region shelf", "variant": "A1", "task_id": "499"}
+{"task_desc": "right dark orange book in top region shelf", "variant": "A2", "task_id": "499"}
+{"task_desc": "cyan grid book upright on top shelf", "variant": "A1", "task_id": "500"}
+{"task_desc": "dark grey book upright on top shelf", "variant": "A2", "task_id": "500"}
+{"task_desc": "milk into left caddy right and popcorn into left caddy right and salad dressing into left caddy left", "variant": "", "task_id": "501"}
+{"task_desc": "popcorn into left caddy right and bbq sauce into left caddy left", "variant": "", "task_id": "502"}
+{"task_desc": "popcorn into left caddy right and alphabet soup into left caddy left", "variant": "", "task_id": "503"}
+{"task_desc": "cookies into left caddy left and alphabet soup into left caddy right", "variant": "", "task_id": "504"}
+{"task_desc": "ketchup into left caddy right and left salad dressing into left caddy left and right salad dressing into left caddy right", "variant": "", "task_id": "505"}
+{"task_desc": "bbq sauce into left caddy right and chocolate pudding into left caddy right", "variant": "", "task_id": "506"}
+{"task_desc": "teal wavy book into left caddy front and pink wavy book into left caddy left and purple book into left caddy back", "variant": "A1", "task_id": "507"}
+{"task_desc": "tomato sauce into left caddy right and butter into left caddy left", "variant": "", "task_id": "508"}
+{"task_desc": "pink wavy book into left caddy left and yellow green striped book into left caddy right and navy speckle book into left caddy right", "variant": "A1", "task_id": "509"}
+{"task_desc": "brown grid book into left caddy front and teal wavy book into left caddy left and white speckle book into left caddy back", "variant": "A1", "task_id": "510"}
+{"task_desc": "pink wavy book into left caddy left and teal wavy book into left caddy left", "variant": "A1", "task_id": "511"}
+{"task_desc": "tomato sauce into left caddy right and orange juice into left caddy left", "variant": "", "task_id": "512"}
+{"task_desc": "brown grid book into left caddy left and pink wavy book into left caddy right and purple book into left caddy right", "variant": "A1", "task_id": "513"}
+{"task_desc": "pink wavy book into left caddy front and white speckle book into left caddy left and yellow green striped book into left caddy back", "variant": "A1", "task_id": "514"}
+{"task_desc": "right white speckle book into left caddy front and cyan grid book into left caddy left and pink wavy book into left caddy left", "variant": "A1", "task_id": "515"}
+{"task_desc": "left purple book into left caddy back and cyan grid book into left caddy left and right purple book into left caddy front", "variant": "A1", "task_id": "516"}
+{"task_desc": "left navy speckle book into left caddy right and right navy speckle book into left caddy right and yellow green striped book into left caddy left", "variant": "A1", "task_id": "517"}
+{"task_desc": "salad dressing into left caddy left and macaroni and cheese into left caddy right", "variant": "", "task_id": "518"}
+{"task_desc": "salad dressing into left caddy right and left macaroni and cheese into left caddy left", "variant": "", "task_id": "519"}
+{"task_desc": "left purple book into left caddy right and right purple book into left caddy right and navy speckle book into left caddy left", "variant": "A1", "task_id": "520"}
+{"task_desc": "salad dressing into right caddy right and chocolate pudding into right caddy left", "variant": "", "task_id": "521"}
+{"task_desc": "bbq sauce into right caddy right and ketchup into right caddy left", "variant": "", "task_id": "522"}
+{"task_desc": "popcorn into right caddy right and cookies into right caddy right and salad dressing into right caddy left", "variant": "", "task_id": "523"}
+{"task_desc": "tomato sauce into right caddy right and popcorn into right caddy left", "variant": "", "task_id": "524"}
+{"task_desc": "brown grid book into right caddy front and right purple book into right caddy left and left purple book into right caddy back", "variant": "A1", "task_id": "525"}
+{"task_desc": "left tomato sauce into right caddy left and alphabet soup into right caddy right", "variant": "", "task_id": "526"}
+{"task_desc": "orange juice into right caddy left and alphabet soup into right caddy right", "variant": "", "task_id": "527"}
+{"task_desc": "orange juice into right caddy left and alphabet soup into right caddy right", "variant": "", "task_id": "528"}
+{"task_desc": "tomato sauce into right caddy left and bbq sauce into right caddy right", "variant": "", "task_id": "529"}
+{"task_desc": "chocolate pudding into right caddy right and salad dressing into right caddy right", "variant": "", "task_id": "530"}
+{"task_desc": "macaroni and cheese into right caddy left and butter into right caddy right", "variant": "", "task_id": "531"}
+{"task_desc": "salad dressing into right caddy left and tomato sauce into right caddy right", "variant": "", "task_id": "532"}
+{"task_desc": "purple book into right caddy front and teal wavy book into right caddy left and brown grid book into right caddy back", "variant": "A1", "task_id": "533"}
+{"task_desc": "yellow green striped book into right caddy left and purple book into right caddy right and navy speckle book into right caddy right", "variant": "A1", "task_id": "534"}
+{"task_desc": "navy speckle book into right caddy right and left cyan grid book into right caddy right", "variant": "A1", "task_id": "535"}
+{"task_desc": "left cyan grid book into right caddy left and teal wavy book into right caddy right", "variant": "A1", "task_id": "536"}
+{"task_desc": "navy speckle book into right caddy front and left white speckle book into right caddy right and purple book into right caddy right", "variant": "A1", "task_id": "537"}
+{"task_desc": "butter into right caddy right and left alphabet soup into right caddy left", "variant": "", "task_id": "538"}
+{"task_desc": "right alphabet soup into right caddy left and salad dressing into right caddy left and macaroni and cheese into right caddy right", "variant": "", "task_id": "539"}
+{"task_desc": "left navy speckle book into right caddy right and right navy speckle book into right caddy right and purple book into right caddy left", "variant": "A1", "task_id": "540"}
+{"task_desc": "macaroni and cheese into back caddy right and cream cheese into back caddy left", "variant": "", "task_id": "541"}
+{"task_desc": "white speckle book into back caddy left and yellow green striped book into back caddy right", "variant": "A1", "task_id": "542"}
+{"task_desc": "cream cheese into back caddy right and chocolate pudding into back caddy left", "variant": "", "task_id": "543"}
+{"task_desc": "brown grid book into back caddy left and navy speckle book into back caddy right", "variant": "A1", "task_id": "544"}
+{"task_desc": "left brown grid book into back caddy left and navy speckle book into back caddy right and right brown grid book into back caddy right", "variant": "A1", "task_id": "545"}
+{"task_desc": "macaroni and cheese into back caddy right and left tomato sauce into back caddy left and right tomato sauce into back caddy right", "variant": "", "task_id": "546"}
+{"task_desc": "brown grid book into back caddy left and teal wavy book into back caddy right and yellow green striped book into back caddy right", "variant": "A1", "task_id": "547"}
+{"task_desc": "popcorn into back caddy right and macaroni and cheese into back caddy left", "variant": "", "task_id": "548"}
+{"task_desc": "tomato sauce into back caddy right and popcorn into back caddy left and cream cheese into back caddy right", "variant": "", "task_id": "549"}
+{"task_desc": "bbq sauce into back caddy left and chocolate pudding into back caddy right", "variant": "", "task_id": "550"}
+{"task_desc": "cream cheese into back caddy right and chocolate pudding into back caddy right", "variant": "", "task_id": "551"}
+{"task_desc": "tomato sauce into back caddy right and ketchup into back caddy left and bbq sauce into back caddy right", "variant": "", "task_id": "552"}
+{"task_desc": "bbq sauce into back caddy left and chocolate pudding into back caddy right", "variant": "", "task_id": "553"}
+{"task_desc": "teal wavy book into back caddy back and cyan grid book into back caddy right", "variant": "A1", "task_id": "554"}
+{"task_desc": "navy speckle book into back caddy left and right white speckle book into back caddy back and brown grid book into back caddy front", "variant": "A1", "task_id": "555"}
+{"task_desc": "purple book into back caddy right and left white speckle book into back caddy right", "variant": "A1", "task_id": "556"}
+{"task_desc": "cream cheese into back caddy left and right macaroni and cheese into back caddy right", "variant": "", "task_id": "557"}
+{"task_desc": "navy speckle book into back caddy front and left brown grid book into back caddy right and pink wavy book into back caddy right", "variant": "A1", "task_id": "558"}
+{"task_desc": "orange juice into back caddy left and cream cheese into back caddy right", "variant": "", "task_id": "559"}
+{"task_desc": "right cream cheese into back caddy left and bbq sauce into back caddy left and popcorn into back caddy right", "variant": "", "task_id": "560"}
+{"task_desc": "cookies into back caddy right and butter into back caddy left and alphabet soup into back caddy right", "variant": "", "task_id": "561"}
+{"task_desc": "purple book into left caddy right and cyan grid book into left caddy back", "variant": "A1", "task_id": "562"}
+{"task_desc": "tomato sauce into back caddy right and cookies into left caddy right", "variant": "", "task_id": "563"}
+{"task_desc": "navy speckle book into back caddy left and brown grid book into back caddy left and teal wavy book into left caddy right", "variant": "A1", "task_id": "564"}
+{"task_desc": "cookies into left caddy right and right macaroni and cheese into back caddy left", "variant": "", "task_id": "565"}
+{"task_desc": "purple book into back caddy right and left cyan grid book into back caddy right", "variant": "A1", "task_id": "566"}
+{"task_desc": "macaroni and cheese into left caddy left and cream cheese into left caddy left and milk into back caddy right", "variant": "", "task_id": "567"}
+{"task_desc": "cyan grid book into left caddy right and yellow green striped book into back caddy front and teal wavy book into back caddy back", "variant": "A1", "task_id": "568"}
+{"task_desc": "alphabet soup into left caddy left and tomato sauce into left caddy left and cream cheese into back caddy right", "variant": "", "task_id": "569"}
+{"task_desc": "cyan grid book into back caddy left and purple book into back caddy left and yellow green striped book into left caddy right", "variant": "A1", "task_id": "570"}
+{"task_desc": "salad dressing into left caddy left and tomato sauce into left caddy left and orange juice into back caddy right", "variant": "", "task_id": "571"}
+{"task_desc": "teal wavy book into back caddy left and yellow green striped book into back caddy left and purple book into left caddy right", "variant": "A1", "task_id": "572"}
+{"task_desc": "brown grid book into back caddy left and navy speckle book into back caddy left and teal wavy book into left caddy right", "variant": "A1", "task_id": "573"}
+{"task_desc": "navy speckle book into left caddy right and pink wavy book into back caddy front and cyan grid book into back caddy back", "variant": "A1", "task_id": "574"}
+{"task_desc": "left cyan grid book into back caddy left and right cyan grid book into left caddy right and pink wavy book into left caddy back", "variant": "A1", "task_id": "575"}
+{"task_desc": "navy speckle book into back caddy right and left teal wavy book into left caddy back and right teal wavy book into left caddy left", "variant": "A1", "task_id": "576"}
+{"task_desc": "right teal wavy book into back caddy back and purple book into left caddy back and left teal wavy book into left caddy left", "variant": "A1", "task_id": "577"}
+{"task_desc": "butter into back caddy left and tomato sauce into back caddy right", "variant": "", "task_id": "578"}
+{"task_desc": "right cyan grid book into back caddy right and yellow green striped book into left caddy right and teal wavy book into left caddy left", "variant": "A1", "task_id": "579"}
+{"task_desc": "yellow green striped book into back caddy right and right cyan grid book into back caddy left and navy speckle book into back caddy left", "variant": "A1", "task_id": "580"}
+{"task_desc": "cookies on top shelf and tomato sauce on top shelf", "variant": "", "task_id": "581"}
+{"task_desc": "ketchup on top shelf and milk in top region shelf and cream cheese on top shelf", "variant": "", "task_id": "582"}
+{"task_desc": "butter in top region shelf and cream cheese on top shelf", "variant": "", "task_id": "583"}
+{"task_desc": "chocolate pudding on top shelf and ketchup in top region shelf and popcorn on top shelf", "variant": "", "task_id": "584"}
+{"task_desc": "right navy speckle book upright on top shelf and left navy speckle book upright on top shelf", "variant": "A1", "task_id": "585"}
+{"task_desc": "right orange juice on top shelf and macaroni and cheese on top shelf", "variant": "", "task_id": "586"}
+{"task_desc": "butter on top shelf and tomato sauce on top shelf", "variant": "", "task_id": "587"}
+{"task_desc": "yellow green striped book upright on top shelf and teal wavy book flat on top shelf", "variant": "A1", "task_id": "588"}
+{"task_desc": "alphabet soup on top shelf and macaroni and cheese on top shelf", "variant": "", "task_id": "589"}
+{"task_desc": "chocolate pudding on top shelf and ketchup on top shelf", "variant": "", "task_id": "590"}
+{"task_desc": "yellow green striped book upright on top shelf and purple book upright on top shelf", "variant": "A1", "task_id": "591"}
+{"task_desc": "ketchup on top shelf and butter on top shelf", "variant": "", "task_id": "592"}
+{"task_desc": "white speckle book flat on top shelf and left pink wavy book flat on top shelf", "variant": "A1", "task_id": "593"}
+{"task_desc": "right cyan grid book flat on top shelf and yellow green striped book flat on top shelf", "variant": "A1", "task_id": "594"}
+{"task_desc": "left purple book flat on top shelf and yellow green striped book upright on top shelf", "variant": "A1", "task_id": "595"}
+{"task_desc": "left teal wavy book flat on top shelf and pink wavy book flat on top shelf", "variant": "A1", "task_id": "596"}
+{"task_desc": "left butter on top shelf and orange juice on top shelf", "variant": "", "task_id": "597"}
+{"task_desc": "right tomato sauce on top shelf and cream cheese on top shelf", "variant": "", "task_id": "598"}
+{"task_desc": "right chocolate pudding on top shelf and milk on top shelf", "variant": "", "task_id": "599"}
+{"task_desc": "right yellow green striped book upright on top shelf and left yellow green striped book upright on top shelf", "variant": "A1", "task_id": "600"}

@@ -1,0 +1,136 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the cream cheese in the largest bowl)
+    (:regions
+      (akita_black_bowl_1_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.26 -0.26 -0.14 -0.14)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (bowl_drainer_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.093 0.093 0.207 0.207)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cream_cheese_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.057 -0.257 0.057 -0.14300000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (large_akita_black_bowl_1_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.26 0.14 -0.14 0.26)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (small_akita_black_bowl_1_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.26 -0.06 -0.14 0.06)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (butter_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.326 -0.35300000000000004 0.35600000000000004 -0.323)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.324 0.327 0.35400000000000004 0.35700000000000004)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_green_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.093 -0.085 0.123 -0.05500000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (left_region
+          (:target bowl_drainer_1)
+      )
+      (right_region
+          (:target bowl_drainer_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    bowl_drainer_1 - bowl_drainer
+  )
+
+  (:objects
+    akita_black_bowl_1 - akita_black_bowl
+    small_akita_black_bowl_1 - small_akita_black_bowl
+    large_akita_black_bowl_1 - large_akita_black_bowl
+    cream_cheese_1 - cream_cheese
+    butter_1 - butter
+    white_bowl_1 - white_bowl
+    akita_green_bowl_1 - akita_green_bowl
+  )
+
+  (:obj_of_interest
+    large_akita_black_bowl_1
+    cream_cheese_1
+  )
+
+  (:init
+    (On akita_black_bowl_1 kitchen_table_akita_black_bowl_1_init_region)
+    (On small_akita_black_bowl_1 kitchen_table_small_akita_black_bowl_1_init_region)
+    (On large_akita_black_bowl_1 kitchen_table_large_akita_black_bowl_1_init_region)
+    (On bowl_drainer_1 kitchen_table_bowl_drainer_init_region)
+    (On cream_cheese_1 kitchen_table_cream_cheese_init_region)
+    (On butter_1 kitchen_table_butter_init_region)
+    (On white_bowl_1 kitchen_table_white_bowl_init_region)
+    (On akita_green_bowl_1 kitchen_table_akita_green_bowl_init_region)
+  )
+
+  (:goal
+    (And (On cream_cheese_1 large_akita_black_bowl_1))
+  )
+
+)

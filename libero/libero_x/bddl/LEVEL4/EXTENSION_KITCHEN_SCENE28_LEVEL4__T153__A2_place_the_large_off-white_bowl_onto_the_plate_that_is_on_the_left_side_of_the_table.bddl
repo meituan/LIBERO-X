@@ -1,0 +1,127 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the large off-white bowl onto the plate that is on the left side of the table)
+    (:regions
+      (akita_blue_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.065 0.015 0.135 0.085)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_bowl_interference_off_white_large_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.14500000000000002 0.255 -0.05500000000000001 0.345)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.065 0.185 0.135 0.255)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (short_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.023 -0.173 0.023 -0.127)
+            )
+          )
+          (:yaw_rotation (
+              (1.571 1.571)
+            )
+          )
+      )
+      (white_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.085 0.015 -0.015 0.085)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (black_book_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.21100000000000002 -0.14 -0.181 -0.11)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (alphabet_soup_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.15500000000000003 -0.135 0.185 -0.105)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (middle_region
+          (:target short_cabinet_1)
+      )
+      (top_region
+          (:target short_cabinet_1)
+      )
+      (bottom_region
+          (:target short_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    short_cabinet_1 - short_cabinet
+  )
+
+  (:objects
+    plate_1 plate_2 - plate
+    white_bowl_interference_off_white_large_1 - white_bowl_interference_off_white_large
+    akita_blue_bowl_1 - akita_blue_bowl
+    white_bowl_1 - white_bowl
+    black_book_1 - black_book
+    alphabet_soup_1 - alphabet_soup
+  )
+
+  (:obj_of_interest
+    white_bowl_interference_off_white_large_1
+    plate_1
+  )
+
+  (:init
+    (On white_bowl_interference_off_white_large_1 kitchen_table_white_bowl_interference_off_white_large_init_region)
+    (On akita_blue_bowl_1 kitchen_table_akita_blue_bowl_init_region)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On short_cabinet_1 kitchen_table_short_cabinet_init_region)
+    (On white_bowl_1 kitchen_table_white_bowl_init_region)
+    (On plate_2 short_cabinet_1_top_region)
+    (On black_book_1 kitchen_table_black_book_init_region)
+    (On alphabet_soup_1 kitchen_table_alphabet_soup_init_region)
+  )
+
+  (:goal
+    (And (On white_bowl_interference_off_white_large_1 plate_1))
+  )
+
+)

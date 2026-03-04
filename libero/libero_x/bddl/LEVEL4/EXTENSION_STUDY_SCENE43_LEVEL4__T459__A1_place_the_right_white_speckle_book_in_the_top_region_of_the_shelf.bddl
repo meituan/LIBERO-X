@@ -1,0 +1,112 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the right white speckle book in the top region of the shelf)
+    (:regions
+      (white_speckle_book_B_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.029 0.15100000000000002 0.069 0.249)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_speckle_book_A_init_region
+          (:target study_table)
+          (:ranges (
+              (0.10900000000000001 -0.131 0.171 -0.069)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.088 0.022 -0.012000000000000004 0.098)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (wooden_two_layer_shelf_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.212 -0.302 -0.10800000000000001 -0.198)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (yellow_book_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.151 0.189 -0.089 0.251)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (butter_init_region
+          (:target study_table)
+          (:ranges (
+              (0.322 0.196 0.35200000000000004 0.22599999999999998)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_two_layer_shelf_1)
+      )
+      (top_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (bottom_region
+          (:target wooden_two_layer_shelf_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    white_speckle_book_1 white_speckle_book_2 - white_speckle_book
+    yellow_book_1 - yellow_book
+    white_yellow_mug_1 - white_yellow_mug
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+    butter_1 - butter
+  )
+
+  (:obj_of_interest
+    white_speckle_book_1
+    wooden_two_layer_shelf_1
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 study_table_wooden_two_layer_shelf_init_region)
+    (On white_speckle_book_1 study_table_white_speckle_book_A_init_region)
+    (On white_speckle_book_2 study_table_white_speckle_book_B_init_region)
+    (On yellow_book_1 study_table_yellow_book_init_region)
+    (On white_yellow_mug_1 study_table_white_yellow_mug_init_region)
+    (On butter_1 study_table_butter_init_region)
+  )
+
+  (:goal
+    (And (In white_speckle_book_1 wooden_two_layer_shelf_1_top_region))
+  )
+
+)

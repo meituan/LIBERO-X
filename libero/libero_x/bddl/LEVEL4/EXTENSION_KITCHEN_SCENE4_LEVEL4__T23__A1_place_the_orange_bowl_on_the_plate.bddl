@@ -1,0 +1,131 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the orange bowl on the plate)
+    (:regions
+      (akita_red_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.099 -0.151 0.20099999999999998 -0.04900000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_yellow_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.246 -0.046 -0.15400000000000003 0.046)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.031 -0.33099999999999996 0.031 -0.269)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.061 0.139 0.061 0.261)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_purple_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.316 -0.247 -0.286 -0.21700000000000003)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (orange_juice_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.035 -0.015 0.065 0.015)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (tomato_sauce_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.397 -0.075 -0.367 -0.045)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target white_cabinet_1)
+      )
+      (top_region
+          (:target white_cabinet_1)
+      )
+      (middle_region
+          (:target white_cabinet_1)
+      )
+      (bottom_region
+          (:target white_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    white_cabinet_1 - white_cabinet
+  )
+
+  (:objects
+    akita_yellow_bowl_1 - akita_yellow_bowl
+    orange_bowl_1 - orange_bowl
+    akita_red_bowl_1 - akita_red_bowl
+    plate_1 - plate
+    akita_purple_bowl_1 - akita_purple_bowl
+    orange_juice_1 - orange_juice
+    tomato_sauce_1 - tomato_sauce
+  )
+
+  (:obj_of_interest
+    orange_bowl_1
+    plate_1
+  )
+
+  (:init
+    (On akita_yellow_bowl_1 kitchen_table_akita_yellow_bowl_init_region)
+    (On orange_bowl_1 white_cabinet_1_top_side)
+    (On akita_red_bowl_1 kitchen_table_akita_red_bowl_init_region)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On white_cabinet_1 kitchen_table_white_cabinet_init_region)
+    (On akita_purple_bowl_1 kitchen_table_akita_purple_bowl_init_region)
+    (On orange_juice_1 kitchen_table_orange_juice_init_region)
+    (On tomato_sauce_1 kitchen_table_tomato_sauce_init_region)
+  )
+
+  (:goal
+    (And (On orange_bowl_1 plate_1))
+  )
+
+)

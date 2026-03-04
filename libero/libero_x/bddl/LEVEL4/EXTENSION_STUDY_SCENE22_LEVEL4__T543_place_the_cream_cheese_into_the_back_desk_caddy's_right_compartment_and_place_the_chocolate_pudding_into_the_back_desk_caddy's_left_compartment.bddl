@@ -1,0 +1,117 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the cream cheese into the back desk caddy's right compartment and place the chocolate pudding into the back desk caddy's left compartment)
+    (:regions
+      (black_book_init_region
+          (:target study_table)
+          (:ranges (
+              (0.134 0.0040000000000000036 0.22599999999999998 0.096)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (desk_caddy_back_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.345 -0.045 -0.255 0.045)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cream_cheese_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.026000000000000002 -0.176 0.10600000000000001 -0.044)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.174 -0.284 -0.02600000000000001 -0.136)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (chocolate_pudding_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.106 0.174 -0.013999999999999999 0.266)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_purple_bowl_init_region
+          (:target study_table)
+          (:ranges (
+              (0.012 -0.38 0.041999999999999996 -0.35)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (right_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (left_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (back_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (front_contain_region
+          (:target desk_caddy_back_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    black_book_1 - black_book
+    chocolate_pudding_1 - chocolate_pudding
+    white_yellow_mug_1 - white_yellow_mug
+    cream_cheese_1 - cream_cheese
+    desk_caddy_back_1 - desk_caddy_back
+    akita_purple_bowl_1 - akita_purple_bowl
+  )
+
+  (:obj_of_interest
+    cream_cheese_1
+    chocolate_pudding_1
+    desk_caddy_back_1
+  )
+
+  (:init
+    (On desk_caddy_back_1 study_table_desk_caddy_back_init_region)
+    (On black_book_1 study_table_black_book_init_region)
+    (On chocolate_pudding_1 study_table_chocolate_pudding_init_region)
+    (On white_yellow_mug_1 study_table_white_yellow_mug_init_region)
+    (On cream_cheese_1 study_table_cream_cheese_init_region)
+    (On akita_purple_bowl_1 study_table_akita_purple_bowl_init_region)
+  )
+
+  (:goal
+    (And (In cream_cheese_1 desk_caddy_back_1_right_contain_region) (In chocolate_pudding_1 desk_caddy_back_1_left_contain_region))
+  )
+
+)

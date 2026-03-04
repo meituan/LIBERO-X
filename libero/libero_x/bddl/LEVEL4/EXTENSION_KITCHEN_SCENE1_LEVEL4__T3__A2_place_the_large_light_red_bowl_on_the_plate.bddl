@@ -1,0 +1,142 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the large light red bowl on the plate)
+    (:regions
+      (akita_green_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.313 -0.063 -0.187 0.063)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_red_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.063 -0.063 0.063 0.063)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (akita_red_bowl_interference_light_red_large_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.065 0.185 0.065 0.315)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.23800000000000002 0.162 -0.162 0.23800000000000002)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (wooden_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.07 -0.37 0.07 -0.22999999999999998)
+            )
+          )
+          (:yaw_rotation (
+              (3.142 3.142)
+            )
+          )
+      )
+      (akita_purple_bowl_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.313 0.371 0.343 0.401)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (cream_cheese_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.304 0.132 0.334 0.16199999999999998)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.16099999999999998 -0.096 0.191 -0.066)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target wooden_cabinet_1)
+      )
+      (top_region
+          (:target wooden_cabinet_1)
+      )
+      (middle_region
+          (:target wooden_cabinet_1)
+      )
+      (bottom_region
+          (:target wooden_cabinet_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    wooden_cabinet_1 - wooden_cabinet
+  )
+
+  (:objects
+    akita_red_bowl_interference_light_red_large_1 - akita_red_bowl_interference_light_red_large
+    akita_green_bowl_1 - akita_green_bowl
+    akita_red_bowl_1 - akita_red_bowl
+    plate_1 - plate
+    akita_purple_bowl_1 - akita_purple_bowl
+    cream_cheese_1 - cream_cheese
+    white_yellow_mug_1 - white_yellow_mug
+  )
+
+  (:obj_of_interest
+    akita_red_bowl_interference_light_red_large_1
+    plate_1
+  )
+
+  (:init
+    (On akita_red_bowl_interference_light_red_large_1 kitchen_table_akita_red_bowl_interference_light_red_large_init_region)
+    (On akita_green_bowl_1 kitchen_table_akita_green_bowl_init_region)
+    (On akita_red_bowl_1 kitchen_table_akita_red_bowl_init_region)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On wooden_cabinet_1 kitchen_table_wooden_cabinet_init_region)
+    (On akita_purple_bowl_1 kitchen_table_akita_purple_bowl_init_region)
+    (On cream_cheese_1 kitchen_table_cream_cheese_init_region)
+    (On white_yellow_mug_1 kitchen_table_white_yellow_mug_init_region)
+  )
+
+  (:goal
+    (And (On akita_red_bowl_interference_light_red_large_1 plate_1))
+  )
+
+)

@@ -1,0 +1,154 @@
+(define (problem LIBERO_Study_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the milk into the left desk caddy's right compartment)
+    (:regions
+      (black_book_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.034 -0.084 0.034 -0.016)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (desk_caddy_back_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.345 -0.245 -0.255 -0.15500000000000003)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (desk_caddy_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.22499999999999998 0.20500000000000002 -0.135 0.295)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (milk_init_region
+          (:target study_table)
+          (:ranges (
+              (0.11599999999999999 0.146 0.184 0.214)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (white_yellow_mug_init_region
+          (:target study_table)
+          (:ranges (
+              (0.042 -0.218 0.158 -0.10200000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (-3.142 3.142)
+            )
+          )
+      )
+      (yellow_book_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.185 -0.23500000000000001 -0.11499999999999999 -0.165)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (chocolate_pudding_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.123 -0.401 -0.093 -0.371)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (orange_juice_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.189 -0.0009999999999999992 -0.15899999999999997 0.028999999999999998)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (right_contain_region
+          (:target desk_caddy_1)
+      )
+      (left_contain_region
+          (:target desk_caddy_1)
+      )
+      (back_contain_region
+          (:target desk_caddy_1)
+      )
+      (front_contain_region
+          (:target desk_caddy_1)
+      )
+      (right_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (left_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (back_contain_region
+          (:target desk_caddy_back_1)
+      )
+      (front_contain_region
+          (:target desk_caddy_back_1)
+      )
+    )
+
+  (:fixtures
+    study_table - study_table
+  )
+
+  (:objects
+    black_book_1 - black_book
+    yellow_book_1 - yellow_book
+    white_yellow_mug_1 - white_yellow_mug
+    milk_1 - milk
+    desk_caddy_1 - desk_caddy
+    desk_caddy_back_1 - desk_caddy_back
+    chocolate_pudding_1 - chocolate_pudding
+    orange_juice_1 - orange_juice
+  )
+
+  (:obj_of_interest
+    milk_1
+    desk_caddy_1
+  )
+
+  (:init
+    (On desk_caddy_1 study_table_desk_caddy_init_region)
+    (On desk_caddy_back_1 study_table_desk_caddy_back_init_region)
+    (On black_book_1 study_table_black_book_init_region)
+    (On yellow_book_1 study_table_yellow_book_init_region)
+    (On white_yellow_mug_1 study_table_white_yellow_mug_init_region)
+    (On milk_1 study_table_milk_init_region)
+    (On chocolate_pudding_1 study_table_chocolate_pudding_init_region)
+    (On orange_juice_1 study_table_orange_juice_init_region)
+  )
+
+  (:goal
+    (And (In milk_1 desk_caddy_1_right_contain_region))
+  )
+
+)

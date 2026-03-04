@@ -1,0 +1,111 @@
+(define (problem LIBERO_Kitchen_Tabletop_Manipulation)
+  (:domain robosuite)
+  (:language place the small light green bowl on the plate)
+    (:regions
+      (akita_green_bowl_interference_light_green_small_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.372 -0.172 -0.22799999999999998 -0.02800000000000001)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (bowl_drainer_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.068 -0.132 0.132 -0.068)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (plate_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.038 -0.33799999999999997 0.038 -0.262)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (white_cabinet_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (0.03 0.13 0.17 0.27)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (red_coffee_mug_init_region
+          (:target kitchen_table)
+          (:ranges (
+              (-0.22299999999999998 -0.268 -0.193 -0.238)
+            )
+          )
+          (:yaw_rotation (
+              (0.0 0.0)
+            )
+          )
+      )
+      (top_side
+          (:target white_cabinet_1)
+      )
+      (top_region
+          (:target white_cabinet_1)
+      )
+      (middle_region
+          (:target white_cabinet_1)
+      )
+      (bottom_region
+          (:target white_cabinet_1)
+      )
+      (left_region
+          (:target bowl_drainer_1)
+      )
+      (right_region
+          (:target bowl_drainer_1)
+      )
+    )
+
+  (:fixtures
+    kitchen_table - kitchen_table
+    white_cabinet_1 - white_cabinet
+    bowl_drainer_1 - bowl_drainer
+  )
+
+  (:objects
+    akita_green_bowl_interference_light_green_small_1 - akita_green_bowl_interference_light_green_small
+    akita_green_bowl_1 - akita_green_bowl
+    plate_1 - plate
+    red_coffee_mug_1 - red_coffee_mug
+  )
+
+  (:obj_of_interest
+    akita_green_bowl_interference_light_green_small_1
+    plate_1
+  )
+
+  (:init
+    (On akita_green_bowl_interference_light_green_small_1 kitchen_table_akita_green_bowl_interference_light_green_small_init_region)
+    (On akita_green_bowl_1 white_cabinet_1_top_side)
+    (On plate_1 kitchen_table_plate_init_region)
+    (On white_cabinet_1 kitchen_table_white_cabinet_init_region)
+    (On bowl_drainer_1 kitchen_table_bowl_drainer_init_region)
+    (On red_coffee_mug_1 kitchen_table_red_coffee_mug_init_region)
+  )
+
+  (:goal
+    (And (On akita_green_bowl_interference_light_green_small_1 plate_1))
+  )
+
+)
