@@ -10,7 +10,7 @@ Guodong Wang*, Chenkai Zhang*, Qingjie Liu, Jinjin Zhang, Jiancheng Cai, Junjie 
 
 [[Website]](https://meituan.github.io/LIBERO-X/) [[Paper]](https://arxiv.org/pdf/2602.06556) [[Hugging Face]](https://huggingface.co/datasets/meituan/LIBERO-X)
 
-🎉 **News**: LIBERO-X has been accepted to **RSS 2026**! The full training dataset is now publicly available on [Hugging Face](https://huggingface.co/datasets/meituan/LIBERO-X).
+🎉 **News**: LIBERO-X has been accepted to **RSS 2026**! The full training dataset is now available on [Hugging Face](https://huggingface.co/datasets/meituan/LIBERO-X).
 
 ______________________________________________________________________
 ![pull_figure](images/intro.png)
