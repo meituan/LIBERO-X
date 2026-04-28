@@ -9,6 +9,9 @@ Guodong Wang*, Chenkai Zhang*, Qingjie Liu, Jinjin Zhang, Jiancheng Cai, Junjie 
 </small>
 
 [[Website]](https://meituan.github.io/LIBERO-X/) [[Paper]](https://arxiv.org/pdf/2602.06556) [[Hugging Face]](https://huggingface.co/datasets/meituan/LIBERO-X)
+
+🎉 **News**: LIBERO-X has been accepted to **RSS 2026**! The full training dataset is now publicly available on [Hugging Face](https://huggingface.co/datasets/meituan/LIBERO-X).
+
 ______________________________________________________________________
 ![pull_figure](images/intro.png)
 </div>
@@ -20,8 +23,8 @@ ______________________________________________________________________
 
 ##  TODO
 - [x] Release multi-level & multi-label evaluation scenes and tasks
+- [x] Release LIBERO-X training data
 - [ ] Release fine-tuned VLA models
-- [ ] Release LIBERO-X training data
 
 ______________________________________________________________________
 
@@ -39,7 +42,7 @@ Then install the `libero-x` package:
 pip install -e .
 ```
 
-## Training Data (coming soon)
+## Training Data
 
 LIBERO-X introduces finer-grained task-level extensions to expose models to diverse task formulations and workspace configurations, featuring: 
 - Multi-Task Scene Design
